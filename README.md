@@ -24,6 +24,7 @@ Start with:
 - `docs/recovery/OCTOBER_BUILD_STATUS.md`
 - `docs/recovery/RESET_BASIS.md`
 - `docs/recovery/TEST_REFERENCE_STATUS.md`
+- `docs/restart/TRAINING_DOC_HYPOTHESES.md`
 - `docs/restart/COLLABORATION_AND_LOGGING.md`
 - `docs/restart/FRESH_CLONE.md`
 

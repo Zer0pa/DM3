@@ -13,6 +13,7 @@ Every numbered `Txx` reference used in the restart must be marked as one of:
 ## Must-Surface Anchors
 
 - [`docs/reference/GEOMETRY_FIRST_MANIFESTO.md`](/Users/Zer0pa/DM3/restart/docs/reference/GEOMETRY_FIRST_MANIFESTO.md)
+- [`docs/restart/TRAINING_DOC_HYPOTHESES.md`](/Users/Zer0pa/DM3/restart/docs/restart/TRAINING_DOC_HYPOTHESES.md)
 - [`docs/recovery/TEST_REFERENCE_STATUS.md`](/Users/Zer0pa/DM3/restart/docs/recovery/TEST_REFERENCE_STATUS.md)
 - [`TESTING_PROTOCOL.md`](/Users/Zer0pa/DM3/recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/TESTING_PROTOCOL.md)
 - [`AGENT_GUIDE.md`](/Users/Zer0pa/DM3/recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/00_GENESIS_ORGANISM/snic_workspace_a83f/AGENT_GUIDE.md)
