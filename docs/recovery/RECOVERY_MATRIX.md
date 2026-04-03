@@ -133,6 +133,17 @@ Not recovered in source form:
 - the newer tagging / phoneme asset generators
 - the exact dataset and asset-generation logic for `RegionTags_v1.bin` and `PhonemePatterns_v1.bin`
 
+Phone recovery also came back negative:
+
+- current Termux home did not contain DM3 / Meru / Yantra / SNIC workspace material
+- current Termux state did not contain `tmux`
+- shared storage and the large backup tree under `/sdcard/Documents/zer0pa_free_backup_20251110T222009Z` produced no DM3-related file hits
+
+Practical meaning:
+
+- the phone is usable as a future execution lane
+- it is not currently acting as the missing source archive
+
 ## Practical Boundary
 
 Current best boundary:
@@ -140,4 +151,3 @@ Current best boundary:
 - Reuse the old GitHub lineage as the recoverable substrate.
 - Treat the newer hybrid layer as archaeology, not as recovered code.
 - Rebuild only after the science and acceptance gates are reset.
-
