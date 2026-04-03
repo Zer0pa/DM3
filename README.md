@@ -25,8 +25,10 @@ Start with:
 - `docs/recovery/RESET_BASIS.md`
 - `docs/recovery/TEST_REFERENCE_STATUS.md`
 - `docs/restart/TRAINING_DOC_HYPOTHESES.md`
+- `docs/restart/LEGACY_BATTERY_ENTRYPOINTS.md`
 - `docs/restart/GPD_OPERATING_MAP.md`
 - `docs/restart/HYPOTHESIS_BRANCH_REGISTER.md`
+- `docs/restart/HARDWARE_LANE_BASELINE.md`
 - `docs/restart/COLLABORATION_AND_LOGGING.md`
 - `docs/restart/FRESH_CLONE.md`
 

@@ -30,6 +30,31 @@ The four documents are different views of one design:
 In plain terms: the documents do not describe "a better transformer."
 They describe a geometry-first state space, plus encoders, gates, corpus order, and device policies around it.
 
+## What The Recovered Source Actually Supports
+
+The recovered source base is narrower than the training documents.
+
+What survives strongly in code and governed scripts:
+
+- deterministic proof harnesses
+- exact-rational or tightly governed geometry and lift checks
+- receipts, ledgers, hashes, and Merkle-style governance
+- cross-platform replay doctrine at the CPU proof-harness level
+
+What survives only weakly or partially:
+
+- Dual-Meru bring-up scripts and acceptance language
+- placeholder or partial harnesses that expect missing artifacts or missing CLIs
+
+What does not survive as recoverable source yet:
+
+- the later hybrid DM3 source tree behind the compiled `dm3_runner`
+- a source-backed flood-training regime for the polymath corpus
+- a source-backed transformer-on-mesh or HRM-center execution path
+- a source-backed NPU lane on the RM10 Pro
+
+This matters because the restart has to separate the idea from the actual recoverable evidence.
+
 ## Strongest Surviving Claims
 
 These are the strongest hypotheses worth carrying forward:
@@ -62,6 +87,8 @@ These are important, but they are hypotheses, not settled facts:
   That should remain scoped to digital, deterministic implementations unless stronger evidence appears.
 - **W5: "World's first mathematically correct yantra" is already established.**
   This may be the highest-value claim in the project, but it still needs independent mathematical validation and a precise definition of "correct."
+- **W6: The training documents describe a fully landed executable training stack.**
+  They describe intent and method, but the recoverable repos currently preserve proof harnesses more clearly than they preserve the training stack itself.
 
 ## Where Transformers Fit
 
@@ -79,12 +106,28 @@ Transformers belong at the boundary:
 
 In this role, a transformer is an adapter into and out of the geometry-first substrate.
 
+Current evidence note:
+
+the recoverable source does not preserve the later transformer / HRM implementation layer, so transformer placement remains a restart hypothesis rather than an established carry-forward fact.
+
 ### Bad role
 
 If the transformer becomes the main hidden-state substrate, then the project stops being DM3-first and becomes a transformer with geometric decoration.
 
 That is the key architectural line.
 If we cross it, we lose the main reason the project is interesting.
+
+## What The Recovered Repos Say About The Architecture
+
+The recovered repos support a narrower architectural statement than the documents do.
+
+- The October and Genesis repos strongly support deterministic proof, geometry checks, lift checks, and reproducibility governance.
+- The October repo preserves a serious Dual-Meru intent surface, but that line is still partly scaffolded.
+- The later compiled `dm3_runner` suggests a richer hybrid with GPU, transformer, tagging, and HRM-adjacent components, but that source is missing.
+
+So the current honest statement is:
+
+`transformer and hybrid claims remain plausible, but they are weaker than the deterministic proof-harness layer until their source is recovered or rebuilt.`
 
 ## How Current Computational Science Would Classify DM3
 
