@@ -484,6 +484,11 @@
       "phase": null,
       "summary": "Use Mac and RM10 Pro as execution lanes, with receipts and Comet metadata.",
       "rationale": null
+    },
+    {
+      "phase": "01",
+      "summary": "Switch restart research mode to explore",
+      "rationale": "Phase 1 needs explicit branching, pivot analysis, and alternative-hypothesis investigation across battery classes and device lanes."
     }
   ],
   "approximations": [],
@@ -525,5 +530,5 @@
     "resume_file": "`docs/recovery/TEST_REFERENCE_STATUS.md`"
   },
   "_version": 1,
-  "_synced_at": "2026-04-03T10:19:17.513759+00:00"
+  "_synced_at": "2026-04-03T10:41:26.725342+00:00"
 }

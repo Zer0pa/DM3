@@ -56,6 +56,7 @@ See: .gpd/PROJECT.md
 - [Phase —]: Start from scratch in the restart repo and treat the manifesto as a claim inventory, not proof.
 - [Phase —]: Keep the recoverable October / Genesis substrate as the only source-backed baseline.
 - [Phase —]: Use Mac and RM10 Pro as execution lanes, with receipts and Comet metadata.
+- [Phase 01]: Switch restart research mode to explore — Phase 1 needs explicit branching, pivot analysis, and alternative-hypothesis investigation across battery classes and device lanes.
 
 ### Active Approximations
 

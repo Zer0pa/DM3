@@ -22,11 +22,13 @@
 - [ ] **SPEC-01**: Write a minimal manifold execution contract separating geometry, dynamics, learned modules, and acceptance.
 - [ ] **SPEC-02**: Define the authority metric that outranks demos, aesthetics, and internal proxy signals.
 - [ ] **SPEC-03**: Define the minimal restart battery that a new machine or device must pass.
+- [ ] **SPEC-04**: Define the hypothesis/pivot register and state which alternatives require real hypothesis branches versus run matrices or parameter sweeps.
 
 ### Device Execution
 
 - [ ] **DEVC-01**: Establish a reproducible RM10 Pro execution path via Termux / ADB for the source-backed battery.
 - [ ] **DEVC-02**: Capture device-side receipts, logs, and Comet metadata for every serious replay.
+- [ ] **DEVC-03**: Classify and test the RM10 Pro compute lanes used by the restart battery, including CPU, GPU, and NPU-assisted roles when accessible.
 
 ### Validation
 
@@ -57,7 +59,9 @@
 | MAPP-01 | 100% of cited manifesto test labels classified | manual review against repo paths and protocols |
 | BASL-02 | no unexplained baseline drift | hash and receipt comparison against recovered protocol |
 | SPEC-02 | explicit authority metric written with false proxies named | contract review and roadmap coverage |
+| SPEC-04 | branch register and pivot rules written with battery classes | roadmap and branch-governance review |
 | DEVC-01 | device lane executes documented command path | replay logs plus receipt bundle |
+| DEVC-03 | compute-lane scope is explicit for each device run class | lane matrix plus replay logs |
 | VALD-02 | device replay yields matching or explicitly justified equivalent outputs | cross-platform ledger comparison |
 
 ## Contract Coverage
@@ -82,16 +86,18 @@
 | SPEC-01 | Phase 3: Execution and Acceptance Specification | Pending |
 | SPEC-02 | Phase 3: Execution and Acceptance Specification | Pending |
 | SPEC-03 | Phase 3: Execution and Acceptance Specification | Pending |
+| SPEC-04 | Phase 3: Execution and Acceptance Specification | Pending |
 | DEVC-01 | Phase 4: RM10 Pro Execution Lane | Pending |
 | DEVC-02 | Phase 4: RM10 Pro Execution Lane | Pending |
+| DEVC-03 | Phase 4: RM10 Pro Execution Lane | Pending |
 | VALD-01 | Phase 5: Cross-Platform Falsification Battery | Pending |
 | VALD-02 | Phase 5: Cross-Platform Falsification Battery | Pending |
 | VALD-03 | Phase 6: Surviving Claims and Rebuild Decision | Pending |
 
 **Coverage:**
 
-- Primary requirements: 13 total
-- Mapped to phases: 13
+- Primary requirements: 15 total
+- Mapped to phases: 15
 - Unmapped: 0
 
 ---

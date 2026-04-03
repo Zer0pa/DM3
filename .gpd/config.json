@@ -1,6 +1,6 @@
 {
   "autonomy": "balanced",
-  "research_mode": "balanced",
+  "research_mode": "explore",
   "execution": {
     "review_cadence": "adaptive"
   },

@@ -75,7 +75,7 @@ Plans:
 
 **Goal:** Define what the restart is actually trying to prove and how
 **Depends on:** Phase 2
-**Requirements:** [SPEC-01, SPEC-02, SPEC-03]
+**Requirements:** [SPEC-01, SPEC-02, SPEC-03, SPEC-04]
 **Contract Coverage:**
 - Advances: manifold contract, authority metric, minimal restart battery
 - Deliverables: execution contract, authority-gate note, battery spec
@@ -86,6 +86,7 @@ Plans:
 1. Geometry, dynamics, learned modules, and acceptance are separated in writing
 2. The authority metric is explicit and outranks demos and internal proxies
 3. A minimal restart battery is defined for both Mac and RM10 Pro
+4. The project distinguishes true hypothesis branches from battery classes and parameter sweeps
    **Plans:** 2 plans
 
 Plans:
@@ -97,7 +98,7 @@ Plans:
 
 **Goal:** Make the phone a governed replay lane rather than a conceptual target
 **Depends on:** Phase 3
-**Requirements:** [DEVC-01, DEVC-02]
+**Requirements:** [DEVC-01, DEVC-02, DEVC-03]
 **Contract Coverage:**
 - Advances: device lane, receipts, Comet-linked replay path
 - Deliverables: RM10 Pro setup note, replay scripts, device ledger
@@ -108,6 +109,7 @@ Plans:
 1. The RM10 Pro can execute the documented restart battery path
 2. Device runs emit receipts, logs, and Comet metadata
 3. Failure modes are explicit and reproducible
+4. CPU, GPU, and any usable NPU-assisted roles are explicitly scoped for each device run class
    **Plans:** 2 plans
 
 Plans:

@@ -97,6 +97,8 @@ Can any source-backed DM3 geometry-first substrate be reconstructed and falsifie
 - [ ] Which manifesto `Txx` claims map to real recovered protocols, ledgers, or tests?
 - [ ] Which source-backed properties survive replay on Mac and RM10 Pro?
 - [ ] What is the minimal deterministic battery that must pass before any hybrid rebuild?
+- [ ] What battery hierarchy should govern the restart: micro, medium, and long batteries across Mac and RM10 CPU / GPU / NPU lanes?
+- [ ] Which architectural alternatives deserve true hypothesis branches, and which are only battery variants or parameter sweeps?
 - [ ] What encoding / manifold contract can be stated without unrecovered source?
 - [ ] Does the geometry-first claim survive comparison against simpler baselines once proxies are rejected?
 
@@ -173,6 +175,7 @@ See `.gpd/REQUIREMENTS.md` for the detailed requirement set.
 - **Evidence:** unrecovered hybrid source cannot be treated as code authority
 - **Device:** RM10 Pro is required as a real replay lane, but not as a substitute for source-backed baseline validation
 - **Governance:** every serious run must produce receipts and Comet metadata
+- **Run classes:** the project must support both micro-batteries and long batteries, and it must record which device lane and compute lane each run used
 - **Scientific rigor:** demos and geometric aesthetics do not count as success
 
 ## Key Decisions

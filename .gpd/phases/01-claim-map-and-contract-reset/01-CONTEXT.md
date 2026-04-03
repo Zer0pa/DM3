@@ -14,6 +14,8 @@ Every numbered `Txx` reference used in the restart must be marked as one of:
 
 - [`docs/reference/GEOMETRY_FIRST_MANIFESTO.md`](/Users/Zer0pa/DM3/restart/docs/reference/GEOMETRY_FIRST_MANIFESTO.md)
 - [`docs/restart/TRAINING_DOC_HYPOTHESES.md`](/Users/Zer0pa/DM3/restart/docs/restart/TRAINING_DOC_HYPOTHESES.md)
+- [`docs/restart/GPD_OPERATING_MAP.md`](/Users/Zer0pa/DM3/restart/docs/restart/GPD_OPERATING_MAP.md)
+- [`docs/restart/HYPOTHESIS_BRANCH_REGISTER.md`](/Users/Zer0pa/DM3/restart/docs/restart/HYPOTHESIS_BRANCH_REGISTER.md)
 - [`docs/recovery/TEST_REFERENCE_STATUS.md`](/Users/Zer0pa/DM3/restart/docs/recovery/TEST_REFERENCE_STATUS.md)
 - [`TESTING_PROTOCOL.md`](/Users/Zer0pa/DM3/recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/TESTING_PROTOCOL.md)
 - [`AGENT_GUIDE.md`](/Users/Zer0pa/DM3/recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/00_GENESIS_ORGANISM/snic_workspace_a83f/AGENT_GUIDE.md)
@@ -24,6 +26,8 @@ Every numbered `Txx` reference used in the restart must be marked as one of:
 - a source-linked `Txx` registry update
 - an explicit boundary between recoverable baseline claims and unrecovered hybrid claims
 - a narrowed restart battery that can later run on both Mac host and RM10 Pro
+- a branch register distinguishing true hypothesis branches from batteries and parameter sweeps
+- a battery hierarchy covering micro-batteries, medium batteries, and long batteries across device lanes
 
 ## Non-Goals
 
