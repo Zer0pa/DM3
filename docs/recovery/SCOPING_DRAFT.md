@@ -10,6 +10,7 @@ Can the recoverable dual-meru geometry / DEQ / resonance stack be turned into a 
 - a written specification of the manifold data-encoding scheme
 - a written specification of the acceptance metric that outranks secondary wins
 - a restart roadmap that separates recoverable legacy code from rebuilt hybrid components
+- a collaborator-safe logging baseline with local receipts plus Comet experiment tracking
 
 ## Known Anchors
 
@@ -24,6 +25,7 @@ Can the recoverable dual-meru geometry / DEQ / resonance stack be turned into a 
 - explicit identification of source-missing hybrid components
 - scientific rebase of the objective, observables, and acceptance gates
 - preparation for a clean re-engineering effort in this repository
+- a multi-machine experiment logging baseline
 
 ## Out Of Scope
 
@@ -51,4 +53,3 @@ Build the restart from the old recoverable substrate upward:
 2. verify the old source builds and runs
 3. specify encoding, dynamics, and acceptance as separate contracts
 4. only then reintroduce hybrid learned layers
-

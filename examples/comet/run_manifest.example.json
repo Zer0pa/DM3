@@ -1,0 +1,32 @@
+{
+  "name": "dm3-restart-smoke",
+  "workspace": "zer0pa",
+  "project_name": "dm3",
+  "tags": [
+    "restart",
+    "smoke",
+    "offline"
+  ],
+  "parameters": {
+    "authority_metric": "TBD",
+    "baseline_family": "TBD",
+    "geometry_family": "dual-meru",
+    "run_kind": "smoke"
+  },
+  "metrics": [
+    {
+      "name": "smoke/ok",
+      "value": 1,
+      "step": 0
+    }
+  ],
+  "others": {
+    "notes": "Replace this manifest with real experiment metadata before serious work."
+  },
+  "dataset": {
+    "name": "TBD",
+    "version": "TBD",
+    "path": "TBD"
+  },
+  "assets": []
+}

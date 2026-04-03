@@ -69,7 +69,6 @@ Before rebuilding the missing hybrid layer, answer these explicitly:
 
 ## Engineering Implication
 
-The restart should begin from the recoverable geometry / DEQ / resonance substrate and only reintroduce hybrid learned layers behind explicit interfaces and tests.
+The restart should begin from the recoverable geometry / DEQ / resonance substrate and only reintroduce hybrid learned layers behind explicit interfaces, tests, and machine-readable experiment logging.
 
 No restart step should depend on unrecovered intuition alone.
-
