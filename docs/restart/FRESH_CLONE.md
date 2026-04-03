@@ -73,3 +73,18 @@ A collaborator is ready to start when:
 2. `./tools/bootstrap_recovery.sh` succeeds
 3. `./tools/check_legacy_october.sh` succeeds
 4. Comet setup is either configured or intentionally deferred
+5. they have read `.gpd/PROJECT.md`, `.gpd/STATE.md`, and `.gpd/phases/01-claim-map-and-contract-reset/01-CONTEXT.md`
+
+## Current GPD Entry Point
+
+This repo now includes a fresh GPD project bootstrap for the DM3 restart.
+
+Read in this order:
+
+1. `.gpd/PROJECT.md`
+2. `.gpd/STATE.md`
+3. `.gpd/ROADMAP.md`
+4. `.gpd/phases/01-claim-map-and-contract-reset/01-CONTEXT.md`
+5. `docs/recovery/TEST_REFERENCE_STATUS.md`
+
+The immediate task is not hybrid rebuilding. It is mapping the manifesto's numbered claims to source-backed evidence or explicit gaps, then selecting the narrow battery that must later replay on both Mac host and RM10 Pro.

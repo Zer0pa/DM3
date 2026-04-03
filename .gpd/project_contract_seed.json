@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "question": "Can a source-backed DM3 geometry-first substrate be reconstructed and falsified from recoverable evidence only, then reproduced across Mac host and RM10 Pro execution lanes without relying on unrecovered hybrid source?",
+    "in_scope": [
+      "Map the manifesto's numbered T01-T236 references to executable evidence or explicit gaps",
+      "Replay the recoverable October and Genesis deterministic substrate from source",
+      "Define the authority metric and minimal restart battery before any hybrid rebuild",
+      "Establish a RM10 Pro device replay lane with receipts and Comet metadata",
+      "Falsify or retain manifesto claims based on source-backed replay evidence"
+    ],
+    "out_of_scope": [
+      "Declaring the newer hybrid DM3 layer recovered",
+      "Treating manifesto prose as executable proof",
+      "Using visual geometry demos or aesthetic coherence as success",
+      "Rebuilding GPU, HRM, scar-engine, or micro-transformer layers before baseline replay and authority-gate definition"
+    ],
+    "unresolved_questions": [
+      "Which manifesto Txx labels map one-to-one to recovered executable protocols or ledgers?",
+      "Which claims belong only to the unrecovered hybrid layer?",
+      "What is the minimal authority metric beyond deterministic replay?",
+      "What is the narrowest source-backed battery the RM10 Pro must reproduce?"
+    ]
+  },
+  "context_intake": {
+    "must_read_refs": [
+      "ref_manifesto",
+      "ref_testing_protocol",
+      "ref_genesis_guide",
+      "ref_october_workspace"
+    ],
+    "must_include_prior_outputs": [
+      "docs/reference/GEOMETRY_FIRST_MANIFESTO.md",
+      "docs/recovery/RECOVERY_MATRIX.md",
+      "docs/recovery/OCTOBER_BUILD_STATUS.md",
+      "docs/recovery/TEST_REFERENCE_STATUS.md"
+    ],
+    "user_asserted_anchors": [
+      "Start from scratch in a new space",
+      "Re-run the numbered tests and falsify them",
+      "Use the RM10 Pro as a real device lane",
+      "Do not inherit narrative wins from unrecovered source"
+    ],
+    "known_good_baselines": [
+      "../recovery/zer0pamk1-DM-3-Oct/snic passes cargo check and cargo test on the Mac host",
+      "../recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/TESTING_PROTOCOL.md defines the strongest recovered deterministic replay protocol"
+    ],
+    "context_gaps": [
+      "The manifesto T01-T236 numbering is not yet mapped one-to-one to source-backed executable artifacts",
+      "The newer hybrid DM3 layer remains source-missing",
+      "RM10 Pro deterministic replay is not yet executed in the restart project"
+    ],
+    "crucial_inputs": [
+      "RM10 Pro is a replay lane, not proof by itself",
+      "The restart repo is the canonical re-engineering space",
+      "Receipts and ledgers outrank demos and descriptions"
+    ]
+  },
+  "approach_policy": {
+    "formulations": [
+      "falsification-first restart from recoverable evidence",
+      "deterministic cross-platform replay with explicit receipts",
+      "source-backed geometry and settling baseline before any hybrid rebuild"
+    ],
+    "allowed_estimator_families": [
+      "source-backed replay batteries",
+      "hash and receipt comparison",
+      "explicit claim mapping against repo protocols and ledgers"
+    ],
+    "forbidden_estimator_families": [
+      "prose-only evidence",
+      "demo-driven validation",
+      "unrecovered hybrid intuition presented as implementation truth"
+    ],
+    "allowed_fit_families": [
+      "claim mapping",
+      "baseline replay",
+      "device-lane replay",
+      "authority-metric specification"
+    ],
+    "forbidden_fit_families": [
+      "full hybrid rebuild before baseline replay",
+      "graphical concept polish as a substitute for falsification"
+    ],
+    "stop_and_rethink_conditions": [
+      "Most manifesto Txx claims cannot be mapped to source-backed executable artifacts",
+      "The recoverable baseline cannot replay deterministically on the Mac host",
+      "RM10 Pro replay yields unexplained divergence on the source-backed battery",
+      "The authority metric collapses into demos, aesthetics, or internal proxy scores"
+    ]
+  },
+  "observables": [
+    {
+      "id": "obs_test_map_coverage",
+      "name": "Manifesto test-map coverage",
+      "kind": "scalar",
+      "definition": "Fraction of manifesto test labels used in restart planning that are mapped to executable evidence or explicit gaps"
+    },
+    {
+      "id": "obs_deterministic_hash_parity",
+      "name": "Deterministic receipt parity",
+      "kind": "classification",
+      "definition": "Whether repeated Mac and RM10 Pro runs yield matching or explicitly equivalent receipts and hashes"
+    },
+    {
+      "id": "obs_energy_witness",
+      "name": "Energy or Lyapunov witness trace",
+      "kind": "curve",
+      "definition": "Source-backed trace used to assess monotonic descent or stable settling in the restart battery"
+    },
+    {
+      "id": "obs_fixed_point_replay",
+      "name": "Fixed-point replay obligation",
+      "kind": "proof_obligation",
+      "definition": "Requirement that the same source-backed input and seed produce the same fixed point or an explicitly equivalent receipt"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim_manifesto_mapping",
+      "statement": "Every manifesto test reference used downstream is either mapped to source-backed evidence or explicitly marked unmapped.",
+      "observables": [
+        "obs_test_map_coverage"
+      ],
+      "deliverables": [
+        "deliv_test_map"
+      ],
+      "acceptance_tests": [
+        "test_manifesto_mapping"
+      ],
+      "references": [
+        "ref_manifesto",
+        "ref_testing_protocol"
+      ]
+    },
+    {
+      "id": "claim_host_baseline",
+      "statement": "The recoverable October and Genesis substrate can be rebuilt and replayed deterministically on the Mac host with receipts.",
+      "observables": [
+        "obs_deterministic_hash_parity",
+        "obs_energy_witness",
+        "obs_fixed_point_replay"
+      ],
+      "deliverables": [
+        "deliv_host_replay"
+      ],
+      "acceptance_tests": [
+        "test_host_replay"
+      ],
+      "references": [
+        "ref_testing_protocol",
+        "ref_genesis_guide",
+        "ref_october_workspace"
+      ]
+    },
+    {
+      "id": "claim_rm10_replay",
+      "statement": "The RM10 Pro can execute the selected source-backed restart battery and produce matching or explicitly justified equivalent receipts.",
+      "observables": [
+        "obs_deterministic_hash_parity",
+        "obs_fixed_point_replay"
+      ],
+      "deliverables": [
+        "deliv_rm10_replay"
+      ],
+      "acceptance_tests": [
+        "test_rm10_replay"
+      ],
+      "references": [
+        "ref_testing_protocol",
+        "ref_genesis_guide"
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "deliv_test_map",
+      "kind": "report",
+      "path": "docs/recovery/TEST_REFERENCE_STATUS.md",
+      "description": "Source-backed mapping of manifesto Txx labels to recovered evidence or explicit gaps",
+      "must_contain": [
+        "mapped",
+        "unmapped",
+        "source locator"
+      ]
+    },
+    {
+      "id": "deliv_host_replay",
+      "kind": "report",
+      "path": "artifacts/mac_replay/ledger.md",
+      "description": "Mac host replay ledger for the selected source-backed restart battery",
+      "must_contain": [
+        "command path",
+        "receipt summary",
+        "hash comparison"
+      ]
+    },
+    {
+      "id": "deliv_rm10_replay",
+      "kind": "report",
+      "path": "artifacts/rm10_replay/ledger.md",
+      "description": "RM10 Pro replay ledger for the selected source-backed restart battery",
+      "must_contain": [
+        "device command path",
+        "receipt summary",
+        "drift or parity verdict"
+      ]
+    }
+  ],
+  "acceptance_tests": [
+    {
+      "id": "test_manifesto_mapping",
+      "subject": "claim_manifesto_mapping",
+      "kind": "schema",
+      "procedure": "Enumerate every manifesto Txx label cited in restart planning and record a source locator or an explicit gap classification.",
+      "pass_condition": "No cited Txx label remains unclassified as mapped, collapsed, unmapped, or retired.",
+      "evidence_required": [
+        "deliv_test_map",
+        "ref_manifesto"
+      ],
+      "automation": "hybrid"
+    },
+    {
+      "id": "test_host_replay",
+      "subject": "claim_host_baseline",
+      "kind": "reproducibility",
+      "procedure": "Run the selected source-backed deterministic battery on the Mac host and preserve receipts, hashes, and logs.",
+      "pass_condition": "All selected host baseline runs complete with matching or explicitly justified equivalent receipts and no unexplained drift.",
+      "evidence_required": [
+        "deliv_host_replay",
+        "ref_testing_protocol",
+        "ref_october_workspace"
+      ],
+      "automation": "hybrid"
+    },
+    {
+      "id": "test_rm10_replay",
+      "subject": "claim_rm10_replay",
+      "kind": "reproducibility",
+      "procedure": "Run the same selected source-backed battery on the RM10 Pro Termux or ADB lane and compare the resulting receipts against the host ledger.",
+      "pass_condition": "RM10 Pro replay completes with matching or explicitly justified equivalent receipts; unexplained drift is a failure.",
+      "evidence_required": [
+        "deliv_rm10_replay",
+        "ref_testing_protocol",
+        "deliv_host_replay"
+      ],
+      "automation": "hybrid"
+    }
+  ],
+  "references": [
+    {
+      "id": "ref_manifesto",
+      "kind": "prior_artifact",
+      "locator": "docs/reference/GEOMETRY_FIRST_MANIFESTO.md",
+      "aliases": [
+        "geometry-first-manifesto"
+      ],
+      "role": "must_consider",
+      "why_it_matters": "Source of the numbered T01-T236 claims that must be mapped, reduced, or falsified",
+      "applies_to": [
+        "claim_manifesto_mapping"
+      ],
+      "carry_forward_to": [
+        "planning",
+        "execution",
+        "verification"
+      ],
+      "must_surface": true,
+      "required_actions": [
+        "read",
+        "compare",
+        "use"
+      ]
+    },
+    {
+      "id": "ref_testing_protocol",
+      "kind": "spec",
+      "locator": "../recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/TESTING_PROTOCOL.md",
+      "aliases": [
+        "genesis-testing-protocol"
+      ],
+      "role": "method",
+      "why_it_matters": "Strongest recovered deterministic replay and ledger-governance protocol",
+      "applies_to": [
+        "claim_manifesto_mapping",
+        "claim_host_baseline",
+        "claim_rm10_replay"
+      ],
+      "carry_forward_to": [
+        "planning",
+        "execution",
+        "verification"
+      ],
+      "must_surface": true,
+      "required_actions": [
+        "read",
+        "use",
+        "compare"
+      ]
+    },
+    {
+      "id": "ref_genesis_guide",
+      "kind": "spec",
+      "locator": "../recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/00_GENESIS_ORGANISM/snic_workspace_a83f/AGENT_GUIDE.md",
+      "aliases": [
+        "genesis-agent-guide"
+      ],
+      "role": "method",
+      "why_it_matters": "Provides concrete CLI commands for deterministic replay and lineage batch checks",
+      "applies_to": [
+        "claim_host_baseline",
+        "claim_rm10_replay"
+      ],
+      "carry_forward_to": [
+        "execution",
+        "verification"
+      ],
+      "must_surface": true,
+      "required_actions": [
+        "read",
+        "use"
+      ]
+    },
+    {
+      "id": "ref_october_workspace",
+      "kind": "prior_artifact",
+      "locator": "../recovery/zer0pamk1-DM-3-Oct/snic",
+      "aliases": [
+        "october-snic-workspace"
+      ],
+      "role": "definition",
+      "why_it_matters": "Strongest recoverable source-backed geometry and settling substrate",
+      "applies_to": [
+        "claim_host_baseline"
+      ],
+      "carry_forward_to": [
+        "planning",
+        "execution",
+        "verification"
+      ],
+      "must_surface": true,
+      "required_actions": [
+        "read",
+        "use",
+        "compare"
+      ]
+    }
+  ],
+  "forbidden_proxies": [
+    {
+      "id": "fp_manifesto_prose",
+      "subject": "claim_manifesto_mapping",
+      "proxy": "Treating manifesto prose as evidence without a source locator or executable artifact",
+      "reason": "Would convert the restart into a narratable win instead of a mapped claim registry"
+    },
+    {
+      "id": "fp_geometry_demo",
+      "subject": "claim_host_baseline",
+      "proxy": "A geometry render or attractive convergence demo without deterministic receipts and ledgers",
+      "reason": "Would look impressive while skipping the source-backed authority gate"
+    },
+    {
+      "id": "fp_device_shell",
+      "subject": "claim_rm10_replay",
+      "proxy": "Phone shell access, Termux setup, or a partial command path without reproducing the selected battery",
+      "reason": "Would treat infrastructure readiness as scientific replay success"
+    }
+  ],
+  "links": [
+    {
+      "id": "link_manifesto_map",
+      "source": "claim_manifesto_mapping",
+      "target": "deliv_test_map",
+      "relation": "supports",
+      "verified_by": [
+        "test_manifesto_mapping"
+      ]
+    },
+    {
+      "id": "link_host_replay",
+      "source": "claim_host_baseline",
+      "target": "deliv_host_replay",
+      "relation": "supports",
+      "verified_by": [
+        "test_host_replay"
+      ]
+    },
+    {
+      "id": "link_rm10_replay",
+      "source": "claim_rm10_replay",
+      "target": "deliv_rm10_replay",
+      "relation": "supports",
+      "verified_by": [
+        "test_rm10_replay"
+      ]
+    }
+  ],
+  "uncertainty_markers": {
+    "weakest_anchors": [
+      "The manifesto T01-T236 numbering exists in prose but is not yet preserved as a source-backed executable registry"
+    ],
+    "unvalidated_assumptions": [
+      "The source-backed October and Genesis lineage covers the same scientific surface implied by the later manifesto",
+      "The RM10 Pro lane will preserve deterministic replay under Termux or ADB conditions"
+    ],
+    "competing_explanations": [
+      "Only the older deterministic SNIC substrate is real, while stronger manifesto claims belong to an unrecovered or drifted layer",
+      "Several manifesto test labels may compress multiple distinct legacy tests into a single narrative statement"
+    ],
+    "disconfirming_observations": [
+      "Most manifesto test labels cannot be mapped to executable artifacts or canonical ledgers",
+      "RM10 Pro replay shows unexplained hash or receipt drift on the source-backed battery"
+    ]
+  }
+}

@@ -17,12 +17,22 @@ Current purpose:
 
 Start with:
 
+- `.gpd/PROJECT.md`
+- `.gpd/STATE.md`
+- `.gpd/ROADMAP.md`
 - `docs/recovery/RECOVERY_MATRIX.md`
 - `docs/recovery/OCTOBER_BUILD_STATUS.md`
 - `docs/recovery/RESET_BASIS.md`
-- `docs/recovery/SCOPING_DRAFT.md`
+- `docs/recovery/TEST_REFERENCE_STATUS.md`
 - `docs/restart/COLLABORATION_AND_LOGGING.md`
 - `docs/restart/FRESH_CLONE.md`
+
+The restart is now also a GPD project. The current scientific reset begins in:
+
+- `.gpd/PROJECT.md`
+- `.gpd/phases/01-claim-map-and-contract-reset/01-CONTEXT.md`
+
+Phase 1 is deliberately a falsification and claim-mapping phase. The manifesto is treated as a claim inventory, not as proof.
 
 ## Collaboration Baseline
 
@@ -64,3 +74,11 @@ cd DM3-2026-Restart
 ```
 
 If both commands complete successfully, the collaborator has the same recoverable baseline we do.
+
+To join the scientific reset instead of only verifying recovery, read:
+
+```bash
+sed -n '1,220p' .gpd/PROJECT.md
+sed -n '1,220p' .gpd/STATE.md
+sed -n '1,220p' .gpd/phases/01-claim-map-and-contract-reset/01-CONTEXT.md
+```
