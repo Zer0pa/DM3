@@ -18,9 +18,11 @@ Current purpose:
 Start with:
 
 - `docs/recovery/RECOVERY_MATRIX.md`
+- `docs/recovery/OCTOBER_BUILD_STATUS.md`
 - `docs/recovery/RESET_BASIS.md`
 - `docs/recovery/SCOPING_DRAFT.md`
 - `docs/restart/COLLABORATION_AND_LOGGING.md`
+- `docs/restart/FRESH_CLONE.md`
 
 ## Collaboration Baseline
 
@@ -50,3 +52,15 @@ python3 tools/comet_manifest_logger.py \
 ```
 
 Offline mode is included because some device-side runs may not have stable connectivity during execution.
+
+## Fresh Clone
+
+```bash
+git clone https://github.com/Zer0pa/DM3-2026-Restart.git
+cd DM3-2026-Restart
+
+./tools/bootstrap_recovery.sh
+./tools/check_legacy_october.sh
+```
+
+If both commands complete successfully, the collaborator has the same recoverable baseline we do.
