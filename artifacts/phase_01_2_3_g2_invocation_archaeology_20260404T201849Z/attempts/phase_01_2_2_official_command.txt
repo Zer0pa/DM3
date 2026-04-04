@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/dm3 && ./dm3_runner --task exp_g2_readout --mode inference --adj SriYantraAdj_v1.bin --tags RegionTags_v2.json -o phase0122_g2_attempt_receipts_20260403.jsonl'

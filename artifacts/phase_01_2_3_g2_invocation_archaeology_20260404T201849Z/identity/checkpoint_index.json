@@ -1,0 +1,23 @@
+{
+  "policy": "rerun-only",
+  "packet_type": "retirement_only",
+  "new_serious_attempt": false,
+  "attempts": [],
+  "carried_forward_sources": [
+    {
+      "id": "phase_01_2_2_smoke_control",
+      "path": "/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_2_non_stub_attempt_20260403",
+      "role": "explicit control command and smoke canonical"
+    },
+    {
+      "id": "phase_01_2_3_plan01_audit_bundle",
+      "path": "/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_plan01_invocation_audit_20260404",
+      "role": "same-binary route census and Comet anchor"
+    },
+    {
+      "id": "g2_route_decision_object",
+      "path": "/Users/Zer0pa/DM3/restart/docs/restart/G2_ROUTE_DECISION_OBJECT.md",
+      "role": "frozen decision status and Plan 02 branch"
+    }
+  ]
+}

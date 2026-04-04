@@ -1,0 +1,9 @@
+local_path	source_path	role
+telemetry/phase_01_2_2_pre_battery.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_2_non_stub_attempt_20260403/pre_battery.txt	Phase 01.2.2 smoke-control pre-run battery snapshot
+telemetry/phase_01_2_2_pre_thermalservice.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_2_non_stub_attempt_20260403/pre_thermalservice.txt	Phase 01.2.2 smoke-control pre-run thermal snapshot
+telemetry/phase_01_2_2_post_battery.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_2_non_stub_attempt_20260403/post_battery.txt	Phase 01.2.2 smoke-control post-run battery snapshot
+telemetry/phase_01_2_2_post_thermalservice.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_2_non_stub_attempt_20260403/post_thermalservice.txt	Phase 01.2.2 smoke-control post-run thermal snapshot
+telemetry/phase_01_2_3_plan01_battery_before.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_plan01_invocation_audit_20260404/serious_pass/preflight/battery_before.txt	Plan 01 serious-pass pre-run battery snapshot
+telemetry/phase_01_2_3_plan01_thermal_before.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_plan01_invocation_audit_20260404/serious_pass/preflight/thermal_before.txt	Plan 01 serious-pass pre-run thermal snapshot
+telemetry/phase_01_2_3_plan01_battery_after.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_plan01_invocation_audit_20260404/serious_pass/telemetry/final_battery_after.txt	Plan 01 serious-pass final battery snapshot
+telemetry/phase_01_2_3_plan01_thermal_after.txt	/Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_plan01_invocation_audit_20260404/serious_pass/telemetry/final_thermal_after.txt	Plan 01 serious-pass final thermal snapshot

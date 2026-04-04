@@ -1,0 +1,11 @@
+# Plan 02 executed the frozen retirement-only branch.
+# No new same-binary route command was run.
+#
+# Frozen control command carried forward from Phase 01.2.2:
+adb shell 'cd /data/local/tmp/dm3 && ./dm3_runner --task exp_g2_readout --mode inference --adj SriYantraAdj_v1.bin --tags RegionTags_v2.json -o phase0122_g2_attempt_receipts_20260403.jsonl'
+#
+# Frozen comparison anchor carried forward from Plan 01:
+# /Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_g2_invocation_archaeology_20260404T201849Z/comparisons/plan01_receipt_hashes_combined.tsv
+#
+# Route decision anchor:
+# /Users/Zer0pa/DM3/restart/artifacts/phase_01_2_3_g2_invocation_archaeology_20260404T201849Z/preflight/G2_ROUTE_DECISION_OBJECT.snapshot.md
