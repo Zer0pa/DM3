@@ -1,0 +1,77 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "g2_default_assets",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_g2_default_assets.jsonl",
+      "raw_sha256": "0bbffffac2f13a0e318100c888424deaed674f3da543def2ec81f5cf0d6b8e0b",
+      "normalized_sha256": "d3e721e7f2dd8999f564b09cb5d8043fe628ad6817cd2a90e5cae0bd548c7ad9",
+      "run_id": "t1_contraction"
+    },
+    {
+      "name": "g2_explicit_assets_v2json",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_g2_explicit_assets_v2json.jsonl",
+      "raw_sha256": "4c7c6b25ca54a3e92cf6afc6ae5481c2c8569f9eefdaa92f38a2ed824ff2e8d0",
+      "normalized_sha256": "d3e721e7f2dd8999f564b09cb5d8043fe628ad6817cd2a90e5cae0bd548c7ad9",
+      "run_id": "t1_contraction"
+    },
+    {
+      "name": "g2_abs_assets",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_g2_abs_assets.jsonl",
+      "raw_sha256": "3f8ed6655beaa0d7aaa9a144af6ca4f04623866655e12f73412caef2c1fe9531",
+      "normalized_sha256": "d3e721e7f2dd8999f564b09cb5d8043fe628ad6817cd2a90e5cae0bd548c7ad9",
+      "run_id": "t1_contraction"
+    },
+    {
+      "name": "g2_parent_cwd_abs_assets",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_g2_parent_cwd_abs_assets.jsonl",
+      "raw_sha256": "6d4fda14911c4b4bca9aadc458c58cbfe0aeb75a0ff45507f1020533d608c6e5",
+      "normalized_sha256": "d3e721e7f2dd8999f564b09cb5d8043fe628ad6817cd2a90e5cae0bd548c7ad9",
+      "run_id": "t1_contraction"
+    },
+    {
+      "name": "infer_holography",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_infer_holography.jsonl",
+      "raw_sha256": "ef29cdb1aa6c766629fc05fa309386e088c9a5e43e09e7858f10d5a0051c4591",
+      "normalized_sha256": "d3e721e7f2dd8999f564b09cb5d8043fe628ad6817cd2a90e5cae0bd548c7ad9",
+      "run_id": "t1_contraction"
+    },
+    {
+      "name": "infer_harmonic",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_infer_harmonic.jsonl",
+      "raw_sha256": "f12b7a6fbd48fcd0abc3df98407a7910f36ac895e7a39c8c1e9f1e0928dcbde5",
+      "normalized_sha256": "d3e721e7f2dd8999f564b09cb5d8043fe628ad6817cd2a90e5cae0bd548c7ad9",
+      "run_id": "t1_contraction"
+    },
+    {
+      "name": "train_holography",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_train_holography.jsonl",
+      "raw_sha256": "c491a42a9e9fa92b1843ee13c54268b13a6b6268578731afabb9b81a0527764f",
+      "normalized_sha256": "c491a42a9e9fa92b1843ee13c54268b13a6b6268578731afabb9b81a0527764f",
+      "run_id": "-"
+    },
+    {
+      "name": "train_harmonic",
+      "exit_code": "0",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_train_harmonic.jsonl",
+      "raw_sha256": "bd3a9ef071e7665e4ca40f8803a6f88184e81f1ae96cf09c1a8f262826b6382a",
+      "normalized_sha256": "bd3a9ef071e7665e4ca40f8803a6f88184e81f1ae96cf09c1a8f262826b6382a",
+      "run_id": "-"
+    },
+    {
+      "name": "train_exp_g2_readout",
+      "exit_code": "1",
+      "device_receipt": "/data/local/tmp/dm3/phase0123_plan01_train_exp_g2_readout.jsonl",
+      "raw_sha256": "-",
+      "normalized_sha256": "-",
+      "run_id": "-"
+    }
+  ]
+}

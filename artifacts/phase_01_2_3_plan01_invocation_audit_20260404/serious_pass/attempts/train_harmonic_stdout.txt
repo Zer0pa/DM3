@@ -1,0 +1,16 @@
+Entering Training Mode...
+GPU MatMul Kernel Initialized.
+GPU Transformer Kernel Initialized.
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 100, Asymmetry: 0)
+Ep 0: Dec=Reject dE=4.6119 Coh=0.0063
+Ep 10: Dec=Reject dE=4.8243 Coh=0.0112
+Ep 20: Dec=Retry dE=0.0106 Coh=0.0646
+Ep 30: Dec=Reject dE=4.5067 Coh=0.0051
+Ep 40: Dec=Commit dE=0.0051 Coh=0.2245
+Ep 50: Dec=Commit dE=0.0090 Coh=0.2923
+Ep 60: Dec=Reject dE=4.3293 Coh=0.0078
+Ep 70: Dec=Reject dE=4.7738 Coh=0.0110
+Ep 80: Dec=Commit dE=0.0056 Coh=0.2339
+Ep 90: Dec=Reject dE=0.0048 Coh=0.0033
+Resonance Loop Complete.

@@ -1,0 +1,24 @@
+1232:src/runner/src/tasks/exp_g2_readout.rs
+1544:src/runner/src/tasks/l_branch/harmonic.rs
+1776:src/runner/src/tasks/holography.rs
+1995:Task name (holography, harmonic)
+2025:Unknown mode: --- G2 Boundary Readout Experiment (Mode: ) ---
+2045:  Ring 8 (Wrong Geometry):   E=test,correct,test,wrong,R0RandomR1OjaR2Contrastive
+2054:description() is deprecated; use DisplayErrorRequestDeviceErrorinnerSystemTimeErrorFromUtf8Errorbyteserrorother time was not earlier than selfinvalid utf-8tolmax_nfeHolography (Boundary->Bulk)classificationharmonic_extensionmirrorprosodyskin_effecttrainInitializing DM3 Transformer Mesh V1...
+2065:GPU Transformer Kernel Initialization Failed: holographyresonance_v2resonance_r3exp_i1exp_i2Unknown task: .Running Phoneme Learning Task...
+2237:// Kernel: k_holography (Boundary -> Bulk Reconstruction Error)
+2244:fn k_holography(@builtin(global_invocation_id) global_id: vec3<u32>) {
+9983:_ZN4core3ptr65drop_in_place$LT$dm3_runner..tasks..exp_g2_readout..ExpG2Task$GT$17ha5a592dbddc7a4c8E
+10009:_ZN78_$LT$dm3_runner..tasks..exp_g2_readout..G2Mode$u20$as$u20$core..fmt..Debug$GT$3fmt17ha50191ea0fa1d094E
+10216:_ZN4core3ptr66drop_in_place$LT$dm3_runner..tasks..holography..HolographyTask$GT$17hbc66efb62fdf5dd4E
+10227:_ZN4core3ptr72drop_in_place$LT$dm3_runner..tasks..l_branch..harmonic..HarmonicTask$GT$17h1fc9cae892be962fE
+10316:_ZN89_$LT$dm3_runner..tasks..holography..HolographyTask$u20$as$u20$dm3_runner..tasks..Task$GT$4name17h276a27d63fa1fca8E
+10318:_ZN95_$LT$dm3_runner..tasks..l_branch..harmonic..HarmonicTask$u20$as$u20$dm3_runner..tasks..Task$GT$4name17hf1cee4cb5f68b399E
+10319:_ZN95_$LT$dm3_runner..tasks..l_branch..harmonic..HarmonicTask$u20$as$u20$dm3_runner..tasks..Task$GT$16recurrence_steps17hb33189cf481ad9e2E
+20635:_ZN10dm3_runner5tasks14exp_g2_readout10run_exp_g217h322d2ef25a83866bE
+20939:_ZN10dm3_runner5tasks10holography14HolographyTask3new17h7df98b19deaf5f62E
+20945:_ZN10dm3_runner5tasks8l_branch8harmonic12HarmonicTask3new17hac1e13151647034dE
+21076:_ZN95_$LT$dm3_runner..tasks..l_branch..harmonic..HarmonicTask$u20$as$u20$dm3_runner..tasks..Task$GT$14generate_batch17h422968b42e512994E
+21077:_ZN95_$LT$dm3_runner..tasks..l_branch..harmonic..HarmonicTask$u20$as$u20$dm3_runner..tasks..Task$GT$12compute_loss17h01d6c696d8326f6bE
+21078:_ZN89_$LT$dm3_runner..tasks..holography..HolographyTask$u20$as$u20$dm3_runner..tasks..Task$GT$14generate_batch17hdbdd9b6babb5e014E
+21079:_ZN89_$LT$dm3_runner..tasks..holography..HolographyTask$u20$as$u20$dm3_runner..tasks..Task$GT$12compute_loss17h6de8f322517bf808E

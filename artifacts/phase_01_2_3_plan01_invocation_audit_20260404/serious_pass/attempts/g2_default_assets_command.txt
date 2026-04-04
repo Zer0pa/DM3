@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/dm3 && /system/bin/timeout 30 ./dm3_runner --task exp_g2_readout --mode inference -o phase0123_plan01_g2_default_assets.jsonl'

@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/dm3 && /system/bin/timeout 30 ./dm3_runner --mode train --task boundary_alignment -o phase0123_plan01_supplement_train_boundary_alignment.jsonl'

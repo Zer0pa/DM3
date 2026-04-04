@@ -1,0 +1,71 @@
+numpy not installed; some functionality will be unavailable
+numpy not installed; some functionality will be unavailable
+COMET INFO: The process of logging environment details (conda environment, git patch) is underway. Please be patient as this may take some time.
+COMET INFO: ---------------------------------------------------------------------------------------
+COMET INFO: Comet.ml OfflineExperiment Summary
+COMET INFO: ---------------------------------------------------------------------------------------
+COMET INFO:   Data:
+COMET INFO:     display_summary_level : 1
+COMET INFO:     name                  : dm3-01.2.3-G2A-rm10_hybrid-cpu-archaeology
+COMET INFO:     url                   : [OfflineExperiment will get URL after upload]
+COMET INFO:   Metrics:
+COMET INFO:     run/exit_code            : 0
+COMET INFO:     run/phase_outcome_code   : 0
+COMET INFO:     run/receipt_complete     : 0
+COMET INFO:     run/resume_count         : 0
+COMET INFO:     run/route_outcome_code   : 0
+COMET INFO:     run/thermal_nominal_post : 1
+COMET INFO:     run/thermal_nominal_pre  : 1
+COMET INFO:     run/verdict_code         : 0
+COMET INFO:   Others:
+COMET INFO:     Name                      : dm3-01.2.3-G2A-rm10_hybrid-cpu-archaeology
+COMET INFO:     battery_post_path         : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/telemetry/final_battery_after.txt
+COMET INFO:     battery_pre_path          : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/preflight/battery_before.txt
+COMET INFO:     checkpoint_index_path     : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/checkpoint_index.json
+COMET INFO:     checkpoint_policy         : rerun-only
+COMET INFO:     checkpoint_policy_path    : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/checkpoint_policy.txt
+COMET INFO:     comet_key_file            : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/comet_experiment_key.txt
+COMET INFO:     comet_manifest_path       : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/comet_manifest.json
+COMET INFO:     comet_offline_bundle_path : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/cometml-runs
+COMET INFO:     command_text_path         : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/command.txt
+COMET INFO:     logging_mode              : offline
+COMET INFO:     notes                     : Bounded same-binary archaeology pass over bundled RM10 runner route surfaces.
+COMET INFO:     offline_experiment        : True
+COMET INFO:     primary_receipt_path      : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/comparisons/receipt_hashes.tsv
+COMET INFO:     receipt_root              : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z
+COMET INFO:     resume_events_path        : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/resume_events.jsonl
+COMET INFO:     run_identity_path         : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/identity/run_identity.json
+COMET INFO:     telemetry_root            : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/telemetry
+COMET INFO:     thermal_post_path         : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/telemetry/final_thermal_after.txt
+COMET INFO:     thermal_pre_path          : /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/preflight/thermal_before.txt
+COMET INFO:   Parameters:
+COMET INFO:     authority_metric          : governed executable sufficiency
+COMET INFO:     authority_status          : archaeology_only
+COMET INFO:     battery_class             : micro
+COMET INFO:     battery_id                : G2A
+COMET INFO:     branch                    : main
+COMET INFO:     build_class               : exploratory_compiled_residue
+COMET INFO:     canonical_validation_mode : not_applicable
+COMET INFO:     command_surface           : dm3_runner
+COMET INFO:     compute_lane              : cpu
+COMET INFO:     device_lane               : rm10_hybrid
+COMET INFO:     evidence_surface          : archaeology
+COMET INFO:     machine_class             : rm10_device
+COMET INFO:     observable_family         : g2_boundary_readout
+COMET INFO:     phase_surface             : 01.2.3
+COMET INFO:     receipt_surface           : jsonl_receipts
+COMET INFO:     reference_baseline        : bundled_g2_smoke_d3e721
+COMET INFO:     run_kind                  : archaeology
+COMET INFO:     workstream                : g2-invocation-surface-archaeology
+COMET INFO:   Uploads:
+COMET INFO:     environment details      : 1
+COMET INFO:     filename                 : 1
+COMET INFO:     git metadata             : 1
+COMET INFO:     git-patch (uncompressed) : 1 (141.24 KB)
+COMET INFO:     installed packages       : 1
+COMET INFO:     source_code              : 1 (7.39 KB)
+COMET INFO: 
+COMET INFO: Still saving offline stats to messages file before program termination (may take up to 120 seconds)
+COMET INFO: Begin archiving the offline data.
+COMET INFO: To upload this offline experiment, run:
+    comet upload /tmp/dm3_phase_01_2_3_plan01_20260404T194225Z/cometml-runs/81886795bff24e73bd1e948f272205fa.zip

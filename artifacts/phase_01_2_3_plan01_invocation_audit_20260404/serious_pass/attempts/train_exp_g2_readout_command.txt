@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/dm3 && /system/bin/timeout 30 ./dm3_runner --mode train --task exp_g2_readout -o phase0123_plan01_train_exp_g2_readout.jsonl'

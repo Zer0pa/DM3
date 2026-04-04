@@ -1,0 +1,27 @@
+#!/data/data/com.termux/files/usr/bin/sh
+exec >/data/local/tmp/dm3_termux_probe.out 2>&1
+set -x
+printf "PWD=%s\n" "$PWD"
+printf "HOME=%s\n" "$HOME"
+printf "PREFIX=%s\n" "$PREFIX"
+id
+uname -a
+command -v sh || true
+command -v bash || true
+command -v pkg || true
+command -v apt || true
+command -v clang || true
+command -v cargo || true
+command -v rustc || true
+command -v git || true
+command -v python || true
+command -v python3 || true
+pkg --version || true
+bash --version | head -n 1 || true
+python3 --version || true
+rustc --version || true
+cargo --version || true
+git --version || true
+termux-info || true
+ls -ld /data/data/com.termux/files/home || true
+ls -ld /data/data/com.termux/files/usr /data/data/com.termux/files/usr/bin || true

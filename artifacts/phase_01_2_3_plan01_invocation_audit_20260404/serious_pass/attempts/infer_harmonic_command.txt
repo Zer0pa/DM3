@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/dm3 && /system/bin/timeout 30 ./dm3_runner --mode inference --task harmonic -o phase0123_plan01_infer_harmonic.jsonl'

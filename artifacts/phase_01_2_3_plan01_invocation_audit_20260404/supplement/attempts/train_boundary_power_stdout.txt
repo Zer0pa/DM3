@@ -1,0 +1,3 @@
+Entering Training Mode...
+GPU MatMul Kernel Initialized.
+GPU Transformer Kernel Initialized.
