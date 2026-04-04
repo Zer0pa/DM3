@@ -2,7 +2,7 @@
   "project_reference": {
     "project_md_updated": null,
     "core_research_question": "What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?",
-    "current_focus": "Post-Phase 01.2.3 launcher-adjacency provenance classification or explicit redevelopment decision, while keeping Genesis canonical-target repair and source-build clarity active."
+    "current_focus": "Post-Phase 01.2.3.1 RM10-primary branch follow-through: preserve the new CPU control lane, find the smallest comparable GPU derivative or bounded NPU assist role, and keep heterogeneous execution below promotion until a common callable comparison path exists."
   },
   "project_contract": {
     "schema_version": 1,
@@ -594,14 +594,14 @@
     }
   },
   "position": {
-    "current_phase": "01.2.3",
-    "current_phase_name": "G2 Invocation-Surface Archaeology And Router Recovery",
-    "total_phases": 11,
+    "current_phase": "01.2.3.1",
+    "current_phase_name": "RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap",
+    "total_phases": 12,
     "current_plan": "4",
     "total_plans_in_phase": 4,
     "status": "Complete",
-    "last_activity": "2026-04-04",
-    "last_activity_desc": "Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family, doctrine-aligned closeout, and explicit later-lane readiness ceilings.",
+    "last_activity": "2026-04-05",
+    "last_activity_desc": "Closed Phase 01.2.3.1 with a complete RM10-primary branch bootstrap pack, a fresh receipted RM10 CPU control pass, and explicit GPU/NPU/heterogeneous abstain-class first-pass verdicts.",
     "progress_percent": 100,
     "paused_at": null
   },
@@ -623,7 +623,10 @@
     "Phase `01.2.2` fixed the one bounded hybrid target to the bundled RM10 runner plus `SriYantraAdj_v1.bin` and `RegionTags_v2.json`.",
     "The official bundled `exp_g2_readout` inference attempt collapsed exactly to the smoke canonical `d3e721...`.",
     "Phase `01.2.3` exhausted and retired the preserved bundled `G2` same-binary surface on the current callable binary as `phase_outcome=PASS` and `route_outcome=FAIL`.",
-    "Witness-floor governance is now frozen around the Mac / historical RM10 parity lane plus an explicit-hash interim rule for fresh RM10 lanes."
+    "Witness-floor governance is now frozen around the Mac / historical RM10 parity lane plus an explicit-hash interim rule for fresh RM10 lanes.",
+    "Phase `01.2.3.1` wrote the full RM10-primary internal pack, history indexes, device dossier, runbooks, battery matrices, and a merged 10-document branch briefing pack.",
+    "A fresh RM10 CPU control pass on `2026-04-05` completed under `/data/local/tmp/SoC_runtime/workspace` with `verify.json = f992e9c8...` and `solve_h2.json = a33c5cc4...`.",
+    "The first branch GPU, NPU, and heterogeneous results are all explicit `ABSTAIN` outcomes rather than inflated readiness claims."
   ],
   "open_questions": [
     "Does the historical bundled `G2` residue belong to a neighboring launcher generation, or would recovering it now require explicit redevelopment?",
@@ -747,6 +750,16 @@
       "phase": "01.2.3",
       "summary": "Created hypothesis branch: Engineer the Red Magic 10 Pro into the primary DM3 research instrument and treat heterogeneous CPU/GPU/NPU execution as an early first-class learning path",
       "rationale": "Investigating an RM10-primary, heterogeneity-early alternative programme on branch hypothesis/rm10-primary-platform-heterogeneous-learning"
+    },
+    {
+      "phase": "01.2.3.1",
+      "summary": "Inserted Phase 01.2.3.1 after Phase 01.2.3: RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap (URGENT)",
+      "rationale": "Urgent branch work is needed to test the RM10-primary and heterogeneity-early hypothesis before rejoining the mainline sequence"
+    },
+    {
+      "phase": "01.2.3.1",
+      "summary": "Closed Phase 01.2.3.1 with a complete RM10-primary branch bootstrap and first-pass device verdicts",
+      "rationale": "The branch now has its full internal pack, history indexes, RM10 runbooks, a receipted CPU control pass, and explicit GPU/NPU/heterogeneous abstain outcomes plus a merged 10-document science-and-engineering pack."
     }
   ],
   "approximations": [],
@@ -773,22 +786,23 @@
   },
   "propagated_uncertainties": [],
   "pending_todos": [
-    "Classify whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.",
-    "Reconcile the Genesis default `verify.json` canonical target against the live Mac and RM10 evidence.",
-    "Decide whether the current RM10 replay lane can become source-built or must remain explicitly prebuilt-only for now."
+    "Find the smallest GPU derivative that preserves the same control observable as the fresh RM10 CPU pass.",
+    "Determine whether a bounded NPU or DSP assist role can become receiptable on that same control family.",
+    "Reconcile the Genesis default `verify.json` canonical target against the live Mac and RM10 evidence."
   ],
   "blockers": [
     "The manifesto numbering `T01\u2013T236` is not yet a source-backed executable registry.",
     "The newer hybrid DM3 source remains missing.",
     "The blocker is no longer same-binary route hunting; it is whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.",
     "The current phone `genesis_cli` default validator rejects fresh RM10 bundles and the historical Mac-parity bundle on `verify.json`.",
-    "The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub."
+    "The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub.",
+    "The branch still lacks a common callable GPU or NPU comparison path, so heterogeneous execution remains below promotion."
   ],
   "session": {
     "last_date": "2026-04-04T22:45:30+02:00",
-    "stopped_at": "Phase 01.2.3 completed with exact same-binary retirement; next step is launcher-adjacency provenance classification or an explicit redevelopment decision.",
-    "resume_file": "docs/restart/LONG_HORIZON_NEXT_PHASE_RECOMMENDATION.md"
+    "stopped_at": "Phase 01.2.3.1 completed with a fresh RM10 CPU control pass and GPU/NPU/heterogeneous abstain outcomes; next step is the smallest comparable GPU derivative or bounded NPU assist probe on the same control family.",
+    "resume_file": "briefing-pack-dm3-rm10-primary-platform-10doc-20260405/080_NEXT__ENGINEERING_PRIORITY_AND_BRANCH_ROUTE.md"
   },
   "_version": 1,
-  "_synced_at": "2026-04-04T22:58:52.846207+00:00"
+  "_synced_at": "2026-04-04T23:00:44.843405+00:00"
 }

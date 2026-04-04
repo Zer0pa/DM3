@@ -17,6 +17,11 @@ Use this register to decide:
 
 Create a hypothesis branch only when the alternative changes the scientific or architectural interpretation of DM3.
 
+Branch creation also requires two governance predicates:
+
+1. the branch question must be expressible without leaning on unmapped manifesto labels as if they were proven
+2. the branch must have a decisive receipt surface or a clearly stated gap showing what evidence is still missing
+
 Do not create separate branches for:
 
 - seeds
@@ -24,6 +29,8 @@ Do not create separate branches for:
 - window sizes
 - run duration
 - hardware lane by itself
+- CPU versus GPU choice by itself
+- NPU feasibility checks by themselves
 
 Those are run classes under a hypothesis unless they imply a different explanation.
 
@@ -39,6 +46,16 @@ Those are run classes under a hypothesis unless they imply a different explanati
 | H-06 | Nodewise Transformer Hybrid | Transformer logic at many or all nodes is required for useful behavior | nodewise attention pattern, sparsity, weight sharing, topology placement | measurable gains under the same authority battery | geometry no longer explains behavior and nodewise model becomes the real engine | retreat to boundary or center hybrid only |
 | H-07 | Training Regime Pivot | Useful DM3 behavior requires something beyond pure relaxation-first feeding | relaxation-only vs hybrid optimization, scar editing, curriculum strictness | improved acceptance without losing deterministic authority tests | only standard optimization works and relaxation-first adds no value | separate training method from geometry claim |
 | H-08 | Device-Lane Hypothesis | The RM10 Pro device lane is a first-class execution environment, not just deployment | CPU, GPU, NPU role partition; deterministic reduction order; staging windows | reproducible device receipts, replay parity, thermal-safe long runs | phone lane is unstable, inaccessible, or materially divergent | keep Mac as authority lane and treat phone as optional deployment target |
+
+## Claim-Surface Constraint
+
+The register lives below the current mapped claim ceiling.
+That means:
+
+- mapped and partially mapped claim families may guide tests
+- collapsed claim families may guide grouped tests
+- unmapped labels may be named only as gaps or failure targets
+- no branch may claim success by inheriting unmapped `Txx` language
 
 ## Battery Classes
 
@@ -63,12 +80,14 @@ Examples:
 - receipt emission and checkpoint / resume identity
 - boundary reconstruction and coherence spot checks
 - small proof/object tether checks
+- copied-reference validation on the phone before native replay
 
 Typical outputs:
 
 - metrics trace
 - receipt bundle
 - pass / fail / abstain verdict
+- explicit blocker note when the lane exists but the governed command path does not
 
 ### Medium batteries
 
@@ -90,6 +109,7 @@ Examples:
 - small code / proof / equation corpus slice
 - GPU lane deterministic reduction checks
 - NPU projection feasibility checks if accessible
+- Mac-to-RM10 receipt comparison on the smallest honest command path
 
 Typical outputs:
 
@@ -118,6 +138,7 @@ Examples:
 - cross-platform Mac vs RM10 replay
 - long-running CPU/GPU lane parity
 - phone thermal / resume / checkpoint safety
+- governed GPU parity runs once CPU replay is no longer in doubt
 
 Typical outputs:
 
@@ -134,6 +155,9 @@ Typical outputs:
 | RM10 CPU | likely easiest phone baseline | bring-up, deterministic replay, micro-batteries | not enough alone to prove SoC-native advantage |
 | RM10 GPU | likely main acceleration lane if deterministic reduction is achievable | replay parity, longer batteries, thermal behavior | not guaranteed to match CPU without careful reduction rules |
 | RM10 NPU | optional projection or priming lane if toolchain permits | mapping/projection, lightweight assist roles | not assume direct support until proven in tooling |
+
+The execution-lane table is a testing hierarchy, not a branching hierarchy.
+Moving from CPU to GPU or from GPU to NPU feasibility does not itself create a new scientific branch.
 
 ## Input / Output / Pivot Matrix
 
@@ -155,6 +179,19 @@ The likely order is:
 3. H-04 versus H-05 only if hybrid continuation becomes justified
 4. H-06 only if there is a real reason to test transformer-per-node as a distinct scientific story
 5. H-08 when device-lane evidence becomes strong enough to compare as an architectural thesis rather than just an execution lane
+
+## Empty-Branch Rejection
+
+Do not create a branch simply because:
+
+- a battery failed once
+- the phone ran hot
+- a GPU path looks faster
+- a DSP or NPU node is visible in the system image
+- a longer run produces more interesting plots
+
+Those facts may motivate new batteries, tighter runbooks, or a narrower claim.
+They do not justify multiplying scientific stories on their own.
 
 ## PRD Precursor Fields
 

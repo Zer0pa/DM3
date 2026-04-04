@@ -1,0 +1,6 @@
+NX789J
+sun
+Linux localhost 6.6.56-android15-8-g38447e018c92-ab12829524-4k #1 SMP PREEMPT Thu Dec 19 17:58:46 UTC 2024 aarch64 Toybox
+adreno
+adreno
+package:com.termux

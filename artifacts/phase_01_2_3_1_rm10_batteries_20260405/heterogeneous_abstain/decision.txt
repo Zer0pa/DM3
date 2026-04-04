@@ -1,0 +1,4 @@
+verdict=ABSTAIN
+reason=No common user-space GPU or NPU compute path was established on the first branch pass, so a heterogeneous comparison would have changed the execution story instead of preserving the CPU control observable.
+control_surface=cpu_control
+blocking_surfaces=gpu_feasibility,npu_feasibility

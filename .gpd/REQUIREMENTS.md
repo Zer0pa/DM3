@@ -7,26 +7,26 @@
 
 ### Mapping
 
-- [ ] **MAPP-01**: Create a source-backed registry for the manifesto’s numbered `T01–T236` references, marking each as mapped, collapsed, unmapped, or retired.
-- [ ] **MAPP-02**: Record the exact repo path, protocol, ledger, or executable artifact for every mapped claim.
-- [ ] **MAPP-03**: Prevent downstream planning from citing unmapped manifesto tests as established evidence.
+- [x] **MAPP-01**: Create a source-backed registry for the manifesto’s numbered `T01–T236` references, marking each as mapped, collapsed, unmapped, or retired.
+- [x] **MAPP-02**: Record the exact repo path, protocol, ledger, or executable artifact for every mapped claim.
+- [x] **MAPP-03**: Prevent downstream planning from citing unmapped manifesto tests as established evidence.
 
 ### Baseline Recovery
 
-- [ ] **BASL-01**: Rebuild the recoverable October SNIC substrate from source on the Mac host.
-- [ ] **BASL-02**: Replay the strongest recovered deterministic battery and preserve receipts, hashes, and logs.
-- [ ] **BASL-03**: Identify which baseline properties are source-backed versus only narrated in the manifesto.
+- [x] **BASL-01**: Rebuild the recoverable October SNIC substrate from source on the Mac host.
+- [x] **BASL-02**: Replay the strongest recovered deterministic battery and preserve receipts, hashes, and logs.
+- [x] **BASL-03**: Identify which baseline properties are source-backed versus only narrated in the manifesto.
 
 ### Specification
 
 - [ ] **SPEC-01**: Write a minimal manifold execution contract separating geometry, dynamics, learned modules, and acceptance.
-- [ ] **SPEC-02**: Define the authority metric that outranks demos, aesthetics, and internal proxy signals.
-- [ ] **SPEC-03**: Define the minimal restart battery that a new machine or device must pass.
-- [ ] **SPEC-04**: Define the hypothesis/pivot register and state which alternatives require real hypothesis branches versus run matrices or parameter sweeps.
+- [x] **SPEC-02**: Define the authority metric that outranks demos, aesthetics, and internal proxy signals.
+- [x] **SPEC-03**: Define the minimal restart battery that a new machine or device must pass.
+- [x] **SPEC-04**: Define the hypothesis/pivot register and state which alternatives require real hypothesis branches versus run matrices or parameter sweeps.
 
 ### Device Execution
 
-- [ ] **DEVC-01**: Establish a reproducible RM10 Pro execution path via Termux / ADB for the source-backed battery.
+- [x] **DEVC-01**: Establish a reproducible RM10 Pro execution path via Termux / ADB for the source-backed battery.
 - [ ] **DEVC-02**: Capture device-side receipts, logs, and Comet metadata for every serious replay.
 - [ ] **DEVC-03**: Classify and test the RM10 Pro compute lanes used by the restart battery, including CPU, GPU, and NPU-assisted roles when accessible.
 
@@ -35,6 +35,19 @@
 - [ ] **VALD-01**: Reproduce the source-backed deterministic battery on Mac host with no unexplained drift.
 - [ ] **VALD-02**: Reproduce or explicitly fail the same battery on RM10 Pro with receipts.
 - [ ] **VALD-03**: Falsify manifesto claims that cannot be mapped to source-backed evidence or cannot survive replay.
+
+## Current Status Snapshot
+
+| Requirement | Status now | Evidence |
+| ----------- | ---------- | -------- |
+| `MAPP-01` to `MAPP-03` | complete | `docs/recovery/TEST_REFERENCE_STATUS.md`, `docs/restart/PHASE_01_CONTRACT_FREEZE.md` |
+| `BASL-01` to `BASL-03` | complete on the Mac lane | `artifacts/mac_replay/ledger.md` |
+| `SPEC-02` to `SPEC-04` | complete | `docs/restart/RESTART_PRD.md`, `docs/restart/BATTERY_SCHEDULE.md`, `docs/restart/HYPOTHESIS_BRANCH_REGISTER.md` |
+| `DEVC-01` | complete for ADB-shell replay | `artifacts/rm10_replay/ledger.md` |
+| `DEVC-02` | partial | device receipts and logs exist; Comet metadata still needs a canonical path |
+| `DEVC-03` | partial | CPU lane executed; GPU and NPU remain scoped but not accepted |
+| `VALD-01` | partial | Mac replay is stable, but Genesis `verify.json` canonical governance is stale |
+| `VALD-02` | partial | fresh RM10 bundles exist, but default validation still fails |
 
 ## Follow-up Requirements
 
@@ -77,21 +90,21 @@
 
 | Requirement | Phase | Status |
 | ----------- | ----- | ------ |
-| MAPP-01 | Phase 1: Claim Map and Contract Reset | Pending |
-| MAPP-02 | Phase 1: Claim Map and Contract Reset | Pending |
-| MAPP-03 | Phase 1: Claim Map and Contract Reset | Pending |
-| BASL-01 | Phase 2: Source-Backed Baseline Recovery | Pending |
-| BASL-02 | Phase 2: Source-Backed Baseline Recovery | Pending |
-| BASL-03 | Phase 2: Source-Backed Baseline Recovery | Pending |
-| SPEC-01 | Phase 3: Execution and Acceptance Specification | Pending |
-| SPEC-02 | Phase 3: Execution and Acceptance Specification | Pending |
-| SPEC-03 | Phase 3: Execution and Acceptance Specification | Pending |
-| SPEC-04 | Phase 3: Execution and Acceptance Specification | Pending |
-| DEVC-01 | Phase 4: RM10 Pro Execution Lane | Pending |
-| DEVC-02 | Phase 4: RM10 Pro Execution Lane | Pending |
-| DEVC-03 | Phase 4: RM10 Pro Execution Lane | Pending |
-| VALD-01 | Phase 5: Cross-Platform Falsification Battery | Pending |
-| VALD-02 | Phase 5: Cross-Platform Falsification Battery | Pending |
+| MAPP-01 | Phase 1: Claim Map and Contract Reset | Complete |
+| MAPP-02 | Phase 1: Claim Map and Contract Reset | Complete |
+| MAPP-03 | Phase 1: Claim Map and Contract Reset | Complete |
+| BASL-01 | Phase 2: Source-Backed Baseline Recovery | Complete |
+| BASL-02 | Phase 2: Source-Backed Baseline Recovery | Complete |
+| BASL-03 | Phase 2: Source-Backed Baseline Recovery | Complete |
+| SPEC-01 | Phase 3: Execution and Acceptance Specification | Partial |
+| SPEC-02 | Phase 3: Execution and Acceptance Specification | Complete |
+| SPEC-03 | Phase 3: Execution and Acceptance Specification | Complete |
+| SPEC-04 | Phase 3: Execution and Acceptance Specification | Complete |
+| DEVC-01 | Phase 4: RM10 Pro Execution Lane | Complete |
+| DEVC-02 | Phase 4: RM10 Pro Execution Lane | Partial |
+| DEVC-03 | Phase 4: RM10 Pro Execution Lane | Partial |
+| VALD-01 | Phase 5: Cross-Platform Falsification Battery | Partial |
+| VALD-02 | Phase 5: Cross-Platform Falsification Battery | Partial |
 | VALD-03 | Phase 6: Surviving Claims and Rebuild Decision | Pending |
 
 **Coverage:**
@@ -103,4 +116,4 @@
 ---
 
 _Requirements defined: 2026-04-03_
-_Last updated: 2026-04-03 after restart intake from the manifesto and recovered protocols._
+_Last updated: 2026-04-03 after Phase 01 completion and fresh Mac/RM10 execution receipts._

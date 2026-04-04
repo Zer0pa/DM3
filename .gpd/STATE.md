@@ -5,18 +5,18 @@
 See: .gpd/PROJECT.md
 
 **Core research question:** What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?
-**Current focus:** Post-Phase 01.2.3 launcher-adjacency provenance classification or explicit redevelopment decision, while keeping Genesis canonical-target repair and source-build clarity active.
+**Current focus:** Post-Phase 01.2.3.1 RM10-primary branch follow-through: preserve the new CPU control lane, find the smallest comparable GPU derivative or bounded NPU assist role, and keep heterogeneous execution below promotion until a common callable comparison path exists.
 
 ## Current Position
 
-**Current Phase:** 01.2.3
-**Current Phase Name:** G2 Invocation-Surface Archaeology And Router Recovery
-**Total Phases:** 11
+**Current Phase:** 01.2.3.1
+**Current Phase Name:** RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap
+**Total Phases:** 12
 **Current Plan:** 4
 **Total Plans in Phase:** 4
 **Status:** Complete
-**Last Activity:** 2026-04-04
-**Last Activity Description:** Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family, doctrine-aligned closeout, and explicit later-lane readiness ceilings.
+**Last Activity:** 2026-04-05
+**Last Activity Description:** Closed Phase 01.2.3.1 with a complete RM10-primary branch bootstrap pack, a fresh receipted RM10 CPU control pass, and explicit GPU/NPU/heterogeneous abstain-class first-pass verdicts.
 
 **Progress:** [██████████] 100%
 
@@ -53,6 +53,9 @@ parent branch via `$gpd-compare-branches`.
 - The official bundled `exp_g2_readout` inference attempt collapsed exactly to the smoke canonical `d3e721...`.
 - Phase `01.2.3` exhausted and retired the preserved bundled `G2` same-binary surface on the current callable binary as `phase_outcome=PASS` and `route_outcome=FAIL`.
 - Witness-floor governance is now frozen around the Mac / historical RM10 parity lane plus an explicit-hash interim rule for fresh RM10 lanes.
+- Phase `01.2.3.1` wrote the full RM10-primary internal pack, history indexes, device dossier, runbooks, battery matrices, and a merged 10-document branch briefing pack.
+- A fresh RM10 CPU control pass on `2026-04-05` completed under `/data/local/tmp/SoC_runtime/workspace` with `verify.json = f992e9c8...` and `solve_h2.json = a33c5cc4...`.
+- The first branch GPU, NPU, and heterogeneous results are all explicit `ABSTAIN` outcomes rather than inflated readiness claims.
 
 ## Open Questions
 
@@ -91,6 +94,8 @@ parent branch via `$gpd-compare-branches`.
 - [Phase 01.2.3]: Inserted Phase 01.2.3 after Phase 01.2.2: G2 Invocation-Surface Archaeology And Router Recovery — The next honest move is a bounded router / wrapper / mode-surface archaeology phase on the bundled runner, not GPU escalation or rebuild theatre.
 - [Phase 01.2.3]: Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family — The phase exhausted the surviving same-binary route surface, froze the result as `phase_outcome=PASS` and `route_outcome=FAIL`, and moved the blocker from route hunting to launcher-adjacency provenance or explicit redevelopment.
 - [Phase 01.2.3]: Created hypothesis branch: Engineer the Red Magic 10 Pro into the primary DM3 research instrument and treat heterogeneous CPU/GPU/NPU execution as an early first-class learning path — Investigating an RM10-primary, heterogeneity-early alternative programme on branch hypothesis/rm10-primary-platform-heterogeneous-learning
+- [Phase 01.2.3.1]: Inserted Phase 01.2.3.1 after Phase 01.2.3: RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap (URGENT) — Urgent branch work is needed to test the RM10-primary and heterogeneity-early hypothesis before rejoining the mainline sequence
+- [Phase 01.2.3.1]: Closed Phase 01.2.3.1 with a complete RM10-primary branch bootstrap and first-pass device verdicts — The branch now has its full internal pack, history indexes, RM10 runbooks, a receipted CPU control pass, and explicit GPU/NPU/heterogeneous abstain outcomes plus a merged 10-document science-and-engineering pack.
 
 ### Active Approximations
 
@@ -123,9 +128,9 @@ None yet.
 
 ### Pending Todos
 
-- Classify whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.
+- Find the smallest GPU derivative that preserves the same control observable as the fresh RM10 CPU pass.
+- Determine whether a bounded NPU or DSP assist role can become receiptable on that same control family.
 - Reconcile the Genesis default `verify.json` canonical target against the live Mac and RM10 evidence.
-- Decide whether the current RM10 replay lane can become source-built or must remain explicitly prebuilt-only for now.
 
 ### Blockers/Concerns
 
@@ -134,9 +139,10 @@ None yet.
 - The blocker is no longer same-binary route hunting; it is whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.
 - The current phone `genesis_cli` default validator rejects fresh RM10 bundles and the historical Mac-parity bundle on `verify.json`.
 - The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub.
+- The branch still lacks a common callable GPU or NPU comparison path, so heterogeneous execution remains below promotion.
 
 ## Session Continuity
 
 **Last session:** 2026-04-04T22:45:30+02:00
-**Stopped at:** Phase 01.2.3 completed with exact same-binary retirement; next step is launcher-adjacency provenance classification or an explicit redevelopment decision.
-**Resume file:** docs/restart/LONG_HORIZON_NEXT_PHASE_RECOMMENDATION.md
+**Stopped at:** Phase 01.2.3.1 completed with a fresh RM10 CPU control pass and GPU/NPU/heterogeneous abstain outcomes; next step is the smallest comparable GPU derivative or bounded NPU assist probe on the same control family.
+**Resume file:** briefing-pack-dm3-rm10-primary-platform-10doc-20260405/080_NEXT__ENGINEERING_PRIORITY_AND_BRANCH_ROUTE.md

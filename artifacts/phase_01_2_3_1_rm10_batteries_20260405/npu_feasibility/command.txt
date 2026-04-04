@@ -1,0 +1,1 @@
+adb shell 'ls /dev | grep -E "fastrpc|cdsp|adsp|nsp"; ls /vendor/lib64 | grep -E "dsp|adsprpc|cdsprpc"; ls /vendor/bin | grep -E "dsp|rpc"'

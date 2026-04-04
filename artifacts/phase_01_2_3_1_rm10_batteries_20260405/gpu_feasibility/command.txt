@@ -1,0 +1,1 @@
+adb shell 'getprop ro.hardware.egl; getprop ro.hardware.vulkan; ls -l /dev/kgsl-3d0; dumpsys SurfaceFlinger | head -40'

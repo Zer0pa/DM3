@@ -1,0 +1,43 @@
+adreno
+adreno
+crw-rw-rw- 1 system system 469,   0 1970-12-17 03:06 /dev/kgsl-3d0
+Build configuration: [sf PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=1 MAX_VIRT_DISPLAY_DIM=4096 RUNNING_WITHOUT_SYNC_FRAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=4]
+
+Display identification data:
+Display 4630947220136060819 (HWC display 0): port=147 pnpId=QCM displayName=""
+
+Wide-Color information:
+Device supports wide color: 1
+DisplayColorSetting: Unknown 257
+Display 4630947220136060819 color modes:
+    ColorMode::NATIVE (0)
+    ColorMode::SRGB (7)
+    ColorMode::DISPLAY_P3 (9)
+    Current color mode: ColorMode::SRGB (7)
+
+HDR events for display 4630947220136060819
+7211214215: numHdrLayers(0), size(0x0), flags(0), desiredRatio(0.00)
+131273891846745: numHdrLayers(1), size(556x988), flags(0), desiredRatio(inf)
+131278392369660: numHdrLayers(1), size(555x989), flags(0), desiredRatio(inf)
+131278825823983: numHdrLayers(1), size(556x988), flags(0), desiredRatio(inf)
+131283530945804: numHdrLayers(1), size(555x989), flags(0), desiredRatio(inf)
+131283945428720: numHdrLayers(1), size(556x988), flags(0), desiredRatio(inf)
+131285152313459: numHdrLayers(0), size(0x0), flags(0), desiredRatio(0.00)
+332623839376446: numHdrLayers(1), size(556x988), flags(0), desiredRatio(inf)
+332625559677904: numHdrLayers(1), size(556x982), flags(0), desiredRatio(inf)
+332625576251498: numHdrLayers(1), size(556x931), flags(0), desiredRatio(inf)
+332625592951498: numHdrLayers(1), size(556x882), flags(0), desiredRatio(inf)
+332625612811133: numHdrLayers(0), size(0x0), flags(0), desiredRatio(0.00)
+396835315004035: numHdrLayers(1), size(556x988), flags(0), desiredRatio(inf)
+396837528342940: numHdrLayers(0), size(0x0), flags(0), desiredRatio(0.00)
+396868359951991: numHdrLayers(1), size(556x988), flags(0), desiredRatio(inf)
+396868470747356: numHdrLayers(1), size(556x962), flags(0), desiredRatio(inf)
+396868487473450: numHdrLayers(1), size(556x847), flags(0), desiredRatio(inf)
+396868506092147: numHdrLayers(0), size(0x0), flags(0), desiredRatio(0.00)
+
+Sync configuration: [using: EGL_ANDROID_native_fence_sync EGL_KHR_wait_sync]
+
+Scheduler:
+Features
+    PresentFences=true
+    KernelIdleTimer=false
