@@ -20,6 +20,17 @@ See: .gpd/PROJECT.md
 
 **Progress:** [██████████] 100%
 
+## Active Hypothesis
+
+**Branch:** hypothesis/rm10-primary-platform-heterogeneous-learning
+**Description:** Engineer the Red Magic 10 Pro into the primary DM3 research instrument and treat heterogeneous CPU/GPU/NPU execution as an early first-class learning path.
+**Parent:** main
+
+This is a hypothesis branch investigating whether RM10-primary engineering and
+early heterogeneous execution produce a stronger learning surface than the
+main-line launcher-adjacency-first continuation. Compare results with the
+parent branch via `$gpd-compare-branches`.
+
 ## Active Calculations
 
 - No active long-running computation at the moment.
@@ -79,6 +90,7 @@ See: .gpd/PROJECT.md
 - [Phase 01.2.2]: Closed Phase 01.2.2 with a bounded bundled `G2` attempt and witness-floor repair — The phase selected the strongest surviving bundled target, froze the Genesis witness-floor split, proved that the official explicit `exp_g2_readout` attempt still collapses exactly to smoke, and narrowed the blocker to invocation-surface recovery rather than generic pairing doubt.
 - [Phase 01.2.3]: Inserted Phase 01.2.3 after Phase 01.2.2: G2 Invocation-Surface Archaeology And Router Recovery — The next honest move is a bounded router / wrapper / mode-surface archaeology phase on the bundled runner, not GPU escalation or rebuild theatre.
 - [Phase 01.2.3]: Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family — The phase exhausted the surviving same-binary route surface, froze the result as `phase_outcome=PASS` and `route_outcome=FAIL`, and moved the blocker from route hunting to launcher-adjacency provenance or explicit redevelopment.
+- [Phase 01.2.3]: Created hypothesis branch: Engineer the Red Magic 10 Pro into the primary DM3 research instrument and treat heterogeneous CPU/GPU/NPU execution as an early first-class learning path — Investigating an RM10-primary, heterogeneity-early alternative programme on branch hypothesis/rm10-primary-platform-heterogeneous-learning
 
 ### Active Approximations
 

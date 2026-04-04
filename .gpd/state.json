@@ -742,6 +742,11 @@
       "phase": "01.2.3",
       "summary": "Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family",
       "rationale": "The phase exhausted the surviving same-binary route surface, froze the result as `phase_outcome=PASS` and `route_outcome=FAIL`, and moved the blocker from route hunting to launcher-adjacency provenance or explicit redevelopment."
+    },
+    {
+      "phase": "01.2.3",
+      "summary": "Created hypothesis branch: Engineer the Red Magic 10 Pro into the primary DM3 research instrument and treat heterogeneous CPU/GPU/NPU execution as an early first-class learning path",
+      "rationale": "Investigating an RM10-primary, heterogeneity-early alternative programme on branch hypothesis/rm10-primary-platform-heterogeneous-learning"
     }
   ],
   "approximations": [],
@@ -785,5 +790,5 @@
     "resume_file": "docs/restart/LONG_HORIZON_NEXT_PHASE_RECOMMENDATION.md"
   },
   "_version": 1,
-  "_synced_at": "2026-04-04T20:44:42.390204+00:00"
+  "_synced_at": "2026-04-04T22:58:52.846207+00:00"
 }
