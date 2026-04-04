@@ -1,31 +1,33 @@
 {
   "project_reference": {
     "project_md_updated": null,
-    "core_research_question": "Can any source-backed DM3 geometry-first substrate be reconstructed and falsified from recoverable evidence only, then reproduced across Mac host and RM10 Pro execution lanes without relying on unrecovered hybrid source?",
-    "current_focus": "Phase 1 claim mapping, contract reset, and numbered-test skepticism"
+    "core_research_question": "What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?",
+    "current_focus": "Post-Phase 01.2.3 launcher-adjacency provenance classification or explicit redevelopment decision, while keeping Genesis canonical-target repair and source-build clarity active."
   },
   "project_contract": {
     "schema_version": 1,
     "scope": {
-      "question": "Can a source-backed DM3 geometry-first substrate be reconstructed and falsified from recoverable evidence only, then reproduced across Mac host and RM10 Pro execution lanes without relying on unrecovered hybrid source?",
+      "question": "What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?",
       "in_scope": [
         "Map the manifesto's numbered T01-T236 references to executable evidence or explicit gaps",
-        "Replay the recoverable October and Genesis deterministic substrate from source",
-        "Define the authority metric and minimal restart battery before any hybrid rebuild",
+        "Reconstruct the 3D Double Meru as a computational object from surviving artifacts, source, binaries, strings, and preserved receipts",
+        "Classify late hybrid generations by how faithfully they express or obscure the Double Meru",
+        "Replay the recoverable October and Genesis deterministic substrate as witness and anti-delusion baseline",
         "Establish a RM10 Pro device replay lane with receipts and Comet metadata",
-        "Falsify or retain manifesto claims based on source-backed replay evidence"
+        "Falsify or retain manifesto and hybrid claims based on source-backed replay evidence"
       ],
       "out_of_scope": [
         "Declaring the newer hybrid DM3 layer recovered",
         "Treating manifesto prose as executable proof",
         "Using visual geometry demos or aesthetic coherence as success",
-        "Rebuilding GPU, HRM, scar-engine, or micro-transformer layers before baseline replay and authority-gate definition"
+        "Letting the deterministic witness layer displace the Double Meru as the scientific object",
+        "Rebuilding GPU, HRM, scar-engine, or micro-transformer layers before witness replay and authority-gate definition"
       ],
       "unresolved_questions": [
-        "Which manifesto Txx labels map one-to-one to recovered executable protocols or ledgers?",
-        "Which claims belong only to the unrecovered hybrid layer?",
-        "What is the minimal authority metric beyond deterministic replay?",
-        "What is the narrowest source-backed battery the RM10 Pro must reproduce?"
+        "What is the strongest surviving description of the 3D Double Meru as a computational object rather than an aesthetic geometry?",
+        "Which late hybrid structures appear faithful to that object, and which appear ornamental or parasitic?",
+        "Which Genesis verify.json canonical is authoritative across the Mac lane, the historical RM10 parity lane, and the newer phone-local lanes?",
+        "Can the current RM10 ADB-shell replay surface be promoted from a prebuilt-stub lane to a true source-build parity lane?"
       ]
     },
     "context_intake": {
@@ -45,51 +47,68 @@
         "Start from scratch in a new space",
         "Re-run the numbered tests and falsify them",
         "Use the RM10 Pro as a real device lane",
-        "Do not inherit narrative wins from unrecovered source"
+        "Do not inherit narrative wins from unrecovered source",
+        "Treat the 3D Double Meru as the primary scientific object",
+        "Treat the deterministic baseline as witness rather than protagonist"
       ],
       "known_good_baselines": [
         "../recovery/zer0pamk1-DM-3-Oct/snic passes cargo check and cargo test on the Mac host",
-        "../recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/TESTING_PROTOCOL.md defines the strongest recovered deterministic replay protocol"
+        "../recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025/TESTING_PROTOCOL.md defines the strongest recovered deterministic replay protocol",
+        "artifacts/mac_replay/ledger.md records fresh Mac Genesis and October receipts",
+        "artifacts/rm10_replay/historical_t1_t7_20251028/* records an older RM10 Genesis parity surface matching the fresh Mac hashes"
       ],
       "context_gaps": [
         "The manifesto T01-T236 numbering is not yet mapped one-to-one to source-backed executable artifacts",
         "The newer hybrid DM3 layer remains source-missing",
-        "RM10 Pro deterministic replay is not yet executed in the restart project"
+        "A bounded non-stub late-hybrid observable has not yet been recovered",
+        "The current phone genesis_cli validator rejects both fresh device bundles under its default canonical target",
+        "The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub"
       ],
       "crucial_inputs": [
         "RM10 Pro is a replay lane, not proof by itself",
         "The restart repo is the canonical re-engineering space",
-        "Receipts and ledgers outrank demos and descriptions"
+        "Receipts and ledgers outrank demos and descriptions",
+        "Hybrid residue is evidence about the Double Meru, not the object of recovery by itself"
       ]
     },
     "approach_policy": {
       "formulations": [
         "falsification-first restart from recoverable evidence",
+        "Double-Meru-first scientific reconstruction",
+        "hybrid residue as evidence about the geometry rather than authority by itself",
         "deterministic cross-platform replay with explicit receipts",
-        "source-backed geometry and settling baseline before any hybrid rebuild"
+        "source-backed witness baseline before any hybrid rebuild"
       ],
       "allowed_estimator_families": [
+        "artifact-backed geometry reconstruction",
         "source-backed replay batteries",
         "hash and receipt comparison",
-        "explicit claim mapping against repo protocols and ledgers"
+        "explicit claim mapping against repo protocols and ledgers",
+        "binary-to-asset pairing with preserved residue and explicit blocker logging"
       ],
       "forbidden_estimator_families": [
         "prose-only evidence",
         "demo-driven validation",
+        "executability convenience as scientific proof",
         "unrecovered hybrid intuition presented as implementation truth"
       ],
       "allowed_fit_families": [
         "claim mapping",
+        "geometry dossier and computational-role analysis",
+        "hybrid generation split and fidelity analysis",
         "baseline replay",
         "device-lane replay",
-        "authority-metric specification"
+        "authority-metric specification",
+        "bounded substantive recovery attempts with explicit blocker proof"
       ],
       "forbidden_fit_families": [
         "full hybrid rebuild before baseline replay",
-        "graphical concept polish as a substitute for falsification"
+        "graphical concept polish as a substitute for falsification",
+        "letting the witness baseline substitute for reconstructing the Double Meru"
       ],
       "stop_and_rethink_conditions": [
         "Most manifesto Txx claims cannot be mapped to source-backed executable artifacts",
+        "The Double Meru cannot be described as a computational object from surviving evidence without collapsing into aesthetic rhetoric",
         "The recoverable baseline cannot replay deterministically on the Mac host",
         "RM10 Pro replay yields unexplained divergence on the source-backed battery",
         "The authority metric collapses into demos, aesthetics, or internal proxy scores"
@@ -127,9 +146,69 @@
         "definition": "Requirement that the same source-backed input and seed produce the same fixed point or an explicitly equivalent receipt",
         "regime": null,
         "units": null
+      },
+      {
+        "id": "obs_geometry_role_classification",
+        "name": "Double Meru geometry role classification",
+        "kind": "classification",
+        "definition": "Evidence-backed classification of the Double Meru as substrate, routing structure, memory structure, relaxation field, boundary readout body, or combination",
+        "regime": null,
+        "units": null
+      },
+      {
+        "id": "obs_hybrid_fidelity_classification",
+        "name": "Hybrid fidelity classification",
+        "kind": "classification",
+        "definition": "Evidence-backed classification of surviving hybrid generations as faithful to, layered on top of, or parasitic upon the Double Meru geometry",
+        "regime": null,
+        "units": null
+      },
+      {
+        "id": "obs_runtime_truth_split",
+        "name": "Runtime truth split",
+        "kind": "classification",
+        "definition": "Separation of authority-bearing, substantive, smoke-only, inspectable-only, and blocked runtime surfaces",
+        "regime": null,
+        "units": null
       }
     ],
     "claims": [
+      {
+        "id": "claim_double_meru_geometry",
+        "statement": "The surviving evidence is sufficient to classify the Double Meru as a computational geometry without collapsing it into either pure aesthetic residue or unrecovered mythology.",
+        "observables": [
+          "obs_geometry_role_classification"
+        ],
+        "deliverables": [
+          "deliv_double_meru_geometry"
+        ],
+        "acceptance_tests": [
+          "test_double_meru_geometry"
+        ],
+        "references": [
+          "ref_manifesto",
+          "ref_october_workspace"
+        ]
+      },
+      {
+        "id": "claim_hybrid_fidelity",
+        "statement": "The surviving hybrid generations can be split and classified by fidelity to the reconstructed Double Meru geometry.",
+        "observables": [
+          "obs_hybrid_fidelity_classification",
+          "obs_runtime_truth_split"
+        ],
+        "deliverables": [
+          "deliv_hybrid_fidelity"
+        ],
+        "acceptance_tests": [
+          "test_hybrid_fidelity"
+        ],
+        "references": [
+          "ref_manifesto",
+          "ref_october_workspace",
+          "ref_testing_protocol"
+        ]
+      },
       {
         "id": "claim_manifesto_mapping",
         "statement": "Every manifesto test reference used downstream is either mapped to source-backed evidence or explicitly marked unmapped.",
@@ -188,6 +267,28 @@
     ],
     "deliverables": [
       {
+        "id": "deliv_double_meru_geometry",
+        "kind": "report",
+        "path": "docs/restart/DOUBLE_MERU_GEOMETRY_DOSSIER.md",
+        "description": "Evidence-backed reconstruction of the Double Meru as a computational geometry",
+        "must_contain": [
+          "center-boundary analysis",
+          "role classification",
+          "unknowns and falsified readings"
+        ]
+      },
+      {
+        "id": "deliv_hybrid_fidelity",
+        "kind": "report",
+        "path": "docs/restart/HYBRID_FIDELITY_VERDICT.md",
+        "description": "Generation split and fidelity classification for the surviving hybrid residue",
+        "must_contain": [
+          "generation split",
+          "faithful versus parasitic assessment",
+          "runtime-truth split"
+        ]
+      },
+      {
         "id": "deliv_test_map",
         "kind": "report",
         "path": "docs/recovery/TEST_REFERENCE_STATUS.md",
@@ -222,6 +323,32 @@
       }
     ],
     "acceptance_tests": [
+      {
+        "id": "test_double_meru_geometry",
+        "subject": "claim_double_meru_geometry",
+        "kind": "human_review",
+        "procedure": "Assemble source, archaeology, and runtime anchors; classify the Double Meru geometry and name what remains only hypothesis.",
+        "pass_condition": "The geometry dossier separates recovered fact, plausible hypothesis, and contradicted readings clearly enough to guide the next phase.",
+        "evidence_required": [
+          "deliv_double_meru_geometry",
+          "ref_manifesto",
+          "ref_october_workspace"
+        ],
+        "automation": "hybrid"
+      },
+      {
+        "id": "test_hybrid_fidelity",
+        "subject": "claim_hybrid_fidelity",
+        "kind": "human_review",
+        "procedure": "Split the surviving hybrid line into generations and classify each by fidelity to the reconstructed geometry, runtime truth, and contamination boundaries.",
+        "pass_condition": "No surviving hybrid generation remains collapsed into a single story; each is labeled faithful, layered, parasitic, or unresolved with an evidence basis.",
+        "evidence_required": [
+          "deliv_hybrid_fidelity",
+          "deliv_double_meru_geometry",
+          "ref_testing_protocol"
+        ],
+        "automation": "hybrid"
+      },
       {
         "id": "test_manifesto_mapping",
         "subject": "claim_manifesto_mapping",
@@ -272,6 +399,8 @@
         "role": "must_consider",
         "why_it_matters": "Source of the numbered T01-T236 claims that must be mapped, reduced, or falsified",
         "applies_to": [
+          "claim_double_meru_geometry",
+          "claim_hybrid_fidelity",
           "claim_manifesto_mapping"
         ],
         "carry_forward_to": [
@@ -296,6 +425,7 @@
         "role": "method",
         "why_it_matters": "Strongest recovered deterministic replay and ledger-governance protocol",
         "applies_to": [
+          "claim_hybrid_fidelity",
           "claim_manifesto_mapping",
           "claim_host_baseline",
           "claim_rm10_replay"
@@ -345,6 +475,8 @@
         "role": "definition",
         "why_it_matters": "Strongest recoverable source-backed geometry and settling substrate",
         "applies_to": [
+          "claim_double_meru_geometry",
+          "claim_hybrid_fidelity",
           "claim_host_baseline"
         ],
         "carry_forward_to": [
@@ -361,6 +493,18 @@
       }
     ],
     "forbidden_proxies": [
+      {
+        "id": "fp_geometry_reverence",
+        "subject": "claim_double_meru_geometry",
+        "proxy": "Treating elegant geometry language or remembered Double-Meru stories as recovered computational fact without surviving anchors",
+        "reason": "Would replace reconstruction with reverence and erase the falsification gate"
+      },
+      {
+        "id": "fp_hybrid_convenience",
+        "subject": "claim_hybrid_fidelity",
+        "proxy": "Letting the nearest runnable hybrid surface define the Double Meru or count as fidelity proof by convenience",
+        "reason": "Would invert the mandate and promote executability over the scientific object"
+      },
       {
         "id": "fp_manifesto_prose",
         "subject": "claim_manifesto_mapping",
@@ -381,6 +525,24 @@
       }
     ],
     "links": [
+      {
+        "id": "link_double_meru_geometry",
+        "source": "claim_double_meru_geometry",
+        "target": "deliv_double_meru_geometry",
+        "relation": "supports",
+        "verified_by": [
+          "test_double_meru_geometry"
+        ]
+      },
+      {
+        "id": "link_hybrid_fidelity",
+        "source": "claim_hybrid_fidelity",
+        "target": "deliv_hybrid_fidelity",
+        "relation": "supports",
+        "verified_by": [
+          "test_hybrid_fidelity"
+        ]
+      },
       {
         "id": "link_manifesto_map",
         "source": "claim_manifesto_mapping",
@@ -414,58 +576,79 @@
         "The manifesto T01-T236 numbering exists in prose but is not yet preserved as a source-backed executable registry"
       ],
       "unvalidated_assumptions": [
-        "The source-backed October and Genesis lineage covers the same scientific surface implied by the later manifesto",
+        "The source-backed October and Genesis lineage covers enough of the Double Meru to constrain later hybrid interpretations",
+        "The computational field-computer hypothesis survives geometry reconstruction as more than metaphor",
         "The RM10 Pro lane will preserve deterministic replay under Termux or ADB conditions"
       ],
       "competing_explanations": [
-        "Only the older deterministic SNIC substrate is real, while stronger manifesto claims belong to an unrecovered or drifted layer",
+        "Only the older deterministic SNIC substrate is real, while stronger Double-Meru and hybrid claims belong to an unrecovered or drifted layer",
+        "The late hybrid line may be an ordinary hybrid system borrowing geometry vocabulary rather than a faithful Double-Meru expression",
         "Several manifesto test labels may compress multiple distinct legacy tests into a single narrative statement"
       ],
       "disconfirming_observations": [
+        "The reconstructed geometry cannot be assigned any computational role beyond aesthetic scaffolding",
+        "The surviving hybrid line only survives by making the geometry ornamental",
         "Most manifesto test labels cannot be mapped to executable artifacts or canonical ledgers",
         "RM10 Pro replay shows unexplained hash or receipt drift on the source-backed battery"
       ]
     }
   },
   "position": {
-    "current_phase": "01",
-    "current_phase_name": "Claim Map and Contract Reset",
-    "total_phases": 6,
-    "current_plan": "1",
-    "total_plans_in_phase": 2,
-    "status": "Ready to plan",
-    "last_activity": "2026-04-03",
-    "last_activity_desc": "Initialized restart project from the manifesto and recovered protocols, and verified the October substrate builds on Mac.",
-    "progress_percent": 0,
+    "current_phase": "01.2.3",
+    "current_phase_name": "G2 Invocation-Surface Archaeology And Router Recovery",
+    "total_phases": 11,
+    "current_plan": "4",
+    "total_plans_in_phase": 4,
+    "status": "Complete",
+    "last_activity": "2026-04-04",
+    "last_activity_desc": "Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family, doctrine-aligned closeout, and explicit later-lane readiness ceilings.",
+    "progress_percent": 100,
     "paused_at": null
   },
   "active_calculations": [
-    "No active long-running computation yet.",
-    "Current work is claim mapping, contract reset, and protocol anchoring."
+    "No active long-running computation at the moment.",
+    "The last governed executions were Mac Genesis `G-01` and `G-02`, Mac October smoke,"
   ],
   "intermediate_results": [
     "The manifesto now lives inside the restart repo at `docs/reference/GEOMETRY_FIRST_MANIFESTO.md`.",
     "The recoverable October SNIC substrate compiles and passes its current Rust tests on the Mac host.",
     "The Genesis lineage contains a real deterministic testing protocol, but not a clean one-to-one `T01\u2013T236` registry.",
-    "The RM10 Pro is confirmed as a future execution lane, not the missing source archive."
+    "Fresh Mac Genesis `G-01` and `G-02` are internally stable at `verify = e894...` and `solve = 62897...`.",
+    "The documented Genesis `verify.json` canonical is stale against the fresh Mac and historical RM10 parity surface.",
+    "Fresh RM10 replay now works over ADB shell from `/data/local/tmp`, but the default device validator still rejects both fresh device bundles.",
+    "The phone carries two old-work surfaces: a governed SoC runtime lane and a later DM3 hybrid prototype residue with mixed signal.",
+    "A fresh `dual_cli` probe re-established the source-backed Double Meru geometry on `2026-04-03`.",
+    "The strongest surviving hybrid-specific story is now boundary-plus-nodewise continuation with scar-memory augmentation.",
+    "Runtime truth is now split explicitly between geometry witness, governed baseline, smoke-only hybrid callability, inspectable residue, and blocked non-stub recovery.",
+    "Phase `01.2.2` fixed the one bounded hybrid target to the bundled RM10 runner plus `SriYantraAdj_v1.bin` and `RegionTags_v2.json`.",
+    "The official bundled `exp_g2_readout` inference attempt collapsed exactly to the smoke canonical `d3e721...`.",
+    "Phase `01.2.3` exhausted and retired the preserved bundled `G2` same-binary surface on the current callable binary as `phase_outcome=PASS` and `route_outcome=FAIL`.",
+    "Witness-floor governance is now frozen around the Mac / historical RM10 parity lane plus an explicit-hash interim rule for fresh RM10 lanes."
   ],
   "open_questions": [
-    "Which manifesto `Txx` labels are source-backed, collapsed, or unmapped?",
-    "What is the minimal deterministic battery the RM10 Pro must reproduce?",
-    "Which manifesto claims belong only to the unrecovered hybrid layer?",
-    "What is the authority metric beyond deterministic replay?",
-    "Which manifesto Txx labels map one-to-one to recovered executable protocols or ledgers?",
-    "Which claims belong only to the unrecovered hybrid layer?",
-    "What is the minimal authority metric beyond deterministic replay?",
-    "What is the narrowest source-backed battery the RM10 Pro must reproduce?"
+    "Does the historical bundled `G2` residue belong to a neighboring launcher generation, or would recovering it now require explicit redevelopment?",
+    "Which Genesis `verify.json` canonical is authoritative across the Mac lane, the historical RM10 parity lane, and the newer phone-local lanes?",
+    "Can the current RM10 ADB-shell replay surface be promoted from a prebuilt-stub lane to a true source-build parity lane?"
   ],
   "performance_metrics": {
     "rows": [
       {
-        "label": "October baseline check",
+        "label": "Mac Genesis `G-02`",
         "duration": "local",
-        "tasks": "2",
-        "files": "recoverable workspace"
+        "tasks": "5 repeated runs",
+        "files": "`artifacts/mac_replay/genesis_g02_20260403/*`"
+      },
+      {
+        "label": "RM10 SoC-runtime `G-01`",
+        "duration": "local",
+        "tasks": "1 run",
+        "files": "`artifacts/rm10_replay/soc_runtime_g01_20260403/*`"
+      },
+      {
+        "label": "Bundled RM10 `G2` bounded attempt",
+        "duration": "local micro-battery",
+        "tasks": "1 run",
+        "files": "`artifacts/phase_01_2_2_non_stub_attempt_20260403/*`"
       }
     ]
   },
@@ -489,6 +672,76 @@
       "phase": "01",
       "summary": "Switch restart research mode to explore",
       "rationale": "Phase 1 needs explicit branching, pivot analysis, and alternative-hypothesis investigation across battery classes and device lanes."
+    },
+    {
+      "phase": "01",
+      "summary": "Use `/data/local/tmp` as the canonical ADB-shell execution surface and treat shared storage as ingress only.",
+      "rationale": null
+    },
+    {
+      "phase": "01",
+      "summary": "Treat fresh phone executability and phone acceptance as separate gates; the current blocker is validator governance, not device reachability.",
+      "rationale": null
+    },
+    {
+      "phase": "01.1",
+      "summary": "Inserted Phase 01.1 after Phase 01: DM3 Hybrid Archaeology and Recovery (URGENT)",
+      "rationale": "Urgent bounded recovery work is needed to separate real hybrid residue from folklore before broader restart execution decisions are made."
+    },
+    {
+      "phase": "01.1",
+      "summary": "Closed Phase 01.1 with a split hybrid verdict: real late DM3 residue, bounded host executability, no governed hybrid parity yet",
+      "rationale": "Phase 01.1 recovered the architecture and proved a bounded receipt-producing host surface, but the work also showed task collapse, missing late-hybrid source/assets, and live RM10 transport loss. The honest next move is a bounded GPU engineering phase, not a rebuild or pass narrative."
+    },
+    {
+      "phase": "01.1",
+      "summary": "Closed Phase 01.1: late DM3 hybrid line is real and architecturally legible, but only a smoke-level compiled host lane is runnable now; substantive hybrid recovery needs a bounded rebuild phase.",
+      "rationale": "Current evidence splits governed Genesis from the later hybrid prototype, proves real GPU/microtx/scar/HRM residue, shows inference-mode host smoke receipts surviving, and shows train-mode substantive tasks remaining asset-blocked."
+    },
+    {
+      "phase": "01.2",
+      "summary": "Inserted Phase 01.2 after Phase 01: Long-Horizon Recovery Bootstrap and Governance (URGENT)",
+      "rationale": "The long-horizon mandate requires custody, governance, runbooks, lane policy, and bounded engineering control work before formal Phase 02 baseline replay continues."
+    },
+    {
+      "phase": "01.2",
+      "summary": "Inserted Phase 01.2 after Phase 01: Long-Horizon Recovery Bootstrap and Governance (URGENT)",
+      "rationale": "The long-horizon mandate requires custody, governance, runbooks, lane policy, and bounded engineering control work before formal Phase 02 baseline replay continues."
+    },
+    {
+      "phase": "01.2",
+      "summary": "Closed Phase 01.2: long-horizon custody, governance, runbooks, and fresh RM10 preflight are now frozen into a canonical bootstrap pack.",
+      "rationale": "The long-horizon mandate required a bounded control-phase before broader Phase 02 replay and repair work. The new pack locks evidence custody, gate A/B verdicts, lane policy, pairing boundaries, and blocker-driven next steps without widening hybrid authority."
+    },
+    {
+      "phase": "01.2",
+      "summary": "Closed Phase 01.2 with a governed long-horizon bootstrap package",
+      "rationale": "Phase 01.2 established custody, refreshed doctrine and runbooks from current evidence, captured live RM10 launch-proof receipts, wrote Gates A-E, and narrowed the next move to canonical governance plus RM10 source-parity repair before deeper hybrid recovery."
+    },
+    {
+      "phase": "01.2.1",
+      "summary": "Reframed Phase 01.2.1 after Phase 01.2: Double Meru Scientific Reconstruction And Hybrid Fidelity",
+      "rationale": "The corrected mandate makes the 3D Double Meru the primary object of inquiry, so hybrid pairing and non-stub recovery now sit underneath a geometry-first reconstruction and fidelity-classification phase rather than defining the phase by themselves."
+    },
+    {
+      "phase": "01.2.1",
+      "summary": "Closed Phase 01.2.1 with a governed Double-Meru-first reconstruction package",
+      "rationale": "The phase re-probed the source-backed geometry, classified the late hybrid line by fidelity rather than convenience, split runtime truth from contamination, and narrowed the next move to one bounded non-stub recovery attempt plus witness-lane repair."
+    },
+    {
+      "phase": "01.2.2",
+      "summary": "Closed Phase 01.2.2 with a bounded bundled `G2` attempt and witness-floor repair",
+      "rationale": "The phase selected the strongest surviving bundled target, froze the Genesis witness-floor split, proved that the official explicit `exp_g2_readout` attempt still collapses exactly to smoke, and narrowed the blocker to invocation-surface recovery rather than generic pairing doubt."
+    },
+    {
+      "phase": "01.2.3",
+      "summary": "Inserted Phase 01.2.3 after Phase 01.2.2: G2 Invocation-Surface Archaeology And Router Recovery",
+      "rationale": "The next honest move is a bounded router / wrapper / mode-surface archaeology phase on the bundled runner, not GPU escalation or rebuild theatre."
+    },
+    {
+      "phase": "01.2.3",
+      "summary": "Closed Phase 01.2.3 with exact same-binary retirement of the bundled `G2` family",
+      "rationale": "The phase exhausted the surviving same-binary route surface, froze the result as `phase_outcome=PASS` and `route_outcome=FAIL`, and moved the blocker from route hunting to launcher-adjacency provenance or explicit redevelopment."
     }
   ],
   "approximations": [],
@@ -515,20 +768,22 @@
   },
   "propagated_uncertainties": [],
   "pending_todos": [
-    "Build the manifesto test-reference matrix.",
-    "Define the minimal Mac and RM10 Pro restart battery.",
-    "Decide how much of the Genesis lineage becomes part of the active restart protocol."
+    "Classify whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.",
+    "Reconcile the Genesis default `verify.json` canonical target against the live Mac and RM10 evidence.",
+    "Decide whether the current RM10 replay lane can become source-built or must remain explicitly prebuilt-only for now."
   ],
   "blockers": [
     "The manifesto numbering `T01\u2013T236` is not yet a source-backed executable registry.",
     "The newer hybrid DM3 source remains missing.",
-    "RM10 Pro replay has not yet been executed under the restart project."
+    "The blocker is no longer same-binary route hunting; it is whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.",
+    "The current phone `genesis_cli` default validator rejects fresh RM10 bundles and the historical Mac-parity bundle on `verify.json`.",
+    "The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub."
   ],
   "session": {
-    "last_date": "2026-04-03",
-    "stopped_at": "restart project skeleton created; next step is Phase 1 planning",
-    "resume_file": "`docs/recovery/TEST_REFERENCE_STATUS.md`"
+    "last_date": "2026-04-04T22:45:30+02:00",
+    "stopped_at": "Phase 01.2.3 completed with exact same-binary retirement; next step is launcher-adjacency provenance classification or an explicit redevelopment decision.",
+    "resume_file": "docs/restart/LONG_HORIZON_NEXT_PHASE_RECOMMENDATION.md"
   },
   "_version": 1,
-  "_synced_at": "2026-04-03T10:41:26.725342+00:00"
+  "_synced_at": "2026-04-04T20:44:42.390204+00:00"
 }
