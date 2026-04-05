@@ -64,4 +64,4 @@ one of two decisive outcomes:
 - **Parent branch:** main
 - **Created:** 2026-04-05
 - **Status:** Active
-- **Current phase:** 01.2.3
+- **Current phase:** 01.2.3.2
