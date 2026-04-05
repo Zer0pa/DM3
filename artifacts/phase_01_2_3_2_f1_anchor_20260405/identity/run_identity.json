@@ -1,0 +1,19 @@
+{
+  "run_id": "branch_01_2_3_2_f1_cpu_a",
+  "family": "F1",
+  "lane": "cpu_control",
+  "authority_status": "governed_non_sovereign",
+  "build_class": "prebuilt_stub",
+  "device_cwd": "/data/local/tmp/SoC_runtime/workspace",
+  "device_output_dir": "audit/branch_01_2_3_2_f1_cpu_a",
+  "binary": {
+    "path": "/data/local/tmp/genesis_cli",
+    "sha256": "e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae"
+  },
+  "device": {
+    "model": "NX789J",
+    "serial": "FY25013101C8",
+    "sku": "",
+    "fingerprint": "nubia/NX789J-EEA/NX789J:15/AQ3A.240812.002/20251031.123842:user/release-keys"
+  }
+}

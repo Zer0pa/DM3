@@ -5,18 +5,18 @@
 See: .gpd/PROJECT.md
 
 **Core research question:** What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?
-**Current focus:** Post-Phase 01.2.3.1 RM10-primary branch follow-through: preserve the governed Genesis CPU control family, stabilize the bundled-residue harmonic CPU-vs-GPU feasibility family, decide whether that family bridges to the primary governed lane or remains residue-only, seek one receiptable NPU assist path, and keep explicit heterogeneous execution below promotion until a handoff artifact exists.
+**Current focus:** Post-Phase 01.2.3.2 RM10-primary branch follow-through: keep the governed Genesis CPU control family as the real scientific instrument, run one narrow diagnostic on the residue `F2` GPU outlier under locked identity capture, keep NPU at inventory-only until a callable assist path exists, and reopen explicit heterogeneous work only through localized handoff evidence.
 
 ## Current Position
 
-**Current Phase:** 01.2.3.1
-**Current Phase Name:** RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap
-**Total Phases:** 12
+**Current Phase:** 01.2.3.2
+**Current Phase Name:** RM10 Family-Bridge, Accelerator Qualification, And Heterogeneous Handoff Decision
+**Total Phases:** 13
 **Current Plan:** 4
 **Total Plans in Phase:** 4
 **Status:** Complete
 **Last Activity:** 2026-04-05
-**Last Activity Description:** Refreshed the Phase 01.2.3.1 branch package with a bounded bundled-residue CPU-vs-GPU feasibility compare, stricter governance and battery matrices, and an updated 10-document science-and-engineering pack.
+**Last Activity Description:** Closed Phase 01.2.3.2 with a refreshed governed `F1` anchor, explicit bridge closure on the live governed surface, an unstable-but-real residue `F2` accelerator family, inventory-only NPU abstain, and an updated 10-document science-and-engineering pack.
 
 **Progress:** [██████████] 100%
 
@@ -57,13 +57,15 @@ parent branch via `$gpd-compare-branches`.
 - A fresh RM10 CPU control pass on `2026-04-05` completed under `/data/local/tmp/SoC_runtime/workspace` with `verify.json = f992e9c8...` and `solve_h2.json = a33c5cc4...`.
 - The branch now distinguishes two RM10 result families: governed Genesis CPU control on `F1` and bundled-residue harmonic CPU-vs-GPU feasibility on `F2`.
 - The bounded `dm3_runner` harmonic compare produced same-schema one-episode CPU and GPU-backed receipts on-device, while NPU and explicit heterogeneous role-partition claims remain `ABSTAIN`.
+- Phase `01.2.3.2` refreshed the governed `F1` anchor exactly, proved the live governed bridge is closed on the current `genesis_cli` surface, fenced `F2` as a separate residue line with `unstable_feasibility`, and preserved NPU plus explicit heterogeneous work at `ABSTAIN`.
 
 ## Open Questions
 
 - Does the historical bundled `G2` residue belong to a neighboring launcher generation, or would recovering it now require explicit redevelopment?
 - Which Genesis `verify.json` canonical is authoritative across the Mac lane, the historical RM10 parity lane, and the newer phone-local lanes?
 - Can the current RM10 ADB-shell replay surface be promoted from a prebuilt-stub lane to a true source-build parity lane?
-- Does the bundled-residue harmonic CPU-vs-GPU family bridge toward the primary governed Genesis family, or should it remain an explicitly separate accelerator-feasibility line?
+- Which science battery rows should run first on the governed `F1` CPU control family now that the bridge question is closed?
+- Does any same-family accelerator-bearing governed surface exist elsewhere, or would reopening that question require explicit provenance or source-parity work?
 
 ## Performance Metrics
 
@@ -73,6 +75,9 @@ parent branch via `$gpd-compare-branches`.
 | RM10 SoC-runtime `G-01` | local | 1 run | `artifacts/rm10_replay/soc_runtime_g01_20260403/*` |
 | Bundled RM10 `G2` bounded attempt | local micro-battery | 1 run | `artifacts/phase_01_2_2_non_stub_attempt_20260403/*` |
 | Bundled residue harmonic CPU-vs-GPU compare | local bounded feasibility | 2 runs | `artifacts/phase_01_2_3_1_dm3_harmonic_train_compare_20260405/*` |
+| Governed `F1` anchor refresh | local serious run | 1 run | `artifacts/phase_01_2_3_2_f1_anchor_20260405/*` |
+| Bundled-residue `F2` repeat matrix | local bounded feasibility | 4 runs | `artifacts/phase_01_2_3_2_f2_harmonic_repeat_20260405/*` |
+| NPU or DSP triage | local setup probe | 1 bounded probe | `artifacts/phase_01_2_3_2_npu_triage_20260405/*` |
 
 ## Accumulated Context
 
@@ -100,6 +105,8 @@ parent branch via `$gpd-compare-branches`.
 - [Phase 01.2.3.1]: Inserted Phase 01.2.3.1 after Phase 01.2.3: RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap (URGENT) — Urgent branch work is needed to test the RM10-primary and heterogeneity-early hypothesis before rejoining the mainline sequence
 - [Phase 01.2.3.1]: Closed Phase 01.2.3.1 with a complete RM10-primary branch bootstrap and first-pass device verdicts — The branch now has its full internal pack, history indexes, RM10 runbooks, a receipted CPU control pass, and explicit GPU/NPU/heterogeneous abstain outcomes plus a merged 10-document science-and-engineering pack.
 - [Phase 01.2.3.1]: Supplemented Phase 01.2.3.1 with a bounded bundled-residue CPU-vs-GPU feasibility family — The branch now separates the governed Genesis CPU control family from a lower-ceiling `dm3_runner` harmonic compare, records GPU-backed callability without promoting it into primary-lane authority, and keeps NPU plus explicit heterogeneous role partition at abstain.
+- [Phase 01.2.3.2]: Inserted Phase 01.2.3.2 after Phase 01.2.3.1: RM10 Family-Bridge, Accelerator Qualification, And Heterogeneous Handoff Decision — The next honest move after the branch bootstrap was to decide whether the residue accelerator family actually bridged to the governed Genesis family or remained separate.
+- [Phase 01.2.3.2]: Closed Phase 01.2.3.2 with explicit bridge closure and residue-family separation — The branch refreshed the governed `F1` anchor, proved the current live governed surface exposes no accelerator-bearing entrypoint, classified the residue `F2` accelerator line as callable but unstable, preserved NPU and explicit heterogeneous work at abstain, and shifted the next move toward real science batteries on `F1`.
 
 ### Active Approximations
 
@@ -132,9 +139,10 @@ None yet.
 
 ### Pending Todos
 
-- Repeat the bundled-residue harmonic CPU-vs-GPU compare with a full identity packet and pre/post telemetry capture.
-- Decide whether the harmonic CPU-vs-GPU family is only a residue-feasibility line or a bridge toward the primary governed Genesis family.
-- Determine whether a bounded NPU or DSP assist role can become receiptable on either a governed family or an explicitly lower-ceiling assist family.
+- Run one narrow outlier-localization pass on the residue `F2` GPU-backed harmonic family under locked identity and telemetry capture.
+- Select the first governed `F1` science battery rows to execute on RM10 after the residue outlier question is closed.
+- Decide whether any future accelerator work beyond that diagnostic belongs to explicit same-family provenance or source-parity engineering rather than residue probing.
+- Determine whether a bounded NPU or DSP assist role can ever become receiptable on a governed family or whether it should remain inventory-only for this branch.
 - Reconcile the Genesis default `verify.json` canonical target against the live Mac and RM10 evidence.
 
 ### Blockers/Concerns
@@ -144,12 +152,12 @@ None yet.
 - The blocker is no longer same-binary route hunting; it is whether the historical bundled `G2` residue belongs to a neighboring launcher generation or requires explicit redevelopment.
 - The current phone `genesis_cli` default validator rejects fresh RM10 bundles and the historical Mac-parity bundle on `verify.json`.
 - The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub.
-- No accelerator path yet preserves the primary governed Genesis family.
+- The current live governed `genesis_cli` surface exposes no accelerator-bearing entrypoint, so any future same-family bridge requires new provenance or explicit redevelopment.
 - No receiptable NPU assist path exists yet.
 - No explicit pre-handoff and post-handoff artifact exists for a heterogeneous role-partition claim.
 
 ## Session Continuity
 
-**Last session:** 2026-04-04T22:45:30+02:00
-**Stopped at:** Phase 01.2.3.1 package refreshed with a governed Genesis CPU control family, a bounded bundled-residue harmonic CPU-vs-GPU feasibility family, and updated governance plus battery docs; next step is to stabilize `F2`, decide its relation to `F1`, and keep NPU or explicit heterogeneous work below promotion until their artifacts exist.
-**Resume file:** briefing-pack-dm3-rm10-primary-platform-10doc-20260405/080_NEXT__ENGINEERING_PRIORITY_AND_BRANCH_ROUTE.md
+**Last session:** 2026-04-05T04:45:00+02:00
+**Stopped at:** Phase 01.2.3.2 closed with a refreshed governed `F1` anchor, explicit bridge closure on the live `genesis_cli` surface, residue-only `F2` accelerator feasibility, and updated branch pack; next step is one narrow residue-outlier diagnostic before broader governed science batteries.
+**Resume file:** briefing-pack-dm3-rm10-bridge-phase-01-2-3-2-10doc-20260405/080_NEXT__ENGINEERING_MOVE_AND_DECISION_ROUTE.md

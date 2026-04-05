@@ -1,0 +1,6 @@
+/
+-rw-rw-rw- 1 shell shell    1532 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.bin
+-rw-rw-rw- 1 shell shell   23082 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.json
+-rw-rw-rw- 1 shell shell   24891 2025-11-19 21:22 /data/local/tmp/SriYantraAdj_v1.bin
+-rwxrwxrwx 1 shell shell 9199920 2025-11-22 02:37 /data/local/tmp/dm3/dm3_runner
+-rwxrwxrwx 1 shell shell 9554600 2026-02-09 18:34 /data/local/tmp/dm3_runner

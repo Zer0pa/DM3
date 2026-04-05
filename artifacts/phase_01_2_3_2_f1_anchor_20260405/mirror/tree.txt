@@ -1,0 +1,16 @@
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror
+files.txt
+branch_01_2_3_2_f1_cpu_a
+branch_01_2_3_2_f1_cpu_a/run00
+branch_01_2_3_2_f1_cpu_a/run00/receipts
+branch_01_2_3_2_f1_cpu_a/run00/receipts/VERIFY_SUMMARY.json
+branch_01_2_3_2_f1_cpu_a/run00/receipts/MERKLE.txt
+branch_01_2_3_2_f1_cpu_a/run00/artifacts
+branch_01_2_3_2_f1_cpu_a/run00/artifacts/lift_3d.json
+branch_01_2_3_2_f1_cpu_a/run00/artifacts/verify.json
+branch_01_2_3_2_f1_cpu_a/run00/artifacts/yantra_2d.json
+branch_01_2_3_2_f1_cpu_a/run00/artifacts/VERIFY.stdout.log
+branch_01_2_3_2_f1_cpu_a/run00/artifacts/solve_h2.json
+branch_01_2_3_2_f1_cpu_a/run00/public
+branch_01_2_3_2_f1_cpu_a/hashes.tsv
+tree.txt

@@ -1,0 +1,5 @@
+run_id	lane	decision	delta_E	coherence	duration_ms	stdout_marker
+phase_01_2_3_2_f2_cpu_a	cpu	Commit	76.03376770019531	0.8772012591362	48899	cpu_forced
+phase_01_2_3_2_f2_gpu_a	gpu	Commit	89.01263427734375	0.770898163318634	57818	gpu_init
+phase_01_2_3_2_f2_cpu_b	cpu	Commit	76.06745147705078	0.8770847320556641	62116	cpu_forced
+phase_01_2_3_2_f2_gpu_b	gpu	Commit	76.23069763183594	0.8769537210464478	59647	gpu_init

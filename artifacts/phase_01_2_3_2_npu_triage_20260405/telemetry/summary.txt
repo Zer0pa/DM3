@@ -1,0 +1,6 @@
+battery_pre_level=80
+battery_post_level=80
+battery_pre_temp_c=33.0
+battery_post_temp_c=33.0
+thermal_pre_status=0
+thermal_post_status=0

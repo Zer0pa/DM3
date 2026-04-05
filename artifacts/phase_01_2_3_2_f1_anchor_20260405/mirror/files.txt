@@ -1,0 +1,9 @@
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/hashes.tsv
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/artifacts/VERIFY.stdout.log
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/artifacts/lift_3d.json
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/artifacts/solve_h2.json
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/artifacts/verify.json
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/artifacts/yantra_2d.json
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/receipts/MERKLE.txt
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/branch_01_2_3_2_f1_cpu_a/run00/receipts/VERIFY_SUMMARY.json
+/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_2_f1_anchor_20260405/mirror/files.txt

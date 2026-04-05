@@ -180,6 +180,29 @@ Plans:
 - [x] 01.2.3.1-03: Capture the live RM10 preflight and write the branch runbooks
 - [x] 01.2.3.1-04: Write the battery matrices, run the first bounded branch pass, and merge the 10-document pack
 
+### Phase 01.2.3.2: RM10 Family-Bridge, Accelerator Qualification, And Heterogeneous Handoff Decision (INSERTED)
+
+**Goal:** Refresh the governed RM10 Genesis anchor, decide whether the bundled-residue accelerator family bridges to that governed family or remains separate, close the bounded NPU question honestly, and return one updated ten-document science-and-engineering pack without ceiling inflation.
+**Depends on:** Phase 01.2.3.1
+**Contract Coverage:**
+- Advances: governed-anchor refresh, family-bridge decision, accelerator-feasibility ceiling control, NPU triage, heterogeneous handoff boundary, branch pack refresh
+- Deliverables: `F1` anchor dossier, governed help-surface audit, `F2` repeatability dossier, NPU triage dossier, bridge-and-handoff decision note, executive verdict, family comparison table, next-move note, merged 10-document branch pack
+- Anchor coverage: Phase `01.2.3.1` branch pack and runbooks, live RM10 governed Genesis surface, live bundled residue executable, bounded NPU inventory and callable-surface probes
+- Forbidden proxies: bundled-residue success narrated as governed-family bridge, hardware or library presence counted as execution, opaque GPU use narrated as explicit heterogeneous role partition, pack count treated as authority gain
+**Success Criteria** (what must be TRUE):
+
+1. The governed `F1` RM10 Genesis family is refreshed under a full identity and telemetry packet
+2. The live governed executable surface is classified explicitly as bridge-open or bridge-closed
+3. The bundled-residue `F2` accelerator family is either stabilized or fenced off honestly as unstable or separate residue
+4. The phase returns one explicit bridge decision, one explicit NPU verdict, one explicit heterogeneous verdict, and one updated exactly ten-document handoff pack
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.2-01: Refresh the governed `F1` anchor and classify the live governed accelerator surface
+- [x] 01.2.3.2-02: Repeat the bundled-residue `F2` harmonic CPU/GPU matrix under full identity capture
+- [x] 01.2.3.2-03: Close bounded NPU triage and decide bridge versus separate residue line
+- [x] 01.2.3.2-04: Write the executive verdict, family table, next move, and updated 10-document pack
+
 ### Phase 2: Source-Backed Baseline Recovery
 
 **Goal:** Confirm the recoverable October / Genesis substrate is the real baseline

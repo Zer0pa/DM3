@@ -1,0 +1,11 @@
+{
+  "run_id": "phase_01_2_3_2_f2_cpu_b",
+  "lane": "cpu",
+  "marker": "cpu_forced",
+  "asymmetry": 0.0,
+  "coherence": 0.8770847320556641,
+  "decision": "Commit",
+  "delta_E": 76.06745147705078,
+  "duration_ms": 62116,
+  "episode": 0
+}

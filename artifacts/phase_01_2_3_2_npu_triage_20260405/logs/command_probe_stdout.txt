@@ -1,0 +1,8 @@
+== qnn-net-run ==
+== qnn-context-binary-generator ==
+== qnn-profile-viewer ==
+== qnn-op-package-generator ==
+== fastrpc_shell ==
+== adsprpcd ==
+== cdsprpcd ==
+== dspservice ==
