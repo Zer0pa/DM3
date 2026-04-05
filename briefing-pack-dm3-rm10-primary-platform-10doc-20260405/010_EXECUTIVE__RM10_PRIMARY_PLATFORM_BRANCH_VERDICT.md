@@ -6,13 +6,18 @@ Current branch status:
 - governance pack: `PASS`
 - history mining pack: `PASS`
 - RM10 device engineering and runbooks: `PASS`
-- first RM10 CPU control pass: `PASS`
-- RM10 GPU first-pass status: `ABSTAIN`
-- RM10 NPU first-pass status: `ABSTAIN`
-- RM10 heterogeneous first-pass status: `ABSTAIN`
+- governed RM10 CPU control family (`F1`): `PASS`
+- bundled-residue CPU versus GPU feasibility family (`F2`): `PASS`
+- NPU assist feasibility: `ABSTAIN`
+- explicit heterogeneous role-partition claim: `ABSTAIN`
+- scientific hypotheses `H1` through `H9`: `ABSTAIN`
 
 What this means:
 
-The branch has earned a real RM10-primary control surface and a real device-side
-evidence pack. It has not yet earned a heterogeneous win. The honest current
-story is a strong CPU control lane plus accelerator-adjacent feasibility.
+The branch has earned two things and only two things:
+
+1. one real governed RM10 CPU control surface
+2. one bounded on-device CPU versus GPU feasibility family on preserved residue
+
+It has not yet earned an explicit heterogeneous role-partition result, an NPU
+assist path, or any mechanistic scientific hypothesis movement.

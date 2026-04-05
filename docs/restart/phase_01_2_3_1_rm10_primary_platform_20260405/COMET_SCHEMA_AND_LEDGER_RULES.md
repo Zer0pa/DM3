@@ -3,24 +3,25 @@
 ## Purpose
 
 This document defines the branch run-identity contract for all later RM10 work.
+It separates run class, claim ceiling, artifact validity, and Comet anchoring
+so feasibility work cannot masquerade as serious evidence.
 
-It covers:
+## Canonical Tokens
 
-- exact run metadata
-- Comet key versus offline bundle handling
-- repo-retained artifact custody
-- receipt and comparison requirements
-- the difference between setup probes, feasibility probes, serious runs, and
-  abstain records
+Use `run_kind` to describe what the run did, and `authority_status` to describe
+its ceiling. Do not invent branch-only authority tokens.
 
-No later run may count as interpretable branch evidence unless it satisfies this
-schema.
+- allowed `run_kind`: `setup_probe`, `feasibility_probe`, `serious_run`, `abstain_record`
+- allowed `authority_status`: `comparison_only`, `engineering_only`, `feasibility_only`, `governed_non_sovereign`, `abstain`
+- allowed `phase_outcome`: `PASS`, `FAIL`, `ABSTAIN`, `BLOCKED`
+- allowed `route_outcome`: `PASS`, `FAIL`, `ABSTAIN`, `NOT_APPLICABLE`
+- allowed `comet_mode`: `online`, `offline`, `not_applicable`
 
 ## Governance Principle
 
 Comet is an anchor, not the artifact of record.
-The repo ledger is an anchor, not a substitute for the real run artifacts.
-Both are required for serious work.
+The repo ledger is an index, not a substitute for run artifacts.
+Serious work needs both.
 
 The branch rejects:
 
@@ -29,99 +30,63 @@ The branch rejects:
 - receipt files with no exact command or working directory
 - exact command capture with no retained outputs
 
-## Run Classes
+## Required Manifest Fields
 
-| Run class | Meaning | Allowed authority ceiling |
-| --- | --- | --- |
-| `setup_probe` | inventory, wrapper check, preflight, environment capture | `engineering_only` |
-| `feasibility_probe` | bounded GPU or NPU reachability test with no same-observable claim | `feasibility_only` |
-| `serious_run` | a governed run on a named observable family with full logging and comparison intent | `governed_non_sovereign` or `serious_branch_evidence` |
-| `abstain_record` | explicit record that a run class was considered but not honestly executable | `abstain` |
+Every run manifest must retain:
 
-## Required Run Identity Fields
+- `run_id`, `branch`, `phase`, `plan`, `hypothesis_branch`
+- `device_serial`, `device_model`, `device_lane`, `compute_lane`
+- `run_kind`, `battery_class`, `battery_family`, `observable_family`
+- `authority_status`, `build_class`
+- `command_surface`, `command_exact`, `cwd`, `env_manifest_path`, `artifact_root`
+- `receipt_expected`, `primary_receipt_path_or_none`
+- `stdout_path`, `stderr_path`
+- `thermal_pre_path`, `thermal_post_path`
+- `battery_pre_path`, `battery_post_path`
+- `meminfo_pre_path_or_none`, `meminfo_post_path_or_none`
+- `checkpoint_id`, `checkpoint_parent`
+- `phase_outcome`, `route_outcome`
+- `comet_mode`, `comet_experiment_key_or_none`, `comet_bundle_path_or_none`
 
-Every run manifest must carry these fields:
+## Artifact Validity Rules
 
-| Field | Meaning |
-| --- | --- |
-| `run_id` | unique branch run identifier |
-| `branch` | `hypothesis/rm10-primary-platform-heterogeneous-learning` |
-| `phase` | phase number, e.g. `01.2.3.1` |
-| `plan` | plan number |
-| `hypothesis_branch` | branch thesis under test |
-| `device_serial` | e.g. `FY25013101C8` |
-| `device_model` | e.g. `NX789J` |
-| `device_lane` | RM10 lane label |
-| `compute_lane` | `cpu | gpu | npu | heterogeneous` |
-| `run_kind` | `setup_probe | feasibility_probe | serious_run | abstain_record` |
-| `battery_class` | `micro | medium | long` |
-| `battery_family` | boundary, spectral, topology, reciprocity, persistence, hardware-role, or explicit control label |
-| `observable_family` | named observable under test |
-| `authority_status` | `engineering_only | feasibility_only | governed_non_sovereign | serious_branch_evidence | abstain` |
-| `evidence_surface` | `inventory | cpu_control | parity_feasibility | assist_feasibility | heterogeneous_split | negative_result` |
-| `build_class` | `source_built | prebuilt_stub | mixed_prebuilt_backed | bundled_residue | inventory_only` |
-| `phase_outcome` | `PASS | FAIL | ABSTAIN | BLOCKED` |
-| `route_outcome` | `PASS | FAIL | ABSTAIN | NOT_APPLICABLE` |
-| `command_exact` | full command string |
-| `cwd` | exact working directory |
-| `env_manifest_path` | retained environment dump path |
-| `receipt_paths` | one or more output receipt paths, or explicit `none` |
-| `stdout_path` / `stderr_path` | retained logs |
-| `thermal_pre_path` / `thermal_post_path` | retained thermal snapshots |
-| `battery_pre_path` / `battery_post_path` | retained battery snapshots |
-| `meminfo_pre_path` / `meminfo_post_path` | retained memory snapshots when required |
-| `checkpoint_id` | current checkpoint identifier |
-| `checkpoint_parent` | prior checkpoint identifier or `none` |
-| `comet_mode` | `online | offline` |
-| `comet_experiment_key` | required when online |
-| `comet_offline_bundle_path` | required when offline |
+### Serious runs
 
-## Required Artifact Layout
-
-Every serious or feasibility run must retain a repo-rooted artifact tree with:
+`serious_run` is invalid unless the repo-retained artifact root contains:
 
 - `identity/run_identity.json`
 - `identity/command.txt`
 - `identity/env.txt`
 - `identity/checkpoint_index.json`
-- `telemetry/`
-- `receipts/`
 - `logs/stdout.txt`
 - `logs/stderr.txt`
+- `telemetry/`
+- either `receipts/` with real files or `identity/no_receipt_expected.txt`
 
-If a comparison is performed, also retain:
+### Feasibility runs
 
-- `comparisons/`
+`feasibility_probe` must retain:
 
-If the run ends in abstain, retain:
+- `identity/run_identity.json`
+- `identity/command.txt`
+- `logs/`
+- `telemetry/`
+- either real receipts or an explicit statement that the probe was inventory-only
 
+### Abstain records
+
+`abstain_record` must retain:
+
+- `identity/run_identity.json`
 - `abstain_reason.txt`
+- any blocker reference needed to explain why no run occurred
 
 ## Comet Rules
 
-### Online mode
-
-Allowed only when the run still retains:
-
-- experiment key
-- manifest export
-- repo-retained identity packet
-
-### Offline mode
-
-Default fallback when online upload is unavailable or undesirable.
-Offline mode is valid only if the run retains:
-
-- offline bundle path
-- manifest file
-- repo-retained artifact mirror
-
-### Hard rule
-
-Serious runs are invalid if they have neither:
-
-- a Comet experiment key, nor
-- an offline bundle path
+- `comet_mode=online` requires an experiment key plus a repo-retained manifest export
+- `comet_mode=offline` requires a retained bundle path and repo mirror
+- `comet_mode=not_applicable` is allowed only for `setup_probe` and `abstain_record`
+- a `serious_run` is invalid without either an online key or an offline bundle path
 
 ## Exact Command And Environment Capture
 
@@ -129,7 +94,7 @@ Every later run must retain:
 
 - the literal command line
 - the literal working directory
-- the shell or wrapper surface used
+- the command surface or wrapper used
 - the environment manifest actually seen by the process
 
 Do not summarize this in prose only.
@@ -139,11 +104,11 @@ Retain the real values.
 
 Receipts are required whenever the executable claims to emit them.
 
-If a path is expected to emit a receipt but does not:
+If `receipt_expected=true` and no receipt exists:
 
 - record the absence explicitly
-- mark the run `FAIL`, `ABSTAIN`, or `BLOCKED` as appropriate
-- do not silently downgrade the run into a log-only success narrative
+- mark the run `FAIL` or `BLOCKED` as appropriate
+- do not narrate the run as a pass
 
 ## Comparison Rules
 
@@ -152,45 +117,19 @@ A cross-lane comparison is allowed only when:
 1. `observable_family` matches
 2. receipt fields needed for comparison match
 3. the branch question is unchanged
-4. `build_class` changes, if any, are declared rather than hidden
+4. `build_class` differences are declared rather than hidden
 
-If one of those fails, the run may still be useful, but it is not a same-family
+If any of those fail, the run may still be useful, but it is not a same-family
 comparison.
-
-## Required Outcome Language
-
-Later docs must use these labels exactly:
-
-- `PASS`: the intended governed question was answered positively
-- `FAIL`: the intended governed question was answered negatively
-- `ABSTAIN`: prerequisites were not met, so the branch refused to overclaim
-- `BLOCKED`: staging drift, artifact loss, or governance failure prevented a
-  meaningful result
-
-These labels apply to run classes, not to the branch mood.
 
 ## Repo Retention Rule
 
 The branch may stage work under `/tmp` or device-local temp paths during a run,
-but serious artifacts must be mirrored into the repo before they are cited.
-
-Plan `02`, `03`, and `04` must therefore cite repo-retained artifacts, not
-transient temp roots.
-
-## Setup Versus Serious Work
-
-The following do not count as serious evidence on their own:
-
-- device presence
-- hardware node visibility
-- wrapper listings
-- thermal snapshots
-- log-only activity
-
-They matter only when tied to a named run class and later receipt surface.
+but cited artifacts must be mirrored into the repo before they are referenced
+in pack documents.
 
 ## Bottom Line
 
 If a later executor cannot tell exactly what ran, where it ran, what it
-produced, how it was checkpointed, and where its Comet anchor lives, then the
-run does not count as interpretable branch evidence.
+produced, how it was checkpointed, what ceiling it claimed, and where its Comet
+anchor lives, then the run does not count as interpretable branch evidence.

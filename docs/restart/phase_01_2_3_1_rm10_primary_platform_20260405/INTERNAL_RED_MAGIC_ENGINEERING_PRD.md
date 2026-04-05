@@ -83,6 +83,46 @@ This PRD does not authorize:
 | RM10 heterogeneous | role-partition experiment | premature until CPU control and one accelerator role are both interpretable |
 | Mac host | support, debugging, compile, comparison, and witness-floor alignment | support lane, not branch center |
 
+## Staging, Toolchain, And Directory Contract
+
+Every later RM10 run must declare four roots and keep them non-interchangeable:
+
+| Root | Canonical path or class | Contract |
+| --- | --- | --- |
+| repo artifact root | `artifacts/<phase_run_root>/<lane>/` | only citation-grade location for manifests, mirrors, and comparisons |
+| host transient stage | operator temp root | transit only; never cited as final evidence |
+| device execution root | `/data/local/tmp` | only currently evidenced live device execution root |
+| device lane `cwd` | one of `/data/local/tmp/SoC_runtime/workspace`, `/data/local/tmp/snic_workspace_a83f`, `/data/local/tmp`, or `/data/local/tmp/dm3` | must be declared per run and may not drift inside one run ID |
+
+Directory discipline for this branch is:
+
+- `/data/local/tmp/SoC_runtime/workspace` is the governed CPU control `cwd`
+- `/data/local/tmp/snic_workspace_a83f` is a separate raw-workspace lane and must be labeled separately
+- `/data/local/tmp/dm3` and `/data/local/tmp/dm3_runner` are residue or archaeology surfaces, not witness-floor control
+- `/sdcard` and `/storage/emulated/0` are ingress and export only, not governed execution roots
+
+Toolchain discipline for this branch is:
+
+- host orchestration may use `adb`, shell utilities, hashing tools, and optional Comet logging
+- device CPU control currently uses `/data/local/tmp/genesis_cli`
+- `PATH=/data/local/tmp/SoC_Harness/bin:$PATH` is execution plumbing only; the `cargo` found there is a stub and does not justify `source_built`
+- no live branch document may assume Termux, a local RM10 Rust build, or an NPU SDK unless separately receipted
+
+## Run-Class Loading Requirements
+
+No lane is loaded until its run template declares:
+
+- `run_kind`
+- `authority_status`
+- `evidence_surface`
+- `build_class`
+- `command_exact`
+- `cwd`
+- `checkpoint_id`
+- `thermal_pre_path` and `thermal_post_path`
+- `battery_pre_path` and `battery_post_path`
+- repo-retained artifact root
+
 ## Required Execution Order
 
 The order is fixed:
@@ -109,6 +149,7 @@ It opens only when all of the following are true:
    are all loaded into the run class
 6. GPU, NPU, and heterogeneous attempts can be labeled `pass`, `fail`, or
    `abstain` before the first serious comparison starts
+7. the repo mirror layout `identity/`, `telemetry/`, `receipts/`, `logs/`, and optional `comparisons/` is fixed before the command is issued
 
 Before those conditions hold, outputs may be:
 
@@ -190,7 +231,7 @@ Outputs:
 Later plans must preserve these branch labels:
 
 - `run_kind`: `setup_probe | feasibility_probe | serious_run | abstain_record`
-- `authority_status`: `engineering_only | feasibility_only | governed_non_sovereign | serious_branch_evidence | abstain`
+- `authority_status`: `comparison_only | engineering_only | feasibility_only | governed_non_sovereign | abstain`
 - `evidence_surface`: `inventory | cpu_control | parity_feasibility | assist_feasibility | heterogeneous_split | negative_result`
 - `build_class`: `source_built | prebuilt_stub | mixed_prebuilt_backed | bundled_residue | inventory_only`
 - `phase_outcome`: `PASS | FAIL | ABSTAIN | BLOCKED`

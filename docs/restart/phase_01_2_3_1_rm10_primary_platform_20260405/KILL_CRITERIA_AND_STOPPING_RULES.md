@@ -8,15 +8,20 @@ lane, or stop a line of work entirely.
 The branch exists to test a risky alternative programme.
 That only works if failure is explicit and early.
 
-## Outcome Ladder
+## Control Actions, Verdict Tokens, And Stop Triggers
 
-Use these outcomes exactly:
+Use control actions to describe what the operator must do next:
 
 - `continue`
-- `pause_and_checkpoint`
+- `checkpoint_and_continue_later`
 - `abstain`
 - `fail_lane`
 - `stop_branch_line`
+
+Use verdict tokens separately in manifests and ledgers:
+
+- `phase_outcome = PASS | FAIL | ABSTAIN | BLOCKED`
+- `route_outcome = PASS | FAIL | ABSTAIN | NOT_APPLICABLE`
 
 The branch should escalate to a stronger stop when a weaker one no longer
 protects interpretability.
@@ -25,9 +30,9 @@ protects interpretability.
 
 | Condition | Why it matters | Required action |
 | --- | --- | --- |
-| no common observable survives across the lanes being compared | comparison authority is lost | `abstain` for the affected accelerator or heterogeneous lane |
-| exact command, cwd, environment, or build class drifts without being re-declared | staging drift destroys comparability | `stop_branch_line` for that comparison and restart under a new run ID if still justified |
-| receipt capture is missing on a path that was supposed to emit one | the branch loses interpretable evidence | `fail_lane` or `blocked` outcome; do not promote the run |
+| no common observable survives across the lanes being compared | comparison authority is lost | `abstain`; verdict `ABSTAIN` |
+| exact command, cwd, environment, or build class drifts without being re-declared | staging drift destroys comparability | `stop_branch_line`; restart under a new run ID only if still justified |
+| receipt capture is missing on a path that was supposed to emit one | the branch loses interpretable evidence | `fail_lane` or verdict `BLOCKED`; do not promote the run |
 | thermal activity grows without a comparable observable or receipt | heat is replacing evidence | `stop_branch_line` |
 | continuing would require unrecovered proprietary or missing DM3 code while still being called branch execution | the work has crossed into redevelopment | `stop_branch_line` and write redevelopment boundary explicitly |
 | old labels or history residue start driving present-tense conclusions | clue mining has turned into authority inflation | `stop_branch_line` and demote the claim to ambiguity |
@@ -53,6 +58,7 @@ Stop or abstain if:
 - the GPU path changes the observable family
 - comparison fields cannot be normalized or retained
 - opaque vendor behavior becomes the only explanation for the result
+- internal accelerator use inside one binary is being narrated as explicit handoff proof
 
 ### RM10 NPU or DSP-Adjacent
 
@@ -103,6 +109,9 @@ To prevent theatre-by-retry:
   review when the outcome is `FAIL`, `ABSTAIN`, or `BLOCKED`
 
 If the blocker is unchanged, repetition is not new evidence.
+
+Exceeding a repetition cap without a changed blocker is a reason to stop and
+hand back, not to keep burning compute.
 
 ## Meaningless Heat Rule
 

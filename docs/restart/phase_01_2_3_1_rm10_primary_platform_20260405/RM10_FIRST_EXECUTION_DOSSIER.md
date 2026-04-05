@@ -2,12 +2,12 @@
 
 ## First-Pass Verdict
 
-- RM10 CPU: `PASS`
-- RM10 GPU: `ABSTAIN`
-- RM10 NPU: `ABSTAIN`
-- RM10 heterogeneous: `ABSTAIN`
+- primary governed CPU control (`F1`): `PASS`
+- bundled-residue CPU versus GPU feasibility family (`F2`): `PASS`
+- NPU or DSP assist: `ABSTAIN`
+- explicit heterogeneous role partition: `ABSTAIN`
 
-## CPU Control Pass
+## Family `F1`: Governed RM10 CPU Control
 
 Command surface:
 
@@ -34,29 +34,39 @@ Thermal and battery:
 
 Interpretation:
 
-The branch has a clean first CPU control pass on the attached RM10 without
-thermal stress or receipt loss.
+The branch has one clean governed RM10 CPU control pass without thermal stress
+or receipt loss.
 
-## GPU Feasibility Pass
+## Family `F2`: Bundled-Residue CPU Versus GPU Feasibility
 
 Artifact root:
 
-- `artifacts/phase_01_2_3_1_rm10_batteries_20260405/gpu_feasibility/`
+- `artifacts/phase_01_2_3_1_dm3_harmonic_train_compare_20260405/`
 
-Observed:
+CPU twin:
 
-- `adreno` for EGL and Vulkan
-- `/dev/kgsl-3d0` visible
-- SurfaceFlinger confirms active graphics stack
+```bash
+adb shell 'cd /data/local/tmp && ./dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/dm3_probe_train_harmonic_cpu.jsonl'
+```
 
-Verdict:
+GPU-backed twin:
 
-- `ABSTAIN`
+```bash
+adb shell 'cd /data/local/tmp && ./dm3_runner --mode train --task harmonic --steps 1 --output /data/local/tmp/dm3_probe_train_harmonic.jsonl'
+```
 
-Reason:
+Observed compare result:
 
-No user-space comparable compute path was established for the branch control
-observable on this first pass.
+| Lane | Stdout evidence | Receipt summary |
+| --- | --- | --- |
+| CPU | `Forcing CPU Mode (GPU Disabled)` | `Commit`, `delta_E=74.96417236328125`, `coherence=0.8924495577812195`, `duration_ms=62378` |
+| GPU-backed | `GPU MatMul Kernel Initialized`, `GPU Transformer Kernel Initialized` | `Commit`, `delta_E=75.55409240722656`, `coherence=0.8767133355140686`, `duration_ms=47581` |
+
+Interpretation:
+
+This is a real same-schema CPU versus GPU feasibility family on-device.
+Its ceiling is still `feasibility_only` because it is `bundled_residue`, not
+the primary governed family.
 
 ## NPU Feasibility Pass
 
@@ -66,9 +76,9 @@ Artifact root:
 
 Observed:
 
-- `fastrpc-adsp-secure`
-- `fastrpc-cdsp`
-- `fastrpc-cdsp-secure`
+- `libQnnHtp.so`
+- `libQnnHtpPrepare.so`
+- `libQnnSystem.so`
 - `libadsprpc.so`
 - `libcdsprpc.so`
 - `adsprpcd`, `cdsprpcd`, `dspservice`
@@ -82,7 +92,7 @@ Reason:
 Accelerator-adjacent libraries and daemons are visible, but a branch-grade
 receiptable user-space assist role was not established.
 
-## Heterogeneous Pass
+## Explicit Heterogeneous Role-Partition Pass
 
 Artifact root:
 
@@ -94,5 +104,6 @@ Verdict:
 
 Reason:
 
-The first pass did not establish a common callable GPU or NPU comparison path,
-so mixed execution would have broken the branch control story.
+The branch now has a GPU-backed bounded family, but it does not yet have an
+explicit handoff artifact or a same-family mixed path on the primary governed
+control surface.

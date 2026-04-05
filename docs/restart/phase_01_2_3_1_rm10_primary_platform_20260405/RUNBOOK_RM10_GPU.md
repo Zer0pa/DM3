@@ -2,50 +2,69 @@
 
 ## Goal
 
-Probe GPU feasibility early on this branch without overstating readiness.
+Probe RM10 GPU callability without inflating feasibility into authority.
 
-## What Is Confirmed
+## Current GPU Surfaces
 
-- `adreno` EGL and Vulkan indicators are present
+### Inventory-only surface
+
+Confirmed:
+
+- `ro.hardware.egl=adreno`
+- `ro.hardware.vulkan=adreno`
 - `/dev/kgsl-3d0` is visible
 - GPU thermal channels are exposed
 
-## What Is Not Confirmed
+This proves `observed`, not `callable`.
 
-- a user-space compute path for the branch control observable
-- deterministic parity rules
-- a stable comparable GPU receipt surface
+### Callable bundled-residue surface
 
-## Allowed First Move
+The branch has one bounded callable GPU-backed protocol:
 
-One bounded feasibility probe tied to the same observable family used by the
-CPU control lane, or an explicit abstain if no such probe can be defined.
+```bash
+adb shell 'cd /data/local/tmp && ./dm3_runner --mode train --task harmonic --steps 1 --output /data/local/tmp/dm3_probe_train_harmonic.jsonl'
+```
+
+Comparison twin:
+
+```bash
+adb shell 'cd /data/local/tmp && ./dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/dm3_probe_train_harmonic_cpu.jsonl'
+```
+
+This surface is:
+
+- `observable_family=dm3_harmonic_train_episode`
+- `build_class=bundled_residue`
+- `authority_status=feasibility_only`
 
 ## Required Questions
 
-1. Is there a callable user-space path?
-2. Does it preserve the same observable family?
-3. Can its outputs be receipted and compared?
+1. Is the path callable from user space?
+2. Does a forced-CPU twin exist on the same observable family?
+3. Do both sides emit comparable receipts?
+4. Is the ceiling declared honestly?
 
-If any answer is no, record `ABSTAIN` or `FAIL`.
+If any answer is no, record `ABSTAIN` or `BLOCKED`.
 
 ## Required Captures
 
-- exact probe command
-- runtime surface used
-- thermal snapshots
-- artifact paths
-- explicit parity or non-parity note
+- exact command
+- exact working directory
+- stdout and stderr
+- pre and post battery and thermal snapshots when feasible
+- output receipt path
+- explicit note describing whether the family is `F1` or `F2`
 
 ## GPU Verdict Standard
 
-- `PASS`: callable path plus explicit comparable observable and receipt surface
-- `FAIL`: callable path exists but destroys comparability or interpretability
-- `ABSTAIN`: hardware and runtime indicators are real, but no honest comparison
-  path exists yet
+- `PASS`: callable path, same-family CPU twin, comparable receipt schema, and explicit ceiling
+- `FAIL`: callable path exists but changes the observable family or breaks interpretation
+- `ABSTAIN`: hardware is visible but no honest callable comparison path exists
+- `BLOCKED`: a callable attempt was justified, but receipt or identity discipline drifted
 
 ## Hard Stops
 
-- GPU feasibility depends on unrecovered DM3 code
-- parity is undefined
-- the only result is "hardware exists"
+- the only evidence is hardware presence
+- the GPU path changes the observable family while still being narrated as comparison
+- bundled-residue success is being promoted into governed `F1` authority
+- internal accelerator use is being narrated as explicit role-partition evidence without a handoff artifact

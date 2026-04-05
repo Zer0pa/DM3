@@ -41,6 +41,18 @@ Primary thermal gates for later branch work are therefore:
 - HAL `GPU*`
 - HAL `nsp*`
 
+## Sensor Precedence, Entry Gates, And Identity Stops
+
+Sensor precedence:
+
+1. current `Thermal Status` from `dumpsys thermalservice`
+2. HAL `battery`, `skin`, `GPU*`, and `nsp*` temperatures captured in run snapshots
+3. cached temperatures as advisory only
+
+If HAL fields are missing, set `sensor_fallback=true` in the checkpoint and do
+not start a `serious_run` unless thermal status is `0`, battery temperature is
+still available, and the fallback is recorded.
+
 ## Run Entry Gates
 
 ### Setup probes
@@ -62,6 +74,9 @@ Allowed only when all of the following are true:
 
 If any of these fail, cool down or abstain.
 
+If an entry gate fails before start, record `ABSTAIN`.
+Do not begin a partial run and narrate it afterward.
+
 ## Warning Thresholds
 
 Raise a warning checkpoint when any of the following occurs:
@@ -79,6 +94,7 @@ At warning level:
   still intact
 - write a checkpoint immediately
 - do not start the next segment until status returns to safe range
+- do not resume until battery and skin return within `2.0 C` of the entry baseline
 
 ## Hard Stop Thresholds
 
@@ -91,6 +107,9 @@ Stop the run immediately when any of the following occurs:
 - an accelerator-specific run produces heat without a comparable observable or
   receipt
 - checkpoint identity is lost or contradicted
+
+If a hard stop fires, close the run as `BLOCKED` unless a bounded negative
+result had already completed before the threshold breach.
 
 These stop values are deliberately well below the device HAL hot-throttle
 thresholds.
@@ -145,6 +164,8 @@ Required checkpoint fields:
 - current receipt path or explicit absence
 - thermal snapshot path
 - battery snapshot path
+- command surface
+- receipt expectation
 
 ## Resume Rules
 
@@ -158,6 +179,9 @@ Resume is allowed only when all of the following remain unchanged:
 
 If any of those change, start a new run ID.
 Do not splice incompatible segments into one comparison narrative.
+
+CPU to GPU, GPU to NPU, and any single-lane to explicit heterogeneous move
+always starts a new `run_id`.
 
 ## Lane Transition Rule
 

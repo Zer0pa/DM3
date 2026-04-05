@@ -2,83 +2,95 @@
 
 ## Purpose
 
-This document defines how CPU, GPU, NPU, and heterogeneous work is allowed to
-enter the RM10-primary branch.
+This document defines how CPU, GPU, NPU, and explicit heterogeneous work enter
+the RM10-primary branch without collapsing distinct evidence surfaces into one
+story.
 
-The branch hypothesis permits early heterogeneous exploration.
-The inherited mainline caution still applies:
-
-- RM10 GPU is `not ready now`
-- RM10 NPU is `feasibility-only`
-- heterogeneous embodiment is `premature`
-
-This plan turns that tension into explicit lane questions instead of silent
-assumptions.
+The branch is allowed to explore heterogeneity early.
+It is not allowed to promote visibility, heat, or opaque binary behavior into
+role-partition evidence.
 
 ## Governing Question
 
-`Can CPU, GPU, NPU, and mixed CPU/GPU/NPU role partition be compared on one
-common observable family without changing the claim ceiling or hiding missing
-readiness behind accelerator rhetoric?`
+`Can the branch carry one primary governed RM10 CPU control family and one lower-ceiling accelerator comparison family without confusing feasibility with authority?`
 
 ## Lane State Vocabulary
 
 Use these words exactly:
 
-- `observed`: the hardware or telemetry surface is visible
-- `callable`: a user-space command path is real
-- `feasibility-only`: probing is allowed, but comparison authority is not
-- `serious-ready`: the lane can participate in a same-observable governed run
-- `premature`: prerequisites are missing and no live attempt is allowed
-- `abstain`: the honest outcome when prerequisites are not met
+- `observed`: hardware, driver, or telemetry surface is visible
+- `callable`: a user-space command path emits durable outputs
+- `serious-ready`: a lane can participate in a governed same-family comparison
+- `feasibility-only`: the lane can be probed honestly, but claim ceiling stays low
+- `premature`: prerequisites are missing and an explicit mixed attempt is not allowed
+- `abstain`: the honest outcome when prerequisites or logging discipline are missing
+- `blocked`: a run was justified but staging, identity, or receipt discipline failed
 
 ## Common Observable Contract
 
-No GPU, NPU, or heterogeneous comparison counts unless all compared runs keep:
+No comparison counts unless all compared runs preserve:
 
 1. the same observable family
-2. the same success/failure question
+2. the same success or failure question
 3. the same input semantics
-4. the same receipt fields needed for comparison
-5. the same branch claim ceiling
+4. the same receipt schema needed for comparison
+5. the same declared claim ceiling
 
 If the accelerator path changes the observable family, it is not a comparison.
 It is a different battery.
 
-## Candidate First Observable
+## Observable Family Split
 
-The first common observable family must not be the retired bundled `G2` family.
+### Family `F1`: `rm10_genesis_protocol_tuple`
 
-The branch should prefer a bounded RM10 CPU control that is:
+This is the branch's primary RM10 control family.
 
-- live today from `/data/local/tmp`
-- small enough for repeated thermal-safe execution
-- receipt-producing
-- meaningful under branch logging and checkpoint rules
+- `lane_role`: governed branch baseline
+- `command`: `PATH=/data/local/tmp/SoC_Harness/bin:$PATH /data/local/tmp/genesis_cli --protocol --runs 1 --output-dir audit/branch_01_2_3_1_cpu_20260405`
+- `cwd`: `/data/local/tmp/SoC_runtime/workspace`
+- `receipt_tuple`: `verify.json=f992e9c833f15d579224c463fd730d6b238cf0e7cab26dc551eef4b01bc124a1`, `solve_h2.json=a33c5cc4a91d1c5bab4adff29d3b56b6cb059f3b2268cc92ea5bf2b201d13364`
+- `authority_status`: `governed_non_sovereign`
+- `build_class`: `prebuilt_stub`
+- `validator_state`: default validator `FAIL`; explicit-hash tuple comparison `PASS`
 
-Until that control exists, all non-CPU lanes remain feasibility or abstain
-surfaces.
+No accelerator lane has yet preserved `F1`.
+
+### Family `F2`: `dm3_harmonic_train_episode`
+
+This is a lower-ceiling bundled-residue comparison family that the branch can
+use for accelerator feasibility work.
+
+- `cpu_command`: `/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output cpu_train_harmonic.jsonl`
+- `gpu_backed_command`: `/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --output gpu_train_harmonic.jsonl`
+- `cwd`: `/data/local/tmp`
+- `receipt_schema`: one JSONL episode record carrying `decision`, `delta_E`, `coherence`, and `duration_ms`
+- `stdout_evidence`: CPU run logs `Forcing CPU Mode (GPU Disabled)`; GPU-backed run logs `GPU MatMul Kernel Initialized` and `GPU Transformer Kernel Initialized`
+- `build_class`: `bundled_residue`
+- `authority_status`: `feasibility_only`
+
+`F2` does not replace `F1`.
+It is admissible only for bounded CPU versus GPU feasibility work on the
+preserved bundled residue.
 
 ## Lane Matrix
 
-| Lane | Branch question | Current branch status | Allowed first role | Must already be true | Honest first outcome classes |
-| --- | --- | --- | --- | --- | --- |
-| RM10 CPU | Can the branch name one controlled, receipt-backed baseline observable on-device? | candidate control lane | direct governed control run | exact command, cwd, receipt schema, and branch logging rules exist | `pass`, `fail`, `blocked` |
-| RM10 GPU | Can the phone accelerate the same CPU-governed observable without changing the story? | not ready now | parity or acceleration feasibility only | CPU control is live; reduction rules explicit; comparison ledger defined | `pass`, `fail`, `abstain` |
-| RM10 NPU or DSP-adjacent | Is any bounded user-space assist role reachable and receiptable? | feasibility-only | projection, tagging, or preprocessing assist | callable user-space surface exists; CPU baseline remains sovereign | `pass`, `fail`, `abstain` |
-| RM10 heterogeneous | Does stage-wise or representation-wise partition clarify the observable instead of muddying it? | premature | logged role split only after CPU plus one accelerator role are stable | CPU control live; one accelerator lane at least feasibility-proved on same observable; handoff accounting explicit | `pass`, `fail`, `abstain` |
+| Lane | Ceiling now | `F1` state | `F2` state | Current evidence | Next admissible move | Promotion blocker |
+| --- | --- | --- | --- | --- | --- | --- |
+| RM10 CPU | `governed_non_sovereign` on `F1`; `feasibility_only` on `F2` | `serious-ready` | `callable` | receipted `genesis_cli` control on `F1`; forced-CPU one-episode harmonic run on `F2` | keep `F1` as branch anchor and use `F2` only for bounded accelerator compare | `F1` still depends on `prebuilt_stub`; no accelerator carry-forward on `F1` |
+| RM10 GPU | `feasibility_only` | `observed` | `callable` | Adreno properties and `/dev/kgsl-3d0`; bounded `dm3_runner` harmonic run emits comparable JSONL and logs GPU kernel initialization on `F2` | repeat `F2` with full identity packet and explicit telemetry capture | no same-family GPU path on `F1`; no explicit handoff artifact for a mixed role claim |
+| RM10 NPU or DSP-adjacent | `feasibility-only` | `observed` | `observed` | `libQnnHtp*`, `libQnnSystem.so`, `adsprpcd`, `cdsprpcd`, `dspservice`, FastRPC surfaces | find one callable CLI or wrapper with receiptable inputs and outputs | no user-space receiptable assist path |
+| RM10 heterogeneous role partition | `premature` | `abstain` | `abstain` | no explicit pre-handoff or post-handoff artifact exists; current GPU-backed `F2` path is inside one opaque binary | do not start until a split can be named and logged explicitly | no explicit handoff boundary, drift-localization artifact, or same-family mixed ledger |
 
 ## Allowed Role-Partition Patterns
 
-Only these heterogeneity patterns may be tested first:
+Only these mixed patterns may be tested first:
 
-1. `CPU control / accelerator assist`
-   accelerator proposes or preprocesses; CPU remains the decisive lane
+1. `CPU authority / accelerator assist`
+   the accelerator proposes or preprocesses, but the CPU-governed lane remains decisive
 2. `stage-wise split`
-   one stage is accelerated while the comparison observable remains unchanged
+   one bounded stage is accelerated while the final observable family is unchanged
 3. `representation-wise split`
-   an accelerator handles a bounded representation transform that is still
-   checked by the CPU-governed lane
+   an accelerator handles a bounded transform that is still checked by a CPU-governed output
 
 ## Forbidden Role-Partition Patterns
 
@@ -86,38 +98,38 @@ Do not allow:
 
 - whole-pipeline opaque accelerator substitution
 - a GPU or NPU path that invents a new observable family for itself
-- marketing-language partitions such as "AI core mode" without explicit data
-  flow
+- vendor-marketing labels such as "AI core mode" without explicit data flow
 - same-binary bundled `G2` resurrection framed as heterogeneity
+- internal accelerator use inside one opaque binary being narrated as explicit handoff proof
 
 ## CPU Control Contract
 
 The CPU lane is the branch anchor.
 
-The first CPU control must define:
+Every CPU control family must declare:
 
 - exact executable
 - exact working directory
 - exact assets or datasets
-- exact receipt location
-- exact thermal and checkpoint capture cadence
-- exact outcome vocabulary
+- exact receipt location or explicit receipt absence
+- thermal and checkpoint capture cadence
+- exact ceiling: `governed_non_sovereign` or `feasibility_only`
 
-If the CPU control is ambiguous, the accelerator plans do not advance.
+If the CPU control is ambiguous, accelerator plans do not advance.
 
 ## GPU Plan
 
-The GPU question is parity or bounded acceleration of the CPU-governed
-observable, not "does the GPU exist?".
+The GPU question is not "does the GPU exist?".
+It is:
 
-GPU work remains prep or abstain unless:
+- can the GPU back a bounded same-family comparison?
+- can the result stay within the declared ceiling?
+- can the branch say what changed and what did not?
 
-1. the CPU control is already live
-2. the same observable family is preserved
-3. deterministic reduction or comparison discipline is written
-4. build class and validator status are stated honestly
+Current standing:
 
-GPU does not become ready because `/dev/kgsl-3d0` is present.
+- `F1`: `observed` only, no same-family GPU path
+- `F2`: `callable`, because the harmonic train family emits comparable receipts and explicitly logs GPU kernel initialization
 
 ## NPU Plan
 
@@ -131,18 +143,20 @@ NPU work is allowed to ask only:
 
 If the answer is no, `abstain` is the correct result.
 
-## Heterogeneous Plan
+## Explicit Heterogeneous Plan
 
-Heterogeneous work is a late part of this branch phase, not a warm-up ritual.
+Explicit heterogeneous work begins only when:
 
-It may begin only when:
+1. one CPU family is already stable enough to compare
+2. one accelerator lane is callable on that same family
+3. pre-handoff and post-handoff artifacts are retained
+4. drift can be localized to one side of the split
+5. the mixed path does not change the question under test
 
-1. the CPU control is stable enough to compare
-2. GPU or NPU feasibility has a real artifact surface
-3. the handoff between lanes is named explicitly
-4. the mixed path does not change the claim under test
-
-If any of those are missing, heterogeneous work is `premature`.
+Internal GPU-backed execution inside one binary may count as accelerator-backed
+feasibility.
+It does not count as explicit heterogeneous role-partition evidence until the
+handoff is logged.
 
 ## Logging Rules For Every Lane
 
@@ -152,43 +166,40 @@ Every lane attempt must log:
 - device lane and compute lane
 - run kind
 - authority status
-- evidence surface
 - build class
 - observable family
 - exact command
 - exact working directory
-- environment manifest path
 - receipt path or explicit absence
 - thermal and battery snapshots
 - checkpoint identity
-- final `pass`, `fail`, `abstain`, or `blocked` outcome
+- final `PASS`, `FAIL`, `ABSTAIN`, or `BLOCKED` outcome
 
 ## Decision Rules
 
 Use this ladder:
 
-1. `pass`
-   same observable preserved and comparison interpretable
-2. `fail`
-   same observable attempted and contradicted
-3. `abstain`
-   prerequisites missing, but no contradictory result was produced
-4. `blocked`
-   governance or staging drift prevented a meaningful attempt
+1. `PASS`
+   same-family attempt completed and stayed within its declared ceiling
+2. `FAIL`
+   same-family attempt completed and contradicted the claim under test
+3. `ABSTAIN`
+   prerequisites, handoff logging, or receipt discipline were missing
+4. `BLOCKED`
+   staging, identity, or receipt drift prevented a meaningful attempt
 
-`abstain` is not a pass.
 `observed` is not `callable`.
 `callable` is not `serious-ready`.
-
-## Hand-Off To Later Plans
-
-Plan `03` must turn this document into lane-specific runbooks.
-Plan `04` must turn it into one hardware-role battery matrix plus explicit
-CPU/GPU/NPU/heterogeneous verdicts.
+`F2` success does not raise `F1` authority.
 
 ## Bottom Line
 
-The branch is allowed to explore heterogeneity early only if it stays brutally
-honest about role partition, common observables, and abstain outcomes.
-Otherwise it is just changing hardware while pretending the science stayed the
-same.
+The branch now has:
+
+- one governed RM10 CPU control family on `F1`
+- one bounded CPU versus GPU feasibility family on `F2`
+- no explicit heterogeneous role-partition win
+- no NPU callability yet
+
+That is enough to keep accelerator exploration alive honestly.
+It is not enough to narrate heterogeneity as already solved.
