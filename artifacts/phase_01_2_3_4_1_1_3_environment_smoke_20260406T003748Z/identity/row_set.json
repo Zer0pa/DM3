@@ -1,0 +1,34 @@
+{
+  "phase": "01.2.3.4.1.1.3",
+  "plan": "02",
+  "run_prefix": "phase_01_2_3_4_1_1_3_env_smoke_20260406T003748Z",
+  "surface_id": "f2_root_chamber_candidate",
+  "binary_path": "/data/local/tmp/dm3_runner",
+  "device_cwd": "/data/local/tmp",
+  "rows": [
+    {
+      "name": "cpu_harmonic_a",
+      "surface_id": "f2_root_chamber_candidate",
+      "lane": "cpu",
+      "task": "harmonic",
+      "steps": 1,
+      "gated": false,
+      "freq": null,
+      "rotation": 0.0,
+      "asymmetry": 0.0,
+      "note": "CPU-only harmonic control row A."
+    },
+    {
+      "name": "gpu_harmonic_a",
+      "surface_id": "f2_root_chamber_candidate",
+      "lane": "gpu",
+      "task": "harmonic",
+      "steps": 1,
+      "gated": false,
+      "freq": null,
+      "rotation": 0.0,
+      "asymmetry": 0.0,
+      "note": "GPU-coupled harmonic row A."
+    }
+  ]
+}

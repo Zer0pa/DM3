@@ -1,0 +1,53 @@
+Usage: dm3_runner [OPTIONS]
+
+Options:
+  -o, --output <OUTPUT>
+          Output file for receipts (JSONL) [default: receipts.jsonl]
+      --mode <MODE>
+          Mode: "inference" or "train" [default: train]
+      --steps <STEPS>
+          Training steps
+      --adj <ADJ>
+          Adjacency file path [default: SriYantraAdj_v1.bin]
+      --soak <SOAK>
+          Run soak test for N steps
+      --task <TASK>
+          Task name (holography, harmonic) [default: holography]
+      --tags <TAGS>
+          Region tags file path [default: RegionTags_v1.bin]
+      --patterns <PATTERNS>
+          Phoneme patterns file path [default: PhonemePatterns_v1.bin]
+      --asymmetry <ASYMMETRY>
+          Asymmetry factor for Skin Effect (0.0 = Symmetric) [default: 0]
+      --rotation <ROTATION>
+          Rotation angle for Braiding (degrees) [default: 0]
+      --dataset <DATASET>
+          Dataset file path (JSONL) [default: data/xnor_train.jsonl]
+      --angle <ANGLE>
+          [default: 0]
+      --use-layernorm <USE_LAYERNORM>
+          Use LayerNorm (Default: true). Set to false for Hamiltonian/Bicameral mode [default: true] [possible values: true, false]
+      --freq <FREQ>
+          Drive frequency for resonance tasks
+      --gated
+          Use Strict Resonance Gating (Doc #5)
+      --calibration <CALIBRATION>
+          Calibration file path (JSON)
+      --dataset-size <DATASET_SIZE>
+          Dataset size for G2 [default: 10]
+      --autobrake <AUTOBRAKE>
+          Autobrake threshold for G2 [default: 100000000]
+      --cpu
+          Force CPU execution
+      --enable-truth-sensor
+          Enable Truth Sensor (Active Maintenance)
+      --sensor-threshold <SENSOR_THRESHOLD>
+          Truth Sensor Threshold (MSE) [default: 1]
+      --sensor-strength <SENSOR_STRENGTH>
+          Truth Sensor Strength (Mixing) [default: 0.5]
+      --sensor-cooldown <SENSOR_COOLDOWN>
+          Truth Sensor Cooldown (Steps) [default: 10]
+  -h, --help
+          Print help
+  -V, --version
+          Print version

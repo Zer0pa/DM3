@@ -1,0 +1,3 @@
+row_name	lane	task	gated	decision	delta_E	coherence	duration_ms	marker	status
+cpu_harmonic_a	cpu	harmonic	False	Commit	76.09537506103516	0.8778054714202881	59641	cpu_forced	ok
+gpu_harmonic_a	gpu	harmonic	False	Commit	74.83224487304688	0.8919430375099182	66296	gpu_init	ok

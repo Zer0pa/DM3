@@ -1,0 +1,23 @@
+{
+  "policy": "rerun-only",
+  "rows": [
+    {
+      "row_name": "cpu_harmonic_a",
+      "surface_id": "f2_root_chamber_candidate",
+      "lane": "cpu",
+      "command_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/rows/cpu_harmonic_a/identity/command.txt",
+      "receipt_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/rows/cpu_harmonic_a/receipts/phase_01_2_3_4_1_1_3_env_smoke_20260406T003748Z_cpu_harmonic_a.jsonl",
+      "summary_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/rows/cpu_harmonic_a/metrics/summary.json",
+      "exit_code": 0
+    },
+    {
+      "row_name": "gpu_harmonic_a",
+      "surface_id": "f2_root_chamber_candidate",
+      "lane": "gpu",
+      "command_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/rows/gpu_harmonic_a/identity/command.txt",
+      "receipt_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/rows/gpu_harmonic_a/receipts/phase_01_2_3_4_1_1_3_env_smoke_20260406T003748Z_gpu_harmonic_a.jsonl",
+      "summary_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/rows/gpu_harmonic_a/metrics/summary.json",
+      "exit_code": 0
+    }
+  ]
+}
