@@ -10,4 +10,3 @@ Interpretation:
 - persistence was not observed across the widened packet
 - boundary sensitivity to session width was observed
 - no stronger property claim is justified from this packet
-

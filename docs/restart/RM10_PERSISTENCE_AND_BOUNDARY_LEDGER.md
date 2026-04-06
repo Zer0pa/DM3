@@ -85,4 +85,3 @@ Verdict: `boundary_sensitivity_without_persistence`
 
 This is not a strong chamber-science win.
 It is a real, narrow property result that later falsifier work must attack.
-
