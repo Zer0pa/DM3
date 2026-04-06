@@ -1,0 +1,66 @@
+597     2 S     00:00:00 [cdsprm-wq]
+598     2 I<    00:00:00 [kworker/R-cdspr]
+799     1 S     00:00:13 audioadsprpcd audiopd adsp
+834     1 S     00:07:09 android.hardware.security.keymint-service-qti
+840     1 S     00:00:00 vendor.qti.hardware.qseecom@1.0-service
+870     1 S     00:00:07 vendor.qti.qvirt-service_rs
+875     1 S     00:00:00 android.hardware.boot-service.qti
+936     2 S     00:00:01 [adspsleepmon-worker]
+992     2 S     00:00:00 [cvp-dsp-thread]
+1240     2 S     00:00:00 [glink_cdsp]
+1245     2 S     00:00:00 [glink-LOOPBACK_CTL_CDSP]
+1259     2 S     00:00:00 [glink-fastrpcglink-apps-dsp]
+1260     2 S     00:00:00 [glink-cdsprmglink-apps-dsp]
+1261     2 S     00:00:00 [glink-cvp-glink-apps-dsp]
+1385     2 S     00:00:00 [glink_adsp]
+1401     2 S     00:00:00 [glink-fastrpcglink-apps-dsp]
+1403     2 S     00:07:25 [glink-adsp_apps]
+1404     2 S     00:00:00 [glink-sleepmonglink-apps-adsp]
+1412     2 S     00:01:59 [glink-PMIC_RTR_ADSP_APPS]
+1413     2 S     00:00:00 [glink-PMIC_LOGS_ADSP_APPS]
+1554     1 S     00:00:14 sscrpcd sensorspd adsp
+1560     1 S     00:04:03 android.hardware.bluetooth@aidl-service-qti
+1567     1 S     00:05:11 android.hardware.gnss-aidl-service-qti
+1568     1 S     00:01:21 android.hardware.health-service.qti
+1569     1 S     00:00:27 android.hardware.identity-service-qti
+1578     1 S     00:00:13 android.hardware.thermal-service.qti
+1579     1 S     00:00:15 android.hardware.usb-service.qti
+1581     1 S     02:50:40 audiohalservice.qti
+1582     1 S     00:00:10 vendor.qti.hardware.memtrack-service
+1613     1 S     00:00:00 vendor.qti.MemHal-service
+1614     1 S     00:05:44 vendor.qti.camera.provider-service_64
+1616     1 S     00:00:00 vendor.qti.hardware.c2pa-aidl-service-qti
+1617     1 S     00:00:00 vendor.qti.hardware.capabilityconfigstore-service
+1621     1 S<    00:00:19 vendor.qti.hardware.display.allocator-service
+1623     1 S     02:01:02 vendor.qti.hardware.display.composer-service
+1636     1 S     00:00:00 dspservice
+1638     1 S     00:00:00 vendor.qti.hardware.lights.service
+1642     1 S     00:00:03 vendor.qti.hardware.minkipcbinder@1.0-service
+1650     1 S     00:06:55 vendor.qti.hardware.perf2-hal-service
+1675     1 S     00:00:00 vendor.qti.hardware.secureprocessor
+1678     1 S     00:00:00 vendor.qti.hardware.sensorscalibrate-service
+1695     1 S     00:00:47 vendor.qti.hardware.servicetrackeraidl-service
+1704     1 S     00:00:00 vendor.qti.hardware.trustedui-aidl-service-qti
+1709     1 S     00:15:35 media.hwcodec /vendor.qti.media.c2@1.0-service
+1710     1 S     00:00:00 media.audio.qc.codec .qti.media.c2audio@1.0-service
+1711     1 S     00:00:00 vendor.qti.qspa-service
+1717     1 S     00:00:00 vendor.qti.qspmhal-service
+1723     1 S     00:01:36 vendor.qti.syshealthmon-service
+1807     1 S     00:00:07 sensors.qti
+2040     1 S     00:00:20 android.hardware.gatekeeper-service-qti
+2259     1 S     00:00:13 adsprpcd rootpd adsp
+2312     1 S     00:00:12 cdsprpcd rootpd cdsp
+2559     1 S     00:00:12 vendor.qti.hardware.soter-service
+2575     1 S     00:00:14 qti
+2638     1 S     00:00:06 ssdaemon_vendor -c libss-qti.so
+3922  1484 S     00:00:23 com.qualcomm.qtil.aptxals
+3932  1484 S     00:00:53 vendor.qti.qesdk.sysservice
+4010  1484 S     00:01:39 .qtidataservices
+4062  1484 S     00:00:10 com.qualcomm.qtil.aptxui
+4728     1 S     00:00:17 vendor.qti.hardware.vibrator.service
+5830  1484 S     00:00:11 com.qualcomm.qti.services.systemhelper:systemhelper_service
+6008  1484 S     00:00:22 com.qualcomm.qti.workloadclassifier
+14489     1 S     00:00:00 vendor.qti.hardware.alarm-service
+17160  1484 S<    01:34:45 com.google.android.inputmethod.latin
+27556  1484 S     00:00:03 com.qti.phone
+29540  1484 S     00:00:00 com.qti.qcc

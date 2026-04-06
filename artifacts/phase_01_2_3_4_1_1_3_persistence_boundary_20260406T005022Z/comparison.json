@@ -1,0 +1,19 @@
+{
+  "run_id": "phase_01_2_3_4_1_1_3_persistence_boundary_20260406T005022Z",
+  "phase": "01.2.3.4.1.1.3",
+  "plan": "05",
+  "comparison_variable": "window_count",
+  "surface_id": "f2_root_chamber_candidate",
+  "observable_family": "f2_harmonic_residue",
+  "baseline_packet": "artifacts/phase_01_2_3_4_1_1_3_environment_smoke_20260406T003748Z/comparisons/summary.json",
+  "perturbed_packet": "artifacts/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z/comparisons/summary.json",
+  "baseline_window_count": 2,
+  "perturbed_window_count": 4,
+  "baseline_status": "comparable_tuples_survived",
+  "perturbed_status": "signal_exit_and_receipt_collapse",
+  "property_verdict": "boundary_sensitivity_without_persistence",
+  "notes": [
+    "No new device run was needed for this property map.",
+    "The one variable changed was session width on the same chamber family."
+  ]
+}

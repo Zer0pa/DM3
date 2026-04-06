@@ -1,0 +1,9 @@
+{
+  "path": "/system/bin/uinput",
+  "binary": "uinput",
+  "command": "/system/bin/timeout 10 /system/bin/uinput --help",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "",
+  "callable_hint": true
+}

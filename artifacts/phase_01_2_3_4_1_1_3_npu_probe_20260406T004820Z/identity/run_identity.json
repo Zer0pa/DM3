@@ -1,0 +1,13 @@
+{
+  "run_id": "phase_01_2_3_4_1_1_3_npu_probe_20260406T004820Z",
+  "phase": "01.2.3.4.1.1.3",
+  "plan": "04",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "machine_class": "rm10_device",
+  "device_serial": "FY25013101C8",
+  "device_model": "NX789J",
+  "authority_status": "feasibility_only",
+  "question": "Does the attached RM10 expose a bounded callable user-space NPU path?",
+  "artifact_root": "artifacts/phase_01_2_3_4_1_1_3_npu_probe_20260406T004820Z",
+  "summary_path": "artifacts/phase_01_2_3_4_1_1_3_npu_probe_20260406T004820Z/summary.json"
+}

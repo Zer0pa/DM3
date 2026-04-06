@@ -203,6 +203,170 @@ Plans:
 - [x] 01.2.3.2-03: Close bounded NPU triage and decide bridge versus separate residue line
 - [x] 01.2.3.2-04: Write the executive verdict, family table, next move, and updated 10-document pack
 
+### Phase 01.2.3.3: RM10 Validator-Default Localization, F2 Root-Surface Repair, And Heterogeneous Brief Readiness (INSERTED)
+
+**Goal:** Localize the live `genesis_cli` default-validator target on the current RM10 surface, repair or exact-localize the top-level `F2` residue root surface, and return an honest readiness verdict for any official heterogeneous-compute brief without inflating residue evidence into governed-family progress.
+**Depends on:** Phase 01.2.3.2
+**Contract Coverage:**
+- Advances: validator-default localization, residue root-surface repair, official heterogeneous-brief readiness, startup/control-surface truth maintenance
+- Deliverables: validator-localization packet, `F2` root-surface probe packet, refreshed engineering gap ledger, refreshed startup/state route, official brief-readiness verdict
+- Anchor coverage: Phase `01.2.3.2` bridge closeout pack, retained historical RM10 parity witness, live `/data/local/tmp/genesis_cli`, live `/data/local/tmp/dm3_runner`, current startup/control notes
+- Forbidden proxies: explicit-hash success narrated as repaired default validation, legacy `/data/local/tmp/dm3/dm3_runner` callability substituted for the top-level root family, blocked `F2` root runs narrated as outlier evidence, readiness prose substituted for retained packets
+**Success Criteria** (what must be TRUE):
+
+1. The live RM10 validator-default failure is localized to a stale baked-in target or to a narrower device-side rule than vague bundle corruption.
+2. The top-level `/data/local/tmp/dm3_runner` root surface is either repaired to one bounded callable CPU row or reduced to exact blocker evidence with its hidden dependency and stall envelope retained.
+3. The branch returns an explicit yes/no readiness verdict for any official heterogeneous-compute brief and keeps `F2` outlier work blocked until the root surface is actually ready.
+**Plans:** 3 plans
+
+Plans:
+- [x] 01.2.3.3-01: Retain validator-default localization against the historical RM10 parity witness and the live device binary
+- [x] 01.2.3.3-02: Retain and localize the top-level `F2` root-surface dependency and stall envelope
+- [x] 01.2.3.3-03: Refresh startup/state/decision-route surfaces and decide official heterogeneous-brief readiness
+
+### Phase 01.2.3.4: RM10 Validator Rule Repair, F2 Root Handoff, And Narrow Heterogeneous Probe (INSERTED)
+
+**Goal:** Repair or exactly pin down the live RM10 `genesis_cli` default-validator rule, repair the top-level `F2` root family until it can support a same-family official handoff, and only then run one narrow heterogeneous split on a preserved observable without widening the claim ceiling.
+**Depends on:** Phase 01.2.3.3
+**Contract Coverage:**
+- Advances: validator-rule repair, top-level root-family repair, same-family `F2` handoff, narrow heterogeneous probe, claim-ceiling control
+- Deliverables: validator-rule dossier or repair packet, top-level root-family repair packet or exact blocker packet, official `F2` outlier packet or governed stop packet, narrow heterogeneous split packet or abstain packet, refreshed branch decision route
+- Anchor coverage: Phase `01.2.3.3` readiness packets, retained historical RM10 parity witness, live `/data/local/tmp/genesis_cli`, live `/data/local/tmp/dm3_runner`, and the preserved legacy residue control surface for comparison only
+- Forbidden proxies: explicit-hash success narrated as default-validator repair, strings-only guesses substituted for retained rule evidence, legacy `/data/local/tmp/dm3/dm3_runner` success substituted for the top-level root family, GPU initialization narrated as heterogeneous success, blocked `F2` packets narrated as same-family handoff
+**Success Criteria** (what must be TRUE):
+
+1. The live `genesis_cli` default-validator rule is either repaired on-device or reduced to exact retained rule evidence that replaces vague “bundle corruption” language with a precise device-side explanation.
+2. The top-level `/data/local/tmp/dm3_runner` root family is either repaired to one bounded callable CPU row on its own surface or reduced to exact blocker evidence that excludes legacy substitution.
+3. If the top-level root family becomes callable, the official hardened `F2` outlier packet runs on that same family and returns a retained verdict rather than a blocked boundary.
+4. A narrow heterogeneous split is attempted only after the earlier gates open and returns a pass, fail, or abstain verdict on one preserved observable without inflating residue work into governed-family authority.
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.4-01: Reverse-engineer or repair the live validator-default rule against the device binary and retained witness tuple
+- [x] 01.2.3.4-02: Repair or exact-localize the top-level `F2` root family without falling back to the legacy residue surface
+- [x] 01.2.3.4-03: Run the official same-family `F2` outlier handoff only if the top-level root family becomes callable
+- [x] 01.2.3.4-04: Run one narrow heterogeneous split on a preserved observable only if the same-family handoff exists, then refresh the canonical next-move route
+
+### Phase 01.2.3.4.1: RM10 Validator-Default Rule, Same-Family F2 Instability, And Observable-Gated Replay (INSERTED)
+
+**Goal:** Attack the two exact live engineering defects directly: repair or sharply localize the RM10 validator-default rule and the top-level same-family `F2` instability, then define one preserved observable, rerun the official same-family outlier surface under locked identity, and reopen one narrow heterogeneous split only if that observable survives honestly.
+**Depends on:** Phase 01.2.3.4
+**Contract Coverage:**
+- Advances: validator-default reverse engineering, top-level same-family instability localization, minimal observable contract, official same-family rerun, narrow heterogeneous reopen only if same-family PASS
+- Deliverables: validator-default ledger, top-level instability ledger, observable contract note, official same-family rerun ledger, narrow heterogeneous micro ledger or explicit abstain packet, final bounded verdict note
+- Anchor coverage: retained `01.2.3.4` validator probe, retained `01.2.3.4` top-level surface probe, retained `01.2.3.4` same-family outlier packet, retained `01.2.3.4` heterogeneous abstain packet, current restart engineering ledgers
+- Forbidden proxies: explicit-hash override narrated as default repair, different runtime behavior narrated as instability progress, handoff existence narrated as preserved observability, heterogeneous reopening from same-family FAIL or ABSTAIN, NPU presence narrated as a real lane
+**Success Criteria** (what must be TRUE):
+
+1. The live RM10 validator-default rule is either repaired, precisely localized to one exact selector or compiled-pair site, or fenced as an operator-policy route with retained evidence.
+2. The top-level same-family `F2` surface is either stabilized or reduced to one named instability class under locked identity; unlocalized instability does not pass.
+3. The official same-family `F2` outlier rerun preserves one honest observable or returns a precise FAIL or ABSTAIN verdict that says where the boundary breaks.
+4. A narrow heterogeneous split is attempted only after a same-family PASS on that observable and returns PASS, FAIL, or ABSTAIN with drift localization; otherwise heterogeneous remains fenced.
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.4.1-01: Reverse-engineer the validator-default selector path, compiled pair, and default-vs-override behavior until the defect is repaired or exactly localized
+- [x] 01.2.3.4.1-02: Freeze the top-level same-family bracket identity, rerun it under telemetry, and localize or eliminate the remaining `F2` instability
+- [x] 01.2.3.4.1-03: Define the minimal observable contract and rerun the official same-family outlier surface under locked identity with falsifier and claim-discipline checks
+- [x] 01.2.3.4.1-04: Run one narrow heterogeneous micro-battery only if the same-family rerun passes, then assemble the bounded verdict package and refresh the route
+
+### Phase 01.2.3.4.1.1: RM10 Capability Discovery Reset, Drift Purge, And Property-First Battery (INSERTED)
+
+**Goal:** Strip drift from the active RM10-primary surface, demote validator and determinism handling to secondary telemetry for exploratory work, and determine whether the cleaned RM10-hosted system exhibits any real, nontrivial, characterizable capability before more validator-centered repair work continues.
+**Depends on:** Phase 01.2.3.4.1
+**Contract Coverage:**
+- Advances: drift purge, live-path simplification, capability discovery, property mapping, same-family handoff truth as a property test, lane contrast, adversarial falsification, claim-ceiling control
+- Deliverables: sealed rescue pack, cleanup report, live-surface manifest, capability smoke lattice ledger, property map, same-family handoff truth ledger or abstain note, lane contrast ledger or abstain note, falsifier verdict, bounded recommendation
+- Anchor coverage: retained `01.2.3.4.1` verdict package, RM10 execution-surface and path-audit docs, retained branch runbooks and observables indexes, existing RM10 capture tools, historical Mac and RM10 witness receipts
+- Forbidden proxies: validator-default repair narrated as capability, determinism mismatch treated as the front-door stop for exploratory work, "something ran" narrated as signal, GPU speed narrated as behavioral change, stale or quarantined paths silently re-entering the active lane
+**Success Criteria** (what must be TRUE):
+
+1. Exactly one sealed rescue pack exists, and the active branch is reduced to one live RM10 workspace root, one active launcher path per tested lane, one Mac support workspace, and one live output root.
+2. The cleaned RM10 lane either yields a clean negative or at least one structured, falsifiable response family under controlled perturbation without leaning on stale-validator or residue-path ambiguity.
+3. If signal exists, the phase maps at least one honest property family and says whether same-family handoff and lane contrast preserve, alter, or destroy it; if signal does not exist, the phase returns an explicit empty-line verdict quickly.
+4. The final package says whether the apparent effect survives adversarial falsification and chooses exactly one next move: continue property science, continue handoff work, escalate lane work, or terminate this line as empty.
+**Plans:** 6 plans
+
+Plans:
+- [ ] 01.2.3.4.1.1-01: Seal one rescue pack, freeze one live root per lane, quarantine drift, and prove the cleaned RM10 lane still boots
+- [ ] 01.2.3.4.1.1-02: Run the cleaned RM10 capability smoke lattice and classify null, weak, or structured response
+- [ ] 01.2.3.4.1.1-03: Map thresholds, persistence, hysteresis, boundary sensitivity, and recovery only if the smoke lattice finds signal
+- [ ] 01.2.3.4.1.1-04: Test same-family handoff truth as a property boundary only if earlier batteries justify it
+- [ ] 01.2.3.4.1.1-05: Run narrow lane contrast on CPU and any callable accelerator lane only if the comparison is honest and interpretable
+- [ ] 01.2.3.4.1.1-06: Run adversarial falsification, freeze the claim ceiling, and issue the bounded recommendation
+
+### Phase 01.2.3.4.1.1.4: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Probe (INSERTED)
+
+**Status:** Superseded placeholder. Retained for branch history, but not the live execution route.
+
+**Goal:** Test the training document's heterogeneity-first geometric-kernel story as a bounded RM10 experiment: define a measurable resonance-chamber observable contract, extend live capture tooling just enough to retain a stronger CPU/GPU bracket plus direct NPU probing, run the attached-device battery, and return a falsified or surviving next move without inflating the claim ceiling.
+**Depends on:** Phase 01.2.3.4.1.1
+**Contract Coverage:**
+- Advances: heterogeneity-first experiment framing, resonance-chamber observable contract, stronger live F2 telemetry, direct NPU path probing, bounded falsifier verdict
+- Deliverables: resonance PRD, observable contract note, interpretation note, environment manifest, heterogeneity-first battery ledger, NPU projection-path ledger, falsifier ledger, final phase verdict
+- Anchor coverage: Training Doc #5, hardware-lane baseline, F2 instability and outlier ledgers, NPU abstain ledger, RM10 execution-surface manifest, live capture tools
+- Forbidden proxies: training-document metaphor treated as proof, GPU heat or runtime treated as signal, legacy residue substitution, NPU inventory treated as a path, one live battery narrated as authority
+**Success Criteria** (what must be TRUE):
+
+1. The branch defines a phase-local observable contract that translates the training document's CPU/NPU/GPU story into current-surface measurable quantities without pretending the stronger theory is already proven.
+2. The live RM10 capture tooling is strong enough to retain one extended top-level CPU/GPU/GPU/CPU bracket with stronger telemetry and one direct NPU path probe.
+3. The phase returns one retained environment and battery packet that says what the CPU lane, coupled CPU/GPU bracket, and NPU probe actually did on the attached device.
+4. The final package either sharpens or collapses the resonance-chamber and heterogeneity-first story under direct falsification and names exactly one next move.
+**Plans:** 4 plans
+
+Plans:
+- [ ] 01.2.3.4.1.1.4-01: Write the resonance observable contract and interpretation note
+- [ ] 01.2.3.4.1.1.4-02: Extend the F2 capture harness and add a bounded NPU path probe
+- [ ] 01.2.3.4.1.1.4-03: Run the live RM10 environment capture, CPU control, extended CPU/GPU bracket, and NPU probe
+- [ ] 01.2.3.4.1.1.4-04: Falsify the result and write the bounded phase verdict
+
+### Phase 01.2.3.4.1.1.3: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Battery (INSERTED)
+
+**Goal:** Test the RM10 heterogeneity-first hypothesis directly by treating the phone SoC as a coupled resonance chamber for geometric computation: build a minimal geometric organism environment, map callable CPU/GPU/NPU roles, run bounded resonance batteries, and decide whether any honest observable family appears only or more clearly under heterogeneous coupling than under CPU-only control.
+**Depends on:** Phase 01.2.3.4.1.1
+**Execution note:** This resonance line is complete. Sibling inserts `01.2.3.4.1.1.1`, `01.2.3.4.1.1.2`, and `01.2.3.4.1.1.4` are retained as superseded placeholders, not live execution targets.
+**Plans:** 6 plans
+
+Plans:
+- [x] 01.2.3.4.1.1.3-01: Map the live chamber surfaces and freeze helper reuse
+- [x] 01.2.3.4.1.1.3-02: Build the geometric organism environment and controller
+- [x] 01.2.3.4.1.1.3-03: Run the primary CPU-only versus CPU/GPU chamber battery
+- [x] 01.2.3.4.1.1.3-04: Probe the bounded NPU assist route
+- [x] 01.2.3.4.1.1.3-05: Map persistence, hysteresis, and boundary sensitivity
+- [x] 01.2.3.4.1.1.3-06: Run hostile falsification and write the final verdict
+
+### Phase 01.2.3.4.1.1.2: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Organism Environment (INSERTED)
+
+**Status:** Superseded placeholder. Retained for branch history, but not the live execution route.
+
+**Goal:** Treat the RM10 as a coupled CPU/GPU/NPU resonance chamber for geometric computation: translate Training Doc #5 into a falsifiable branch-local architecture, build a bounded "organism environment" on the phone, and run the first heterogeneity-first batteries without assuming that a stable core must exist before coupled-lane execution is tried.
+**Depends on:** Phase 01.2.3.4.1.1
+**Contract Coverage:**
+- Advances: resonance-chamber architecture framing, heterogeneity-first experimental contract, geometric organism environment, coupled-lane bring-up, observable-first falsification, optional NPU assist triage
+- Deliverables: resonance PRD, phase research note, lane-to-role mapping, environment harness, resonance observable note, bounded battery ledgers, falsifier verdict, next-move note
+- Anchor coverage: Training Doc #5, live RM10 hardware baseline, retained `F1`/`F2` runbooks and artifacts, current hypothesis branch, official REDMAGIC and Qualcomm hardware references, retained capability-lattice helper surfaces
+- Forbidden proxies: hardware presence treated as NPU success, opaque in-binary accelerator use treated as explicit stage ownership, runtime or thermal activity treated as signal, validator-default rhetoric substituting for the new architecture
+**Success Criteria** (what must be TRUE):
+
+1. A falsifiable heterogeneity-first architecture exists that maps CPU, GPU, optional NPU, memory/cache, and observable roles onto concrete runnable RM10 surfaces.
+2. At least one bounded organism-environment battery runs on the phone with explicit observables and compares CPU-only against coupled-lane behavior honestly.
+3. The phase returns a clear verdict: structured signal, weak signal, empty line, or one exact implementation blocker that prevents the resonance-chamber thesis from being tested further.
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run plan-phase 01.2.3.4.1.1.2 to break down)
+
+### Phase 01.2.3.4.1.1.1: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Computation (INSERTED)
+
+**Status:** Superseded placeholder. Retained for branch history, but not the live execution route.
+
+**Goal:** [Urgent work - to be planned]
+**Depends on:** Phase 01.2.3.4.1.1
+**Plans:** 0 plans
+
+Plans:
+- [ ] TBD (run plan-phase 01.2.3.4.1.1.1 to break down)
+
 ### Phase 2: Source-Backed Baseline Recovery
 
 **Goal:** Confirm the recoverable October / Genesis substrate is the real baseline
@@ -326,6 +490,12 @@ Plans:
 | 01.2.1. Double Meru Scientific Reconstruction and Hybrid Fidelity | 4/4 | Complete | 2026-04-03 |
 | 01.2.2. Bounded Non-Stub Recovery And Witness-Lane Repair | 4/4 | Complete | 2026-04-03 |
 | 01.2.3. G2 Invocation-Surface Archaeology And Router Recovery | 0/0 | Planned | - |
+| 01.2.3.1. RM10 Primary-Platform Engineering, History Mining, And Heterogeneous Battery Bootstrap | 4/4 | Complete | 2026-04-05 |
+| 01.2.3.2. RM10 Family-Bridge, Accelerator Qualification, And Heterogeneous Handoff Decision | 4/4 | Complete | 2026-04-05 |
+| 01.2.3.3. RM10 Validator-Default Localization, F2 Root-Surface Repair, And Heterogeneous Brief Readiness | 3/3 | Complete | 2026-04-05 |
+| 01.2.3.4. RM10 Validator Rule Repair, F2 Root Handoff, And Narrow Heterogeneous Probe | 4/4 | Complete | 2026-04-05 |
+| 01.2.3.4.1. RM10 Validator-Default Rule, Same-Family F2 Instability, And Observable-Gated Replay | 4/4 | Complete | 2026-04-05 |
+| 01.2.3.4.1.1. RM10 Capability Discovery Reset, Drift Purge, And Property-First Battery | 0/6 | Planned | - |
 | 2. Source-Backed Baseline Recovery | 0/3 | Evidence captured early; formal follow-through still needed | - |
 | 3. Execution and Acceptance Specification | 0/2 | Doctrine drafted early; formal follow-through still needed | - |
 | 4. RM10 Pro Execution Lane | 0/2 | Fresh ADB-shell lane exists; acceptance still blocked | - |

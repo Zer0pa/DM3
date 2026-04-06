@@ -1,0 +1,9 @@
+{
+  "path": "/system/bin/input",
+  "binary": "input",
+  "command": "/system/bin/timeout 10 /system/bin/input --help",
+  "exit_code": 0,
+  "stdout": "Unknown command: --help\n",
+  "stderr": "",
+  "callable_hint": true
+}

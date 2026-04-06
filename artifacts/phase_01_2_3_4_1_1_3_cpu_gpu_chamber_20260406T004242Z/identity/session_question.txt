@@ -1,0 +1,1 @@
+One bounded environment smoke: prove repeated windows can select the top-level chamber candidate's CPU-forced and accelerator-backed rows under one fixed identity and telemetry contract.

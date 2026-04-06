@@ -1,0 +1,15 @@
+/system/lib64/android.hardware.input.common-V1-ndk.so
+/system/lib64/android.hardware.input.processor-V1-ndk.so
+/system/lib64/android.hardware.tv.input-V2-ndk.so
+/system/lib64/android.hardware.tv.input@1.0.so
+/system/lib64/com.android.server.inputflinger-ndk.so
+/system/lib64/libinput.so
+/system/lib64/libinputflinger.so
+/system/lib64/libinputflinger_base.so
+/system/lib64/libinputreader.so
+/system/lib64/libinputreporter.so
+/system/lib64/libinputservice.so
+/system/lib64/liblinux_input_sys.dylib.so
+/system/lib64/libuinputcommand_jni.so
+/vendor/lib64/libadsprpc.so
+/vendor/lib64/libcdsprpc.so

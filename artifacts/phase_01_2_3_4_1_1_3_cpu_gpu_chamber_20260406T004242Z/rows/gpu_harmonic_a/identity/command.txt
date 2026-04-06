@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp && rm -f /data/local/tmp/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_gpu_harmonic_a.jsonl && /system/bin/timeout 180 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --output /data/local/tmp/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_gpu_harmonic_a.jsonl'

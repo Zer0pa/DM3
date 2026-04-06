@@ -6,6 +6,30 @@ Engineer the Red Magic 10 Pro into the primary DM3 research instrument and
 treat heterogeneous CPU/GPU/NPU execution as an early first-class learning path
 rather than a late deployment detail.
 
+## Current Evidence Ceiling
+
+Current branch evidence does not yet establish a heterogeneity-first outcome.
+The live ceiling is:
+
+- one explicit same-family chamber environment now exists on the top-level
+  `/data/local/tmp/dm3_runner` family and a bounded two-window packet can
+  select CPU-forced and GPU-backed rows honestly
+- the widened four-window chamber packet collapses before comparable tuples
+  survive, so the positive chamber-science story remains unproven
+- the strongest retained result is a narrow same-family width boundary, not a
+  preserved heterogeneous property
+- governed RM10 `F1` CPU control is the only trustworthy branch-local
+  scientific instrument
+- bundled-residue `F2` remains residue-only and `unstable_feasibility`
+- NPU remains `ABSTAIN / inventory_only`
+- explicit heterogeneous role partition remains `ABSTAIN`
+- Mac Genesis remains the only live `source_built` authority lane
+- the live validator rule is now exactly pinned down as a stale compiled
+  default pair, but not yet repaired
+- no official heterogeneous-compute brief is ready because no preserved same-
+  family observable survives widening honestly enough for a narrow
+  heterogeneous split
+
 ## Motivation
 
 <!-- AI-drafted from project context — review and edit -->
@@ -29,7 +53,7 @@ the default single-lane, launcher-adjacency-first continuation.
 
 <!-- AI-drafted — review and edit -->
 
-If this hypothesis is right, the branch should produce a governed RM10-primary
+If this hypothesis is right over later work, the branch should produce a governed RM10-primary
 execution stack with explicit runbooks, thermal/logging rules, historical clue
 indexes, and a battery matrix that can compare CPU-only, GPU-feasibility,
 NPU-feasibility, and mixed execution on the same observable families. We expect
@@ -64,4 +88,4 @@ one of two decisive outcomes:
 - **Parent branch:** main
 - **Created:** 2026-04-05
 - **Status:** Active
-- **Current phase:** 01.2.3.2
+- **Current phase:** 01.2.3.4.1.1.3
