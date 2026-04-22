@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-22",
+  "scope": "repo-shell+session7-interim",
+  "commit": "41c6576d6d63",
+  "verdict": "STAGED",
+  "confidence_percent": 70,
+  "checks": [
+    {
+      "id": "canonical_readme_spine",
+      "status": "PASS"
+    },
+    {
+      "id": "required_root_docs_present",
+      "status": "PASS"
+    },
+    {
+      "id": "python_package_present",
+      "status": "PASS"
+    },
+    {
+      "id": "ci_templates_present",
+      "status": "PASS"
+    },
+    {
+      "id": "proof_directories_present",
+      "status": "PASS"
+    },
+    {
+      "id": "validation_tree_present",
+      "status": "PASS"
+    },
+    {
+      "id": "proof_anchor_paths_resolve",
+      "status": "PASS"
+    },
+    {
+      "id": "mirrored_session7_dynamics_promoted",
+      "status": "PASS",
+      "note": "root surface now cites the mirrored S1, S2H, S7, S8, and partial S11 receipt trees"
+    },
+    {
+      "id": "full_session7_gate_battery_mirrored",
+      "status": "INC",
+      "note": "the broader 40-invocation gate-layer battery is still reported live rather than fully mirrored in this checkout"
+    },
+    {
+      "id": "session7_truth_sensor_outputs_mirrored",
+      "status": "INC",
+      "note": "no mirrored S10 receipt directory is present in this checkout yet"
+    },
+    {
+      "id": "dm3_rrl_authority_text_present",
+      "status": "PASS",
+      "note": "root LICENSE now instantiates Zer0pa DM3 Research and Receipt License v1.0 and metadata points at LicenseRef-Zer0pa-DM3-RRL-1.0"
+    },
+    {
+      "id": "canonical_reference_files_present",
+      "status": "PASS",
+      "note": "root endpoint now publishes CLAIMS.md, IS_AND_IS_NOT.md, RETRACTIONS.md, CONTACT.md, TRADEMARK.md, and artefact-bundle register surfaces"
+    },
+    {
+      "id": "root_claims_paths_resolve",
+      "status": "PASS",
+      "note": "license-named endpoint files CLAIMS.md and IS_AND_IS_NOT.md now resolve at repo root"
+    }
+  ]
+}
