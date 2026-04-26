@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "project": "zer0pa mk1 / SNIC",
+    "baseline_epoch": "E13",
+    "tz": "Africa/Johannesburg"
+  },
+  "guardrails": {
+    "exact_arithmetic": 1,
+    "no_rng": 1,
+    "single_change_beam": 2,
+    "allowed_failures": "DEN_DEG_GT1,CLOSER_RESIDUAL_ZERO,RESIDUAL_CONST,DEG_MISMATCH,NUM_DEG_GT2,CLOSER_NO_BRANCH,CONCURRENCY_RANK,VAR_LEAK,FACES",
+    "unknown_handling": "SKIP",
+    "success_rule": {
+      "terms_gt0": true,
+      "den_deg_max": 1,
+      "num_deg_max": 2
+    }
+  },
+  "yantra": {
+    "layout": "TEST_TRIADS"
+  },
+  "lift_3d": {
+    "z_lift": "log_power_helix",
+    "orientation": "hopf",
+    "dynamics_ops": "screw_theory",
+    "pitch": "1/1",
+    "rotation_t": "1/2",
+    "rotor_t_half": "1/3",
+    "base_radii": [
+      "1/1",
+      "2/1",
+      "3/1"
+    ]
+  },
+  "deq": {
+    "solver": "MonDEQ",
+    "jacobian_spectral_bound_max": "164/165",
+    "laplacian_positional_encoding": false,
+    "harmonic_drives": [
+      "3:2",
+      "4:3"
+    ],
+    "deterministic_jitter_policy": "cfg_hash_derived"
+  },
+  "w5_baseline": {
+    "case": "beta_A2",
+    "closer": "A1",
+    "pivot": "NAT",
+    "seed_patch": "C4->A1",
+    "gauge_row": "AUG2",
+    "t_probe": "1/3",
+    "force_rat_minor": 1
+  },
+  "proofs": {
+    "plan": "A_egraph,B_bareiss,C_gc_invariants,D_cad_sos",
+    "precedence": "self_audit.json,closer_structural.json,closer_diag.json,regex_stdout_rescue"
+  },
+  "autobrake": {
+    "enabled": true,
+    "step_halve_factor": 0.5,
+    "tau_double_factor": 2.0,
+    "tikhonov_steps": 1
+  },
+  "experiment": {
+    "run_id": "20250929T103331Z_83e0ea5",
+    "note": "autobrake stress test"
+  }
+}

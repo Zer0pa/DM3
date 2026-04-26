@@ -1,0 +1,3 @@
+ 1902  1925 Ss    00:00:00 sh -c cd /data/local/tmp && rm -f /data/local/tmp/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_cpu_harmonic_a.jsonl && /system/bin/timeout 180 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_cpu_harmonic_a.jsonl
+ 1905  1902 S     00:00:00 timeout 180 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_cpu_harmonic_a.jsonl
+ 1906  1905 S     00:01:34 dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_cpu_harmonic_a.jsonl

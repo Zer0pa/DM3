@@ -1,0 +1,15 @@
+{
+  "is_bipartite": false,
+  "bipartite_partition_sizes": null,
+  "fiedler_does_not_separate_cones": true,
+  "bindu_fraction": 0.3868421052631579,
+  "all_vertices_are_boundary": true,
+  "inter_component_edges": {
+    "within_right": 95,
+    "within_left": 108,
+    "within_bindu": 164,
+    "right_to_bindu": 196,
+    "left_to_bindu": 175,
+    "right_to_left_direct": 118
+  }
+}

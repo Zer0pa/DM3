@@ -1,0 +1,29 @@
+--- K3: Truth Sensor Stability Test ---
+
+=== Baseline (No Sensor) ===
+  Final Error: 89.2550 (boundary=118.9959, interior=0.0322)
+  Final Error: 89.2557 (boundary=118.9966, interior=0.0328)
+
+=== Truth Sensor Enabled (Config Sweep) ===
+Truth Sensor Configured: T=0.1000, S=0.00, C=1
+  Final Error: 89.2550 (boundary=118.9959, interior=0.0322)
+  Corrections Triggered: 1
+  Final Error: 89.2557 (boundary=118.9966, interior=0.0328)
+  Corrections Triggered: 1
+  Candidate T=0.100 S=0.000 C=1 => err=89.255325 boundary_gap=0.000000 truth_gap=0.000000
+Truth Sensor Configured: T=0.1000, S=0.25, C=1
+  Final Error: 50.2081 (boundary=66.9352, interior=0.0268)
+  Corrections Triggered: 1
+  Final Error: 50.2085 (boundary=66.9356, interior=0.0273)
+  Corrections Triggered: 1
+  Candidate T=0.100 S=0.250 C=1 => err=50.208282 boundary_gap=52.060898 truth_gap=39.047043
+Truth Sensor Configured: T=0.1000, S=0.50, C=1
+  Final Error: 22.3172 (boundary=29.7490, interior=0.0219)
+  Corrections Triggered: 1
+  Final Error: 22.3174 (boundary=29.7491, interior=0.0224)
+  Corrections Triggered: 1
+  Candidate T=0.100 S=0.500 C=1 => err=22.317333 boundary_gap=89.247200 truth_gap=66.937988
+Truth Sensor Configured: T=0.1000, S=0.50, C=1
+Selected Sensor Config: T=0.100 S=0.500 C=1 (boundary_gap=89.247200, truth_gap=66.937988)
+KPI_K3 baseline_error=89.255325 sensor_error=22.317333 truth_gap=66.937988
+KPI_RING_GAP boundary_baseline=118.996262 boundary_sensor=29.749063 boundary_gap=89.247200 interior_baseline=0.032535 interior_sensor=0.022144 interior_gap=0.010391

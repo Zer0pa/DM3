@@ -2,89 +2,61 @@
 
 This is the minimum path for a new machine or collaborator.
 
-## Requirements
-
-- `git`
-- Rust toolchain with `cargo`
-- Python 3 for the Comet logging shim
-
-## Clone The Restart Repo
+## Clone And Recover
 
 ```bash
 git clone https://github.com/Zer0pa/DM3-2026-Restart.git
 cd DM3-2026-Restart
-```
-
-## Fetch Recoverable Legacy Sources
-
-```bash
 ./tools/bootstrap_recovery.sh
-```
-
-Default layout after bootstrap:
-
-- `../recovery/zer0pamk1-DM-3-Oct`
-- `../recovery/Zer0paMk1-Genesis-Organism-Executable-Application-27-Oct-2025`
-
-Override the default recovery root if needed:
-
-```bash
-DM3_RECOVERY_ROOT=/path/to/recovery ./tools/bootstrap_recovery.sh
-```
-
-## Validate The Recoverable Baseline
-
-```bash
 ./tools/check_legacy_october.sh
 ```
 
-That script runs:
+That is baseline recovery only. It does not restore current branch truth by
+itself.
 
-- `cargo check --workspace`
-- `cargo test --workspace -- --nocapture`
+## Current Branch Entry Point
 
-against the October SNIC workspace.
+For the active RM10-primary branch, read in this order:
 
-## Optional Comet Setup
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-```
-
-Set your `COMET_API_KEY` in `.env`, or run `comet login`.
-
-Offline smoke test:
-
-```bash
-COMET_OFFLINE_DIRECTORY=.cometml-runs \
-  .venv/bin/python tools/comet_manifest_logger.py \
-  --manifest examples/comet/run_manifest.example.json \
-  --offline
-```
-
-## Ready State
-
-A collaborator is ready to start when:
-
-1. the restart repo is cloned
-2. `./tools/bootstrap_recovery.sh` succeeds
-3. `./tools/check_legacy_october.sh` succeeds
-4. Comet setup is either configured or intentionally deferred
-5. they have read `.gpd/PROJECT.md`, `.gpd/STATE.md`, and `.gpd/phases/01-claim-map-and-contract-reset/01-CONTEXT.md`
-
-## Current GPD Entry Point
-
-This repo now includes a fresh GPD project bootstrap for the DM3 restart.
-
-Read in this order:
-
-1. `.gpd/PROJECT.md`
+1. `/Users/Zer0pa/DM3/AGENTS.md`
 2. `.gpd/STATE.md`
-3. `.gpd/ROADMAP.md`
-4. `.gpd/phases/01-claim-map-and-contract-reset/01-CONTEXT.md`
-5. `docs/recovery/TEST_REFERENCE_STATUS.md`
+3. `.gpd/PROJECT.md`
+4. `.gpd/ROADMAP.md`
+5. `docs/restart/RM10_AGENT_HANDOVER_20260416.md`
+6. `docs/restart/ENGINEERING_GAP_LEDGER.md`
+7. `docs/restart/VALIDATOR_AND_CANONICAL_GAP_LEDGER.md`
+8. `docs/restart/NEXT_BOUNDED_ENGINEERING_MOVE.md`
+9. `docs/restart/RM10_CONFIRMATION_REPLAY_COMPARISON_LEDGER.md`
+10. `docs/restart/RM10_REGIME_LOCALIZATION_LEDGER.md`
+11. `docs/restart/RM10_REGIME_ENTRANCE_CONDITION_NEXT_MOVE.md`
+12. `docs/restart/AGENT_STARTUP_PROMPT.md`
 
-The immediate task is not hybrid rebuilding. It is mapping the manifesto's numbered claims to source-backed evidence or explicit gaps, then selecting the narrow battery that must later replay on both Mac host and RM10 Pro.
+For the exact frozen order, use `docs/restart/STARTUP_READING_ORDER_FREEZE.md`.
+
+## Truth Floor
+
+- `F1` governed Genesis CPU control is the trustworthy branch-local instrument.
+- the live governed accelerator bridge on `F1` is closed.
+- governed RM10 validation still depends on `explicit_hash` handling.
+- the top-level `/data/local/tmp/dm3_runner` root family is callable under the
+  stronger envelope.
+- the repaired four-row packet did not reproduce.
+- bounded localization showed the low regime can already appear at `cpu_a`.
+- the live blocker is now entrance-condition selection before row 1.
+- no preserved same-family observable currently supports a narrow
+  heterogeneous split.
+- NPU remains `ABSTAIN`.
+- explicit heterogeneous role partition remains `ABSTAIN`.
+- Mac Genesis remains the only `source_built` authority lane.
+
+## Immediate Branch Task
+
+Do not start with a full four-row rerun.
+The immediate branch task is:
+
+1. keep governed `F1` work under explicit-hash handling while the live
+   validator rule remains a stale compiled pair
+2. run the planned entrance-condition localization battery for fresh single-row
+   `cpu_a` anchors under controlled start states
+3. only after that decide whether a full same-family confirmation replay may
+   reopen

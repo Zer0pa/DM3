@@ -1,0 +1,7 @@
+label	args	start	end	rc	bytes	sec
+C_RA_det_r2	--adj RandomAdj_v1.bin --steps 1	2026-04-18T00:30:54Z	2026-04-18T00:53:29Z	0	3729	1355
+C_RA_asymn05	--adj RandomAdj_v1.bin --asymmetry=-0.5 --steps 1	2026-04-18T00:53:29Z	2026-04-18T01:16:05Z	0	3728	1356
+C_RA_asym05	--adj RandomAdj_v1.bin --asymmetry=0.5 --steps 1	2026-04-18T01:16:05Z	2026-04-18T01:39:21Z	0	3729	1396
+C_SY_tags_v2	--adj SriYantraAdj_v1.bin --tags RegionTags_v2.bin --steps 1	2026-04-18T01:39:21Z	2026-04-18T01:50:40Z	0	3763	679
+C_SY_ds_mini	--adj SriYantraAdj_v1.bin --dataset /data/local/tmp/dm3/data/xnor_mini.jsonl --steps 1	2026-04-18T01:50:40Z	2026-04-18T02:02:04Z	0	3747	684
+C_SY_ds_test	--adj SriYantraAdj_v1.bin --dataset /data/local/tmp/dm3/data/xnor_test.jsonl --steps 1	2026-04-18T02:02:04Z	2026-04-18T02:13:31Z	0	3745	687

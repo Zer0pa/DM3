@@ -1,0 +1,91 @@
+=== PHASE E: EXPLORATION ===
+Timestamp: 20260416T031442Z
+
+--- E1: Holography task ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Retry E=15.5420 Coh=0.7290
+Resonance Loop Complete.
+Duration: 196.4s
+{"asymmetry":0.0,"coherence":0.7289540767669678,"decision":"Retry","delta_E":15.542013168334961,"duration_ms":195670,"episode":0}
+
+--- E2: Holography task run 2 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Retry E=13.6967 Coh=0.7319
+Resonance Loop Complete.
+Duration: 196.3s
+{"asymmetry":0.0,"coherence":0.7319291830062866,"decision":"Retry","delta_E":13.696748733520508,"duration_ms":195647,"episode":0}
+
+--- E3: Holography task run 3 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Retry E=14.6504 Coh=0.7233
+Resonance Loop Complete.
+Duration: 195.3s
+{"asymmetry":0.0,"coherence":0.7233368754386902,"decision":"Retry","delta_E":14.650433540344238,"duration_ms":194641,"episode":0}
+
+--- E4: Multi-step (steps=5) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.5441 Coh=0.8923
+Resonance Loop Complete.
+Duration: 973.5s
+{"asymmetry":0.0,"coherence":0.8922939896583557,"decision":"Commit","delta_E":74.54413604736328,"duration_ms":193879,"episode":0}
+{"asymmetry":0.0,"coherence":0.8920656442642212,"decision":"Commit","delta_E":74.73226928710938,"duration_ms":192597,"episode":1}
+{"asymmetry":0.0,"coherence":0.8767741322517395,"decision":"Commit","delta_E":76.06571197509766,"duration_ms":195413,"episode":2}
+{"asymmetry":0.0,"coherence":0.8917751908302307,"decision":"Commit","delta_E":74.65474700927734,"duration_ms":195605,"episode":3}
+{"asymmetry":0.0,"coherence":0.8776615858078003,"decision":"Commit","delta_E":75.42198181152344,"duration_ms":195306,"episode":4}
+
+--- E5: Multi-step (steps=10) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 10, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.0264 Coh=0.8776
+Resonance Loop Complete.
+Duration: 1952.4s
+{"asymmetry":0.0,"coherence":0.8776460886001587,"decision":"Commit","delta_E":75.02637481689453,"duration_ms":195268,"episode":0}
+{"asymmetry":0.0,"coherence":0.8763517141342163,"decision":"Commit","delta_E":76.24727630615234,"duration_ms":196466,"episode":1}
+{"asymmetry":0.0,"coherence":0.8914020657539368,"decision":"Commit","delta_E":75.68193054199219,"duration_ms":194362,"episode":2}
+{"asymmetry":0.0,"coherence":0.7704541683197021,"decision":"Commit","delta_E":88.88093566894531,"duration_ms":193931,"episode":3}
+{"asymmetry":0.0,"coherence":0.8911734223365784,"decision":"Commit","delta_E":75.80538177490234,"duration_ms":195603,"episode":4}
+{"asymmetry":0.0,"coherence":0.7693053483963013,"decision":"Commit","delta_E":89.16136169433594,"duration_ms":196614,"episode":5}
+{"asymmetry":0.0,"coherence":0.8912236094474792,"decision":"Commit","delta_E":75.55354309082031,"duration_ms":197456,"episode":6}
+{"asymmetry":0.0,"coherence":0.8919028639793396,"decision":"Commit","delta_E":75.22025299072266,"duration_ms":190797,"episode":7}
+{"asymmetry":0.0,"coherence":0.8775737881660461,"decision":"Commit","delta_E":76.1395492553711,"duration_ms":194724,"episode":8}
+{"asymmetry":0.0,"coherence":0.8922484517097473,"decision":"Commit","delta_E":74.04297637939453,"duration_ms":196310,"episode":9}
+
+--- E6: Soak mode (soak=5) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 100, Asymmetry: 0)
+Terminated 
+Duration: 136.3s
+
+--- E7: Angle=90 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Killed 
+Duration: 7.8s
+
+--- E8: Inference mode ---
+Initializing DM3 Transformer Mesh V1...
+State initialized. Vertices: 380
+Running T1: Contraction...
+T1 Complete. Receipt logged.
+Duration: 0.5s
+{"run_id":"t1_contraction","abi_version":"v0.1","schema_hash":"0000","jit_hash":"54bcc21667c6be3435e9241525d7458d514dc98c64cbaaa90be908aa4fd73a66","driver_hash":"Host-CPU-Sim","workgroup_size":[64,1,1],"subgroup_size":32,"device_id":"sim_gpu","thermal_state":"nominal","clocks":"max","build_mode":"release","input_hash":"cb9e4fa49dbfcf55bf5eac6cf4429573adfaa58f0c321775b64ca9da17553ebe","state_hash_before":"469c1e5bcecf7628b988214ae5ffa331ca14d4de24dbfb06847c7705bd576da9","state_hash_after":"469c1e5bcecf7628b988214ae5ffa331ca14d4de24dbfb06847c7705bd576da9","metrics":{"delta_e_trace":[],"ecc":0.0,"coherence":1.0,"isotropy":"RADIAL","holo_err":0.0,"principal_angle_drift":0.0},"verdict":"PASS","timestamp":1776312943497,"previous_hash":"0000000000000000000000000000000000000000000000000000000000000000"}
+
+=== PHASE E COMPLETE ===

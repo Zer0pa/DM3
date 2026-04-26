@@ -1,0 +1,16 @@
+{
+  "run_id": "phase_01_2_3_4_1_1_3_1_width_boundary_20260415T000001Z_full_replay_gpu_a",
+  "lane": "gpu",
+  "marker": "gpu_init",
+  "decision": "Commit",
+  "delta_E": 75.68717956542969,
+  "coherence": 0.8916881084442139,
+  "duration_ms": 155030,
+  "episode": 0,
+  "receipt_sha256": "293008d12bd01f17df554cfe30b170861cb86d7188e123a496942bbaf03e3e4b",
+  "exit_code": 0,
+  "battery_temp_pre_c": 25.0,
+  "battery_temp_post_c": 25.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

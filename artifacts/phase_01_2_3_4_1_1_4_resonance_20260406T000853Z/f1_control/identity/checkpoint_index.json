@@ -1,0 +1,20 @@
+{
+  "policy": "rerun-only",
+  "runs": [
+    {
+      "run_id": "phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z",
+      "phase": "01.2.3.4.1.1.4",
+      "plan": "resonance-battery",
+      "device_output_dir": "audit/phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z",
+      "local_receipt_root": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/receipts/phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z",
+      "protocol_exit_code": 0,
+      "adb_pull_exit_code": 0,
+      "validate_default_exit_code": 1,
+      "validate_explicit_exit_code": 0,
+      "verify_sha256": "7dd3240a421bf6c2f931eca546322b23ad6981ae58f796583e2b3509899ecdbe",
+      "solve_sha256": "803c174be09f4d5a99c3ff8907080bc977f9161a86d052fdd3147b85680a6a67",
+      "primary_receipt_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/receipts/phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z/run00/receipts/VERIFY_SUMMARY.json",
+      "captured_at_utc": "2026-04-06T00:09:34Z"
+    }
+  ]
+}

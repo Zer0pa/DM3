@@ -1,0 +1,5 @@
+{"asymmetry":0.0,"coherence":0.7269291281700134,"decision":"Retry","delta_E":13.667893409729004,"duration_ms":196523,"episode":0}
+{"asymmetry":0.0,"coherence":0.7400571703910828,"decision":"Retry","delta_E":14.990469932556152,"duration_ms":195937,"episode":1}
+{"asymmetry":0.0,"coherence":0.7354075908660889,"decision":"Retry","delta_E":14.732967376708984,"duration_ms":199711,"episode":2}
+{"asymmetry":0.0,"coherence":0.7251129746437073,"decision":"Retry","delta_E":14.596341133117676,"duration_ms":196142,"episode":3}
+{"asymmetry":0.0,"coherence":0.7351660132408142,"decision":"Retry","delta_E":15.063042640686035,"duration_ms":197687,"episode":4}

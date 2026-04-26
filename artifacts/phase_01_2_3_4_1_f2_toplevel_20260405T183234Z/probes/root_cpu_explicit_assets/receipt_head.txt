@@ -1,0 +1,1 @@
+{"asymmetry":0.0,"coherence":0.7704910635948181,"decision":"Commit","delta_E":88.99655151367188,"duration_ms":73053,"episode":0}

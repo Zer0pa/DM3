@@ -1,0 +1,609 @@
+# DM3 Claims Ledger
+
+All live claims with status, date, evidence path, and kill criterion.
+Each claim carries a pre-registered falsifier that, if met, forces a
+retraction. Retractions remain visible; we do not delete past claims.
+
+Status key:
+- **SOLID**: confirmed across ≥ 2 sessions at N≥5 with retained packets
+- **CONFIRMED**: confirmed in one session at N≥5 with retained packets
+- **PROMOTED**: upgraded from suggestive to confirmed
+- **CANDIDATE**: receipted and worth carrying, but not promoted
+- **WEAKENED**: prior-session claim found less robust in later replication
+- **RETRACTED**: kill criterion met; evidence of failure recorded
+- **PENDING**: under active test in the current session
+
+Session 8 Phase A / A5-B3-A6 close note:
+- `docs/restart/DM3_SESSION8_PHASE_A_FINAL_REPORT_20260424.md` reports
+  Phase A closed with 55 receipts across A.1/A.2/A.3/A.4
+- the local host tree now mirrors the Phase A `cells/` directories and
+  `device_snapshot/bin/run_cell.sh`
+- local per-run anchors are 52 receipt JSON/log pairs:
+  A.1=10, A.2=21, A.3=12, A.4=9
+- the Phase A summary files report `total_runs = 55`; that count seam
+  is kept visible in `REPO_AGENT_FINDINGS.md` rather than hidden
+- `docs/restart/DM3_SESSION8_PHASE_A5_B3_A6_FINAL_REPORT_20260425.md`
+  closes 57 additional A5/B3/A6 per-run receipts and supersedes the
+  earlier coarse `σ` wording before promotion
+- Claims `ξ`, `ο`, and `τ` are CONFIRMED; Claims `π`, `ρ`, `σ″`, and
+  `φ` are CANDIDATE
+
+---
+
+## Claim α — Sri Yantra exact-rational 2D→3D construction
+
+**Status:** SOLID (unchanged across Sessions 3–6)
+
+**Statement:** The 3D Double Meru graph is constructed via an exact-
+rational 2D Sri Yantra scaffolding plus a toroidal-twist lift into 3D,
+producing a 380-vertex C3-symmetric graph.
+
+**Evidence:** `docs/reference/GEOMETRY_FIRST_MANIFESTO.md` plus the
+source-backed geometry re-probed on 2026-04-03 via `dual_cli`.
+
+**Kill criterion:** Any re-derivation of the geometry that yields a
+different vertex count or non-C3 topology. Never met.
+
+---
+
+## Claim β — Bistable relaxation on a C3-symmetric graph
+
+**Status:** SOLID (strengthened across Sessions 3–6)
+
+**Statement:** Under the `harmonic` task with default parameters, the
+binary operates a bistable relaxation dynamical system. HIGH basin
+(E ≈ 88, Coh ≈ 0.77) and LOW basin (E ≈ 75, Coh ≈ 0.88) are
+reproducible. Basin selection per episode is stochastic and
+IID Bernoulli with p(HIGH) ≈ 0.34 at default parameters.
+
+**Evidence:**
+- Session 3 Phase C (10+11 runs): bistable at 20% HIGH with transformer off
+- Session 4 Phase H (70 eps at N=5): basin values replicated across 14 configs
+- Session 5 Phase P2a (100 eps at N=100): IID Bernoulli confirmed
+  - Transitions: P(H|H)=31%, P(H|L)=35%, marginal 34% — independence
+  - Run-length distributions match geometric prediction
+- `artifacts/phase_H_statistical_replication_20260416T143544Z/`,
+  `artifacts/phase_P2a_intra_session_20260417T130742Z/`
+
+**Kill criterion:** Basin centroids moving by > 5% across replicates at
+fixed asym=0; OR transition matrix rows differing from marginal by
+> 15 pp at N ≥ 50. Never met.
+
+---
+
+## Claim γ — Rotation × asymmetry C3-asymmetric coupling [RETRACTED]
+
+**Status:** RETRACTED (killed 2026-04-17 in Session 5 P2b at N=10 pooled)
+
+**Original statement (Session 4 Phase L):** At asym=+0.5, rot=60° gave
+3/5 HIGH while rot=0° gave 0/5 and rot=120° gave 1/5. The rotation ×
+asymmetry coupling is not C3-symmetric; rot=60° uniquely opens the
+basin boundary.
+
+**Killing evidence (Session 5 P2b):** Pooled N=10 at same conditions:
+- rot=60°  × asym=+0.5: 5/10 HIGH
+- rot=120° × asym=+0.5: 3/10 HIGH
+- Fisher-exact rot=60° vs rot=120°: **p = 0.65** (not distinguishable)
+- Only rot=0° × asym=+0.5 is distinguishable (0/10 HIGH; Fisher p = 0.033 vs rot=60°)
+
+**Revised, weaker claim:** At asym = +0.5, zero rotation suppresses
+HIGH basin access; any nonzero rotation restores baseline HIGH rate
+(~34%). No evidence of C3-asymmetric coupling.
+
+**Artifact:** `artifacts/phase_P2b_coupling/PHASE_P2b_SUMMARY.md`
+
+---
+
+## Claim δ — `exp_r1_r4_campaign` is a callable self-evaluating 6-gate surface
+
+**Status:** CONFIRMED (Session 5 discovery, quantified in Session 6)
+
+**Statement:** The binary accepts `--task exp_r1_r4_campaign` and emits
+a single JSON object (~3.7 kB) with six named pass/fail gates
+(EPSILON_CRIT, R1, R2, R3, R4, WAKE_SLEEP_ALIGN). The campaign is
+byte-deterministic up to a `run_sec` wallclock field. At defaults
+(SriYantraAdj_v1 + RegionTags_v1 + asym=0), 3 gates PASS (EPSILON_CRIT,
+R4, WAKE_SLEEP_ALIGN) and 3 FAIL (R1, R2, R3).
+
+**Evidence:**
+- Session 5 Phase O: 20 task-name probes; exp_r1_r4_campaign produced
+  161-line pretty-printed JSON with nested r1/r2/r3/r4 blocks
+- Session 6 Phase W1: bit-identical replication confirmed across 4
+  replicates of SY default (canonical SHA `6317e82281cee0b0`)
+- `artifacts/phase_O_hidden_tasks_20260417T120540Z/task_exp_r1_r4_campaign.jsonl`
+- `artifacts/phase_W1_gate_flip_20260418T000305Z/json_receipts/SY_default.jsonl`
+
+**Kill criterion:** Any receipted run that shows non-deterministic
+gate verdicts at identical flag settings, OR any run that fails to
+emit all 6 gates.
+
+---
+
+## Claim δ.1 — R1 gate flips with `--adj RandomAdj_v1.bin`
+
+**Status:** CONFIRMED (Session 6 Phase W1 Tier C)
+
+**Statement:** Invoking `exp_r1_r4_campaign` with
+`--adj RandomAdj_v1.bin` instead of the default `SriYantraAdj_v1.bin`
+flips `gates.R1` from false → true. The underlying metric
+`r1.margin` moves from 0.0 to 0.5, crossing the gate threshold of
+0.01.
+
+**Evidence:** `artifacts/phase_W1_gate_flip_20260418T000305Z/json_receipts/RA_default.jsonl`
+(canonical SHA `21ef856f094dff82`). Replicated in W1 Tier C
+(`C_RA_det_r2`, `C_RA_asymn05`, `C_RA_asym05` all produce the same
+canonical hash).
+
+**Kill criterion:** Observing `gates.R1 == false` in any future run
+with `--adj RandomAdj_v1.bin` at default asym, rot, steps, dataset,
+tags. If this happens, the claim falls to "adjacency-dependent but not
+determined by RandomAdj_v1.bin specifically" until a reproducible
+configuration is identified.
+
+---
+
+## Claim δ.2 — R2 gate flips with `--tags RegionTags_v2.bin` (+ claim_level advance)
+
+**Status:** CONFIRMED (Session 6 Phase W1 Tier C)
+
+**Statement:** Invoking `exp_r1_r4_campaign` with
+`--tags RegionTags_v2.bin` instead of the default
+`RegionTags_v1.bin` flips `gates.R2` from false → true. Additionally
+`claim_level` advances from "CL-0" to "CL-1" — the first observed
+change on this meta-field.
+
+**Evidence:** `artifacts/phase_W1_gate_flip_20260418T000305Z/json_receipts/SY_tags_v2.jsonl`
+(canonical SHA `d15c551d4e537545`).
+
+**Kill criterion:** Observing `gates.R2 == false` or
+`claim_level == "CL-0"` in any future run with
+`--tags RegionTags_v2.bin` at default everything else. Never met so far.
+
+---
+
+## Claim δ.3 — R3 gate is structurally unreachable from the exposed CLI [WEAKENED]
+
+**Status:** WEAKENED (Session 6 claim revised in Session 7)
+
+**Original statement (Session 6 Phase W1):** Across all tested
+configurations in Session 6 W1, the `gates.R3` flag remained false, but
+the underlying metric `r3.k2_uplift` moved from 0.0070 at `--steps 1`
+to 0.0292 at `--steps 20`.
+
+**Session 7 update:** The S11 A-cells at requested
+`--steps ∈ {20, 50, 100}` showed that the SY-default surface saturates
+internally at `operational_steps == 10`. Above `--steps 20`, the
+payload no longer advances; Session 7 therefore weakens the Session 6
+reading rather than silently carrying it forward.
+
+**Revised statement:** On the currently exposed CLI surface,
+`gates.R3` remains false and is structurally unreachable from the
+requested `--steps` axis. The underlying `r3.k2_uplift` rises only up
+to the internal cap and then saturates; requested `--steps > 20` does
+not extend `operational_steps` above 10 on the SY-default gate surface.
+
+**Evidence:**
+- Session 6: `artifacts/phase_W1_gate_flip_20260418T000305Z/json_receipts/C_SY_s20.jsonl`
+  (canonical SHA `06e5cf74d608fe4a`)
+- Session 7: `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S11_final/`
+  (`S11_r3_flip_A_s20_001.bin`, `S11_r3_flip_A_s50_001.bin`,
+  `S11_r3_flip_A_s100_001.bin`)
+
+**Kill criterion:** Observing `gates.R3 == true` on the exposed CLI
+surface, or observing `operational_steps > 10` on the SY-default
+surface at requested `--steps >= 20`.
+
+---
+
+## Claim ε — Harmonic basin Coh signatures compress at asym ≤ −3
+
+**Status:** CONFIRMED (Session 5 P3, strengthened in Session 6 W2)
+
+**Statement:** At asym ≤ −3 (tested down to asym = −5), the harmonic
+task's two-basin (E, Coh) signatures drift downward in coherence:
+LOW basin Coh from 0.88 (asym=0) → 0.66 (asym=−5); HIGH basin Coh
+from 0.77 → 0.69. The Session 4 locked classifier (LOW Coh > 0.82)
+is therefore valid only on asym ∈ [−2, +2]. An emerging mid-cluster
+at asym ∈ {−3.5, −4} is suggestive of a third attractor but not
+robust at the current N.
+
+**Evidence:**
+- Session 5 P3: 7 cells, asym ∈ {-5, -3, -2, +2, +5} × N=5
+- Session 6 W2: 5 cells, asym ∈ {-5, -4, -3.5, -3, -2.5} × N=7-10
+- Monotone LOW Coh: 0.88 → 0.83 → 0.82 → 0.78 → 0.76 → 0.69 → 0.66
+  across asym ∈ [0, -2, -2.5, -3, -3.5, -4, -5]
+- `artifacts/phase_P3_escale/`, `artifacts/phase_W2_third_regime_20260418T031800Z/`
+
+**Kill criterion:** Observing LOW Coh > 0.80 at any asym < −2 in a
+future replicate run. Never met.
+
+---
+
+## Claim ζ — p(HIGH) is parameter-INVARIANT at |asym| ≤ 0.2
+
+**Status:** CONFIRMED (Session 6 Phase W3 verdict: **W3-INVARIANT**)
+
+**Statement:** Within the tested asymmetry range |asym| ≤ 0.2 and at
+N=100 per arm, the per-episode HIGH-basin selection rate is consistent
+with a single parameter-insensitive value. All three pairwise 95 %
+Wilson CIs overlap.
+
+**Evidence:**
+- Arm 0 (asym=0, N=100): p(HIGH) = **34.0 %**, CI [25.5 %, 43.7 %]
+- Arm A (asym=+0.2, N=100): p(HIGH) = **42.0 %**, CI [32.8 %, 51.8 %]
+- Arm B (asym=−0.2, N=100): p(HIGH) = **32.0 %**, CI [23.7 %, 41.7 %]
+- All pairwise CIs overlap. `artifacts/phase_W3_p_high_20260418T053010Z/PHASE_W3_SUMMARY.md`
+
+**Secondary observation (kept as Session 7 seed):** Point estimates are
+monotone in asymmetry (−0.2 → 32%, 0 → 34%, +0.2 → 42%), and Arm B
+shows P(H\|H) − P(H\|L) = +13.8 pp (χ² p ≈ 0.17, not significant at
+N=95 transitions). Both signals are within statistical noise at the
+tested N but suggest a real underlying trend worth confirming at N ≥ 200
+per arm or at |asym| ≥ 0.4. **These are NOT claims; they are seeds.**
+
+**Kill criterion:** Any future run where an arm's Wilson 95 % CI at
+N ≥ 100 is disjoint from the other two would retire this invariance
+claim in favour of a parameter-dependent formulation.
+
+---
+
+## Claim η — 12 callable `--task` values (vocabulary claim)
+
+**Status:** CONFIRMED (Session 6 Phase W0)
+
+**Statement:** Beyond `harmonic` and `holography`, the binary accepts
+10 additional task names via `--task`:
+`interference`, `holographic_memory`, `exp_r1_r4_campaign`, `exp_i1`,
+`exp_i2`, `exp_h1_h2`, `exp_k2_scars`, `exp_k3_truth_sensor`,
+`resonance_r3`, `resonance_v2`. Total accepted: 12.
+
+**Evidence:**
+- `artifacts/phase_O_hidden_tasks_20260417T120540Z/PHASE_O_SUMMARY.md` (5 names)
+- `artifacts/phase_W0_vocabulary_20260417T230843Z/PHASE_W0_SUMMARY.md` (7 more)
+- Rejected candidates logged in both summary files
+
+**Kill criterion:** Any of the 12 names returning rc != 0 in a
+subsequent run.
+
+---
+
+## Claim θ — `exp_r1_r4_campaign` compound-axis flip doubles `r4.transfer_ratio`
+
+**Status:** CONFIRMED (Session 7 S11 B-cell)
+
+**Statement:** Invoking
+`--task exp_r1_r4_campaign --adj RandomAdj_v1.bin --tags RegionTags_v2.bin --steps 50`
+flips R1+R2 simultaneously, advances `claim_level` CL-0→CL-1, and
+raises `r4.transfer_ratio` from 1.369 (default) to 2.678 (+95%).
+`R3` remains false.
+
+**Evidence:** `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S11_final/S11_r3_flip_B_RA_tagsV2_s50_001.bin`
+plus `S11_r3_flip_summary.json`.
+
+**Kill criterion:** Observing `gates.R1 == false` OR
+`gates.R2 == false` OR `r4.transfer_ratio < 2.0` in a replicate run
+with identical flags.
+
+---
+
+## Claim ι — Dynamics-layer p(HIGH) is substrate-invariant at tested granularity
+
+**Status:** CONFIRMED (Session 7, 6 arms × 665 episodes)
+
+**Statement:** The harmonic `--steps 5` basin selection rate does not
+show a receipted coupling to the tested thermal (cold/hot), power-path
+(battery/bypass), or run-count (N=23–250) variation. All six arm
+Wilson 95% confidence intervals overlap the Session 5 baseline
+`[25.5%, 43.7%]`.
+
+**Evidence:**
+- `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S2H_final/`
+- `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S7_thermal_final/`
+- `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S8_final/`
+- `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S5_final/`
+- See `repo_stage/REPO_AGENT_FINDINGS.md` for why the helper summary
+  verdicts on harmonic cells are not the statistical authority surface.
+
+**Kill criterion:** Any future arm's 95% Wilson CI at `N >= 50`
+disjoint from the Session 5 baseline CI.
+
+---
+
+## Claim κ — Truth-sensor sensor-flag invariance, with `--steps` refinement
+
+**Status:** CONFIRMED (Session 7 S10, refined by Session 8 B3)
+
+**Statement:** `--task exp_k3_truth_sensor` emits identical KPIs
+`{108.16, 22.29, 85.87}` across every tested `--sensor-strength`
+(`0.0, 0.1, 0.25, 0.5, 0.75, 1.0`) and `--sensor-threshold`
+(`0.01, 0.1, 1.0, 10.0`) value. The task's internal work is real and
+reproducible, with a Session 7 error-reduction ratio near 79.4%.
+Session 8 B3 refines the interpretation: `--steps` is not decorative
+for this task's absolute baseline and gap values. At `--steps 1`,
+`baseline_error = 89.255325`, `sensor_error = 22.317333`, and the
+ratio is about 75.0%; at `--steps 20`, `baseline_error = 108.164818`,
+`sensor_error = 22.292860`, and the ratio is about 79.4%. The stable
+B3 component is the selected `sensor_error` near `22.3`, not a universal
+`--steps`-invariant KPI triple.
+
+**Evidence:**
+- `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/S10_final/`
+  (`S10_truth_sensor_summary.json` plus the nine `.log` files)
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/B3_cli_audit/`
+  (`B3_cli_audit_exp_k3_truth_sensor_steps1.log` and
+  `B3_cli_audit_exp_k3_truth_sensor_steps20.log`)
+
+**Kill criterion:** A same-scope future invocation where the Session 7
+fixed sensor-strength / sensor-threshold invariance fails, or where the
+task stops showing a substantial selected-sensor error reduction on the
+tested surface.
+
+---
+
+## Claim λ — R1/R2 cross-control axes are cleanly separable
+
+**Status:** CONFIRMED (Session 7 T11, N=3 replicates)
+
+**Statement:** Across the 2×2 cross-table `{SY, RA} × {v1, v2}` at
+default steps, R1 flips only when `--adj` changes and R2 flips only
+when `--tags` changes. No cross-contamination was observed. Determinism
+is confirmed by 3 bit-identical canonical SHAs for `RA+v2`. However,
+`r4.transfer_ratio` shows multiplicative interaction:
+`0.658 (RA+v1), 1.369 (SY+v1 default), 1.442 (SY+v2), 2.133 (RA+v2 compound)`.
+
+**Evidence:** `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/T11_cross_control/`
+plus prior Session 6 gate receipts.
+
+**Kill criterion:** Any replicate of `RA+v2` at default `--steps 1`
+that shows `R1 == false` or `R2 == false` or `r4.transfer_ratio < 1.5`.
+
+---
+
+## Claim μ — `exp_k2_scars` task LEARNS-STRONG with operational step-budget
+
+**Status:** CONFIRMED (Session 7 T2, 5 step values)
+
+**Statement:** `best_uplift` for `--task exp_k2_scars` is a
+monotone-increasing function of `--steps` over the window
+`1 → 5 → 10 → 20`, rising from `0.010 → 0.075 → 0.273 → 1.324`.
+At `--steps 20`, `best_uplift` is 26× the pre-registered LEARNS
+threshold of `0.05`. At `--steps 50`, the task overfits and
+`best_uplift` drops to `0`, with lesson-count-3 uplift falling to
+`-0.28`. This is the first receipted positive learning finding in
+DM3 Sessions 3–7.
+
+**Evidence:** `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/T2_scars_scaling/`
+(`T2_scars_scaling_summary.json` plus the five `.log` files).
+
+**Kill criterion:** A replicate at `--steps 20` showing
+`best_uplift < 0.5`.
+
+**Session 8 Phase A refinement:**
+`docs/restart/DM3_SESSION8_PHASE_A_FINAL_REPORT_20260424.md` reports
+that the Session 7 `--steps 20` anchor remains positive and replicated,
+but is a shoulder rather than the peak. The follow-on
+`docs/restart/DM3_SESSION8_PHASE_A5_B3_A6_FINAL_REPORT_20260425.md`
+maps the local curve at one-step resolution across the 28→50 region.
+It finds a trimodal sawtooth curve with local maxima at `--steps 33`,
+`41`, and `49`, and a cliff to `0.000000` at `--steps 50`. Local
+anchors:
+`artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A1_mu_replicate/`,
+`A2_overfit_boundary/`, `A3_cross_graph/`, `A4_cross_dataset/`,
+`A5_peak_finder/`, `A6a_peak_fill/`, and `A6b_post_peak/`.
+
+---
+
+## Claim ξ — `exp_k2_scars` fixed-config determinism
+
+**Status:** CONFIRMED (Session 8 Phase A/A5/B3/A6 + τ, expanded evidence base)
+
+**Statement:** At fixed `exp_k2_scars` configurations, the promoted KPI
+outputs are deterministic across the mirrored Phase A equivalence
+classes. Repeated configs emit identical `best_uplift` and
+`max_scar_weight` values; `.bin` outputs are empty-hash by design.
+The evidence base now includes the Phase A cells, A5 peak finder,
+B3 audit, A6a/A6b fills, four cross-cell exact matches at steps
+`30/35/40/45`, and the independent τ ARM64 cross-hardware match.
+
+**Evidence:**
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A1_mu_replicate/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A2_overfit_boundary/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A3_cross_graph/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A4_cross_dataset/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A5_peak_finder/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/B3_cli_audit/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6a_peak_fill/`
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6b_post_peak/`
+- `artifacts/phase_S8_AGDH1_external_M1_20260424/`
+- Summary SHAs: A1 `be8e87e4...`, A2 `3b513c8f...`,
+  A3 `1100f470...`, A4 `164d3003...`, A5 `7d1f960c...`,
+  B3 `d3c6a6c...`, A6a `9bff0dc0...`, A6b `ca3ff1a...`
+
+**Count seam:** The original Phase A mirror contains 52 local per-run
+receipt/log pairs while its summaries report 55 total runs. The
+expanded chain adds 57 further local A5/B3/A6 per-run receipts. The
+engineer final report summarizes the combined determinism base as
+approximately 142 receipts. See `repo_stage/REPO_AGENT_FINDINGS.md`.
+
+**Kill criterion:** A same-config future replicate returning a different
+promoted KPI value for the same config.
+
+---
+
+## Claim ο — sharp overfit cliff at `--steps 49 -> 50`
+
+**Status:** CONFIRMED (Session 8 Phase A, sharpened by A6b)
+
+**Statement:** The `exp_k2_scars` overfit boundary is
+sharp-and-discrete at the final mapped edge: `--steps 49` returns
+`best_uplift = 1.819397` and `--steps 50` returns
+`best_uplift = 0.000000`. The older 45→50 wording remains true as a
+coarse bracket, but A6b localizes the cliff more tightly to 49→50.
+
+**Evidence:**
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A2_overfit_boundary/`
+  (`A2_overfit_boundary_s50_r{1,2,3}.log`)
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6b_post_peak/`
+  (`A6b_post_peak_s49_r{1,2,3}.log`)
+
+**Kill criterion:** A same-config replicate returning a nonzero
+`best_uplift` at `--steps 50`, or a finer boundary sweep showing the
+drop is gradual rather than discrete.
+
+---
+
+## Claim π — scoped dataset invariance at μ baseline
+
+**Status:** CANDIDATE (Session 8 Phase A, three xnor datasets)
+
+**Statement:** `exp_k2_scars` at
+`--steps 20 / SriYantraAdj_v1.bin / RegionTags_v1.bin` is invariant
+across `xnor_train`, `xnor_mini`, and `xnor_test`, each returning
+`best_uplift = 1.324074`.
+
+**Evidence:** `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A4_cross_dataset/`
+(`xnor_train`, `xnor_mini`, and `xnor_test`, 3 logs each).
+
+**Kill criterion:** A future dataset, including a non-XNOR or
+adversarial dataset, returning a different `best_uplift` at the same
+config.
+
+---
+
+## Claim ρ — RA+v2+steps=20 zero-learning IS_NOT
+
+**Status:** CANDIDATE (Session 8 Phase A, scoped negative line)
+
+**Statement:** `exp_k2_scars` at `--steps 20` with
+`RandomAdj_v1.bin + RegionTags_v2.bin` returns
+`best_uplift = 0.000000`, a scoped zero-learning result.
+
+**Evidence:** `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A3_cross_graph/`
+(`A3_cross_graph_RA_v2_r{1,2,3}.log`).
+
+**Scope guard:** This is not a ceiling claim. RA+v2 is untested at
+`--steps 30..45` on the local promoted surface.
+
+**Kill criterion:** A future same-config replicate returning
+`best_uplift >= 0.05`.
+
+---
+
+## Claim σ″ — `exp_k2_scars` learning curve is trimodal sawtooth
+
+**Status:** CANDIDATE (Session 8 A5/A6 one-step curve map)
+
+**Statement:** On the scoped baseline surface
+`--cpu --task exp_k2_scars / SriYantraAdj_v1.bin / RegionTags_v1.bin /
+xnor_train`, the one-step `--steps` map across the 28→50 region is a
+trimodal sawtooth rather than a bimodal 30/40 peak. Local maxima are
+`s33 = 1.873756` (global), `s41 = 1.708374`, and
+`s49 = 1.819397`. Sharp drops occur at `s33 -> s34`
+(`1.873756 -> 1.370651`), `s41 -> s43`
+(`1.708374 -> 1.160828`), and `s49 -> s50`
+(`1.819397 -> 0.000000`).
+
+**Evidence:**
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A5_peak_finder/`
+  (30 receipts)
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6a_peak_fill/`
+  (15 receipts)
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6b_post_peak/`
+  (18 receipts)
+- cross-cell exact matches with A2 at `s30`, `s35`, `s40`, and `s45`
+
+**Scope guard:** The cycle structure is mapped only for the baseline
+SY_v1 + RegionTags_v1 + xnor_train surface. Cross-graph, cross-tags,
+and cross-dataset shape transfer remains unpromoted.
+
+**Rejected-before-promoted:** Earlier candidate wordings `σ`
+(coarse 30/40 peak) and `σ′` (bimodal s32/s41 reading) are superseded
+and should not be treated as active claims.
+
+**Kill criterion:** Any one of: a sub-step sweep showing the s33→s34
+drop is a sampling artifact; a rerun at `--steps 33`, `41`, or `49`
+returning different KPI values; or cross-condition tests falsifying the
+cycle structure under the claimed scope.
+
+---
+
+## Claim ν — `resonance_r3` task ignores the `--steps` CLI flag
+
+**Status:** CONFIRMED (Session 7 T3, strengthened by Session 8 B3)
+
+**Statement:** `--task resonance_r3` produces identical stdout
+(`Om_dE 1.2745 → 1.2741`, `delta = -0.0004`) across
+`--steps ∈ {1, 5, 10, 20}`. The pre-registered LEARNS criterion
+(`|ΔdE| >= 0.01`, monotone) is not met. This task hardcodes its own
+10-episode training loop regardless of the requested `--steps`.
+
+**Evidence:**
+- `artifacts/phase_S7_P0_receipt_harness_20260418T151800Z/T3_plasticity/`
+  (`T3_plasticity_summary.json` plus the four `.log` files)
+- `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/B3_cli_audit/`
+  (`B3_cli_audit_resonance_r3_steps1.log` and
+  `B3_cli_audit_resonance_r3_steps20.log`)
+
+**Kill criterion:** Observing `|ΔdE| > 0.001` at any tested
+`--steps` value.
+
+---
+
+## Claim τ — `exp_k2_scars` ARM64 cross-platform determinism
+
+**Status:** CONFIRMED (Session 8 AGD-H1 external M1 lane)
+
+**Statement:** The Android aarch64 `dm3_runner` binary emits bit-exact
+`exp_k2_scars` KPI values on RM10 Snapdragon native Android and an
+Apple M1 Android ARM64 emulator under Hypervisor.framework for the
+tested baseline configs at `--steps {20,30,40,45,50}`. All five
+`best_uplift` values and all five `max_scar_weight` values match.
+
+**Evidence:**
+- `repo_stage/CLAIM_TAU_CONFIRMED_20260424.md`
+- `repo_stage/HANDOVER_TO_REPO_AGENT_ORCHESTRATOR_M1_TAU_20260424.md`
+- `docs/restart/DM3_AGDH1_M1_SCIENCE_TEAM_NOTE_20260424.md`
+- `artifacts/phase_S8_AGDH1_external_M1_20260424/`
+
+**Kill criterion:** A same-input ARM64 platform replicate returning any
+different emitted KPI value, after input SHA equality is verified.
+
+---
+
+## Claim φ — three known tasks are `--steps`-decorative on primary output
+
+**Status:** CANDIDATE (Session 8 B3 CLI audit)
+
+**Statement:** In the B3 12-task audit at `--steps 1` vs `--steps 20`,
+three callable tasks ignore `--steps` on their primary emitted output:
+`resonance_r3`, `resonance_v2`, and `exp_i2`. The audit also confirms
+that most of the known task surface is not decorative: nine of twelve
+tasks respond to `--steps`, while `exp_k3_truth_sensor` is partial
+because absolute values and the reduction ratio change, even though its
+selected `sensor_error` remains near `22.3`.
+
+**Evidence:** `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/B3_cli_audit/`
+(`B3_cli_audit_summary.json` plus the 24 per-task logs/receipts).
+
+**Scope guard:** This is a `--steps 1` vs `--steps 20` candidate only.
+It is not a claim that these tasks ignore every possible step value or
+ignore `--steps` under every adjacency, tags, dataset, or other
+configuration.
+
+**Kill criterion:** Any future same-scope evidence that
+`resonance_r3`, `resonance_v2`, or `exp_i2` changes its primary output
+between `--steps 1` and `--steps 20`, or a broader sweep that identifies
+a real `--steps` response inside the claimed scope.
+
+---
+
+## Retired claims (killed or superseded)
+
+- **"freq = 1.0 → 100% HIGH"** (Session 3, N=2) — KILLED in Session 4 at N=5 (freq = 1.0 gave 1/5 = 20%).
+- **"rot = 120° preserves bistability"** (Session 3, N=2) — KILLED in Session 4 (rot = 120° gave 0/5 HIGH).
+- **"truth sensor suppresses HIGH in harmonic"** (Session 3, N=2) — KILLED in Session 4 (default 2/5, strong 2/5). Note: the truth sensor DOES have a real effect inside `exp_k3_truth_sensor` — see IS_AND_IS_NOT.md, scope matters.
+- **"transformer 3× HIGH bias"** (Session 3) — KILLED in Session 4 (HAM = LN = 20%).
+- **"sharp asymmetry critical point"** (Session 3 suggestion) — KILLED in Session 4 Phase K (smooth position shift, no sharp critical point).
+- **Claim γ** (Session 4 Phase L, C3-asymmetric coupling) — RETRACTED in Session 5 P2b as detailed above.
+- **Claim σ** (Session 8 Phase A draft, coarse 30/40 peak) — REJECTED-BEFORE-PROMOTED by A5/A6 one-step sweep.
+- **Claim σ′** (Session 8 A5 interim draft, bimodal s32/s41 reading) — REJECTED-BEFORE-PROMOTED by A6a/A6b one-step sweep.

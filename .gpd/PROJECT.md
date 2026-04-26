@@ -122,8 +122,9 @@ What kind of computational object is the 3D Double Meru under surviving evidence
 - The recoverable October substrate builds and its existing tests pass on this Mac.
 - The phone is not the missing source archive.
 - The restart authority metric is now `governed replay sufficiency`.
-- The restart battery hierarchy is now explicit: micro, medium, and long
-  batteries across Mac and RM10 CPU/GPU/NPU/heterogeneous lanes.
+- The restart battery hierarchy is now partially explicit at the current
+  `F1`/`F2`/NPU/heterogeneous ceiling, but the broader governing hierarchy
+  remains open.
 
 ### Active
 

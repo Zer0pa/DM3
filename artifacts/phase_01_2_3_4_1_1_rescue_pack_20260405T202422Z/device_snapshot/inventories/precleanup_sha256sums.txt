@@ -1,0 +1,7 @@
+e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae  /data/local/tmp/genesis_cli
+daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672  /data/local/tmp/dm3_runner
+d678e8d355601d13dd1608032fd5e6fdf5eaa81bdde0af5f124125ff1bcea8b1  /data/local/tmp/dm3/dm3_runner
+22f4bc8fa1858bb98cce445614d498b04292f7c1b54ba2bacbe5786b969f637c  /data/local/tmp/SriYantraAdj_v1.bin
+b5ea6d4c0d10d309a8972d602cdfe1e6b6b776c58d170951ddfa856c08948d6f  /data/local/tmp/RegionTags_v1.bin
+2f9f1d733ac92c2d1e2bdbdf9af5e2949620519e0fa7eeb3826e2719e922a440  /data/local/tmp/RegionTags_v2.bin
+ecb8711466494c5d516b89096fdb8c685eb252f6b9bcae566260c6f2142e450c  /data/local/tmp/RegionTags_v2.json

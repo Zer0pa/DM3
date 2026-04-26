@@ -1,0 +1,20 @@
+starting
+[1/9] L.rot0_asym_neg0_5 starting at 2026-04-17T05:17:39Z
+[1/9] L.rot0_asym_neg0_5 done at 2026-04-17T05:33:49Z rc=0 pull_rc=0 batt=80 therm=0
+[2/9] L.rot0_asym_0 starting at 2026-04-17T05:33:49Z
+[2/9] L.rot0_asym_0 done at 2026-04-17T05:50:18Z rc=0 pull_rc=0 batt=80 therm=0
+[3/9] L.rot0_asym_0_5 starting at 2026-04-17T05:50:18Z
+[3/9] L.rot0_asym_0_5 done at 2026-04-17T06:06:31Z rc=0 pull_rc=0 batt=80 therm=0
+[4/9] L.rot60_asym_neg0_5 starting at 2026-04-17T06:06:31Z
+[4/9] L.rot60_asym_neg0_5 done at 2026-04-17T06:22:48Z rc=0 pull_rc=0 batt=80 therm=0
+[5/9] L.rot60_asym_0 starting at 2026-04-17T06:22:49Z
+[5/9] L.rot60_asym_0 done at 2026-04-17T06:39:06Z rc=0 pull_rc=0 batt=80 therm=0
+[6/9] L.rot60_asym_0_5 starting at 2026-04-17T06:39:07Z
+[6/9] L.rot60_asym_0_5 done at 2026-04-17T06:55:24Z rc=0 pull_rc=0 batt=80 therm=0
+[7/9] L.rot120_asym_neg0_5 starting at 2026-04-17T06:55:24Z
+[7/9] L.rot120_asym_neg0_5 done at 2026-04-17T07:11:49Z rc=0 pull_rc=0 batt=80 therm=0
+[8/9] L.rot120_asym_0 starting at 2026-04-17T07:11:49Z
+[8/9] L.rot120_asym_0 done at 2026-04-17T08:19:47Z rc=255 pull_rc=0 batt=36 therm=0
+[9/9] L.rot120_asym_0_5 starting at 2026-04-17T08:19:48Z
+[9/9] L.rot120_asym_0_5 done at 2026-04-17T08:19:56Z rc=255 pull_rc=1 
+done

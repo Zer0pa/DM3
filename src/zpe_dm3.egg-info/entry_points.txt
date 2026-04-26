@@ -1,0 +1,2 @@
+[console_scripts]
+zpe-dm3 = zpe_dm3.cli:main

@@ -1,0 +1,825 @@
+{
+  "phase_dir": "phase_I_frequency_20260416T161725Z",
+  "runs": {
+    "I.a_freq_0_1": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 75.073,
+          "Coh": 0.878,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 67057,
+          "regime": "LOW"
+        },
+        {
+          "episode": 1,
+          "E": 88.317,
+          "Coh": 0.7679,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 61948,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 75.516,
+          "Coh": 0.8769,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 65121,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 89.162,
+          "Coh": 0.7693,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 64743,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 4,
+          "E": 75.355,
+          "Coh": 0.8772,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 64096,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "LOW": 3,
+        "HIGH": 2
+      },
+      "high_rate": "2/5"
+    },
+    "I.a_freq_0_3": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 74.855,
+          "Coh": 0.8917,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197368,
+          "regime": "LOW"
+        },
+        {
+          "episode": 1,
+          "E": 75.639,
+          "Coh": 0.8766,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 198283,
+          "regime": "LOW"
+        },
+        {
+          "episode": 2,
+          "E": 76.039,
+          "Coh": 0.8917,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196244,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 88.749,
+          "Coh": 0.7672,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 193478,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 4,
+          "E": 75.837,
+          "Coh": 0.877,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196288,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "LOW": 4,
+        "HIGH": 1
+      },
+      "high_rate": "1/5"
+    },
+    "I.a_freq_0_5": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 76.337,
+          "Coh": 0.8766,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 195810,
+          "regime": "LOW"
+        },
+        {
+          "episode": 1,
+          "E": 88.754,
+          "Coh": 0.7705,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196391,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 88.411,
+          "Coh": 0.7684,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196291,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 3,
+          "E": 75.637,
+          "Coh": 0.8915,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197704,
+          "regime": "LOW"
+        },
+        {
+          "episode": 4,
+          "E": 75.114,
+          "Coh": 0.8908,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197858,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "LOW": 3,
+        "HIGH": 2
+      },
+      "high_rate": "2/5"
+    },
+    "I.a_freq_0_8": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 88.967,
+          "Coh": 0.771,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 198377,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 1,
+          "E": 88.785,
+          "Coh": 0.7701,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 198003,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 76.318,
+          "Coh": 0.8768,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196388,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 88.655,
+          "Coh": 0.7673,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197896,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 4,
+          "E": 88.998,
+          "Coh": 0.7694,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 194814,
+          "regime": "HIGH"
+        }
+      ],
+      "counts": {
+        "HIGH": 4,
+        "LOW": 1
+      },
+      "high_rate": "4/5"
+    },
+    "I.a_freq_10_0": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 88.963,
+          "Coh": 0.771,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 77120,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 1,
+          "E": 88.629,
+          "Coh": 0.7704,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 62990,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 75.314,
+          "Coh": 0.8772,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 63666,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 75.897,
+          "Coh": 0.8916,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 63578,
+          "regime": "LOW"
+        },
+        {
+          "episode": 4,
+          "E": 75.183,
+          "Coh": 0.892,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 62920,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "HIGH": 2,
+        "LOW": 3
+      },
+      "high_rate": "2/5"
+    },
+    "I.a_freq_1_0": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 74.583,
+          "Coh": 0.8929,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196306,
+          "regime": "LOW"
+        },
+        {
+          "episode": 1,
+          "E": 88.734,
+          "Coh": 0.7688,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196581,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 74.448,
+          "Coh": 0.8923,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197242,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 75.327,
+          "Coh": 0.8919,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 198109,
+          "regime": "LOW"
+        },
+        {
+          "episode": 4,
+          "E": 74.246,
+          "Coh": 0.892,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197919,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "LOW": 4,
+        "HIGH": 1
+      },
+      "high_rate": "1/5"
+    },
+    "I.a_freq_1_2": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 76.042,
+          "Coh": 0.8777,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196665,
+          "regime": "LOW"
+        },
+        {
+          "episode": 1,
+          "E": 76.149,
+          "Coh": 0.8768,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 190421,
+          "regime": "LOW"
+        },
+        {
+          "episode": 2,
+          "E": 88.731,
+          "Coh": 0.7703,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 194674,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 3,
+          "E": 76.287,
+          "Coh": 0.8765,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 195730,
+          "regime": "LOW"
+        },
+        {
+          "episode": 4,
+          "E": 88.95,
+          "Coh": 0.7706,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196764,
+          "regime": "HIGH"
+        }
+      ],
+      "counts": {
+        "LOW": 3,
+        "HIGH": 2
+      },
+      "high_rate": "2/5"
+    },
+    "I.a_freq_1_5": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 88.924,
+          "Coh": 0.7705,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 200438,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 1,
+          "E": 88.521,
+          "Coh": 0.7679,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196815,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 88.24,
+          "Coh": 0.769,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196825,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 3,
+          "E": 88.813,
+          "Coh": 0.7705,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 200822,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 4,
+          "E": 75.558,
+          "Coh": 0.8908,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 201807,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "HIGH": 4,
+        "LOW": 1
+      },
+      "high_rate": "4/5"
+    },
+    "I.a_freq_2_0": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 88.529,
+          "Coh": 0.7698,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197596,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 1,
+          "E": 88.739,
+          "Coh": 0.7703,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 196172,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 2,
+          "E": 76.166,
+          "Coh": 0.8768,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 194951,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 88.087,
+          "Coh": 0.7686,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 197893,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 4,
+          "E": 74.734,
+          "Coh": 0.8931,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 137807,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "HIGH": 3,
+        "LOW": 2
+      },
+      "high_rate": "3/5"
+    },
+    "I.a_freq_5_0": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 88.903,
+          "Coh": 0.7704,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 44201,
+          "regime": "HIGH"
+        },
+        {
+          "episode": 1,
+          "E": 75.635,
+          "Coh": 0.8772,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 50260,
+          "regime": "LOW"
+        },
+        {
+          "episode": 2,
+          "E": 75.641,
+          "Coh": 0.8766,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 62861,
+          "regime": "LOW"
+        },
+        {
+          "episode": 3,
+          "E": 74.608,
+          "Coh": 0.8924,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 63483,
+          "regime": "LOW"
+        },
+        {
+          "episode": 4,
+          "E": 75.189,
+          "Coh": 0.8778,
+          "decision": "Commit",
+          "asymmetry": 0.0,
+          "duration_ms": 52262,
+          "regime": "LOW"
+        }
+      ],
+      "counts": {
+        "HIGH": 1,
+        "LOW": 4
+      },
+      "high_rate": "1/5"
+    },
+    "I.b_holo_freq_0_3": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 14.538,
+          "Coh": 0.7376,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 69770,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.539,
+          "Coh": 0.7392,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63828,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 13.916,
+          "Coh": 0.7473,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63054,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.646,
+          "Coh": 0.7099,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63647,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.703,
+          "Coh": 0.7302,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63601,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "I.b_holo_freq_0_8": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 15.169,
+          "Coh": 0.762,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 62702,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.366,
+          "Coh": 0.7358,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 62623,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 14.843,
+          "Coh": 0.7445,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63524,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.061,
+          "Coh": 0.7515,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63382,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 15.859,
+          "Coh": 0.7376,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 64318,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "I.b_holo_freq_1_0": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 14.427,
+          "Coh": 0.75,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 68487,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 15.453,
+          "Coh": 0.7448,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66313,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 15.001,
+          "Coh": 0.7175,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66080,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.632,
+          "Coh": 0.7262,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 65452,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.881,
+          "Coh": 0.7145,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66622,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "I.b_holo_freq_1_5": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 15.309,
+          "Coh": 0.7683,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 75227,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.731,
+          "Coh": 0.7198,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66960,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 14.664,
+          "Coh": 0.7197,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 67372,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 15.513,
+          "Coh": 0.7583,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66287,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.464,
+          "Coh": 0.7408,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 65716,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "I.b_holo_freq_2_0": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 13.713,
+          "Coh": 0.7214,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 79340,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.629,
+          "Coh": 0.7289,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66611,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 15.282,
+          "Coh": 0.7111,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66362,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.152,
+          "Coh": 0.7321,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 65237,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.914,
+          "Coh": 0.727,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 66157,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    }
+  }
+}

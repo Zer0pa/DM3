@@ -1,0 +1,14 @@
+Darwin Zer0pa.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103 arm64
+ProductName:		macOS
+ProductVersion:		15.5
+BuildVersion:		24F74
+hw.model: MacBookAir10,1
+hw.ncpu: 8
+hw.machine: arm64
+---
+rustc 1.94.0 (4a4ef493e 2026-03-02)
+cargo 1.94.0 (85eff7c80 2026-01-15)
+aarch64-apple-darwin
+thumbv8m.main-none-eabi
+wasm32-unknown-unknown
+x86_64-apple-darwin

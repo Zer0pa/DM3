@@ -1,0 +1,19 @@
+{
+  "run_id": "phase_01_2_3_4_1_validator_default_20260405T183234Z",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "phase": "01.2.3.4.1",
+  "plan": "validator-default-live-probe",
+  "run_kind": "engineering_readiness_probe",
+  "authority_status": "engineering_only",
+  "machine_class": "rm10_device",
+  "device_serial": "FY25013101C8",
+  "device_model": "NX789J",
+  "artifact_root": "artifacts/phase_01_2_3_4_1_validator_default_20260405T183234Z",
+  "question": "Does the live RM10 validator fail only because its default canonical target is stale?",
+  "phase_outcome": "stale_default_validator_constant",
+  "checkpoint_id": "phase_01_2_3_4_1_validator_default_20260405T183234Z:retain-all",
+  "checkpoint_parent": null,
+  "comparison_index_path": "artifacts/phase_01_2_3_4_1_validator_default_20260405T183234Z/comparisons/index.json",
+  "checkpoint_index_path": "artifacts/phase_01_2_3_4_1_validator_default_20260405T183234Z/identity/checkpoint_index.json",
+  "next_admissible_move": "Keep fresh RM10 governed work under explicit-hash handling and localize the baked-in default validator target."
+}

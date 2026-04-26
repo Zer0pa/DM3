@@ -1,0 +1,51 @@
+#!/system/bin/sh
+CMD="$1"
+if [ -z "$CMD" ]; then
+  echo "cargo stub: missing command" >&2
+  exit 1
+fi
+shift
+case "$CMD" in
+  build)
+    exit 0
+    ;;
+  test)
+    exit 0
+    ;;
+  run)
+    PKG=""
+    BIN=""
+    while [ $# -gt 0 ]; do
+      case "$1" in
+        -p)
+          PKG="$2"
+          shift 2
+          ;;
+        --package)
+          PKG="$2"
+          shift 2
+          ;;
+        --bin)
+          BIN="$2"
+          shift 2
+          ;;
+        --)
+          shift
+          break
+          ;;
+        *)
+          shift
+          ;;
+      esac
+    done
+    if [ "$BIN" != "snic_rust" ]; then
+      echo "cargo stub: unsupported bin $BIN" >&2
+      exit 1
+    fi
+    exec /data/local/tmp/SoC_Harness/bin/snic_rust "$@"
+    ;;
+  *)
+    echo "cargo stub: unsupported command $CMD" >&2
+    exit 0
+    ;;
+esac

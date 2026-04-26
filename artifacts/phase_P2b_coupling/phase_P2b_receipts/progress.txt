@@ -1,0 +1,15 @@
+[2026-04-17T18:50:30Z] start rot60_asym_040 bat=80
+[2026-04-17T19:06:51Z] done rot60_asym_040 rc=0 lines=5
+[2026-04-17T19:06:51Z] start rot60_asym_045 bat=80
+[2026-04-17T19:23:11Z] done rot60_asym_045 rc=0 lines=5
+[2026-04-17T19:23:11Z] start rot60_asym_050 bat=80
+[2026-04-17T19:39:27Z] done rot60_asym_050 rc=0 lines=5
+[2026-04-17T19:39:27Z] start rot60_asym_055 bat=80
+[2026-04-17T19:55:47Z] done rot60_asym_055 rc=0 lines=5
+[2026-04-17T19:55:47Z] start rot60_asym_060 bat=80
+[2026-04-17T20:12:12Z] done rot60_asym_060 rc=0 lines=5
+[2026-04-17T20:12:12Z] start rot0_asym_050 bat=80
+[2026-04-17T20:28:32Z] done rot0_asym_050 rc=0 lines=5
+[2026-04-17T20:28:32Z] start rot120_asym_050 bat=80
+[2026-04-17T20:44:57Z] done rot120_asym_050 rc=0 lines=5
+[2026-04-17T20:44:57Z] COMPLETE

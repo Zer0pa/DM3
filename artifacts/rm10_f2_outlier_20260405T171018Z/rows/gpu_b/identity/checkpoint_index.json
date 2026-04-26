@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "gpu_b",
+      "run_id": "rm10_f2_outlier_20260405T171018Z_gpu_b",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_20260405T171018Z_gpu_b.jsonl",
+      "receipt_sha256": "6269072745fbb9d32c71cea5dceefe6db11872906aa431eec24c767e3870d36e",
+      "command_path": "artifacts/rm10_f2_outlier_20260405T171018Z/rows/gpu_b/identity/command.txt",
+      "start_utc": "2026-04-05T17:21:52Z",
+      "end_utc": "2026-04-05T17:23:14Z"
+    }
+  ]
+}

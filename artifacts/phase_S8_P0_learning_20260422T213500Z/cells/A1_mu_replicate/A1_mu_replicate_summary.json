@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "A1_mu_replicate",
+  "timestamp_utc": "2026-04-23T00:02:31Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 10,
+  "unique_output_sha256_raw": 10,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 10,
+  "unique_output_sha256_list_raw": ["A1_mu_replicate_r01.bin","A1_mu_replicate_r02.bin","A1_mu_replicate_r03.bin","A1_mu_replicate_r04.bin","A1_mu_replicate_r05.bin","A1_mu_replicate_r06.bin","A1_mu_replicate_r07.bin","A1_mu_replicate_r08.bin","A1_mu_replicate_r09.bin","A1_mu_replicate_r10.bin"],
+  "unique_output_sha256_list_canonical": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "output_sha256_per_run": ["A1_mu_replicate_r01.bin","A1_mu_replicate_r02.bin","A1_mu_replicate_r03.bin","A1_mu_replicate_r04.bin","A1_mu_replicate_r05.bin","A1_mu_replicate_r06.bin","A1_mu_replicate_r07.bin","A1_mu_replicate_r08.bin","A1_mu_replicate_r09.bin","A1_mu_replicate_r10.bin"],
+  "output_canonical_sha256_per_run": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "receipt_sha256_per_run": ["e07fce5dbf8dd5a8582a2ec764fdc5f07fc304fcfac8648d1bd923632a45ba35","6a459458d51a25228047d67cfbc1fe7590b2afff390ba190e4f6a8b3219403c1","22862620bc79fd65b2142ec1fb9810b3ef7018d39ae481884997ae089638dd7d","5b3f316559cf43d991774856ba743786a95e23ad08137bd74c31a624287bc5db","00896cc75f312c27ac668236940e28940429a3f4c72f07dbe2a8838275fa2939","47934a770274d96be77bdfdced4ebecb9928df8800fa770ec9bd61ff7b7353b7","8201294ee616b6720b09c2c39240539a8f7f26c33b1148033bfe6ee8ef34504c","904a6f4b0d5c9cf047d6e5bf25a6bab72647f6c3bdf7f89e7bdf15626f0fee6f","c0895e1e3f14c7acce11809d44bdabf6d4da4d4bf8fd2b1c547f21cf442f5f6a","25dcf0258a8f9d787d9790e4585369115221b14d8244e21c08c3c3ce44c3501e"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}

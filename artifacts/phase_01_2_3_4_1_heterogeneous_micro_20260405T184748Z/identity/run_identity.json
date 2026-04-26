@@ -1,0 +1,20 @@
+{
+  "run_id": "phase_01_2_3_4_1_heterogeneous_micro_20260405T184748Z",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "phase": "01.2.3.4.1",
+  "plan": "heterogeneous-micro-abstain",
+  "run_kind": "gate_verdict",
+  "authority_status": "not_admissible",
+  "build_class": "no_execution",
+  "observable_family": "f2_harmonic_residue",
+  "battery_family": "F2",
+  "battery_class": "micro",
+  "compute_lane": "none",
+  "artifact_root": "artifacts/phase_01_2_3_4_1_heterogeneous_micro_20260405T184748Z",
+  "receipt_expected": false,
+  "primary_receipt_path_or_none": null,
+  "phase_outcome": "ABSTAIN",
+  "route_outcome": "gate_closed_same_family_abstain",
+  "upstream_same_family_packet": "artifacts/phase_01_2_3_4_1_outlier_rerun_20260405T183712Z/",
+  "upstream_same_family_ledger": "docs/restart/F2_OFFICIAL_OUTLIER_RERUN_LEDGER.md"
+}

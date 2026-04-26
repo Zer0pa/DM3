@@ -1,0 +1,1 @@
+{"asymmetry":0.0,"coherence":0.059935104101896286,"decision":"Retry","delta_E":0.00850886944681406,"duration_ms":149,"episode":0}

@@ -1,0 +1,21 @@
+{
+  "policy": "retain-all",
+  "attempts": [
+    {
+      "name": "default_validate",
+      "classification": "failed",
+      "exit_code": 1,
+      "cwd": "/data/local/tmp/SoC_runtime/workspace",
+      "binary_path": "/data/local/tmp/genesis_cli",
+      "receipt_path": "/data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00"
+    },
+    {
+      "name": "explicit_validate",
+      "classification": "passed",
+      "exit_code": 0,
+      "cwd": "/data/local/tmp/SoC_runtime/workspace",
+      "binary_path": "/data/local/tmp/genesis_cli",
+      "receipt_path": "/data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00"
+    }
+  ]
+}

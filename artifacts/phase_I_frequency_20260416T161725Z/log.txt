@@ -1,0 +1,222 @@
+=== PHASE RUNNER: phase_I_frequency_20260416T161725Z (15 runs) ===
+Started: 2026-04-16T16:17:59Z
+Config: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_I_frequency_20260416T161725Z/phase_I.cfg
+
+=== [1/15] I.a_freq_0_1 | steps: 5 | flags: --freq 0.1 ===
+start: 2026-04-16T16:17:59Z
+cmd: rm -f /data/local/tmp/I.a_freq_0_1.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_0_1.jsonl --mode train --task harmonic --steps 5 --cpu --freq 0.1
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.0733 Coh=0.8780
+Resonance Loop Complete.
+end: 2026-04-16T16:23:23Z rc=0
+/data/local/tmp/I.a_freq_0_1.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (644 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== PHASE RUNNER COMPLETE ===
+Finished: 2026-04-16T16:23:23Z
+=== PHASE RUNNER: phase_I_frequency_20260416T161725Z (14 runs) ===
+Started: 2026-04-16T17:05:28Z
+Config: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_I_frequency_20260416T161725Z/phase_I_continuation.cfg
+
+=== [1/14] I.a_freq_0_3 | steps: 5 | flags: --freq 0.3 ===
+start: 2026-04-16T17:05:28Z
+cmd: rm -f /data/local/tmp/I.a_freq_0_3.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_0_3.jsonl --mode train --task harmonic --steps 5 --cpu --freq 0.3
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.8555 Coh=0.8917
+Resonance Loop Complete.
+end: 2026-04-16T17:21:51Z rc=0
+/data/local/tmp/I.a_freq_0_3.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (650 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [2/14] I.a_freq_0_5 | steps: 5 | flags: --freq 0.5 ===
+start: 2026-04-16T17:21:51Z
+cmd: rm -f /data/local/tmp/I.a_freq_0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_0_5.jsonl --mode train --task harmonic --steps 5 --cpu --freq 0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=76.3371 Coh=0.8766
+Resonance Loop Complete.
+end: 2026-04-16T17:38:16Z rc=0
+/data/local/tmp/I.a_freq_0_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (649 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [3/14] I.a_freq_0_8 | steps: 5 | flags: --freq 0.8 ===
+start: 2026-04-16T17:38:16Z
+cmd: rm -f /data/local/tmp/I.a_freq_0_8.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_0_8.jsonl --mode train --task harmonic --steps 5 --cpu --freq 0.8
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.9674 Coh=0.7710
+Resonance Loop Complete.
+end: 2026-04-16T17:54:42Z rc=0
+/data/local/tmp/I.a_freq_0_8.jsonl: 1 file pulled, 0 skipped. 0.1 MB/s (649 bytes in 0.009s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [4/14] I.a_freq_1_0 | steps: 5 | flags: --freq 1.0 ===
+start: 2026-04-16T17:54:42Z
+cmd: rm -f /data/local/tmp/I.a_freq_1_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_1_0.jsonl --mode train --task harmonic --steps 5 --cpu --freq 1.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.5825 Coh=0.8929
+Resonance Loop Complete.
+end: 2026-04-16T18:11:09Z rc=0
+/data/local/tmp/I.a_freq_1_0.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (647 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [5/14] I.a_freq_1_2 | steps: 5 | flags: --freq 1.2 ===
+start: 2026-04-16T18:11:09Z
+cmd: rm -f /data/local/tmp/I.a_freq_1_2.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_1_2.jsonl --mode train --task harmonic --steps 5 --cpu --freq 1.2
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=76.0420 Coh=0.8777
+Resonance Loop Complete.
+end: 2026-04-16T18:27:24Z rc=0
+/data/local/tmp/I.a_freq_1_2.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (648 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [6/14] I.a_freq_1_5 | steps: 5 | flags: --freq 1.5 ===
+start: 2026-04-16T18:27:25Z
+cmd: rm -f /data/local/tmp/I.a_freq_1_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_1_5.jsonl --mode train --task harmonic --steps 5 --cpu --freq 1.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.9238 Coh=0.7705
+Resonance Loop Complete.
+end: 2026-04-16T18:44:02Z rc=0
+/data/local/tmp/I.a_freq_1_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (641 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [7/14] I.a_freq_2_0 | steps: 5 | flags: --freq 2.0 ===
+start: 2026-04-16T18:44:02Z
+cmd: rm -f /data/local/tmp/I.a_freq_2_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_2_0.jsonl --mode train --task harmonic --steps 5 --cpu --freq 2.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.5289 Coh=0.7698
+Resonance Loop Complete.
+end: 2026-04-16T18:59:27Z rc=0
+/data/local/tmp/I.a_freq_2_0.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (648 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [8/14] I.a_freq_5_0 | steps: 5 | flags: --freq 5.0 ===
+start: 2026-04-16T18:59:27Z
+cmd: rm -f /data/local/tmp/I.a_freq_5_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_5_0.jsonl --mode train --task harmonic --steps 5 --cpu --freq 5.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.9031 Coh=0.7704
+Resonance Loop Complete.
+end: 2026-04-16T19:04:01Z rc=0
+/data/local/tmp/I.a_freq_5_0.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (641 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [9/14] I.a_freq_10_0 | steps: 5 | flags: --freq 10.0 ===
+start: 2026-04-16T19:04:01Z
+cmd: rm -f /data/local/tmp/I.a_freq_10_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.a_freq_10_0.jsonl --mode train --task harmonic --steps 5 --cpu --freq 10.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.9630 Coh=0.7710
+Resonance Loop Complete.
+end: 2026-04-16T19:09:32Z rc=0
+/data/local/tmp/I.a_freq_10_0.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (643 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [10/14] I.b_holo_freq_0_3 | steps: 5 | flags: --freq 0.3 --task holography ===
+start: 2026-04-16T19:09:32Z
+cmd: rm -f /data/local/tmp/I.b_holo_freq_0_3.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.b_holo_freq_0_3.jsonl --mode train --steps 5 --cpu --freq 0.3 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=14.5380 Coh=0.7376
+Resonance Loop Complete.
+end: 2026-04-16T19:14:56Z rc=0
+/data/local/tmp/I.b_holo_freq_0_3.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (645 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [11/14] I.b_holo_freq_0_8 | steps: 5 | flags: --freq 0.8 --task holography ===
+start: 2026-04-16T19:14:56Z
+cmd: rm -f /data/local/tmp/I.b_holo_freq_0_8.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.b_holo_freq_0_8.jsonl --mode train --steps 5 --cpu --freq 0.8 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=15.1692 Coh=0.7620
+Resonance Loop Complete.
+end: 2026-04-16T19:20:13Z rc=0
+/data/local/tmp/I.b_holo_freq_0_8.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (644 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [12/14] I.b_holo_freq_1_0 | steps: 5 | flags: --freq 1.0 --task holography ===
+start: 2026-04-16T19:20:14Z
+cmd: rm -f /data/local/tmp/I.b_holo_freq_1_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.b_holo_freq_1_0.jsonl --mode train --steps 5 --cpu --freq 1.0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=14.4269 Coh=0.7500
+Resonance Loop Complete.
+end: 2026-04-16T19:25:47Z rc=0
+/data/local/tmp/I.b_holo_freq_1_0.jsonl: 1 file pulled, 0 skipped. 0.5 MB/s (644 bytes in 0.001s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [13/14] I.b_holo_freq_1_5 | steps: 5 | flags: --freq 1.5 --task holography ===
+start: 2026-04-16T19:25:47Z
+cmd: rm -f /data/local/tmp/I.b_holo_freq_1_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.b_holo_freq_1_5.jsonl --mode train --steps 5 --cpu --freq 1.5 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=15.3087 Coh=0.7683
+Resonance Loop Complete.
+end: 2026-04-16T19:31:29Z rc=0
+/data/local/tmp/I.b_holo_freq_1_5.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (643 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [14/14] I.b_holo_freq_2_0 | steps: 5 | flags: --freq 2.0 --task holography ===
+start: 2026-04-16T19:31:29Z
+cmd: rm -f /data/local/tmp/I.b_holo_freq_2_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/I.b_holo_freq_2_0.jsonl --mode train --steps 5 --cpu --freq 2.0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=13.7135 Coh=0.7214
+Resonance Loop Complete.
+end: 2026-04-16T19:37:13Z rc=0
+/data/local/tmp/I.b_holo_freq_2_0.jsonl: 1 file pulled, 0 skipped. 0.4 MB/s (644 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== PHASE RUNNER COMPLETE ===
+Finished: 2026-04-16T19:37:13Z

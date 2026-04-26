@@ -1,0 +1,6 @@
+1.4M	/data/local/tmp/SoC_runtime/workspace
+1.1G	/data/local/tmp/snic_workspace_a83f
+10M	/data/local/tmp/dm3
+2.1M	/data/local/tmp/SoC_Harness/bin
+1.9M	/data/local/tmp/genesis_cli
+9.1M	/data/local/tmp/dm3_runner

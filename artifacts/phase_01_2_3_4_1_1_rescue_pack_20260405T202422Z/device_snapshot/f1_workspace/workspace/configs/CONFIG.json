@@ -1,0 +1,1321 @@
+{
+  "abstention": {
+    "mode": "selective",
+    "threshold": 0.92
+  },
+  "accel_vs_distance_log": true,
+  "acceptance": {
+    "R_plus_T_err_max": "1.5%",
+    "all_fail_expected": true,
+    "all_green_required": true,
+    "all_pass": true,
+    "alpha_rel_err_max_pct": "7.5%",
+    "alpha_target": 1.0,
+    "alpha_tolerance_pct": 5,
+    "alpha_trend_monotone": true,
+    "amp_drift_max": "1.5%",
+    "angular_err_deg_max": 2.0,
+    "angular_mis_max_deg": 1.5,
+    "base_e_rel_err_pct_max": "2.5%",
+    "ber_max": 0.0,
+    "breakpoint_detected": true,
+    "byte_identical": true,
+    "centroid_err_max_pct": 5,
+    "charge_invariant": true,
+    "class_drift": 0,
+    "consensus_variation_pct_max": "1.5%",
+    "constants_stable": true,
+    "corr_min": 0.88,
+    "correlation_min": 0.95,
+    "cosine_min": 0.965,
+    "cosine_recovery_min": 0.99,
+    "cosine_tail_min": 0.97,
+    "coverage_min_pct": 95,
+    "dN_dLambda_positive": true,
+    "delta_aic_bic_threshold": 10,
+    "delta_rel_err_max_pct": "6.5%",
+    "detect_mutation": true,
+    "detect_violation": true,
+    "dual_hash_match": true,
+    "eigs_inside_unit_disk": true,
+    "energy_flux_err_max": "1.5%",
+    "energy_rel_err_max": 0.015,
+    "energy_series_monotone": true,
+    "envelope_l2_max": 0.002,
+    "exclusion_verified": true,
+    "expect_fail": true,
+    "fail_expected": true,
+    "false_positive_rate_max": 0.0,
+    "fdt_r2_min": 0.98,
+    "fixed_point_exists": true,
+    "gain_r2_min": 0.999,
+    "geometric_mean_err_pct_max": "6.0%",
+    "gradual_degradation_only": true,
+    "hash_drift_max": 0.0,
+    "hash_invariant": true,
+    "hash_invariant_post_update": true,
+    "hash_invariant_strict_only": true,
+    "hash_repeat_tolerance": 1e-10,
+    "hash_tolerance": 1e-12,
+    "hash_unchanged": true,
+    "hk_distance_max": 0.05,
+    "holo_cosine_min": 0.97,
+    "hysteresis_band_nonzero": true,
+    "limit_stability": true,
+    "linear_fit_r2_min": 0.998,
+    "lipschitz_max": 0.3,
+    "lock_detected": true,
+    "mapping_invariant": true,
+    "max_q": "164/165",
+    "max_step_drift": 0.0001,
+    "metric_monotonic": true,
+    "minima_detected": true,
+    "mode_exchange_detected": true,
+    "momentum_flux_err_max": "2.0%",
+    "monotone_energy": true,
+    "no_behavior_change": true,
+    "no_corr_with_hash": true,
+    "no_false_detection": true,
+    "no_hash_drift": true,
+    "no_phase_jump": true,
+    "no_silent_pass": true,
+    "no_special_constants_detected": true,
+    "non_decreasing_timestamps": true,
+    "observables_stable": true,
+    "outcome_l2_max": 0.003,
+    "p_value_max": 0.01,
+    "pass_under_squeeze": true,
+    "performance_drop_expected": true,
+    "period_cv_max": "0.7%",
+    "phase_delay_err_max_deg": 3.0,
+    "pi_rel_err_max_pct": "2.5%",
+    "plateau_tolerance": "2.0%",
+    "positive_definite": true,
+    "principal_angle_drift_max": 0.001,
+    "principal_angle_max": 0.001,
+    "q_max": "164/165",
+    "quantity_converges": true,
+    "radial_rmse_max": 0.02,
+    "rank_pct_max": 5,
+    "ratio_phi_rel_err_max_pct": "2.5%",
+    "ratio_stability_pct_max": "2.5%",
+    "recovery_steps_max": 256,
+    "residual_crosstalk_max": 0.001,
+    "resilience_score_min": 0.9,
+    "rhoJ_max": "164/165 + 1e-6",
+    "schema_valid": true,
+    "seq_accuracy_min": 0.985,
+    "shape_l2_max": 0.002,
+    "shell_radius_cv_max": 0.01,
+    "significant_k": [
+      "2",
+      "8",
+      "12"
+    ],
+    "single_root_for_cohort": true,
+    "sqrt_split_err_max_pct": 10,
+    "stable_mode_set": true,
+    "strict_decrease": true,
+    "symmetry_fixed_points": true,
+    "trace_replay_identical": true,
+    "value_invariant": true,
+    "width_drift_max": "0.7%",
+    "width_overlap_min_pct": 70,
+    "window_match_rate_min": 0.9,
+    "zero_drift_on_reencode": true,
+    "zero_errors": true,
+    "zero_mode_ambiguity": true
+  },
+  "adversary": {
+    "epsilon": 0.005,
+    "kind": "fgsm"
+  },
+  "analysis": {
+    "link": true,
+    "sample_count": 512
+  },
+  "anderson": {
+    "enabled": [
+      false,
+      true
+    ],
+    "m": 5
+  },
+  "asymmetry_bias_sweep": [
+    -0.1,
+    0.1,
+    0.005
+  ],
+  "async_copy": true,
+  "attention_types": [
+    "se3_equivariant",
+    "mhsa_standard"
+  ],
+  "audio": {
+    "baselines": [
+      432,
+      440
+    ]
+  },
+  "audio_conditioning": [
+    "432",
+    "440"
+  ],
+  "audit": {
+    "failures": true
+  },
+  "autocast_modes": [
+    "fp16_accum_fp32",
+    "fp32"
+  ],
+  "axioms": {
+    "coverage_report": true,
+    "enable": true
+  },
+  "backend": "soc",
+  "banach": {
+    "sample_pairs": 128
+  },
+  "barriers": {
+    "shuffle_order": true
+  },
+  "basis": {
+    "perturb_std": 0.001
+  },
+  "batch": {
+    "size": 20
+  },
+  "batch_size_fit": true,
+  "bc": {
+    "kind": "dirichlet_marma"
+  },
+  "bias": {
+    "range": [
+      -0.1,
+      0.1,
+      41
+    ]
+  },
+  "bifurcation": {
+    "scan_points": 64
+  },
+  "boundary": {
+    "kind": "absorbing",
+    "mask_curve_pct": 35,
+    "mask_fraction": 0.5,
+    "noise_std": [
+      0.0,
+      0.001,
+      9
+    ],
+    "patterns": [
+      "ring",
+      "checker",
+      "radial",
+      "random"
+    ],
+    "repair_steps": 50,
+    "shift": 0.05
+  },
+  "boundary_mask_schedule": "rings",
+  "budget": {
+    "seconds_per_stage": 30
+  },
+  "build": {
+    "ndk_abi": "arm64-v8a"
+  },
+  "calibration": {
+    "set": "toy_calib.csv"
+  },
+  "cantor": {
+    "construct": true
+  },
+  "centroid_tol_pct": 5,
+  "charge": {
+    "compute": "winding"
+  },
+  "checkpoint": {
+    "interval_steps": 127
+  },
+  "checkpoint_size_report": true,
+  "chirality_flip_invariance": true,
+  "clock": {
+    "source": "elapsedRealtimeNanos"
+  },
+  "coherence_metric": "cosine",
+  "cohort": [
+    "rm10pro_a",
+    "rm10pro_b"
+  ],
+  "compare": {
+    "global_reset": true,
+    "metrics": [
+      "band_coincidence",
+      "fit_rmse"
+    ],
+    "orderings": true
+  },
+  "comparison": {
+    "model": "tiny_tx",
+    "steps": 500
+  },
+  "compiler_fusion": "on",
+  "config": {
+    "compose_permutation": true
+  },
+  "confinement_probe": true,
+  "consistency": {
+    "votes": 5
+  },
+  "constraint": {
+    "stub_kind": "gaussian_random"
+  },
+  "continuation": {
+    "path": "linear",
+    "steps": 64
+  },
+  "continued_fraction": {
+    "depth": 10
+  },
+  "control": {
+    "cpu_reference": true,
+    "param": "drive_intensity",
+    "range": [
+      0.0,
+      1.0,
+      128
+    ]
+  },
+  "controls": [
+    "scrambled_edges",
+    "random_marma",
+    "phase_shuffle"
+  ],
+  "corollary": {
+    "reduce_redundant": true
+  },
+  "corpus": {
+    "variants": [
+      "fractal",
+      "shuffled",
+      "random"
+    ]
+  },
+  "corpus_variants": [
+    "perfect",
+    "corrupted",
+    "random"
+  ],
+  "correlate_throttle_spikes": true,
+  "cosine_head_min": 0.99,
+  "cosine_tail_min": 0.97,
+  "coupling": {
+    "metric": "angle_ratio_corr"
+  },
+  "cpu": {
+    "exact_reduction": true,
+    "pin_policy": "orion_big_only",
+    "threads": 4
+  },
+  "critical_bias_estimator": "bisection",
+  "curriculum": {
+    "max_stage_iters": 200,
+    "schedule": [
+      4,
+      3,
+      2,
+      1
+    ],
+    "skip_stage": 2
+  },
+  "cycles": {
+    "count": 5
+  },
+  "d24_angle_quantization": true,
+  "data": {
+    "dataset_sizes": [
+      100,
+      200,
+      400,
+      800
+    ]
+  },
+  "dataset": {
+    "name": "mini_arith.json",
+    "split": "negative_only"
+  },
+  "dataset_ref": "same_corpus",
+  "defect": {
+    "kind": "delta_well",
+    "strength": -0.3
+  },
+  "defib_selectivity": true,
+  "delegates": {
+    "gpu": true,
+    "npu": false
+  },
+  "delta_report": true,
+  "depth": {
+    "measure_error": true,
+    "range": [
+      1,
+      8
+    ]
+  },
+  "depth_metric": {
+    "kind": "ordinal_proxy"
+  },
+  "determinism": {
+    "seed_contract": "counter_based_64"
+  },
+  "device": {
+    "abort_on_throttle": true,
+    "performance_mode": "SUSTAINED"
+  },
+  "dither": {
+    "epsilon": [
+      0.0,
+      0.001,
+      9
+    ]
+  },
+  "dma_compute_overlap": true,
+  "drift_check": true,
+  "drive": {
+    "phase_list": [
+      1,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29
+    ],
+    "ratio_list": [
+      "4:5",
+      "6:7",
+      "8:9"
+    ],
+    "two_tone": true
+  },
+  "drive_grid": {
+    "gamma": [
+      0.0,
+      1.0,
+      0.02
+    ],
+    "omega": [
+      0.1,
+      2.0,
+      0.01
+    ]
+  },
+  "e8": {
+    "projection": "coxeter_plane"
+  },
+  "ecc": {
+    "enforce": true
+  },
+  "ecc_window_map": true,
+  "emulate_multigpu": true,
+  "enable": true,
+  "energy": {
+    "remove_terms": [
+      "E8_projection"
+    ],
+    "token_window": 512
+  },
+  "energy_per_token": true,
+  "ep": {
+    "center": [
+      0.0,
+      0.0
+    ],
+    "loop_path": "circle",
+    "radius": 0.03
+  },
+  "epsilon_ball": {
+    "radius": 0.001
+  },
+  "epsilon_star_argmin": true,
+  "equal_params_flops": true,
+  "excitation_modes": [
+    "impulse",
+    "sine"
+  ],
+  "fast_math": false,
+  "fit": {
+    "model": "yantra_3d_huet4",
+    "reg": 0.0001,
+    "regularization": 0.001
+  },
+  "flux": {
+    "compute": true
+  },
+  "fractal_levels": 4,
+  "front_speed_measure": true,
+  "fused_kernel_paths": [
+    "conv+bn+act",
+    "posenc+reduce"
+  ],
+  "fuzzer": {
+    "iterations": 500
+  },
+  "gauge": {
+    "divergence_tolerance": 1e-6,
+    "fix": [
+      "unitary",
+      "landau"
+    ]
+  },
+  "geodesic_tolerance": 1e-6,
+  "geom": {
+    "kind": "erdos_renyi",
+    "p": 0.05
+  },
+  "global_reset_energy_budget": 10.0,
+  "gmem": {
+    "residency": true
+  },
+  "gpu": {
+    "api": "vulkan",
+    "async_queues": 2,
+    "barrier_policy": "strict",
+    "barriers": "full",
+    "deterministic_reduction": true,
+    "gmem_budget_mb": 8,
+    "gmem_residency": true,
+    "local_size": [],
+    "math_mode": "fp32_strict",
+    "math_mode_sweep": [
+      "fp32_strict",
+      "fp16_accum_fp32"
+    ],
+    "profile_counters": [
+      "active_waves",
+      "alu_util",
+      "lmem_spills"
+    ],
+    "subgroup_size": 64,
+    "submission_order": "fixed",
+    "tiling": "yantra_shells",
+    "timeline_semaphores": true
+  },
+  "grammar": {
+    "check": "cfg_toy.json"
+  },
+  "graph": {
+    "nodes": 64
+  },
+  "grid": {
+    "refinements": [
+      128,
+      256,
+      512
+    ],
+    "resolution": [
+      64,
+      64
+    ],
+    "seeds": 32,
+    "wedge": {
+      "asymmetry": [
+        0.0,
+        0.2
+      ],
+      "coupling": [
+        0.8,
+        1.2
+      ],
+      "steps": 8
+    }
+  },
+  "group_conv_variants": [
+    "E8",
+    "H4",
+    "D4",
+    "vanilla"
+  ],
+  "groups": {
+    "test": [
+      "H4",
+      "D4xD4",
+      "E6",
+      "E8"
+    ]
+  },
+  "growth": {
+    "fit": "exponential"
+  },
+  "hallucination": {
+    "track": true
+  },
+  "hash": {
+    "algorithms": [
+      "sha256",
+      "blake3"
+    ],
+    "exclude_fields": [
+      "build_tag",
+      "git_describe",
+      "compiled_at"
+    ]
+  },
+  "hash_invariance_required": true,
+  "heat_kernel": {
+    "t_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ]
+  },
+  "hessian": {
+    "subspace_dim": 32
+  },
+  "holo": {
+    "sequence": [
+      "write_A",
+      "erase",
+      "write_A"
+    ]
+  },
+  "holography_scale_test": true,
+  "holonomy_fit": "su2",
+  "huet4": {
+    "sample_method": "latin_hypercube",
+    "samples": 256
+  },
+  "identical_graph_topology": true,
+  "impls": [
+    "kernel_math",
+    "lut_variant"
+  ],
+  "impulse": {
+    "amp": 0.1
+  },
+  "init": {
+    "breather": {
+      "amp": 0.9,
+      "freq": 0.33
+    },
+    "packet": {
+      "amp": 0.6,
+      "carrier_k": 12,
+      "width": 0.08
+    },
+    "packets": [
+      {
+        "amp": 0.8,
+        "pos": -0.4,
+        "vel": 0.2
+      },
+      {
+        "amp": 0.8,
+        "pos": 0.4,
+        "vel": -0.2
+      }
+    ],
+    "triplet": "spaced_equal_amp"
+  },
+  "inject": {
+    "fault": "drop_barrier_once",
+    "null_signal": true
+  },
+  "inputs": {
+    "perturb_std": 0.001
+  },
+  "invariants": {
+    "degrees": [
+      2,
+      8,
+      12
+    ]
+  },
+  "io": {
+    "input_glob": "/sdcard/fixtures/multi/*",
+    "iteration_order": "randomized"
+  },
+  "isotropy_threshold": 0.95,
+  "iteration_count_log": true,
+  "jacobian": {
+    "lambda_bound": 0.985,
+    "power_iter": {
+      "steps": 64
+    },
+    "probe": true,
+    "top_k": 16
+  },
+  "jitter_injection": true,
+  "jitter_profile": [
+    "none",
+    "mild",
+    "heavy"
+  ],
+  "json": {
+    "canonicalize": true
+  },
+  "kernel_autotune": "on",
+  "kernel_timing": true,
+  "kernels": [
+    "fft",
+    "scatter"
+  ],
+  "kuramoto": {
+    "coupling_range": [
+      0.0,
+      1.0,
+      64
+    ]
+  },
+  "lanes": {
+    "count": 4,
+    "spacing": 0.25
+  },
+  "language": {
+    "cfg": "dyck",
+    "n_max": 6
+  },
+  "laplacian": {
+    "checks": [
+      "degree_sum",
+      "trace",
+      "multiplicity"
+    ]
+  },
+  "latency_throughput_report": true,
+  "lattice": {
+    "area_law_check": true,
+    "plaquette_size": 4
+  },
+  "layers": [
+    "se3_equivariant",
+    "standard_conv"
+  ],
+  "layout_variants": [
+    "angle_sorted",
+    "row_major"
+  ],
+  "length": {
+    "range": [
+      4,
+      64
+    ],
+    "test": 16,
+    "train": 8
+  },
+  "lift_3d": {
+    "base_radii": [
+      "1/1",
+      "2/1",
+      "3/1"
+    ],
+    "pitch": "1/1",
+    "rotation_t": "1/2",
+    "rotor_t_half": "1/3"
+  },
+  "lint": {
+    "strict": true
+  },
+  "locality_metrics": [
+    "l2_hit_rate",
+    "stall_cycles"
+  ],
+  "lock": {
+    "band_deg": 2.0,
+    "enforce": true,
+    "target_ratio": "phi"
+  },
+  "logic": {
+    "formulas": 256
+  },
+  "long_autocorr_min": 0.9,
+  "loop_param": {
+    "steps": 128,
+    "theta_end": 6.283185307,
+    "theta_start": 0.0
+  },
+  "loss_floor_compare": true,
+  "loss_regularizer": [
+    "symmetry_reg",
+    "none"
+  ],
+  "lr_scheduler": "ep_distance",
+  "lyapunov": {
+    "certificate": true,
+    "construct": "quadratic_local"
+  },
+  "mapping": {
+    "kind": "bijective_embedding"
+  },
+  "measure_gradient_noise_scale": true,
+  "mem_limit_mb": 16384,
+  "memory": {
+    "shared_cpu": false
+  },
+  "merkle": {
+    "block_size": 65536,
+    "enable": true,
+    "mutate_probe": "single_leaf"
+  },
+  "meta_spina_coherence": true,
+  "metadata": {
+    "hardware_path": "cpu_adreno830_vulkan",
+    "sdk_baseline": "non_sdk_cpu_gpu_only",
+    "termux_vulkan_version": "1.3"
+  },
+  "methods": {
+    "compare": [
+      "split_step",
+      "fdtd"
+    ]
+  },
+  "metric": {
+    "kind": "boundary_bulk_ratio"
+  },
+  "metrics": {
+    "enable": [
+      "shape_l2_post",
+      "energy_conserved"
+    ]
+  },
+  "micro_noise_sigma": 0.001,
+  "microcode": {
+    "patch": "noop_nop_slide"
+  },
+  "mirror": {
+    "depth": 10
+  },
+  "modal": {
+    "extract": true
+  },
+  "mode_lock_probe": true,
+  "monitor": {
+    "constants": [
+      "phi",
+      "pi",
+      "e",
+      "feigenbaum_delta",
+      "feigenbaum_alpha"
+    ],
+    "enable": true,
+    "metrics": [
+      "delta_e",
+      "rho_j"
+    ]
+  },
+  "no_throttle_envelope": true,
+  "noise": {
+    "std_scan": [
+      0.0,
+      0.001,
+      9
+    ],
+    "white_std_scan": [
+      0.0,
+      0.01,
+      21
+    ]
+  },
+  "nonregression_ecc": true,
+  "npu": {
+    "graph_precision": "fp16",
+    "qnn_delegate": true,
+    "role": "audio_frontend"
+  },
+  "nudge": {
+    "magnitude": 0.2,
+    "target_fraction": 0.1
+  },
+  "nudge_energy_budget": 1.0,
+  "nudge_type": "targeted",
+  "numeric": {
+    "mode": [
+      "strict",
+      "lenient"
+    ]
+  },
+  "ood": {
+    "expect_abstain": true,
+    "inject": true
+  },
+  "order_parameter": "chirality",
+  "os": {
+    "update": {
+      "simulate": true
+    }
+  },
+  "overflow_detector": true,
+  "overlap_threshold_pct": 70,
+  "p_q_range": [],
+  "parity": {
+    "tests": [
+      "even_even",
+      "odd_odd"
+    ]
+  },
+  "perturb": {
+    "strength": 0.02
+  },
+  "post_training_quant": [
+    "fp8_emul",
+    "int8"
+  ],
+  "potential": {
+    "height": 0.15
+  },
+  "power": {
+    "charger_state": "unplugged",
+    "perf_hint": "SUSTAINED_PERFORMANCE",
+    "refresh_hz": 60,
+    "screen_brightness": 40
+  },
+  "pq": {
+    "modes": [
+      "1:2",
+      "2:3",
+      "3:5"
+    ]
+  },
+  "prc": {
+    "pulse_amp": 0.04,
+    "sample_phases": 64,
+    "velocity": 0.15
+  },
+  "precision": {
+    "gpu": "fp32_strict"
+  },
+  "precision_modes": [
+    "fp32",
+    "fp16",
+    "fp8_emul"
+  ],
+  "prior_mode": [
+    "e8_prior",
+    "baseline"
+  ],
+  "prior_modes": [
+    "symmetry_prior",
+    "none"
+  ],
+  "probe": {
+    "amp_range": [
+      0.001,
+      0.05
+    ]
+  },
+  "provenance": {
+    "allowlist": [
+      "/sdcard/fixtures/",
+      "/sdcard/schemas/"
+    ],
+    "block_unlisted": true
+  },
+  "qat_enable": true,
+  "queue": {
+    "submit_order": "monotonic"
+  },
+  "radio": {
+    "airplane_mode": true
+  },
+  "rationals": {
+    "enabled": true,
+    "serialize": "canonical_q",
+    "verify_roundtrip": true
+  },
+  "receipt": {
+    "enabled": true,
+    "tolerance_band": 1e-9
+  },
+  "receipt_identity_required": true,
+  "receipts": {
+    "embed_meta": true,
+    "hash_domain": "content_only",
+    "include_axioms": true,
+    "include_licenses": true
+  },
+  "recon": {
+    "method": "dtN_kernel",
+    "target": "interior"
+  },
+  "record": [
+    "occupancy",
+    "warp_divergence",
+    "l2_hit_rate"
+  ],
+  "recovery_cost_ratio": true,
+  "recovery_time_benchmark": true,
+  "recursion": {
+    "depth": 12
+  },
+  "reduction": {
+    "tree_shape": [
+      "pairwise",
+      "kary4",
+      "kary8"
+    ]
+  },
+  "regularizers": {
+    "kinds": [
+      "l1",
+      "l2"
+    ],
+    "lambda_values": [
+      0.01,
+      0.1
+    ]
+  },
+  "replay": {
+    "skew_ms": [
+      0,
+      5,
+      10,
+      20
+    ]
+  },
+  "report": {
+    "generate": true
+  },
+  "reproducibility_receipts": true,
+  "resonance": {
+    "drive": true
+  },
+  "restoring_kappa": 1.0,
+  "resume": {
+    "test_points": [
+      128,
+      513,
+      1024
+    ]
+  },
+  "reverse": {
+    "enabled": true
+  },
+  "ring": {
+    "order": "outer_to_inner",
+    "relax_mode": "sequential",
+    "sequence": [
+      "outer",
+      "mid",
+      "inner",
+      "bindu"
+    ]
+  },
+  "run": {
+    "boundary_restore": 1,
+    "emission_phase": true,
+    "repeats": 10,
+    "seeds": 1000,
+    "steps": 500
+  },
+  "sample": {
+    "points": 128
+  },
+  "scaling": {
+    "window": [
+      0.25,
+      0.75
+    ]
+  },
+  "scaling_report": true,
+  "scan": {
+    "count": 256,
+    "grid": {
+      "amp": [
+        0.0,
+        1.0,
+        64
+      ],
+      "freq": [
+        0.5,
+        2.0,
+        64
+      ]
+    }
+  },
+  "scatter": {
+    "potential": "localized_barrier"
+  },
+  "scheduler": {
+    "jitter_ms": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "jitter_sigma": 0.001,
+    "permutations": 12,
+    "repeat": 5
+  },
+  "schema": {
+    "path": "/sdcard/schemas/capsule_v2.json"
+  },
+  "se3_vs_conv_profile": true,
+  "sectors": [
+    "D24_angles"
+  ],
+  "seed": {
+    "inject_blind": true,
+    "range": [
+      0,
+      999
+    ]
+  },
+  "seed_count": 1000,
+  "seed_lock": true,
+  "seeds": 64,
+  "sequence_lengths": [],
+  "series": {
+    "members": [
+      "sqrt2",
+      "sqrt3",
+      "sqrt5"
+    ]
+  },
+  "shape_metric": "eccentricity",
+  "shard_strategy": [
+    "symmetry_shard",
+    "data_parallel"
+  ],
+  "sine_freqs": [
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "soak": {
+    "duration_min": 30
+  },
+  "soak_minutes": 30,
+  "soc": {
+    "pin_big_cores": true
+  },
+  "solver": {
+    "clauses": 128,
+    "max_iter": 4096
+  },
+  "sparse_formats": [
+    "csr",
+    "coo"
+  ],
+  "spectra": {
+    "top_k": 32
+  },
+  "spectrum": {
+    "method": "prony_peaks",
+    "window": [
+      0.0,
+      2.0
+    ]
+  },
+  "spmm_bench": true,
+  "sr_epsilon_sweep": [
+    0.0,
+    0.5,
+    0.01
+  ],
+  "stability_vs_walltime": true,
+  "stage": {
+    "hash_check": true
+  },
+  "stall_counter": true,
+  "step": {
+    "alpha_scan": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "step_invariance_required": true,
+  "stimuli": {
+    "types": [
+      "impulse",
+      "sine"
+    ]
+  },
+  "storage": {
+    "chunk_mb": 64,
+    "target": "internal_app_cache"
+  },
+  "su2_loop_probe": true,
+  "subset": {
+    "rule": "halve_then_project"
+  },
+  "superposition": {
+    "test": true
+  },
+  "sweep": {
+    "count": 64,
+    "param": "asymmetry_bias",
+    "range": [
+      -0.2,
+      0.2,
+      81
+    ],
+    "updown": true
+  },
+  "symmetry": {
+    "targets": [
+      8,
+      10,
+      12
+    ]
+  },
+  "symmetry_heads": [],
+  "symmetry_loss_guard": true,
+  "system_hygiene": {
+    "airplane_mode": true,
+    "notifications_block": true,
+    "refresh_hz": 60
+  },
+  "tags": {
+    "ignored_in_hash": true
+  },
+  "task": {
+    "digit_count": 3,
+    "digits": 4,
+    "name": "k_digit_addition"
+  },
+  "tasks": {
+    "compositional": [
+      "add",
+      "sat",
+      "graph"
+    ]
+  },
+  "telemetry": {
+    "enable": [
+      "power",
+      "temp",
+      "clock"
+    ],
+    "energy_series": true,
+    "log": [
+      "skin_temp",
+      "soc_temp",
+      "gpu_clock",
+      "npu_clock",
+      "power"
+    ],
+    "poll_hz": 2,
+    "power_meter": "batterystats"
+  },
+  "telemetry_log": [
+    "temp",
+    "clock",
+    "power"
+  ],
+  "temp": {
+    "device_profile": "ambient_plus_fan"
+  },
+  "test": {
+    "bands": "predicted_only"
+  },
+  "thermal": {
+    "abort_on_throttle": true,
+    "no_throttle_envelope": true,
+    "pre-soak_minutes": 5,
+    "skin_target_c": 38
+  },
+  "thread": {
+    "topology_lock": true
+  },
+  "throughput_report": true,
+  "tiling_by_symmetry": true,
+  "tol": {
+    "deltaE_rel": 5e-10,
+    "deltaV_rel": 1e-8,
+    "l2": 1e-7,
+    "residual": 1e-8,
+    "state_l2": 1e-8,
+    "superposition": 5e-7
+  },
+  "toolchain": {
+    "compare": [
+      "ndk-clang",
+      "rust-ndk"
+    ]
+  },
+  "toolchains": [
+    "ndk-clang",
+    "rust-ndk"
+  ],
+  "topology": "yantra_marma",
+  "toy": {
+    "task": "add_two_digits"
+  },
+  "trace": {
+    "capture": true
+  },
+  "traces": {
+    "counts": [
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "track": {
+    "steps": 4096
+  },
+  "traversal": {
+    "bidirectional": true
+  },
+  "triad": {
+    "indices": [
+      1,
+      2,
+      3
+    ]
+  },
+  "triality_conditioned_aug": true,
+  "truncation": {
+    "ladder": [
+      64,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "levels": [
+      64,
+      128,
+      256,
+      512
+    ]
+  },
+  "unimodality_check": true,
+  "validation_stability_track": true,
+  "vk": {
+    "samples": 21,
+    "window": [
+      0.8,
+      1.2
+    ]
+  },
+  "wall_distance_metric": "marma_radius",
+  "wall_time_log": true,
+  "walsh": {
+    "top_k_max": 16
+  },
+  "wd_scheduler": "ep_distance",
+  "wedge": {
+    "params": {
+      "asymmetry": [
+        0,
+        0.2
+      ],
+      "coupling": [
+        0.8,
+        1.2
+      ]
+    }
+  },
+  "window_sizes": [],
+  "workload_profile": "symmetry_workloads",
+  "yantra": {
+    "layout": "TEST_TRIADS"
+  }
+}

@@ -5,20 +5,20 @@
 See: .gpd/PROJECT.md
 
 **Core research question:** What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?
-**Current focus:** Phase 01.2.3.4.1.1.3 is complete on the RM10-primary branch: it established one explicit same-family CPU/GPU chamber environment smoke, closed the NPU route at inventory-only, falsified the positive chamber story, and justified one next move only: continue environment engineering on the surviving width boundary.
+**Current focus:** Session 4 complete (all 8 phases). The 3D Double Meru is characterized as a bistable relaxation computer (380v × 192 features = 72,960-dim state space) with ONE confirmed order parameter (asymmetry), RNG-dominated basin selection, and one dynamical family across task types. Per-step telemetry and hidden task exploration are Session 5 priorities.
 
 ## Current Position
 
-**Current Phase:** 01.2.3.4.1.1.3
-**Current Phase Name:** RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Battery
-**Total Phases:** 21
-**Current Plan:** 6
-**Total Plans in Phase:** 6
-**Status:** Complete
-**Last Activity:** 2026-04-06
-**Last Activity Description:** Closed Phase 01.2.3.4.1.1.3 with an explicit same-family chamber environment, a retained two-window CPU/GPU smoke, a widened four-window collapse, a corrected inventory-only NPU verdict, a narrow width-boundary result without persistence, and a final recommendation to continue environment engineering only.
+**Current Phase:** Session 6 Gate-Flip Campaign + Invariance Confirmation + Public Repo Staging
+**Current Phase Name:** W0, W1, W2, W3, W4 (Session 6 PRD fully delivered)
+**Total Phases:** 16 planned (H-W4), 16 completed (H,I,J,K,L,M,N,O,P1b,P2a,P2b,P3,W0,W1,W2,W3,W4)
+**Current Plan:** Session 6 complete; public repo staged
+**Total Plans in Phase:** 5 (W0 vocab, W1 gate flips, W2 third regime, W3 p(HIGH), W4 staging)
+**Status:** Complete (Session 6) — go-live-ready for Monday operator call
+**Last Activity:** 2026-04-18
+**Last Activity Description:** Session 6 ran four phases (W0, W1, W2, W3) + W4 repo staging across 14h 33m wallclock (2026-04-17T23:08Z → 2026-04-18T13:41Z). Phase W0 doubled the accepted task-name inventory from 5 to 12 (new: exp_i1, exp_i2, exp_h1_h2, exp_k2_scars, exp_k3_truth_sensor, resonance_r3, resonance_v2). Phase W1 identified two reproducible gate flips in exp_r1_r4_campaign: R1 flips FAIL→PASS with --adj RandomAdj_v1.bin (r1.margin 0.0→0.5), and R2 flips FAIL→PASS with --tags RegionTags_v2.bin (claim_level advances CL-0→CL-1). R3 is payload-moving along --steps (r3.k2_uplift 4× at steps=20) but gate stays false. 4 canonical SHA-256 equivalence classes catalogued. Phase W2 characterized asym ≤ -3 regime as W2-CONTINUOUS with emerging mid-cluster at asym ∈ {-3.5, -4}; harmonic Coh compresses monotonically from 0.88 → 0.66 as asym goes 0 → -5. Phase W3 (3 arms × N=100 = 300 harmonic eps) verdict W3-INVARIANT: Arm 0 p(HIGH)=34%, Arm A (+0.2)=42%, Arm B (-0.2)=32%, all CIs overlap. Weak monotone trend kept as Session 7 seed. Phase W4 staged public repo (11 files + 85-artifact SHA-256 manifest). Parallel execution tested and DISCARDED — binary is multi-threaded and saturates Snapdragon cores; 2× parallel yields ~6-10× per-process slowdown. Go-live-ready per PRD §10 minimum-bar criteria.
 
-**Progress:** [█████████░] 87%
+**Progress:** [██████████] 100%
 
 ## Active Hypothesis
 
@@ -71,13 +71,20 @@ parent branch via `$gpd-compare-branches`.
 - Phase `01.2.3.4.1.1.3` then widened the same-family chamber packet to four windows and observed collapse into signal exits plus missing or zero-byte receipts before any honest chamber-behavior verdict survived.
 - Phase `01.2.3.4.1.1.3` corrected an NPU-path probe false positive and retained the NPU route as `ABSTAIN / inventory_only`.
 - Phase `01.2.3.4.1.1.3` retained one narrow engineering result, `boundary_sensitivity_without_persistence`, and closed with `continue environment engineering` as the only justified next move.
+- Phase `01.2.3.4.1.1.3.1.2` retained a full four-row confirmation packet under the same stronger envelope, but classified it as `whole_session_instability` rather than a reproducible repair.
+- Phase `01.2.3.4.1.1.3.1.2.1` retained a bounded `cpu_a,gpu_a,cpu_b` localization packet that started low at row `cpu_a`, which rejected third-row-only and `gpu_b`-required explanations for the live instability.
+- Phase `01.2.3.4.1.1.3.1.2.2` ran 7 single-row `cpu_a` anchors under deep-clean cold, shallow-clean, no-clean, and deep-clean short-idle conditions: ruled out file cleanup, idle duration, and thermal state as regime selectors; narrowed the regime to internal RNG seeding interacting with a bistable harmonic training landscape; found the regime is biased by binary page cache warmth (~80% HIGH after recent runs, reliable LOW after extended idle); and wrote a gated retry rule for the full confirmation replay. The FAST session (~155s) from the repaired packet was NOT reproduced in any of 7 anchors.
+- Session 3 (`2026-04-16`) executed the DM3 Multi-Hypothesis Long-Horizon PRD: Phase A (offline spectral analysis) classified the graph as C3-dominant (3-fold degeneracy in eigenvalue spectrum, PR=2/3 for all low modes, Fiedler vector does NOT separate the two cones). BINDU region is 39% of graph. Phase C (Hamiltonian mode, 10 runs + 11 interleaved LayerNorm controls) KILLED H2 — the bistability persists without the transformer at 20% HIGH rate (vs 62.5% with transformer). Basin values are identical in both modes. Phase B (7 asymmetry values × 2 episodes) found asymmetry continuously shifts basin positions (asym=-1: E~68; asym=+1: E~95). Phase D (truth sensor, 4 configs × 2 episodes) found unidirectional LOW bias (12.5% HIGH vs baseline ~60%). Phase E discovered holography task has a third attractor (E~14, Coh~0.73, Retry), inference mode is a stub (always returns T1 Contraction canonical receipt regardless of parameters), and basin selection is per-episode not per-session. Phase F (4 rotations + 3 frequencies + gated) found freq=1.0 gives 2/2 HIGH (strongest attractor), and rot=120° (C3 generator) is the only rotation preserving any HIGH occupation.
+- Session 4 (`2026-04-16` → `2026-04-17`) ran the Sculptor's Scalpel PRD: Phase H killed 5 of 7 Session-3 suggestive findings at N=5 and promoted 2 (asymmetry, holography third attractor). Phase I characterized --freq as noise-dominated with no resonance peak. Phase J classified holography as same dynamical family as harmonic at lower E scale via asymmetry-response match. Phase K found asymmetry smoothly shifts basin positions but basin selection is noise-dominated in the central range. Phase L found rot=60°×asym=+0.5 gave 3/5 HIGH (suggested C3-asymmetric coupling). Phase M retired --angle as non-functional. Phase N.2 binary strings scan revealed internal architecture (R0/R1/R2 learning rules, 192 features, OntologyInjector) and hidden task candidates.
+- Session 5 (`2026-04-17`) executed the hidden-tasks / basin-boundary / E-scale PRD. Phase O + P1b/P1b2 found 3 real hidden tasks (interference, holographic_memory, exp_r1_r4_campaign with 6-gate self-evaluation). Phase P2a (N=100) confirmed basin selection is IID Bernoulli p(HIGH)=0.34; no session lock, no drift. Phase P2b WEAKENED Phase-L C3 claim: at N=10 pooled, rot=60° and rot=120° at asym=+0.5 are indistinguishable (Fisher p=0.65); only rot=0° robustly suppresses HIGH (0/10). Phase P3 showed harmonic stays bistable to asym=±5 with linear E shift (~6 E/asym-unit); holography stays monostable Retry with E=11.3+5.1×asym; harmonic/holography E gap constant ~60 units across asym, so the two regimes never merge. Discovered new edge-regime: harmonic basin Coh signatures compress below 0.82 at asym ≤ -3, making the Session-4 locked classifier invalid in that regime.
 
 ## Open Questions
 
 - Does the historical bundled `G2` residue belong to a neighboring launcher generation, or would recovering it now require explicit redevelopment?
 - Which exact baked-in default target or default-selection rule is still active on the live device validator?
 - Can the current RM10 ADB-shell replay surface be promoted from a prebuilt-stub lane to a true source-build parity lane?
-- What exact late-session precondition causes the top-level same-family `F2` bracket to reach low/high/low and then stall on the closing `cpu_b` row inside one locked session?
+- The regime selector is narrowed to internal RNG seeding, but can the seed be controlled without source modification, or should the branch accept bistability as a system property?
+- Why was the FAST session (~155s duration) seen in the repaired packet never reproduced in any of 7 anchors at ~200s?
 - Can the top-level `/data/local/tmp/dm3_runner` family be stabilized enough to preserve one same-family observable without silently substituting the legacy `/data/local/tmp/dm3/dm3_runner` surface?
 - Which exact validator-default repair or operator-policy route should replace the stale compiled device pair on live governed RM10 work?
 
@@ -135,6 +142,11 @@ parent branch via `$gpd-compare-branches`.
 - [Phase 01.2.3.4.1.1.2]: Inserted Phase 01.2.3.4.1.1.2 after Phase 01.2.3.4.1.1: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Organism Environment (URGENT) — User directed a new heterogeneity-first, resonance-oriented RM10 phase built from Training Doc #5 and requiring fresh research, PRD, planning, and execution.
 - [Phase 01.2.3.4.1.1.3]: Inserted Phase 01.2.3.4.1.1.3 after Phase 01.2.3.4.1.1: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Battery (URGENT) — Urgent work discovered mid-project requiring immediate attention
 - [Phase 01.2.3.4.1.1.4]: Inserted Phase 01.2.3.4.1.1.4 after Phase 01.2.3.4.1.1: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Probe (URGENT) — Urgent work discovered mid-project requiring immediate attention
+- [Phase 01.2.3.4.1.1.3.1]: Closed Phase 01.2.3.4.1.1.3.1 with a retained full four-row same-family replay and repaired cpu_b closeout — The stronger replay envelope produced four real receipts on the top-level same-family surface, collapsing the old hard closing-row failure as the active live truth floor while leaving the repair mechanism unresolved.
+- [Phase 01.2.3.4.1.1.3.1.1]: Closed Phase 01.2.3.4.1.1.3.1.1 with a physical-organism doctrine for DM3 branch work — The branch now has one converged artifact reading: geometry as body plan, dynamics as homeostatic medium, transformer-like machinery as boundary adapter by default, and the immediate same-family confirmation replay as the unchanged live empirical gate.
+- [Phase 01.2.3.4.1.1.3.1.2]: Closed Phase 01.2.3.4.1.1.3.1.2 with a failed confirmation replay and a blocked homeostasis gate — The full same-family packet completed under the stronger envelope, but the repaired packet did not reproduce and instead split into whole-session instability.
+- [Phase 01.2.3.4.1.1.3.1.2.1]: Closed Phase 01.2.3.4.1.1.3.1.2.1 with bounded regime localization — The bounded `cpu_a,gpu_a,cpu_b` packet entered the low regime from row 1, so the live blocker is now the entrance condition before the packet starts rather than a third-row-only trigger.
+- [Phase 01.2.3.4.1.1.3.1.2.2]: Closed Phase 01.2.3.4.1.1.3.1.2.2 with entrance-condition narrowing — Ran 7 cpu_a anchors under controlled pre-run states, ruled out file cleanup, idle duration, and thermal state as regime selectors, narrowed to internal RNG seeding with page cache warmth bias, wrote gated retry rule for the full confirmation replay, and classified the phase as `entrance_condition_narrowed`.
 
 ### Active Approximations
 
@@ -167,8 +179,8 @@ None yet.
 
 ### Pending Todos
 
-- Engineer around the same-family width boundary on `/data/local/tmp/dm3_runner` and rerun the widened packet under the retained geometric environment contract.
-- Keep chamber science blocked until a widened packet preserves interpretable tuples beyond the two-window smoke.
+- Follow the gated retry rule from `RM10_ENTRANCE_CONDITION_RETRY_RULE.md` to attempt the full four-row confirmation replay: warm-up throwaway, classification anchor, proceed only if HIGH regime.
+- Keep chamber science and homeostasis blocked until the entrance condition is localized and a full same-family confirmation replay reproduces honestly.
 - Keep NPU assist at `ABSTAIN / inventory_only` until a callable device entrypoint exists with retained receipts.
 - Keep explicit heterogeneous role partition at `ABSTAIN` until one preserved same-family observable survives widening honestly.
 - Repair or operator-policy-route the stale compiled validator-default pair on the live `genesis_cli` surface so governed `F1` work can rejoin cleanly.
@@ -179,13 +191,15 @@ None yet.
 - The newer hybrid DM3 source remains missing.
 - The current phone `genesis_cli` default validator still rejects the historical Mac-parity witness under default handling.
 - The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub.
-- The top-level same-family `/data/local/tmp/dm3_runner` chamber packet now supports a bounded two-window smoke, but the widened four-window packet still collapses into signal exits plus missing or zero-byte receipts before a chamber-behavior verdict survives.
+- The top-level same-family `/data/local/tmp/dm3_runner` regime is bistable (HIGH ~57%, LOW ~43%) and driven by internal RNG seeding biased by page cache warmth. A gated warm-up + classification retry protocol exists but does not guarantee deterministic regime control.
 - The legacy `/data/local/tmp/dm3/dm3_runner` is callable, but it is a separate surface and cannot be silently substituted for the top-level root family.
 - No callable NPU assist path exists yet beyond inventory-only residue.
 - No stable preserved same-family observable exists yet for a heterogeneous role-partition claim.
 
 ## Session Continuity
 
-**Last session:** 2026-04-06T02:58:04+02:00
-**Stopped at:** Phase `01.2.3.4.1.1.3` is complete: the branch now has one explicit same-family CPU/GPU chamber smoke, one widened four-window collapse, one corrected `ABSTAIN / inventory_only` NPU verdict, and one narrow width-boundary result without persistence. The next brief should stay on environment engineering for that same-family width boundary and must not widen into chamber-science or heterogeneous pass language yet.
-**Resume file:** .gpd/phases/01.2.3.4.1.1.3-rm10-resonance-chamber-heterogeneous-bootstrap-and-geometric-computation-battery/01.2.3.4.1.1.3-06-SUMMARY.md
+**Last session:** 2026-04-18T13:41:46Z (W3 complete; W4 staged)
+**Stopped at:** Session 6 delivered all four PRD priorities W0/W1/W2/W3 plus W4 public-repo staging. Two gate flips identified: R1 via --adj RandomAdj_v1.bin, R2 via --tags RegionTags_v2.bin (+ claim_level CL-0→CL-1). R3 payload-moving via --steps but gate unchanged. p(HIGH) invariant at |asym|≤0.2 (N=300). Task inventory doubled to 12. asym≤-3 regime characterized as continuous with emerging mid-cluster. Parallelization tested and discarded. Public repo staged in repo_stage/ with 85-artifact SHA-256 manifest. Monday go-live decision handed to operator.
+**Resume file:** docs/restart/DM3_SESSION6_FINAL_REPORT.md
+**Session 7 handover:** docs/restart/NEXT_BOUNDED_ENGINEERING_MOVE.md
+**Key artifacts:** artifacts/phase_W0_vocabulary_20260417T230843Z/, artifacts/phase_W1_gate_flip_20260418T000305Z/, artifacts/phase_W2_third_regime_20260418T031800Z/, artifacts/phase_W3_p_high_20260418T053010Z/, repo_stage/

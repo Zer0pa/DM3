@@ -1,0 +1,28 @@
+[02:39:00] A3 start: cross-graph SY/RA x v1/v2 @ steps=20 N=3
+[02:39:01] cooling 180s (worst=71845)
+THERMAL_OVER_CEILING worst_mc=71878 ceiling_mc=70000
+[02:42:04] cooling 180s (worst=71878)
+THERMAL_OVER_CEILING worst_mc=72013 ceiling_mc=70000
+[02:45:07] cooling 180s (worst=71946)
+THERMAL_OVER_CEILING worst_mc=71912 ceiling_mc=70000
+[02:48:09] cooling 180s (worst=72114)
+THERMAL_OVER_CEILING worst_mc=72080 ceiling_mc=70000
+[02:51:12] cooling 180s (worst=71980)
+THERMAL_OVER_CEILING worst_mc=72013 ceiling_mc=70000
+[02:54:15] cooling 180s (worst=72013)
+THERMAL_OVER_CEILING worst_mc=72047 ceiling_mc=70000
+[02:57:18] cooling 180s (worst=72047)
+THERMAL_OVER_CEILING worst_mc=72114 ceiling_mc=70000
+[03:00:21] cooling 180s (worst=72080)
+THERMAL_OVER_CEILING worst_mc=72182 ceiling_mc=70000
+[03:03:24] cooling 180s (worst=72080)
+THERMAL_OVER_CEILING worst_mc=72080 ceiling_mc=70000
+[03:06:26] cooling 180s (worst=72249)
+THERMAL_OVER_CEILING worst_mc=72182 ceiling_mc=70000
+[03:09:29] cooling 180s (worst=72182)
+THERMAL_OVER_CEILING worst_mc=72148 ceiling_mc=70000
+[03:12:32] cooling 180s (worst=72182)
+THERMAL_OVER_CEILING worst_mc=72216 ceiling_mc=70000
+SUMMARY exp=A3_cross_graph runs=0 unique_canonical=0 verdict=FAIL summary_sha=4f877ce3c4b2e9a8ad2dac181f00e79d3640ab6ea58077a5bda8434a94fb4b74
+[03:15:34] A3_COMPLETE
+[03:15:34] EXIT

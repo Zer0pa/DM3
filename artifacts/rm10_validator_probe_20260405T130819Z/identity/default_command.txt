@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/SoC_runtime/workspace && PATH=/data/local/tmp/SoC_Harness/bin:$PATH /data/local/tmp/genesis_cli --validate --reference-dir /data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00'

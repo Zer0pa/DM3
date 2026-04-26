@@ -1,0 +1,71 @@
+{
+  "phase": "I",
+  "name": "Frequency Deep-Characterization",
+  "carving_goal": "Remove the ambiguity around --freq. Is it resonance, amplitude, coupling, or null?",
+  "started": "2026-04-16T17:05:28Z",
+  "finished": "2026-04-16T19:37:13Z",
+  "device_time_min": 152,
+  "I_c_skipped": true,
+  "I_c_skip_reason": "PRD rule: freq=1.0 at Phase H gave 20% HIGH < 60% threshold, so coupling test of a non-effect is not warranted.",
+  "I_a_harmonic": {
+    "table": [
+      {"freq": 0.1,  "high_rate": "2/5", "high_pct": 40, "E_high_mean": 88.74, "E_low_mean": 75.31},
+      {"freq": 0.3,  "high_rate": "1/5", "high_pct": 20, "E_high_mean": 88.75, "E_low_mean": 75.59},
+      {"freq": 0.5,  "high_rate": "2/5", "high_pct": 40, "E_high_mean": 88.58, "E_low_mean": 75.70},
+      {"freq": 0.8,  "high_rate": "4/5", "high_pct": 80, "E_high_mean": 88.85, "E_low_mean": 76.32},
+      {"freq": 1.0,  "high_rate": "1/5", "high_pct": 20, "E_high_mean": 88.73, "E_low_mean": 74.65},
+      {"freq": 1.2,  "high_rate": "2/5", "high_pct": 40, "E_high_mean": 88.84, "E_low_mean": 76.16},
+      {"freq": 1.5,  "high_rate": "4/5", "high_pct": 80, "E_high_mean": 88.63, "E_low_mean": 75.56},
+      {"freq": 2.0,  "high_rate": "3/5", "high_pct": 60, "E_high_mean": 88.45, "E_low_mean": 75.45},
+      {"freq": 5.0,  "high_rate": "1/5", "high_pct": 20, "E_high_mean": 88.90, "E_low_mean": 75.27},
+      {"freq": 10.0, "high_rate": "2/5", "high_pct": 40, "E_high_mean": 88.80, "E_low_mean": 75.46}
+    ],
+    "aggregate_high_pct": 44,
+    "min_high_pct": 20,
+    "max_high_pct": 80,
+    "std_high_pct": 21.2,
+    "peaks_above_60pct": [0.8, 1.5, 2.0],
+    "dips_at_20pct": [0.3, 1.0, 5.0],
+    "basin_values_stable": true,
+    "basin_value_note": "HIGH E always in [87.9, 89.2], LOW E in [74.2, 76.3] regardless of freq — basin LOCATIONS are freq-independent"
+  },
+  "I_b_holography": {
+    "table": [
+      {"freq": 0.3, "counts": "5/5 RETRY", "E_range": [13.92, 14.70], "Coh_range": [0.710, 0.747]},
+      {"freq": 0.8, "counts": "5/5 RETRY", "E_range": [14.06, 15.86], "Coh_range": [0.736, 0.762]},
+      {"freq": 1.0, "counts": "5/5 RETRY", "E_range": [14.43, 15.45], "Coh_range": [0.715, 0.750]},
+      {"freq": 1.5, "counts": "5/5 RETRY", "E_range": [14.46, 15.51], "Coh_range": [0.720, 0.768]},
+      {"freq": 2.0, "counts": "5/5 RETRY", "E_range": [13.71, 15.28], "Coh_range": [0.711, 0.732]}
+    ],
+    "holography_basin_switching": "NONE — all 25 episodes in RETRY cluster (E ∈ [13.7, 15.9], Coh ∈ [0.710, 0.768])",
+    "freq_affects_holography_attractor": "NO — E and Coh distributions are indistinguishable across the 5 freq values"
+  },
+  "categorization_of_freq": {
+    "category": "NOISE_DOMINATED with weak elevated band",
+    "reasoning": "Across 50 harmonic episodes, HIGH rate varies from 20%-80% per config. No single clean peak. The 4/5 counts at freq=0.8 and freq=1.5 could be binomial noise at N=5 (binomial std ~1 ep at p=0.44). There is a suggestive 'elevated band' from 0.8-2.0 (mean HIGH rate ~60%) vs edges (0.1, 0.3, 5.0, 10.0 avg ~30%), but statistical significance at N=5 per config is marginal. Definitely NOT a single resonance peak. Definitely NOT monotone amplitude. Weakly consistent with 'band-coupling' — freq values in an intermediate range interact with the dynamics more than extremes.",
+    "freq_1_0_specialness": "NONE. freq=1.0 actually gave the LOWEST HIGH rate (1/5) of all tested values — NOT the peak. Session 3's '100% HIGH at freq=1.0' was definitively 2-episode noise.",
+    "basin_locations_insensitive": "HIGH basin E=88-89 and LOW basin E=74-76 at EVERY freq value. The basin SELECTION probability varies but basin LOCATIONS do not. Confirms freq does not deform the attractor landscape — it just (weakly) biases selection."
+  },
+  "pre_registration_evaluation": {
+    "resonance_peak_near_1": {"predicted": "single clean peak at ~1.0", "observed": "1.0 is a DIP, not a peak", "verdict": "FAILED"},
+    "monotone_amplitude": {"predicted": "HIGH rate monotone in |freq|", "observed": "non-monotone", "verdict": "FAILED"},
+    "multi_peaked_coupling": {"predicted": "multiple peaks", "observed": "two apparent maxes at 0.8 and 1.5, no clean spectral-mode assignment", "verdict": "WEAKLY HELD BUT NOT PROVEN"},
+    "null_effect": {"predicted": "flat within noise", "observed": "std_high_pct = 21.2 across 10 points — not flat, but not a clear curve either", "verdict": "PARTIAL"}
+  },
+  "findings": {
+    "F_I_1": "--freq is NOT a resonance parameter at single frequencies 0.1-10.0. No clean peak exists.",
+    "F_I_2": "freq=1.0 is NOT special — in fact it showed 20% HIGH, among the lowest values tested.",
+    "F_I_3": "Basin values (HIGH E=88-89, LOW E=74-76) are freq-independent. Only basin-selection probability varies weakly.",
+    "F_I_4": "Holography task's RETRY attractor is completely insensitive to --freq across 25 episodes (5 values × 5 eps). No basin-switching observed.",
+    "F_I_5": "Weak suggestion of elevated-HIGH band around freq=[0.8, 2.0] but N=5 per point is too few to claim significance."
+  },
+  "session_3_revision": {
+    "freq10_peak_claim": "FULLY KILLED (H3, F_I_1, F_I_2)",
+    "spectral_resonance_hypothesis": "UNSUPPORTED at tested range — mode-1 (~0.033) and mode-10 (~0.33) predicted strong resonance. Observed: freq=0.3 gave 20% HIGH, no peak near spectral modes.",
+    "holography_monostability": "STRENGTHENED — invariant to --freq across 25 episodes"
+  },
+  "implications_for_downstream_phases": {
+    "phase_J": "freq arm of holography sweep will likely show no variation — but already confirmed here. Can still run for completeness.",
+    "phase_K_L": "freq-dependence is small and noise-dominated; asymmetry remains the primary order parameter to investigate in K and L."
+  }
+}

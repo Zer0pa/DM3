@@ -1,0 +1,17 @@
+{
+  "run_id": "phase_01_2_3_4_1_outlier_rerun_20260405T183712Z",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "phase": "01.2.3.4.1",
+  "plan": "same-family-official-rerun",
+  "run_kind": "feasibility_probe",
+  "authority_status": "feasibility_only",
+  "build_class": "exploratory_compiled_residue",
+  "observable_family": "f2_harmonic_residue",
+  "battery_family": "F2",
+  "battery_class": "micro",
+  "phase_outcome": "BLOCKED",
+  "route_outcome": "root_surface_not_ready",
+  "artifact_root": "artifacts/phase_01_2_3_4_1_outlier_rerun_20260405T183712Z",
+  "question": "Does the earlier F2 GPU-backed drift localize to startup or order sensitivity under locked identity capture, or does the residue family remain too unstable to interpret even at the current feasibility ceiling?",
+  "surface_probe_summary": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_f2_toplevel_20260405T183234Z/summary.json"
+}

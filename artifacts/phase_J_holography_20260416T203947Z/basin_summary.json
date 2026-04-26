@@ -1,0 +1,492 @@
+{
+  "phase_dir": "phase_J_holography_20260416T203947Z",
+  "runs": {
+    "J.asym_0_5_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 16.966,
+          "Coh": 0.7202,
+          "decision": "Retry",
+          "asymmetry": 0.5,
+          "duration_ms": 197502,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 17.398,
+          "Coh": 0.7316,
+          "decision": "Retry",
+          "asymmetry": 0.5,
+          "duration_ms": 197162,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 17.216,
+          "Coh": 0.7371,
+          "decision": "Retry",
+          "asymmetry": 0.5,
+          "duration_ms": 197677,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 18.56,
+          "Coh": 0.7296,
+          "decision": "Retry",
+          "asymmetry": 0.5,
+          "duration_ms": 196935,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 17.54,
+          "Coh": 0.7285,
+          "decision": "Retry",
+          "asymmetry": 0.5,
+          "duration_ms": 202344,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.asym_0_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 15.0,
+          "Coh": 0.7268,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 197178,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.642,
+          "Coh": 0.7275,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 189857,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 15.302,
+          "Coh": 0.7292,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 196704,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 15.277,
+          "Coh": 0.6979,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 193258,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.871,
+          "Coh": 0.7547,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 197675,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.asym_1_0_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 21.323,
+          "Coh": 0.7387,
+          "decision": "Retry",
+          "asymmetry": 1.0,
+          "duration_ms": 72222,
+          "regime": "OTHER"
+        },
+        {
+          "episode": 1,
+          "E": 20.341,
+          "Coh": 0.7281,
+          "decision": "Retry",
+          "asymmetry": 1.0,
+          "duration_ms": 36704,
+          "regime": "OTHER"
+        },
+        {
+          "episode": 2,
+          "E": 19.522,
+          "Coh": 0.7472,
+          "decision": "Retry",
+          "asymmetry": 1.0,
+          "duration_ms": 63972,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 19.575,
+          "Coh": 0.7387,
+          "decision": "Retry",
+          "asymmetry": 1.0,
+          "duration_ms": 63610,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 20.08,
+          "Coh": 0.7879,
+          "decision": "Retry",
+          "asymmetry": 1.0,
+          "duration_ms": 63709,
+          "regime": "OTHER"
+        }
+      ],
+      "counts": {
+        "OTHER": 3,
+        "RETRY": 2
+      },
+      "high_rate": "0/5"
+    },
+    "J.asym_neg0_5_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 12.574,
+          "Coh": 0.7292,
+          "decision": "Retry",
+          "asymmetry": -0.5,
+          "duration_ms": 197097,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 13.449,
+          "Coh": 0.7133,
+          "decision": "Retry",
+          "asymmetry": -0.5,
+          "duration_ms": 197350,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 12.017,
+          "Coh": 0.7315,
+          "decision": "Retry",
+          "asymmetry": -0.5,
+          "duration_ms": 195614,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 13.682,
+          "Coh": 0.7251,
+          "decision": "Retry",
+          "asymmetry": -0.5,
+          "duration_ms": 195569,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 12.569,
+          "Coh": 0.7203,
+          "decision": "Retry",
+          "asymmetry": -0.5,
+          "duration_ms": 196281,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.asym_neg1_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 10.314,
+          "Coh": 0.7109,
+          "decision": "Retry",
+          "asymmetry": -1.0,
+          "duration_ms": 202595,
+          "regime": "LOW_ULTRA"
+        },
+        {
+          "episode": 1,
+          "E": 10.828,
+          "Coh": 0.744,
+          "decision": "Retry",
+          "asymmetry": -1.0,
+          "duration_ms": 199264,
+          "regime": "LOW_ULTRA"
+        },
+        {
+          "episode": 2,
+          "E": 10.791,
+          "Coh": 0.7163,
+          "decision": "Retry",
+          "asymmetry": -1.0,
+          "duration_ms": 196543,
+          "regime": "LOW_ULTRA"
+        },
+        {
+          "episode": 3,
+          "E": 10.936,
+          "Coh": 0.7095,
+          "decision": "Retry",
+          "asymmetry": -1.0,
+          "duration_ms": 199576,
+          "regime": "LOW_ULTRA"
+        },
+        {
+          "episode": 4,
+          "E": 10.254,
+          "Coh": 0.7353,
+          "decision": "Retry",
+          "asymmetry": -1.0,
+          "duration_ms": 195314,
+          "regime": "LOW_ULTRA"
+        }
+      ],
+      "counts": {
+        "LOW_ULTRA": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.freq_0_5_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 13.668,
+          "Coh": 0.7269,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 196523,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.99,
+          "Coh": 0.7401,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 195937,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 14.733,
+          "Coh": 0.7354,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 199711,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.596,
+          "Coh": 0.7251,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 196142,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 15.063,
+          "Coh": 0.7352,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 197687,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.rot_0_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 14.966,
+          "Coh": 0.7433,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 84921,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 15.026,
+          "Coh": 0.7419,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 85010,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 15.087,
+          "Coh": 0.7303,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 85194,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.721,
+          "Coh": 0.7365,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 80222,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.239,
+          "Coh": 0.7488,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63316,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.rot_120_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 14.392,
+          "Coh": 0.7416,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 101603,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 15.031,
+          "Coh": 0.7418,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 198125,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 15.112,
+          "Coh": 0.7248,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 195563,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.572,
+          "Coh": 0.7286,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 195099,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 14.396,
+          "Coh": 0.7311,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 195833,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    },
+    "J.rot_60_holo": {
+      "n_episodes": 5,
+      "episodes": [
+        {
+          "episode": 0,
+          "E": 15.221,
+          "Coh": 0.7257,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 68990,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 1,
+          "E": 14.163,
+          "Coh": 0.7446,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63761,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 2,
+          "E": 15.173,
+          "Coh": 0.7195,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 63489,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 3,
+          "E": 14.297,
+          "Coh": 0.7333,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 62701,
+          "regime": "RETRY"
+        },
+        {
+          "episode": 4,
+          "E": 15.397,
+          "Coh": 0.715,
+          "decision": "Retry",
+          "asymmetry": 0.0,
+          "duration_ms": 62769,
+          "regime": "RETRY"
+        }
+      ],
+      "counts": {
+        "RETRY": 5
+      },
+      "high_rate": "0/5"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "phase": "L",
+  "name": "Rotation x Asymmetry Coupling",
+  "carving_goal": "Determine if rotation and asymmetry are independent or coupled.",
+  "started": "2026-04-17T05:17:39Z",
+  "finished": "2026-04-17T12:00:19Z",
+  "status": "COMPLETE — 9/9 runs. First 7 in main session, last 2 backfilled via detached on-device script.",
+  "coupling_grid_3x3": {
+    "header": ["asym=-0.5", "asym=0.0", "asym=+0.5"],
+    "rot_0":   {"high_rates": ["1/5", "1/5", "0/5"]},
+    "rot_60":  {"high_rates": ["1/5", "1/5", "3/5"]},
+    "rot_120": {"high_rates": ["2/5", "1/5", "1/5"]}
+  },
+  "categorization": {
+    "verdict": "COUPLED (weak, localized to boundary)",
+    "evidence": "rot=60 x asym=+0.5 gives 3/5 HIGH (E=78,92,79,91,92), while rot=0 x asym=+0.5 gives 0/5 (all E≈79) and rot=120 x asym=+0.5 gives 1/5 (E=77,78,92,79,78). Rotation=60 is the most effective at pushing episodes across the HIGH boundary.",
+    "rot120_vs_rot60_at_boundary": "rot=120 gave 1/5 HIGH vs rot=60 gave 3/5 HIGH at asym=+0.5. The C3 generator is NOT special — rot=60° is more effective. This further weakens Session 3's C3-specialness claim.",
+    "away_from_boundary": "At asym=-0.5 and asym=0.0, all three rotations give similar HIGH rates (1-2/5). No coupling visible away from the boundary."
+  },
+  "pre_registration_evaluation": {
+    "independent_null": "KILLED — rot=60 x asym=+0.5 differs from rot=0 x asym=+0.5",
+    "coupled": "CONFIRMED (weak, boundary-localized)",
+    "rotation_dominates": "KILLED",
+    "asymmetry_dominates": "PARTIAL — asymmetry is primary, rotation modulates at boundary"
+  }
+}

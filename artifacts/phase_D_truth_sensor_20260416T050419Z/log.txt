@@ -1,0 +1,51 @@
+=== PHASE D: TRUTH SENSOR HOMEOSTASIS ===
+
+--- TRUTH SENSOR: default (--enable-truth-sensor) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.3953 Coh=0.7695
+Resonance Loop Complete.
+Duration: 391.1s
+Receipt:
+{"asymmetry":0.0,"coherence":0.7694740891456604,"decision":"Commit","delta_E":88.39532470703125,"duration_ms":195286,"episode":0}
+{"asymmetry":0.0,"coherence":0.8769587278366089,"decision":"Commit","delta_E":75.6375503540039,"duration_ms":195139,"episode":1}
+
+--- TRUTH SENSOR: tight (--enable-truth-sensor --sensor-threshold 0.5 --sensor-strength 0.8) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.4413 Coh=0.8773
+Resonance Loop Complete.
+Duration: 390.5s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8773412704467773,"decision":"Commit","delta_E":75.44131469726562,"duration_ms":194607,"episode":0}
+{"asymmetry":0.0,"coherence":0.892060399055481,"decision":"Commit","delta_E":74.5277099609375,"duration_ms":195135,"episode":1}
+
+--- TRUTH SENSOR: loose (--enable-truth-sensor --sensor-threshold 5 --sensor-strength 0.1) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.4130 Coh=0.8773
+Resonance Loop Complete.
+Duration: 390.1s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8772687315940857,"decision":"Commit","delta_E":75.41299438476562,"duration_ms":195468,"episode":0}
+{"asymmetry":0.0,"coherence":0.8769919872283936,"decision":"Commit","delta_E":75.94793701171875,"duration_ms":193911,"episode":1}
+
+--- TRUTH SENSOR: strong (--enable-truth-sensor --sensor-threshold 0.1 --sensor-strength 0.9) ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.9474 Coh=0.8773
+Resonance Loop Complete.
+Duration: 383.3s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8773114085197449,"decision":"Commit","delta_E":75.94738006591797,"duration_ms":193803,"episode":0}
+{"asymmetry":0.0,"coherence":0.8784126043319702,"decision":"Commit","delta_E":75.92613983154297,"duration_ms":188867,"episode":1}
+
+=== PHASE D COMPLETE ===

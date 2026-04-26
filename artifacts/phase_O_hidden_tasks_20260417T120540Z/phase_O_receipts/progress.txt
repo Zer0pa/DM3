@@ -1,0 +1,41 @@
+[2026-04-17T12:06:38Z] start task_interference: --task interference
+[2026-04-17T12:15:32Z] done task_interference rc=0 bytes=0 lines=0
+[2026-04-17T12:15:32Z] start task_holographic_memory: --task holographic_memory
+[2026-04-17T12:24:57Z] done task_holographic_memory rc=0 bytes=0 lines=0
+[2026-04-17T12:24:57Z] start task_InterferenceTask: --task InterferenceTask
+[2026-04-17T12:24:57Z] done task_InterferenceTask rc=1 bytes=0 lines=0
+[2026-04-17T12:24:57Z] start task_run_holographic_memory: --task run_holographic_memory
+[2026-04-17T12:24:57Z] done task_run_holographic_memory rc=1 bytes=0 lines=0
+[2026-04-17T12:24:57Z] start task_K1: --task K1
+[2026-04-17T12:24:57Z] done task_K1 rc=1 bytes=0 lines=0
+[2026-04-17T12:24:57Z] start task_G2: --task G2
+[2026-04-17T12:24:58Z] done task_G2 rc=1 bytes=0 lines=0
+[2026-04-17T12:24:58Z] start task_pattern_ontology: --task pattern_ontology
+[2026-04-17T12:24:58Z] done task_pattern_ontology rc=1 bytes=0 lines=0
+[2026-04-17T12:24:58Z] start task_boundary_readout: --task boundary_readout
+[2026-04-17T12:24:58Z] done task_boundary_readout rc=1 bytes=0 lines=0
+[2026-04-17T12:24:58Z] start task_exp_i0_classifier: --task exp_i0_classifier
+[2026-04-17T12:24:58Z] done task_exp_i0_classifier rc=1 bytes=0 lines=0
+[2026-04-17T12:24:58Z] start task_exp_r1_r4_campaign: --task exp_r1_r4_campaign
+[2026-04-17T12:28:22Z] done task_exp_r1_r4_campaign rc=0 bytes=3748 lines=161
+[2026-04-17T12:28:23Z] start task_r1_r4_campaign: --task r1_r4_campaign
+[2026-04-17T12:28:23Z] done task_r1_r4_campaign rc=1 bytes=0 lines=0
+[2026-04-17T12:28:23Z] start task_interference_task: --task interference_task
+[2026-04-17T12:28:23Z] done task_interference_task rc=1 bytes=0 lines=0
+[2026-04-17T12:28:23Z] start task_holographic_memory_hyphen: --task holographic-memory
+[2026-04-17T12:28:23Z] done task_holographic_memory_hyphen rc=1 bytes=0 lines=0
+[2026-04-17T12:28:23Z] start mode_G2: --mode G2
+[2026-04-17T12:28:23Z] done mode_G2 rc=2 bytes=0 lines=0
+[2026-04-17T12:28:23Z] start mode_K1: --mode K1
+[2026-04-17T12:28:23Z] done mode_K1 rc=2 bytes=0 lines=0
+[2026-04-17T12:28:23Z] start mode_inference_hm: --mode inference --task holographic_memory
+[2026-04-17T12:28:23Z] done mode_inference_hm rc=2 bytes=0 lines=0
+[2026-04-17T12:28:23Z] start mode_inference_interference: --mode inference --task interference
+[2026-04-17T12:28:24Z] done mode_inference_interference rc=2 bytes=0 lines=0
+[2026-04-17T12:28:24Z] start gated_holography: --task holography --gated
+[2026-04-17T12:29:37Z] done gated_holography rc=0 bytes=129 lines=1
+[2026-04-17T12:29:37Z] start gated_harmonic: --task harmonic --gated
+[2026-04-17T12:31:00Z] done gated_harmonic rc=0 bytes=129 lines=1
+[2026-04-17T12:31:00Z] start control_harmonic_default: --task harmonic
+[2026-04-17T12:32:22Z] done control_harmonic_default rc=0 bytes=125 lines=1
+[2026-04-17T12:32:22Z] COMPLETE

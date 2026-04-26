@@ -1,0 +1,1 @@
+One bounded F2 outlier-localization pass: determine whether the GPU-backed harmonic row stays near the CPU family or diverges under fixed custody.

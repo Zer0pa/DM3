@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/zpe_dm3/__init__.py
+src/zpe_dm3/__main__.py
+src/zpe_dm3/cli.py
+src/zpe_dm3.egg-info/PKG-INFO
+src/zpe_dm3.egg-info/SOURCES.txt
+src/zpe_dm3.egg-info/dependency_links.txt
+src/zpe_dm3.egg-info/entry_points.txt
+src/zpe_dm3.egg-info/requires.txt
+src/zpe_dm3.egg-info/top_level.txt
+tests/test_repo_surface.py

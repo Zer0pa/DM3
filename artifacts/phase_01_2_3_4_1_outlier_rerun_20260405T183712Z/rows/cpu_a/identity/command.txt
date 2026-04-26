@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp && rm -f /data/local/tmp/f2_20260405T183712Z_cpu_a.jsonl && /system/bin/timeout 180 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/f2_20260405T183712Z_cpu_a.jsonl'

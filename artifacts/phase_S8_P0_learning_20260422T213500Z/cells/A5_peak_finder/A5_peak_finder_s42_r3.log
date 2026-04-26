@@ -1,0 +1,28 @@
+--- K2: Scar Formation Grid Search (Multi-Pattern) ---
+
+=== Testing Lesson Count: 0 ===
+Lessons: 0, Max Scar Weight: 0.000000000e0
+KPI_K2_SCAR_WEIGHTS lessons=0 max_abs_delta=0.000000000e0 mean_abs_delta=0.000000000e0 changed_edges=0 total_edges=4560
+  Noise 0.1:
+    Pattern Bhupura: Recall Error = 134.3156
+    Pattern Lotus: Recall Error = 94.8566
+KPI_K2 lesson=0 noise=0.100 avg_recall_err=114.586113 baseline_recall_err=114.586113 uplift=0.000000 scar_max=0.000000
+  Noise 0.2:
+    Pattern Bhupura: Recall Error = 134.3531
+    Pattern Lotus: Recall Error = 94.8866
+KPI_K2 lesson=0 noise=0.200 avg_recall_err=114.619827 baseline_recall_err=114.619827 uplift=0.000000 scar_max=0.000000
+KPI_K2_LESSON lessons=0 eta=0.2000 duration_sec=551.019 evals_per_sec=0.007
+
+=== Testing Lesson Count: 3 ===
+Lessons: 3, Max Scar Weight: 6.868306398e-1
+KPI_K2_SCAR_WEIGHTS lessons=3 max_abs_delta=1.999999881e-1 mean_abs_delta=8.294793218e-2 changed_edges=1892 total_edges=4560
+  Noise 0.1:
+    Pattern Bhupura: Recall Error = 132.2627
+    Pattern Lotus: Recall Error = 94.1418
+KPI_K2 lesson=3 noise=0.100 avg_recall_err=113.202286 baseline_recall_err=114.586113 uplift=1.383827 scar_max=0.686831
+  Noise 0.2:
+    Pattern Bhupura: Recall Error = 132.3216
+    Pattern Lotus: Recall Error = 94.1877
+KPI_K2 lesson=3 noise=0.200 avg_recall_err=113.254669 baseline_recall_err=114.619827 uplift=1.365158 scar_max=0.686831
+KPI_K2_LESSON lessons=3 eta=0.2000 duration_sec=431.472 evals_per_sec=0.009
+KPI_K2_SUMMARY duration_sec=982.495 max_scar_weight=0.686831 best_uplift=1.383827

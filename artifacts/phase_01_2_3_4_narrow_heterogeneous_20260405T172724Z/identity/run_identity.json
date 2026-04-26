@@ -1,0 +1,21 @@
+{
+  "run_id": "phase_01_2_3_4_narrow_heterogeneous_20260405T172724Z",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "phase": "01.2.3.4",
+  "plan": "narrow-heterogeneous-abstain",
+  "run_kind": "feasibility_probe",
+  "authority_status": "feasibility_only",
+  "build_class": "exploratory_compiled_residue",
+  "observable_family": "f2_harmonic_residue",
+  "battery_family": "F2",
+  "battery_class": "micro",
+  "phase_outcome": "ABSTAIN",
+  "route_outcome": "same_family_instability",
+  "artifact_root": "artifacts/phase_01_2_3_4_narrow_heterogeneous_20260405T172724Z",
+  "question": "After the same-family handoff exists, can one preserved observable support a narrow heterogeneous split without inflating the branch claim ceiling?",
+  "surface_probe_summary": "artifacts/rm10_f2_surface_probe_20260405T170543Z/summary.json",
+  "same_family_outlier_packet": "artifacts/rm10_f2_outlier_20260405T171018Z/OUTCOME.md",
+  "checkpoint_id": "phase_01_2_3_4_narrow_heterogeneous_20260405T172724Z:retain-all",
+  "checkpoint_parent": null,
+  "next_admissible_move": "Localize or eliminate the top-level same-family session instability before any narrow heterogeneous split."
+}

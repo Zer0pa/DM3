@@ -1,0 +1,12 @@
+{
+  "question": "After the same-family handoff exists, can one preserved observable support a narrow heterogeneous split without inflating the branch claim ceiling?",
+  "status": "ABSTAIN",
+  "reason": "no_preserved_observable",
+  "detail": "The official same-family packet exists on the top-level root family, but it ended whole_session_instability because the CPU bracket drifted materially inside the locked session.",
+  "supporting_evidence": [
+    "artifacts/rm10_f2_surface_probe_20260405T170543Z/summary.json",
+    "artifacts/rm10_f2_outlier_20260405T171018Z/OUTCOME.md",
+    "artifacts/rm10_f2_outlier_20260405T171018Z/metrics/summary.tsv"
+  ],
+  "next_admissible_move": "Repeat and localize the same-family instability before attempting any heterogeneous split."
+}

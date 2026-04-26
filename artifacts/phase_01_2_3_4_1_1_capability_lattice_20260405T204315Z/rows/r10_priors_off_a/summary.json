@@ -1,0 +1,123 @@
+{
+  "adb_pull_exit_code": 0,
+  "anchor_observable": {
+    "human_readable_anchor": {
+      "solve_notes": {
+        "K": 12,
+        "alpha": "164/165",
+        "energies_L1": [
+          "18/1",
+          "984/55",
+          "53792/3025",
+          "8821888/499125",
+          "1446789632/82355625",
+          "237273499648/13588678125",
+          "38912853942272/2242131890625",
+          "6381708046532608/369951761953125",
+          "1046600119631347712/61042040722265625",
+          "171642419619541024768/10071936719173828125",
+          "28149356817604728061952/1661869558663681640625",
+          "4616494518087175402160128/274208477179507470703125",
+          "757105100966296765954260992/45244398734618732666015625"
+        ],
+        "norm_inf_J": "164/165",
+        "proofs": {
+          "delta_e_monotone": "E_k = ||x_k - x*||_1 non-increasing over k steps (checked exactly).",
+          "jacobian_contracts": "||J||_\u221e = \u03b1 < 1 since P is row-stochastic; hence \u03c1(J) \u2264 ||J||_\u221e = \u03b1 = 164/165.",
+          "mode_lock": "Contractive LTI \u21d2 bounded periodic input yields unique asymptotically periodic response (locked).",
+          "steady_state_exact": "(I - \u03b1P) x* = (1-\u03b1) u solved in \u211a via Gauss\u2013Jordan."
+        }
+      },
+      "solve_report_flags": {
+        "delta_e_monotone": true,
+        "jac_spectral_bound_ok": true,
+        "mode_lock_pass": true
+      },
+      "summary_gates": {
+        "cad_sos_present": true,
+        "dep_cert_present": true,
+        "egraph_proof_valid": true,
+        "gates_ok": true,
+        "gc_invariants_pass": true,
+        "lift_pass": true,
+        "stab_pass": true
+      },
+      "verify_gates": {
+        "cad_sos_present": true,
+        "dep_cert_present": true,
+        "egraph_proof_valid": true,
+        "gates_ok": true,
+        "gc_invariants_pass": true,
+        "lift_pass": true,
+        "stab_pass": true
+      },
+      "x_star_sample": [
+        "1/1",
+        "1/1",
+        "1/1",
+        "1/1",
+        "1/1",
+        "1/1"
+      ]
+    },
+    "semantic_digest": "53d477f605117a935285716029129a225c9497c15d373e289658d90ee29d675a",
+    "semantic_triplet": {
+      "solve_digest": "4292fa8dbf300259b5c95c508ed7ac2b14078be95fc8c5d66f792fdd9fb606ba",
+      "summary_digest": "9d5e0715ce4b455c098fedf1cf72effb8f7245dee38f627138e3bb4e63b901d2",
+      "verify_digest": "3dea8e4ef0bab09ea20f58a892e903ca5a002e9290b1c14ef0437001cb1d9960"
+    }
+  },
+  "captured_at_utc": "2026-04-05T20:49:59Z",
+  "command_exact": "adb shell 'cd /data/local/tmp/SoC_runtime/workspace && PATH=/data/local/tmp/SoC_Harness/bin:$PATH /data/local/tmp/genesis_cli --protocol --runs 1 --output-dir audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a --config configs/CONFIG.no_priors.json'",
+  "config": "configs/CONFIG.no_priors.json",
+  "default_validate_exit_code": 1,
+  "device_output_dir": "audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a",
+  "drift_observable": {
+    "battery_delta_c": 0.0,
+    "battery_post": {
+      "ac_powered": false,
+      "level": 44,
+      "temperature_c": 34.0,
+      "temperature_raw": 340
+    },
+    "battery_pre": {
+      "ac_powered": false,
+      "level": 44,
+      "temperature_c": 34.0,
+      "temperature_raw": 340
+    },
+    "binary_sha256": "e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae",
+    "cwd": "/data/local/tmp/SoC_runtime/workspace",
+    "device_model": "NX789J",
+    "device_serial": "FY25013101C8",
+    "thermal_post": {
+      "thermal_status": 0
+    },
+    "thermal_pre": {
+      "thermal_status": 0
+    },
+    "thermal_status_nominal": true,
+    "wrapper_surface": "PATH=/data/local/tmp/SoC_Harness/bin:$PATH"
+  },
+  "expectation": "First-result candidate row.",
+  "explicit_validate_exit_code": 0,
+  "lane_id": "rm10_f1_cleanup_control",
+  "perturbation_family": "priors",
+  "perturbation_summary": "Disable Sanskrit adjacency and yantra priors.",
+  "phase": "01.2.3.4.1.1",
+  "plan": "02",
+  "protocol_exit_code": 0,
+  "raw_hashes": {
+    "solve_sha256": "419d65b149b501fa8a7c47a85be1190d2136133b7ff487160ad356ecfb76ecd8",
+    "summary_sha256": "a6a9dc12cdb214adfdf1e0166db5303c9e12999d0dfd29ea9373d2b3d6ecf605",
+    "verify_sha256": "fd7f3286ba84f85422f06a00dc4521fdf516bb86d28328b8e8586bbee07218f0"
+  },
+  "receipt_paths": {
+    "local_receipt_root": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/rows/r10_priors_off_a/receipts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a",
+    "solve_h2_json": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/rows/r10_priors_off_a/receipts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a/run00/artifacts/solve_h2.json",
+    "verify_json": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/rows/r10_priors_off_a/receipts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a/run00/artifacts/verify.json",
+    "verify_summary_json": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/rows/r10_priors_off_a/receipts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a/run00/receipts/VERIFY_SUMMARY.json"
+  },
+  "role": "candidate",
+  "row_id": "r10_priors_off_a"
+}

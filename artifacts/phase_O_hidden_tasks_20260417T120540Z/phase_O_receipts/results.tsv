@@ -1,0 +1,21 @@
+label	kind	arg	start_iso	end_iso	rc	bytes	lines
+task_interference	task	--task interference	2026-04-17T12:06:38Z	2026-04-17T12:15:32Z	0	0	0
+task_holographic_memory	task	--task holographic_memory	2026-04-17T12:15:32Z	2026-04-17T12:24:57Z	0	0	0
+task_InterferenceTask	task	--task InterferenceTask	2026-04-17T12:24:57Z	2026-04-17T12:24:57Z	1	0	0
+task_run_holographic_memory	task	--task run_holographic_memory	2026-04-17T12:24:57Z	2026-04-17T12:24:57Z	1	0	0
+task_K1	task	--task K1	2026-04-17T12:24:57Z	2026-04-17T12:24:57Z	1	0	0
+task_G2	task	--task G2	2026-04-17T12:24:57Z	2026-04-17T12:24:58Z	1	0	0
+task_pattern_ontology	task	--task pattern_ontology	2026-04-17T12:24:58Z	2026-04-17T12:24:58Z	1	0	0
+task_boundary_readout	task	--task boundary_readout	2026-04-17T12:24:58Z	2026-04-17T12:24:58Z	1	0	0
+task_exp_i0_classifier	task	--task exp_i0_classifier	2026-04-17T12:24:58Z	2026-04-17T12:24:58Z	1	0	0
+task_exp_r1_r4_campaign	task	--task exp_r1_r4_campaign	2026-04-17T12:24:58Z	2026-04-17T12:28:22Z	0	3748	161
+task_r1_r4_campaign	task	--task r1_r4_campaign	2026-04-17T12:28:23Z	2026-04-17T12:28:23Z	1	0	0
+task_interference_task	task	--task interference_task	2026-04-17T12:28:23Z	2026-04-17T12:28:23Z	1	0	0
+task_holographic_memory_hyphen	task	--task holographic-memory	2026-04-17T12:28:23Z	2026-04-17T12:28:23Z	1	0	0
+mode_G2	mode	--mode G2	2026-04-17T12:28:23Z	2026-04-17T12:28:23Z	2	0	0
+mode_K1	mode	--mode K1	2026-04-17T12:28:23Z	2026-04-17T12:28:23Z	2	0	0
+mode_inference_hm	combo	--mode inference --task holographic_memory	2026-04-17T12:28:23Z	2026-04-17T12:28:23Z	2	0	0
+mode_inference_interference	combo	--mode inference --task interference	2026-04-17T12:28:23Z	2026-04-17T12:28:24Z	2	0	0
+gated_holography	combo	--task holography --gated	2026-04-17T12:28:24Z	2026-04-17T12:29:37Z	0	129	1
+gated_harmonic	combo	--task harmonic --gated	2026-04-17T12:29:37Z	2026-04-17T12:31:00Z	0	129	1
+control_harmonic_default	control	--task harmonic	2026-04-17T12:31:00Z	2026-04-17T12:32:22Z	0	125	1

@@ -1,0 +1,66 @@
+{
+  "question": "Is the top-level F2 root residue surface ready for an official outlier-localization packet?",
+  "rows": [
+    {
+      "name": "root_cpu_default",
+      "classification": "callable",
+      "exit_code": 0,
+      "cwd": "/data/local/tmp",
+      "binary_path": "/data/local/tmp/dm3_runner",
+      "command": "/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/root_cpu_default.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\nEp 0: Dec=Commit E=88.9588 Coh=0.7679\nResonance Loop Complete.\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/root_cpu_default.jsonl",
+      "receipt_text": "{\"asymmetry\":0.0,\"coherence\":0.7678856253623962,\"decision\":\"Commit\",\"delta_E\":88.95877838134766,\"duration_ms\":80500,\"episode\":0}\n"
+    },
+    {
+      "name": "root_cpu_explicit_assets",
+      "classification": "callable",
+      "exit_code": 0,
+      "cwd": "/data/local/tmp",
+      "binary_path": "/data/local/tmp/dm3_runner",
+      "command": "/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --adj SriYantraAdj_v1.bin --tags RegionTags_v1.bin --output /data/local/tmp/root_cpu_explicit_assets.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\nEp 0: Dec=Commit E=89.1322 Coh=0.7679\nResonance Loop Complete.\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/root_cpu_explicit_assets.jsonl",
+      "receipt_text": "{\"asymmetry\":0.0,\"coherence\":0.7678545713424683,\"decision\":\"Commit\",\"delta_E\":89.1321792602539,\"duration_ms\":80723,\"episode\":0}\n"
+    },
+    {
+      "name": "cleanroom_minimal_cpu",
+      "classification": "missing_ambient_dependency",
+      "exit_code": 1,
+      "cwd": "/data/local/tmp/f2_cleanroom_minimal_probe",
+      "binary_path": "/data/local/tmp/f2_cleanroom_minimal_probe/dm3_runner",
+      "command": "/data/local/tmp/f2_cleanroom_minimal_probe/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/f2_cleanroom_minimal_probe/out.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\n",
+      "stderr": "Error: No such file or directory (os error 2)\n",
+      "receipt_path": "/data/local/tmp/f2_cleanroom_minimal_probe/out.jsonl",
+      "receipt_text": ""
+    },
+    {
+      "name": "cleanroom_regiontags_v1_cpu",
+      "classification": "callable",
+      "exit_code": 0,
+      "cwd": "/data/local/tmp/f2_cleanroom_rtags_probe",
+      "binary_path": "/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner",
+      "command": "/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\nEp 0: Dec=Commit E=88.9538 Coh=0.7670\nResonance Loop Complete.\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl",
+      "receipt_text": "{\"asymmetry\":0.0,\"coherence\":0.7670037746429443,\"decision\":\"Commit\",\"delta_E\":88.9537582397461,\"duration_ms\":80828,\"episode\":0}\n"
+    },
+    {
+      "name": "legacy_dm3_gpu_train",
+      "classification": "callable",
+      "exit_code": 0,
+      "cwd": "/data/local/tmp/dm3",
+      "binary_path": "/data/local/tmp/dm3/dm3_runner",
+      "command": "/data/local/tmp/dm3/dm3_runner --mode train --task harmonic --steps 1 -o /data/local/tmp/dm3/legacy_gpu_train.jsonl",
+      "stdout": "Entering Training Mode...\nGPU MatMul Kernel Initialized.\nGPU Transformer Kernel Initialized.\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\nEp 0: Dec=Retry dE=0.0085 Coh=0.0599\nResonance Loop Complete.\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/dm3/legacy_gpu_train.jsonl",
+      "receipt_text": "{\"asymmetry\":0.0,\"coherence\":0.059935104101896286,\"decision\":\"Retry\",\"delta_E\":0.00850886944681406,\"duration_ms\":149,\"episode\":0}\n"
+    }
+  ],
+  "next_admissible_move": "The top-level /data/local/tmp/dm3_runner root surface is callable; the next admissible move is the official F2 outlier capture under hardened governance."
+}

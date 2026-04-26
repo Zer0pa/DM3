@@ -1,0 +1,13 @@
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+--- Exp_I1: Minimal Holographic Memory Bank ---
+GPU MatMul Kernel Initialized.
+TransformerKernel: adapter max_compute_workgroup_storage_size=32768 < target 65536; using reduced limit
+GPU Transformer Kernel Initialized.
+Storing Memories...
+Training Step 0/1
+Testing Recall...
+Memory 0: Recall E=2.5001e3, Noise E=2.5001e3
+Memory 1: Recall E=2.5001e3, Noise E=2.5001e3
+Memory 2: Recall E=2.5001e3, Noise E=2.5001e3
+Memory 3: Recall E=2.5001e3, Noise E=2.5001e3

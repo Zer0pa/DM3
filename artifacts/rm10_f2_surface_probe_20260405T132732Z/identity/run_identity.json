@@ -1,0 +1,19 @@
+{
+  "run_id": "rm10_f2_surface_probe_20260405T132732Z",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "phase": "01.2.3.3",
+  "plan": "f2-surface-repair-probe",
+  "run_kind": "engineering_readiness_probe",
+  "authority_status": "engineering_only",
+  "machine_class": "rm10_device",
+  "device_serial": "FY25013101C8",
+  "device_model": "NX789J",
+  "artifact_root": "artifacts/rm10_f2_surface_probe_20260405T132732Z",
+  "question": "Is the top-level F2 root residue surface ready for an official outlier-localization packet?",
+  "phase_outcome": "surface_probe_complete",
+  "checkpoint_id": "rm10_f2_surface_probe_20260405T132732Z:retain-all",
+  "checkpoint_parent": null,
+  "comparison_index_path": "artifacts/rm10_f2_surface_probe_20260405T132732Z/comparisons/index.json",
+  "checkpoint_index_path": "artifacts/rm10_f2_surface_probe_20260405T132732Z/identity/checkpoint_index.json",
+  "next_admissible_move": "Repair or exact-localize the top-level /data/local/tmp/dm3_runner root surface before any official F2 outlier capture or heterogeneous brief."
+}

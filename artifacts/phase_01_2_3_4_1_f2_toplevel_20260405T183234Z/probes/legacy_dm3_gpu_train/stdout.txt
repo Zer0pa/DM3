@@ -1,0 +1,7 @@
+Entering Training Mode...
+GPU MatMul Kernel Initialized.
+GPU Transformer Kernel Initialized.
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Retry dE=0.0021 Coh=0.1549
+Resonance Loop Complete.

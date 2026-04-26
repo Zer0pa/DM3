@@ -1,0 +1,6 @@
+enable-truth-sensor
+sensor-cooldown
+sensor-strength
+sensor-threshold
+use-layernorm
+with-newline

@@ -1,0 +1,26 @@
+[21:37:18] A1 start: mu replication N=10 @ steps=20 pinned-Prime airplane
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r01.bin': No such file or directory
+OK A1_mu_replicate_r01 rc=0 out_sha= receipt_sha=e07fce5dbf8dd5a8582a2ec764fdc5f07fc304fcfac8648d1bd923632a45ba35
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r02.bin': No such file or directory
+OK A1_mu_replicate_r02 rc=0 out_sha= receipt_sha=6a459458d51a25228047d67cfbc1fe7590b2afff390ba190e4f6a8b3219403c1
+[22:10:29] cooling 180s (worst=66452)
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r03.bin': No such file or directory
+OK A1_mu_replicate_r03 rc=0 out_sha= receipt_sha=22862620bc79fd65b2142ec1fb9810b3ef7018d39ae481884997ae089638dd7d
+[22:38:06] cooling 180s (worst=67935)
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r04.bin': No such file or directory
+OK A1_mu_replicate_r04 rc=0 out_sha= receipt_sha=5b3f316559cf43d991774856ba743786a95e23ad08137bd74c31a624287bc5db
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r05.bin': No such file or directory
+OK A1_mu_replicate_r05 rc=0 out_sha= receipt_sha=00896cc75f312c27ac668236940e28940429a3f4c72f07dbe2a8838275fa2939
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r06.bin': No such file or directory
+OK A1_mu_replicate_r06 rc=0 out_sha= receipt_sha=47934a770274d96be77bdfdced4ebecb9928df8800fa770ec9bd61ff7b7353b7
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r07.bin': No such file or directory
+OK A1_mu_replicate_r07 rc=0 out_sha= receipt_sha=8201294ee616b6720b09c2c39240539a8f7f26c33b1148033bfe6ee8ef34504c
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r08.bin': No such file or directory
+OK A1_mu_replicate_r08 rc=0 out_sha= receipt_sha=904a6f4b0d5c9cf047d6e5bf25a6bab72647f6c3bdf7f89e7bdf15626f0fee6f
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r09.bin': No such file or directory
+OK A1_mu_replicate_r09 rc=0 out_sha= receipt_sha=c0895e1e3f14c7acce11809d44bdabf6d4da4d4bf8fd2b1c547f21cf442f5f6a
+cp: bad '/data/local/tmp/dm3_harness/cells/A1_mu_replicate/A1_mu_replicate_r10.bin': No such file or directory
+OK A1_mu_replicate_r10 rc=0 out_sha= receipt_sha=25dcf0258a8f9d787d9790e4585369115221b14d8244e21c08c3c3ce44c3501e
+SUMMARY exp=A1_mu_replicate runs=10 unique_canonical=1 verdict=PASS summary_sha=be8e87e494f71250093a7e7f5f71be280d1b3d865dc657d44540137eed46dac0
+[00:02:31] A1_COMPLETE
+[00:02:31] EXIT

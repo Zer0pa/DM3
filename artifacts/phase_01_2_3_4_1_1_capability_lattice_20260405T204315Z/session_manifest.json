@@ -1,0 +1,19 @@
+{
+  "binary_path": "/data/local/tmp/genesis_cli",
+  "binary_sha256": "e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "device_cwd": "/data/local/tmp/SoC_runtime/workspace",
+  "lane_id": "rm10_f1_cleanup_control",
+  "phase": "01.2.3.4.1.1",
+  "plan": "02",
+  "selected_rows": [
+    "r00_control_default_a",
+    "r01_control_default_b",
+    "r10_priors_off_a",
+    "r11_priors_off_b",
+    "r20_lpe_off",
+    "r30_nonharmonic"
+  ],
+  "started_at_utc": "2026-04-05T20:49:51Z",
+  "wrapper_surface": "PATH=/data/local/tmp/SoC_Harness/bin:$PATH"
+}

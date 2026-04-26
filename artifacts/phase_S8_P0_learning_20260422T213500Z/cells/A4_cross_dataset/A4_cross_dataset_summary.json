@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "A4_cross_dataset",
+  "timestamp_utc": "2026-04-23T21:17:05Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 10,
+  "unique_output_sha256_raw": 9,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 9,
+  "unique_output_sha256_list_raw": ["A4_cross_dataset_xnor_mini_r1.bin","A4_cross_dataset_xnor_mini_r2.bin","A4_cross_dataset_xnor_mini_r3.bin","A4_cross_dataset_xnor_test_r1.bin","A4_cross_dataset_xnor_test_r2.bin","A4_cross_dataset_xnor_test_r3.bin","A4_cross_dataset_xnor_train_r1.bin","A4_cross_dataset_xnor_train_r2.bin","A4_cross_dataset_xnor_train_r3.bin"],
+  "unique_output_sha256_list_canonical": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "output_sha256_per_run": ["A4_cross_dataset_xnor_mini_r1.bin","A4_cross_dataset_xnor_mini_r2.bin","A4_cross_dataset_xnor_mini_r3.bin","A4_cross_dataset_xnor_test_r1.bin","A4_cross_dataset_xnor_test_r2.bin","A4_cross_dataset_xnor_test_r3.bin","A4_cross_dataset_xnor_train_r1.bin","A4_cross_dataset_xnor_train_r2.bin","A4_cross_dataset_xnor_train_r3.bin"],
+  "output_canonical_sha256_per_run": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "receipt_sha256_per_run": ["bb43d8d6bfa3e4f835685684328a2361f2bdb7ec8059912a95d7be65bc5d78b8","e62ef3b1bae65e0a7d1019f02b436faab9ee7e6ea8cdfdf7a003c489fb46cdb1","c53c1fb994025cc0c621ce0034e8076b6803ecae9344449529d55623832ef26c","aa773fde0fa800f50ab566d4ea87556eb97407938f5887fb4ba6f97e12eccb40","f9e5815c4bcd53c89f7f74b81ffc3c96929037c7ecd764e78ce9ca0319747596","d51065450f782e89fec56d7bc9638647145035e447506b0c027203f20da3247f","cb52bd6c99d3f7b7d387d37abeab587170211737d32c22256fdb01b65881965a","6e100ce73b8ae6d71aba8b0e56749f08cc344b85cc93f8134652b40360df31d0","84a17e067cb3bd354de6623b08f30f85b4847d7c44d595050f8e9c933d142e3c"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}

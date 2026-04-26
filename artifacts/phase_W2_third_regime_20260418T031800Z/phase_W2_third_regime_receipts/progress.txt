@@ -1,0 +1,13 @@
+[2026-04-18T02:18:47Z] spawn H_m5 task=harmonic asym=-5.0 steps=10
+[2026-04-18T02:18:47Z] spawn H_m4 task=harmonic asym=-4.0 steps=10
+[2026-04-18T03:18:13Z] start H_m35 task=harmonic asym=-3.5 steps=10
+[2026-04-18T03:50:48Z] done H_m35 rc=0 lines=10 sec=1955
+[2026-04-18T03:50:48Z] start H_m3 task=harmonic asym=-3.0 steps=10
+[2026-04-18T04:23:33Z] done H_m3 rc=0 lines=10 sec=1965
+[2026-04-18T04:23:33Z] start H_m25 task=harmonic asym=-2.5 steps=10
+[2026-04-18T04:55:56Z] done H_m25 rc=0 lines=10 sec=1943
+[2026-04-18T04:55:56Z] start HO_m5 task=holography asym=-5.0 steps=5
+[2026-04-18T05:12:24Z] done HO_m5 rc=0 lines=5 sec=988
+[2026-04-18T05:12:24Z] start HO_m3 task=holography asym=-3.0 steps=5
+[2026-04-18T05:28:42Z] done HO_m3 rc=0 lines=5 sec=978
+[2026-04-18T05:28:42Z] W2_SERIAL_COMPLETE

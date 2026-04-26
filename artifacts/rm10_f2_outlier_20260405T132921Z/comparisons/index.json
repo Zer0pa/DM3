@@ -1,0 +1,24 @@
+{
+  "question": "Does the earlier F2 GPU-backed drift localize to startup or order sensitivity under locked identity capture, or does the residue family remain too unstable to interpret even at the current feasibility ceiling?",
+  "status": "BLOCKED",
+  "reason": "root_surface_not_ready",
+  "detail": "The retained F2 surface probe classifies root_cpu_default as `stalled_after_resonance_start`.",
+  "surface_probe_gate": {
+    "ready": false,
+    "reason": "The retained F2 surface probe classifies root_cpu_default as `stalled_after_resonance_start`.",
+    "summary_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/rm10_f2_surface_probe_20260405T132732Z/summary.json",
+    "root_cpu_default": {
+      "name": "root_cpu_default",
+      "classification": "stalled_after_resonance_start",
+      "exit_code": 124,
+      "cwd": "/data/local/tmp",
+      "binary_path": "/data/local/tmp/dm3_runner",
+      "command": "/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/root_cpu_default.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/root_cpu_default.jsonl",
+      "receipt_text": ""
+    }
+  },
+  "rows": []
+}

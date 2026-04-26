@@ -1,0 +1,99 @@
+=== PHASE F: RESONANCE + ROTATION ===
+
+--- rot120: --rotation 120 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=89.0332 Coh=0.7706
+Resonance Loop Complete.
+Duration: 389.3s
+Receipt:
+{"asymmetry":0.0,"coherence":0.7706205248832703,"decision":"Commit","delta_E":89.0332260131836,"duration_ms":195001,"episode":0}
+{"asymmetry":0.0,"coherence":0.876868724822998,"decision":"Commit","delta_E":76.05419158935547,"duration_ms":193610,"episode":1}
+
+--- rot60: --rotation 60 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.8256 Coh=0.8784
+Resonance Loop Complete.
+Duration: 392.7s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8783735632896423,"decision":"Commit","delta_E":75.82559204101562,"duration_ms":196169,"episode":0}
+{"asymmetry":0.0,"coherence":0.8921793699264526,"decision":"Commit","delta_E":74.46884155273438,"duration_ms":195796,"episode":1}
+
+--- rot90: --rotation 90 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.6357 Coh=0.8766
+Resonance Loop Complete.
+Duration: 389.4s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8766217827796936,"decision":"Commit","delta_E":75.6357421875,"duration_ms":195751,"episode":0}
+{"asymmetry":0.0,"coherence":0.8776666522026062,"decision":"Commit","delta_E":75.46035766601562,"duration_ms":192978,"episode":1}
+
+--- rot180: --rotation 180 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.7451 Coh=0.8931
+Resonance Loop Complete.
+Duration: 389.4s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8931335806846619,"decision":"Commit","delta_E":74.74514770507812,"duration_ms":194895,"episode":0}
+{"asymmetry":0.0,"coherence":0.8776522278785706,"decision":"Commit","delta_E":75.87979125976562,"duration_ms":193818,"episode":1}
+
+--- freq_mode1: --freq 0.033 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=76.0322 Coh=0.8772
+Resonance Loop Complete.
+Duration: 392.2s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8771525025367737,"decision":"Commit","delta_E":76.03221893310547,"duration_ms":196312,"episode":0}
+{"asymmetry":0.0,"coherence":0.89227294921875,"decision":"Commit","delta_E":74.39984893798828,"duration_ms":195220,"episode":1}
+
+--- freq_mode10: --freq 0.329 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=76.1954 Coh=0.8771
+Resonance Loop Complete.
+Duration: 393.5s
+Receipt:
+{"asymmetry":0.0,"coherence":0.877123236656189,"decision":"Commit","delta_E":76.1954116821289,"duration_ms":196930,"episode":0}
+{"asymmetry":0.0,"coherence":0.7701718211174011,"decision":"Commit","delta_E":88.65794372558594,"duration_ms":195817,"episode":1}
+
+--- freq_ref: --freq 1.0 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=89.0127 Coh=0.7691
+Resonance Loop Complete.
+Duration: 390.7s
+Receipt:
+{"asymmetry":0.0,"coherence":0.7691094875335693,"decision":"Commit","delta_E":89.01273345947266,"duration_ms":194888,"episode":0}
+{"asymmetry":0.0,"coherence":0.7671564817428589,"decision":"Commit","delta_E":88.75206756591797,"duration_ms":195031,"episode":1}
+
+--- rot120_gated: --rotation 120 --gated ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 2, Asymmetry: 0)
+Ep 0: Dec=Commit E=89.0230 Coh=0.7707
+Resonance Loop Complete.
+Duration: 389.9s
+Receipt:
+{"asymmetry":0.0,"coherence":0.77065509557724,"decision":"Commit","delta_E":89.02302551269531,"duration_ms":195973,"episode":0}
+{"asymmetry":0.0,"coherence":0.8912182450294495,"decision":"Commit","delta_E":75.26850128173828,"duration_ms":193204,"episode":1}
+
+=== PHASE F COMPLETE ===

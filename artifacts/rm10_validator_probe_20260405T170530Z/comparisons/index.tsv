@@ -1,0 +1,3 @@
+name	classification	exit_code	cwd	binary_path	receipt_path
+default_validate	failed	1	/data/local/tmp/SoC_runtime/workspace	/data/local/tmp/genesis_cli	/data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00
+explicit_validate	passed	0	/data/local/tmp/SoC_runtime/workspace	/data/local/tmp/genesis_cli	/data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00

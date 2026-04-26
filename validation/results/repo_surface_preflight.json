@@ -1,0 +1,127 @@
+{
+  "date": "2026-04-25",
+  "scope": "repo-shell+session7-closeout+session8-phase-a-a5-b3-a6+tau",
+  "commit": "41c6576d6d63",
+  "verdict": "STAGED",
+  "confidence_percent": 70,
+  "checks": [
+    {
+      "id": "canonical_readme_spine",
+      "status": "PASS"
+    },
+    {
+      "id": "required_root_docs_present",
+      "status": "PASS"
+    },
+    {
+      "id": "python_package_present",
+      "status": "PASS"
+    },
+    {
+      "id": "ci_templates_present",
+      "status": "PASS"
+    },
+    {
+      "id": "proof_directories_present",
+      "status": "PASS"
+    },
+    {
+      "id": "validation_tree_present",
+      "status": "PASS"
+    },
+    {
+      "id": "proof_anchor_paths_resolve",
+      "status": "PASS"
+    },
+    {
+      "id": "session7_dynamics_closeout_mirrored",
+      "status": "PASS",
+      "note": "S2H_final, S7_thermal_final, S8_final, and S5_final are mirrored and linked on the root surface"
+    },
+    {
+      "id": "session7_learning_and_control_trees_mirrored",
+      "status": "PASS",
+      "note": "S10_final, S11_final, T11_cross_control, T2_scars_scaling, and T3_plasticity are mirrored and linked on the root surface"
+    },
+    {
+      "id": "session7_gate_layer_named_subdirs_match_handover",
+      "status": "INC",
+      "note": "the handover cites standalone S2_pinned/S4_airplane/S6_core directories that do not appear verbatim in this checkout"
+    },
+    {
+      "id": "root_claims_and_is_sync_to_closeout",
+      "status": "PASS",
+      "note": "root CLAIMS.md and IS_AND_IS_NOT.md mirror the Session 7 closeout packet plus Session 8 Phase A/A5/B3/A6 and tau additions"
+    },
+    {
+      "id": "artifact_manifests_include_session7_closeout",
+      "status": "PASS",
+      "note": "repo_stage/MANIFEST.tsv and ARTEFACT_BUNDLE_REGISTER.tsv include the mirrored Session 7 closeout trees"
+    },
+    {
+      "id": "dm3_rrl_authority_text_present",
+      "status": "PASS",
+      "note": "root LICENSE instantiates Zer0pa DM3 Research and Receipt License v1.0 and metadata points at LicenseRef-Zer0pa-DM3-RRL-1.0"
+    },
+    {
+      "id": "canonical_reference_files_present",
+      "status": "PASS",
+      "note": "root endpoint publishes CLAIMS.md, IS_AND_IS_NOT.md, RETRACTIONS.md, CONTACT.md, TRADEMARK.md, and artefact-bundle register surfaces"
+    },
+    {
+      "id": "session8_phase_a_final_doc_present",
+      "status": "PASS",
+      "note": "the Session 8 Phase A final report and repo-agent handover are present and cross-linked on the root surface"
+    },
+    {
+      "id": "phase_s8_scripts_in_manifests",
+      "status": "PASS",
+      "note": "the host-side phase_S8 script mirror is included in repo_stage/MANIFEST.tsv and ARTEFACT_BUNDLE_REGISTER.tsv"
+    },
+    {
+      "id": "session8_phase_a_receipts_mirrored",
+      "status": "PASS",
+      "note": "A1/A2/A3/A4 receipt trees are mirrored under artifacts/phase_S8_P0_learning_20260422T213500Z/cells"
+    },
+    {
+      "id": "session8_thermal_patch_mirrored",
+      "status": "PASS",
+      "note": "device_snapshot/bin/run_cell.sh and the pre-cpugate backup are mirrored"
+    },
+    {
+      "id": "session8_phase_a_count_seam_documented",
+      "status": "PASS",
+      "note": "final-report total-run accounting says 55 while the local mirror contains 52 per-run receipt/log pairs; REPO_AGENT_FINDINGS.md records the seam"
+    },
+    {
+      "id": "session8_a5_b3_a6_final_doc_present",
+      "status": "PASS",
+      "note": "the A5/B3/A6 final report and repo-agent final handover are present and cross-linked on the root surface"
+    },
+    {
+      "id": "session8_a5_b3_a6_receipts_mirrored",
+      "status": "PASS",
+      "note": "A5_peak_finder, B3_cli_audit, A6a_peak_fill, and A6b_post_peak receipt trees are mirrored under artifacts/phase_S8_P0_learning_20260422T213500Z/cells"
+    },
+    {
+      "id": "tau_cross_platform_packet_mirrored",
+      "status": "PASS",
+      "note": "the M1 ARM64 emulator packet, tau claim file, handover, and science-team note are present and cross-linked"
+    },
+    {
+      "id": "sigma_supersession_documented",
+      "status": "PASS",
+      "note": "old sigma and sigma-prime K2 curve wordings are rejected-before-promoted; active sigma-double-prime remains candidate"
+    },
+    {
+      "id": "k3_steps_nuance_documented",
+      "status": "PASS",
+      "note": "B3 logs show exp_k3_truth_sensor changes absolute values with --steps; public wording avoids a universal invariant-ratio claim"
+    },
+    {
+      "id": "source_provenance_gap_visible",
+      "status": "PASS",
+      "note": "README and authority packet expose that current hybrid dm3_runner source is not present, blocking source-level and x86 parity claims"
+    }
+  ]
+}

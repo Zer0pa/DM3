@@ -1,0 +1,1 @@
+/data/local/tmp/SoC_runtime/workspace/audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r01_control_default_b/: 8 files pulled, 0 skipped. 3.8 MB/s (40405 bytes in 0.010s)

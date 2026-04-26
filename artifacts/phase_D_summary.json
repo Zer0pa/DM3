@@ -1,0 +1,85 @@
+{
+  "phase": "D",
+  "hypothesis": "H4: Truth sensor enables homeostasis",
+  "verdict": "PARTIALLY CONFIRMED",
+  "finding": "Truth sensor biases system toward LOW regime (1/8 HIGH vs baseline ~60%). Strong sensor reduces variance significantly. But it's unidirectional \u2014 pulls toward LOW, not toward a target. True homeostasis (bidirectional stabilization) not observed.",
+  "data": {
+    "default": {
+      "episodes": [
+        {
+          "E": 88.4,
+          "Coh": 0.77,
+          "regime": "HIGH"
+        },
+        {
+          "E": 75.64,
+          "Coh": 0.877,
+          "regime": "LOW"
+        }
+      ]
+    },
+    "tight": {
+      "episodes": [
+        {
+          "E": 75.44,
+          "Coh": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "E": 74.53,
+          "Coh": 0.892,
+          "regime": "LOW"
+        }
+      ]
+    },
+    "loose": {
+      "episodes": [
+        {
+          "E": 75.41,
+          "Coh": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "E": 75.95,
+          "Coh": 0.877,
+          "regime": "LOW"
+        }
+      ]
+    },
+    "strong": {
+      "episodes": [
+        {
+          "E": 75.95,
+          "Coh": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "E": 75.93,
+          "Coh": 0.878,
+          "regime": "LOW"
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "total_episodes": 8,
+    "high_count": 1,
+    "low_count": 7,
+    "high_rate": "12.5% (baseline LN true ~60%)",
+    "strong_sensor_variance": {
+      "E_range": [
+        75.93,
+        75.95
+      ],
+      "delta": 0.02
+    },
+    "default_sensor_variance": {
+      "E_range": [
+        75.64,
+        88.4
+      ],
+      "delta": 12.76
+    }
+  },
+  "hypothesis_status": "Truth sensor is a unidirectional bias, not true homeostasis. Strong sensor does reduce variance within LOW basin. It does NOT let you target HIGH or prevent the LOW-lock."
+}

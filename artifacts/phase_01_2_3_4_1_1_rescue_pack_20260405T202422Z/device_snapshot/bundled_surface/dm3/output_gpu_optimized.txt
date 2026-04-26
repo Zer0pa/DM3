@@ -1,0 +1,14 @@
+GPU MatMul Kernel Initialized.
+GPU Transformer Kernel Initialized.
+InterferenceTask: Detected JSON RegionTags.
+--- G2 Boundary Readout Experiment (Mode: R2Contrastive) ---
+Epoch, AvgSleepE, AvgMatchE, AvgMismatchE, Gap_Match, Gap_Mismatch, ReadoutAcc
+0, NaN, NaN, NaN, NaN, NaN, 0.50
+1, NaN, NaN, NaN, NaN, NaN, 0.50
+2, NaN, NaN, NaN, NaN, NaN, 0.50
+3, NaN, NaN, NaN, NaN, NaN, 0.50
+4, NaN, NaN, NaN, NaN, NaN, 0.50
+5, NaN, NaN, NaN, NaN, NaN, 0.50
+6, NaN, NaN, NaN, NaN, NaN, 0.50
+7, NaN, NaN, NaN, NaN, NaN, 0.50
+8, NaN, NaN, NaN, NaN, NaN, 0.50

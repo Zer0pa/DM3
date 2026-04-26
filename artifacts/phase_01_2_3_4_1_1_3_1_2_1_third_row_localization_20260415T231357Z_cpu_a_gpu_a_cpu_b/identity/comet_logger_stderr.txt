@@ -1,0 +1,54 @@
+numpy not installed; some functionality will be unavailable
+numpy not installed; some functionality will be unavailable
+COMET INFO: The process of logging environment details (conda environment, git patch) is underway. Please be patient as this may take some time.
+COMET INFO: ---------------------------------------------------------------------------------------
+COMET INFO: Comet.ml OfflineExperiment Summary
+COMET INFO: ---------------------------------------------------------------------------------------
+COMET INFO:   Data:
+COMET INFO:     display_summary_level : 1
+COMET INFO:     name                  : dm3-phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b
+COMET INFO:     url                   : [OfflineExperiment will get URL after upload]
+COMET INFO:   Metrics:
+COMET INFO:     run/receipt_complete : 1
+COMET INFO:     run/rows             : 3
+COMET INFO:   Others:
+COMET INFO:     Name                  : dm3-phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b
+COMET INFO:     artifact_root         : artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b
+COMET INFO:     checkpoint_index_path : artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/identity/checkpoint_index.json
+COMET INFO:     comparison_index_path : artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/comparisons/index.json
+COMET INFO:     notes                 : Residue classification only, not bridge progress.
+COMET INFO:     offline_experiment    : True
+COMET INFO:     route_outcome         : NOT_APPLICABLE
+COMET INFO:     row_order             : ['cpu_a', 'gpu_a', 'cpu_b']
+COMET INFO:     summary_path          : artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/metrics/summary.tsv
+COMET INFO:   Parameters:
+COMET INFO:     artifact_root     : artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b
+COMET INFO:     battery_class     : micro
+COMET INFO:     battery_family    : F2
+COMET INFO:     binary_sha256     : daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672
+COMET INFO:     checkpoint_id     : phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b:rerun-only
+COMET INFO:     checkpoint_parent : none
+COMET INFO:     command_surface   : dm3_runner
+COMET INFO:     cwd               : /data/local/tmp
+COMET INFO:     device_model      : NX789J
+COMET INFO:     device_serial     : FY25013101C8
+COMET INFO:     hypothesis_branch : hypothesis/rm10-primary-platform-heterogeneous-learning
+COMET INFO:     observable_family : f2_harmonic_residue
+COMET INFO:     outcome_class     : partial_replay
+COMET INFO:     phase             : 01.2.3.4.1.1.3.1.2.1
+COMET INFO:     plan              : third-row-localization
+COMET INFO:     question          : Does the earlier F2 GPU-backed drift localize to startup or order sensitivity under locked identity capture, or does the residue family remain too unstable to interpret even at the current feasibility ceiling?
+COMET INFO:     receipt_expected  : True
+COMET INFO:     run_id            : phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b
+COMET INFO:   Uploads:
+COMET INFO:     environment details      : 1
+COMET INFO:     filename                 : 1
+COMET INFO:     git metadata             : 1
+COMET INFO:     git-patch (uncompressed) : 1 (139.58 KB)
+COMET INFO:     installed packages       : 1
+COMET INFO:     source_code              : 1 (7.39 KB)
+COMET INFO: 
+COMET INFO: Still saving offline stats to messages file before program termination (may take up to 120 seconds)
+COMET INFO: Begin archiving the offline data.
+COMET INFO: To upload this offline experiment, run:
+    comet upload /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/cometml-runs/cc1ce473e92e4c45bd444ba1cdcd57a4.zip

@@ -1,0 +1,6 @@
+name	classification	exit_code	cwd	binary_path	receipt_path
+root_cpu_default	stalled_after_resonance_start	124	/data/local/tmp	/data/local/tmp/dm3_runner	/data/local/tmp/root_cpu_default.jsonl
+root_cpu_explicit_assets	stalled_after_resonance_start	124	/data/local/tmp	/data/local/tmp/dm3_runner	/data/local/tmp/root_cpu_explicit_assets.jsonl
+cleanroom_minimal_cpu	missing_ambient_dependency	1	/data/local/tmp/f2_cleanroom_minimal_probe	/data/local/tmp/f2_cleanroom_minimal_probe/dm3_runner	/data/local/tmp/f2_cleanroom_minimal_probe/out.jsonl
+cleanroom_regiontags_v1_cpu	stalled_after_resonance_start	124	/data/local/tmp/f2_cleanroom_rtags_probe	/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner	/data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl
+legacy_dm3_gpu_train	callable	0	/data/local/tmp/dm3	/data/local/tmp/dm3/dm3_runner	/data/local/tmp/dm3/legacy_gpu_train.jsonl

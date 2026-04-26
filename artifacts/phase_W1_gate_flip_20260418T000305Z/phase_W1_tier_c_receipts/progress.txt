@@ -1,0 +1,13 @@
+[2026-04-18T00:30:54Z] start C_RA_det_r2 args=--adj RandomAdj_v1.bin --steps 1
+[2026-04-18T00:53:29Z] done C_RA_det_r2 rc=0 bytes=3729 sec=1355
+[2026-04-18T00:53:29Z] start C_RA_asymn05 args=--adj RandomAdj_v1.bin --asymmetry=-0.5 --steps 1
+[2026-04-18T01:16:05Z] done C_RA_asymn05 rc=0 bytes=3728 sec=1356
+[2026-04-18T01:16:05Z] start C_RA_asym05 args=--adj RandomAdj_v1.bin --asymmetry=0.5 --steps 1
+[2026-04-18T01:39:21Z] done C_RA_asym05 rc=0 bytes=3729 sec=1396
+[2026-04-18T01:39:21Z] start C_SY_tags_v2 args=--adj SriYantraAdj_v1.bin --tags RegionTags_v2.bin --steps 1
+[2026-04-18T01:50:40Z] done C_SY_tags_v2 rc=0 bytes=3763 sec=679
+[2026-04-18T01:50:40Z] start C_SY_ds_mini args=--adj SriYantraAdj_v1.bin --dataset /data/local/tmp/dm3/data/xnor_mini.jsonl --steps 1
+[2026-04-18T02:02:04Z] done C_SY_ds_mini rc=0 bytes=3747 sec=684
+[2026-04-18T02:02:04Z] start C_SY_ds_test args=--adj SriYantraAdj_v1.bin --dataset /data/local/tmp/dm3/data/xnor_test.jsonl --steps 1
+[2026-04-18T02:13:31Z] done C_SY_ds_test rc=0 bytes=3745 sec=687
+[2026-04-18T02:13:32Z] start C_SY_s20 args=--adj SriYantraAdj_v1.bin --steps 20

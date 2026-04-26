@@ -1,0 +1,151 @@
+{
+  "phase": "F",
+  "hypotheses": [
+    "H3: Resonance frequency",
+    "H6: Braiding angle",
+    "H8: C3 dominates Z2"
+  ],
+  "data": {
+    "rot60": {
+      "episodes": [
+        {
+          "E": 75.83,
+          "Coh": 0.878,
+          "regime": "LOW"
+        },
+        {
+          "E": 74.47,
+          "Coh": 0.892,
+          "regime": "LOW"
+        }
+      ],
+      "high_rate": "0/2"
+    },
+    "rot90": {
+      "episodes": [
+        {
+          "E": 75.64,
+          "Coh": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "E": 75.46,
+          "Coh": 0.878,
+          "regime": "LOW"
+        }
+      ],
+      "high_rate": "0/2"
+    },
+    "rot120": {
+      "episodes": [
+        {
+          "E": 89.03,
+          "Coh": 0.771,
+          "regime": "HIGH"
+        },
+        {
+          "E": 76.05,
+          "Coh": 0.877,
+          "regime": "LOW"
+        }
+      ],
+      "high_rate": "1/2",
+      "note": "C3 generator \u2014 only rotation with HIGH"
+    },
+    "rot180": {
+      "episodes": [
+        {
+          "E": 74.75,
+          "Coh": 0.893,
+          "regime": "LOW"
+        },
+        {
+          "E": 75.88,
+          "Coh": 0.878,
+          "regime": "LOW"
+        }
+      ],
+      "high_rate": "0/2"
+    },
+    "freq_0_033_mode1": {
+      "episodes": [
+        {
+          "E": 76.03,
+          "Coh": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "E": 74.4,
+          "Coh": 0.892,
+          "regime": "LOW"
+        }
+      ],
+      "high_rate": "0/2",
+      "note": "Driving lowest non-trivial mode"
+    },
+    "freq_0_329_mode10": {
+      "episodes": [
+        {
+          "E": 76.2,
+          "Coh": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "E": 88.66,
+          "Coh": 0.77,
+          "regime": "HIGH"
+        }
+      ],
+      "high_rate": "1/2"
+    },
+    "freq_1_0_reference": {
+      "episodes": [
+        {
+          "E": 89.01,
+          "Coh": 0.769,
+          "regime": "HIGH"
+        },
+        {
+          "E": 88.75,
+          "Coh": 0.767,
+          "regime": "HIGH"
+        }
+      ],
+      "high_rate": "2/2",
+      "note": "100% HIGH \u2014 strongest effect observed"
+    },
+    "rot120_gated": {
+      "episodes": [
+        {
+          "E": 89.02,
+          "Coh": 0.771,
+          "regime": "HIGH"
+        },
+        {
+          "E": 75.27,
+          "Coh": 0.891,
+          "regime": "LOW"
+        }
+      ],
+      "high_rate": "1/2",
+      "note": "Strict resonance gating + C3 angle"
+    }
+  },
+  "findings": {
+    "H3_resonance_frequency": {
+      "verdict": "PARTIAL \u2014 frequency has effect but spectral-predicted modes did NOT dominate",
+      "evidence": "freq=1.0 (reference) gave 2/2 HIGH. freq=0.033 (mode 1) gave 0/2 HIGH. freq=0.329 (mode 10) gave 1/2 HIGH. The simple prediction that spectral modes 1 and 10 would produce strong resonance was wrong. Instead, freq=1.0 (a non-spectral default?) gave the strongest HIGH bias.",
+      "implication": "The --freq parameter doesn't map directly to graph Laplacian modes. It may be a drive amplitude, a different unit, or interact with the dynamics non-trivially. The fact that freq=1.0 gave pure HIGH suggests this value specifically resonates with the harmonic task's internal rhythm."
+    },
+    "H6_braiding_angle": {
+      "verdict": "WEAK SUPPORT \u2014 rot=120\u00b0 slightly differs from other angles",
+      "evidence": "rot=120\u00b0 (C3 generator) produced 1/2 HIGH while rot=60\u00b0, 90\u00b0, 180\u00b0 all produced 0/2 HIGH. Two data points per angle is too few to claim significance. rot=120\u00b0+gated also gave 1/2 HIGH, consistent with rot=120\u00b0 alone.",
+      "implication": "Other rotations suppressed the HIGH basin completely. 120\u00b0 preserved some HIGH occupation. This is consistent with rotation=120\u00b0 being the only C3-compatible angle."
+    },
+    "H8_C3_dominates_Z2": {
+      "verdict": "SUPPORTED \u2014 rotation (which can align with C3) vs asymmetry (pure Z2) give different effects",
+      "evidence": "asymmetry sweep (Phase B) shifted basin values continuously but preserved bistability near zero. Rotation sweep (Phase F) mostly suppressed HIGH except at 120\u00b0. These are qualitatively different responses.",
+      "implication": "The graph's C3 symmetry IS active in the dynamics. Rotations that align with C3 (120\u00b0) preserve the full basin structure. Rotations that break C3 (60\u00b0, 90\u00b0, 180\u00b0) suppress one basin."
+    }
+  }
+}

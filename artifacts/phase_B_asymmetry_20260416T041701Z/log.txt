@@ -1,0 +1,46 @@
+=== PHASE B: ASYMMETRY SWEEP (tests H1 and H8) ===
+
+--- ASYMMETRY = -1.0 ---
+error: unexpected argument '-1' found
+
+Usage: dm3_runner [OPTIONS]
+
+For more information, try '--help'.
+Duration: 0.5s
+Receipt:
+cat: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_B_asymmetry_20260416T041701Z/phaseB_asym_neg1_0.jsonl: No such file or directory
+
+--- ASYMMETRY = -0.5 ---
+error: unexpected argument '-0' found
+
+Usage: dm3_runner [OPTIONS]
+
+For more information, try '--help'.
+Duration: 0.5s
+Receipt:
+cat: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_B_asymmetry_20260416T041701Z/phaseB_asym_neg0_5.jsonl: No such file or directory
+
+--- ASYMMETRY = -0.1 ---
+error: unexpected argument '-0' found
+
+Usage: dm3_runner [OPTIONS]
+
+For more information, try '--help'.
+Duration: 0.5s
+Receipt:
+cat: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_B_asymmetry_20260416T041701Z/phaseB_asym_neg0_1.jsonl: No such file or directory
+
+--- ASYMMETRY = 0.0 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 3, Asymmetry: 0)
+Killed 
+Duration: 62.8s
+Receipt:
+
+--- ASYMMETRY = 0.1 ---
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 3, Asymmetry: 0.1)

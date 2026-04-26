@@ -1,0 +1,28 @@
+{
+  "phase": "N",
+  "name": "Intra-Episode Telemetry Investigation",
+  "status": "COMPLETE — N.2 (binary strings) and N.1 (schema probes) both completed.",
+  "N1_schema_scan": {
+    "completed": true,
+    "probes_run": ["autobrake", "dataset-size", "calibration"],
+    "findings": "All three probes produced standard 6-field receipts ({asymmetry, coherence, decision, delta_E, duration_ms, episode}) with no new telemetry fields. Per-step telemetry confirmed blocked — no user-accessible intra-episode emission regardless of flag combination."
+  },
+  "N2_binary_strings": {
+    "completed": true,
+    "binary_size_bytes": 9554600,
+    "binary_hash": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+    "findings": {
+      "learning_rules": ["R0: Random", "R1: Oja", "R2: Contrastive"],
+      "feature_dimension": 192,
+      "state_space_size": "380 vertices x 192 features = 72,960 floats",
+      "state_update_equation": "state_out = state_in + dt * (output - state_in) — relaxation dynamic",
+      "hidden_tasks": ["InterferenceTask", "holographic_memory", "exp_i0_classifier", "exp_r1_r4_campaign", "K1: Pattern Ontology Capacity", "G2 Boundary Readout"],
+      "graph_internals": ["OntologyInjector with sector/ring organization", "get_nodes_for_sector", "get_all_sectors_in_ring"],
+      "energy_model": "EbmCalibration + XnorSampler — energy-based model with XNOR binary sampling",
+      "holography_mechanism": "Boundary->Bulk mapping confirmed in strings",
+      "gpu_compute": "wgpu with fused transformer kernel (Q, K, V in shared memory)",
+      "per_step_telemetry": "NOT AVAILABLE — no user-accessible per-step emission found"
+    }
+  },
+  "N3_source_request": "docs/restart/BINARY_TELEMETRY_REQUEST.md needed for Session 5"
+}

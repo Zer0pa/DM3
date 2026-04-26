@@ -1,0 +1,586 @@
+===== STDOUT =====
+[POLICY] PASS
+[CFG] baseline restored
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 1 test
+test gc_bareiss_snapshot_numbers_and_deq_flags ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.36s
+
+
+running 1 test
+test lift_bigrational_baseline_and_grid ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.53s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 2 tests
+test a2_concurrency_and_euler_sane ... ok
+test a1_a4_basic_geometry_passes_on_dual ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.04s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+[POLICY] PASS
+ORIENTATION_STDOUT build-2d OK cfg=180c4e6f51caea33de3379faf4b3270e54e522fefeaaca3661ab1ed9fd4fd515
+EPOCH_STDOUT lift-3d OK cfg=180c4e6f51caea33de3379faf4b3270e54e522fefeaaca3661ab1ed9fd4fd515
+GATES_STDOUT delta_e_monotone=true jac_bound_ok=true mode_lock_pass=true
+[POLICY] PASS
+GATES_STDOUT verify gates_ok=true dep_cert=true gc_invariants=true lift=true stab=true cad_sos=true
+{
+  "cfg_hash": "180c4e6f51caea33de3379faf4b3270e54e522fefeaaca3661ab1ed9fd4fd515",
+  "gate_summary": {
+    "cad_sos_present": true,
+    "dep_cert_present": true,
+    "egraph_proof_valid": true,
+    "gates_ok": true,
+    "gc_invariants_pass": true,
+    "lift_pass": true,
+    "stab_pass": true
+  },
+  "sidecars": {
+    "A_egraph": {
+      "note": "demo equality",
+      "same_class": true
+    },
+    "B_bareiss": {
+      "G": {
+        "det": 6,
+        "g00": 2,
+        "g01": 0,
+        "g11": 3
+      },
+      "certificate": "rank(A)=2 via det(A^T A)!=0 (fraction-free integer arithmetic)",
+      "rank": 2,
+      "selected_normals": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "C_gc": {
+      "collinear_triplets": 60,
+      "concurrency_points_ge3": [
+        {
+          "degree": 3,
+          "x": "0",
+          "y": "0"
+        }
+      ],
+      "lines_with_ge3_points": 3,
+      "max_concurrency_degree": 3,
+      "n_lines_unique": 111,
+      "n_vertices": 18,
+      "pass": true
+    },
+    "D_cad_sos": {
+      "checks": {
+        "first_failure": null,
+        "helix_step": {
+          "count": 15,
+          "failures": 0
+        },
+        "pitch": "1/1",
+        "quaternion_unit": {
+          "count": 18,
+          "failures": 0
+        },
+        "rotation_identity": true,
+        "rotation_parameter": "1/2",
+        "rotor_parameter": "1/3",
+        "rotor_step": {
+          "count": 15,
+          "failures": 0
+        }
+      },
+      "pass": true
+    },
+    "LIFT": {
+      "checks": [
+        {
+          "ok_quaternion": true,
+          "ok_radius": true,
+          "ok_step": true,
+          "pass": true,
+          "radius_sq": "1/1",
+          "strand": 0
+        },
+        {
+          "ok_quaternion": true,
+          "ok_radius": true,
+          "ok_step": true,
+          "pass": true,
+          "radius_sq": "4/1",
+          "strand": 1
+        },
+        {
+          "ok_quaternion": true,
+          "ok_radius": true,
+          "ok_step": true,
+          "pass": true,
+          "radius_sq": "9/1",
+          "strand": 2
+        }
+      ],
+      "pass": true,
+      "pitch": "1/1",
+      "rot": {
+        "cos": "3/5",
+        "sin": "4/5"
+      }
+    },
+    "STAB": {
+      "available": true,
+      "delta_e_monotone": true,
+      "jac_spectral_bound_ok": true,
+      "mode_lock_pass": true
+    }
+  },
+  "timestamp": "2025-10-28T02:42:51.472674035+00:00"
+}
+{
+  "gates_ok": true,
+  "egraph_proof_valid": true,
+  "dep_cert_present": true,
+  "gc_invariants_pass": true,
+  "cad_sos_present": true
+}
+----- VERIFY SUMMARY -----
+{
+  "gates_ok": true,
+  "A_egraph": true,
+  "B_dep_cert": true,
+  "C_gc": true,
+  "CAD_SOS": true,
+  "LIFT": true,
+  "STAB": true,
+  "ts": "2025-10-28T02:42:51.472674035+00:00"
+}
+
+----- GC DETAIL -----
+{
+  "n_vertices": 18,
+  "n_lines_unique": 111,
+  "collinear_triplets": 60,
+  "max_concurrency_degree": 3,
+  "concurrency_points_ge3": [
+    {
+      "degree": 3,
+      "x": "0",
+      "y": "0"
+    }
+  ]
+}
+
+----- DEQ REPORT -----
+{
+  "delta_e_monotone": true,
+  "jac_spectral_bound_ok": true,
+  "mode_lock_pass": true,
+  "notes": {
+    "alpha": null,
+    "norm_inf_J": null,
+    "K": null
+  }
+}
+----- DEQ ENERGY TRACE (first 8) -----
+[
+  "18/1",
+  "984/55",
+  "53792/3025",
+  "8821888/499125",
+  "1446789632/82355625",
+  "237273499648/13588678125",
+  "38912853942272/2242131890625",
+  "6381708046532608/369951761953125"
+]
+
+
+----- CAD/SOS -----
+{
+  "pass": true,
+  "checks": {
+    "first_failure": null,
+    "helix_step": {
+      "count": 15,
+      "failures": 0
+    },
+    "pitch": "1/1",
+    "quaternion_unit": {
+      "count": 18,
+      "failures": 0
+    },
+    "rotation_identity": true,
+    "rotation_parameter": "1/2",
+    "rotor_parameter": "1/3",
+    "rotor_step": {
+      "count": 15,
+      "failures": 0
+    }
+  }
+}
+
+----- LIFT INVARIANTS -----
+{
+  "pass": true,
+  "pitch": "1/1",
+  "rot": {
+    "cos": "3/5",
+    "sin": "4/5"
+  },
+  "checks": [
+    {
+      "ok_quaternion": true,
+      "ok_radius": true,
+      "ok_step": true,
+      "pass": true,
+      "radius_sq": "1/1",
+      "strand": 0
+    },
+    {
+      "ok_quaternion": true,
+      "ok_radius": true,
+      "ok_step": true,
+      "pass": true,
+      "radius_sq": "4/1",
+      "strand": 1
+    },
+    {
+      "ok_quaternion": true,
+      "ok_radius": true,
+      "ok_step": true,
+      "pass": true,
+      "radius_sq": "9/1",
+      "strand": 2
+    }
+  ]
+}
+
+----- STAB DETAILS -----
+{
+  "available": true,
+  "delta_e_monotone": true,
+  "jac_spectral_bound_ok": true,
+  "mode_lock_pass": true
+}
+
+----- BAREISS DEP-CERT -----
+{
+  "G": {
+    "det": 6,
+    "g00": 2,
+    "g01": 0,
+    "g11": 3
+  },
+  "certificate": "rank(A)=2 via det(A^T A)!=0 (fraction-free integer arithmetic)",
+  "rank": 2,
+  "selected_normals": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      1
+    ]
+  ]
+}
+[REBUILD] receipts refreshed.
+[REBUILD] PASS: full verify and receipts complete
+===== STDERR =====
+   Compiling proc-macro2 v1.0.101
+   Compiling autocfg v1.5.0
+   Compiling unicode-ident v1.0.19
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling cfg-if v1.0.3
+   Compiling version_check v0.9.5
+   Compiling thiserror v1.0.69
+   Compiling anyhow v1.0.100
+   Compiling serde_json v1.0.145
+   Compiling num-traits v0.2.19
+   Compiling lazy_static v1.5.0
+   Compiling ryu v1.0.20
+   Compiling equivalent v1.0.2
+   Compiling hashbrown v0.16.0
+   Compiling memchr v2.7.6
+   Compiling itoa v1.0.15
+   Compiling either v1.15.0
+   Compiling colored v2.2.0
+   Compiling libc v0.2.176
+   Compiling quote v1.0.40
+   Compiling indexmap v2.11.4
+   Compiling syn v2.0.106
+   Compiling fixedbitset v0.4.2
+   Compiling itertools v0.13.0
+   Compiling typenum v1.18.0
+   Compiling generic-array v0.14.7
+   Compiling num-integer v0.1.46
+   Compiling petgraph v0.6.5
+   Compiling num-iter v0.1.45
+   Compiling ahash v0.7.8
+   Compiling shlex v1.3.0
+   Compiling find-msvc-tools v0.1.2
+   Compiling crossbeam-utils v0.8.21
+   Compiling cc v1.2.39
+   Compiling getrandom v0.2.16
+   Compiling once_cell v1.21.3
+   Compiling simd-adler32 v0.3.7
+   Compiling crc32fast v1.5.0
+   Compiling hashbrown v0.12.3
+   Compiling indexmap v1.9.3
+   Compiling arrayvec v0.7.6
+   Compiling crossbeam-epoch v0.9.18
+   Compiling utf8parse v0.2.2
+   Compiling arrayref v0.3.9
+   Compiling rayon-core v1.13.0
+   Compiling adler2 v2.0.1
+   Compiling constant_time_eq v0.3.1
+   Compiling miniz_oxide v0.8.9
+   Compiling crossbeam-deque v0.8.6
+   Compiling anstyle-parse v0.2.7
+   Compiling blake3 v1.8.2
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling anstyle-query v1.1.4
+   Compiling byteorder v1.5.0
+   Compiling same-file v1.0.6
+   Compiling log v0.4.28
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling colorchoice v1.0.4
+   Compiling anstyle v1.0.11
+   Compiling walkdir v2.5.0
+   Compiling env_logger v0.9.3
+   Compiling fxhash v0.2.1
+   Compiling anstream v0.6.20
+   Compiling flate2 v1.1.2
+   Compiling digest v0.10.7
+   Compiling serde_derive v1.0.228
+   Compiling thiserror-impl v1.0.69
+   Compiling symbol_table v0.2.0
+   Compiling fdeflate v0.3.7
+   Compiling cpufeatures v0.2.17
+   Compiling instant v0.1.13
+   Compiling strsim v0.11.1
+   Compiling clap_lex v0.7.5
+   Compiling iana-time-zone v0.1.64
+   Compiling bitflags v1.3.2
+   Compiling heck v0.5.0
+   Compiling smallvec v1.15.1
+   Compiling symbolic_expressions v5.0.3
+   Compiling clap_builder v4.5.48
+   Compiling chrono v0.4.42
+   Compiling png v0.17.16
+   Compiling clap_derive v4.5.47
+   Compiling sha2 v0.10.9
+   Compiling rayon v1.11.0
+   Compiling glob v0.3.3
+   Compiling egg v0.9.5
+   Compiling snic_tests v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/snic_tests)
+   Compiling clap v4.5.48
+   Compiling num-bigint v0.4.6
+   Compiling num-complex v0.4.6
+   Compiling num-rational v0.4.2
+   Compiling num v0.4.3
+   Compiling geometry_core v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/geometry_core)
+   Compiling yantra_2d v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/yantra_2d)
+   Compiling lift_3d v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/lift_3d)
+   Compiling invariants v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/invariants)
+   Compiling dynamics_deq v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/dynamics_deq)
+   Compiling yantra_3d_dual v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/yantra_3d_dual)
+   Compiling proof_gates v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/proof_gates)
+   Compiling checks v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/checks)
+   Compiling resonance_cpu v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/resonance_cpu)
+   Compiling deq_core v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/deq_core)
+   Compiling dual_cli v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/dual_cli)
+   Compiling pipeline_cpu v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/pipeline_cpu)
+   Compiling io_cli v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/io_cli)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 17.67s
+   Compiling snic_tests v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/snic_tests)
+   Compiling pipeline_cpu v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/pipeline_cpu)
+   Compiling io_cli v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/io_cli)
+   Compiling dual_cli v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/dual_cli)
+   Compiling resonance_cpu v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/resonance_cpu)
+   Compiling deq_core v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/deq_core)
+   Compiling yantra_3d_dual v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/yantra_3d_dual)
+   Compiling checks v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/checks)
+   Compiling dynamics_deq v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/dynamics_deq)
+   Compiling proof_gates v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/proof_gates)
+   Compiling invariants v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/invariants)
+   Compiling lift_3d v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/lift_3d)
+   Compiling yantra_2d v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/yantra_2d)
+   Compiling geometry_core v0.1.0 (/root/work/repo/01_PROVEN_LINEAGE/Z_P1_03_C10_Convergence/crates/geometry_core)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 4.60s
+     Running unittests src/lib.rs (target/debug/deps/checks-c644da47fb065473)
+     Running unittests src/lib.rs (target/debug/deps/deq_core-3a163df8fc6f06b9)
+     Running unittests src/main.rs (target/debug/deps/dual_cli-22fb313572689bc0)
+     Running unittests src/lib.rs (target/debug/deps/dynamics_deq-7c6970c861dd2f62)
+     Running unittests src/lib.rs (target/debug/deps/geometry_core-d06ce174c5a6ec69)
+     Running unittests src/lib.rs (target/debug/deps/invariants-6727ab6a0c050150)
+     Running unittests src/main.rs (target/debug/deps/snic_rust-dcc1a2410a9a7481)
+     Running unittests src/lib.rs (target/debug/deps/lift_3d-2baab5e914100276)
+     Running unittests src/main.rs (target/debug/deps/pipeline_cpu-01b14429d61bcb11)
+     Running unittests src/lib.rs (target/debug/deps/proof_gates-5fc605030828eea9)
+     Running unittests src/lib.rs (target/debug/deps/resonance_cpu-ee074b1d4b257dd0)
+     Running unittests src/lib.rs (target/debug/deps/snic_tests-22d4aeb99e3b71c8)
+     Running tests/core_invariants.rs (target/debug/deps/core_invariants-8b31b1eb84a2f9d4)
+     Running tests/lift_bigrat.rs (target/debug/deps/lift_bigrat-24249684e3104c8d)
+     Running unittests src/lib.rs (target/debug/deps/yantra_2d-f0f5e4e28448a800)
+     Running unittests src/lib.rs (target/debug/deps/yantra_3d_dual-eac04d23ac87395c)
+     Running tests/a_gates.rs (target/debug/deps/a_gates-4bb5ece1fedb2955)
+   Doc-tests checks
+   Doc-tests deq_core
+   Doc-tests dynamics_deq
+   Doc-tests geometry_core
+   Doc-tests invariants
+   Doc-tests lift_3d
+   Doc-tests proof_gates
+   Doc-tests resonance_cpu
+   Doc-tests snic_tests
+   Doc-tests yantra_2d
+   Doc-tests yantra_3d_dual
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.59s
+     Running `target/debug/snic_rust build-2d --config configs/CONFIG.json`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.54s
+     Running `target/debug/snic_rust lift-3d --config configs/CONFIG.json`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.58s
+     Running `target/debug/snic_rust solve-h2 --config configs/CONFIG.json`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.56s
+     Running `target/debug/snic_rust verify --config configs/CONFIG.json`

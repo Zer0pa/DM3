@@ -1,0 +1,11 @@
+[2026-04-17T14:49:18Z] session=1 start battery=80
+[2026-04-17T15:11:09Z] session=1 done rc=0 lines=20 battery=80
+[2026-04-17T15:11:39Z] session=2 start battery=80
+[2026-04-17T15:34:55Z] session=2 done rc=0 lines=20 battery=80
+[2026-04-17T15:35:25Z] session=3 start battery=80
+[2026-04-17T16:38:04Z] session=3 done rc=0 lines=20 battery=80
+[2026-04-17T16:38:34Z] session=4 start battery=80
+[2026-04-17T17:43:29Z] session=4 done rc=0 lines=20 battery=80
+[2026-04-17T17:43:59Z] session=5 start battery=80
+[2026-04-17T18:49:18Z] session=5 done rc=0 lines=20 battery=80
+[2026-04-17T18:49:18Z] COMPLETE

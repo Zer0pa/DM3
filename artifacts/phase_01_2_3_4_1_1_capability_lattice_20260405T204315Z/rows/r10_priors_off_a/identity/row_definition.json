@@ -1,0 +1,9 @@
+{
+  "config": "configs/CONFIG.no_priors.json",
+  "device_output_dir": "audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a",
+  "expectation": "First-result candidate row.",
+  "perturbation_family": "priors",
+  "perturbation_summary": "Disable Sanskrit adjacency and yantra priors.",
+  "role": "candidate",
+  "row_id": "r10_priors_off_a"
+}

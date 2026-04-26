@@ -1,0 +1,5 @@
+{"asymmetry":0.0,"coherence":0.7677673697471619,"decision":"Commit","delta_E":88.90528869628906,"duration_ms":97137,"episode":0}
+{"asymmetry":0.0,"coherence":0.8909212350845337,"decision":"Commit","delta_E":75.61542510986328,"duration_ms":111177,"episode":1}
+{"asymmetry":0.0,"coherence":0.7706224918365479,"decision":"Commit","delta_E":88.9793930053711,"duration_ms":66283,"episode":2}
+{"asymmetry":0.0,"coherence":0.8918850421905518,"decision":"Commit","delta_E":74.77074432373047,"duration_ms":98140,"episode":3}
+{"asymmetry":0.0,"coherence":0.8911277055740356,"decision":"Commit","delta_E":75.7330322265625,"duration_ms":106133,"episode":4}

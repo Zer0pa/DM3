@@ -1,0 +1,7 @@
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 20, Asymmetry: -0.2)
+Ep 0: Dec=Commit E=74.9866 Coh=0.8757
+Ep 10: Dec=Commit E=73.1625 Coh=0.8909
+Resonance Loop Complete.

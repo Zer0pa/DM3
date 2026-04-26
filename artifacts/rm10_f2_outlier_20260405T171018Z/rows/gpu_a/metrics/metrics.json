@@ -1,0 +1,16 @@
+{
+  "run_id": "rm10_f2_outlier_20260405T171018Z_gpu_a",
+  "lane": "gpu",
+  "marker": "gpu_init",
+  "decision": "Commit",
+  "delta_E": 76.27044677734375,
+  "coherence": 0.8767790198326111,
+  "duration_ms": 81139,
+  "episode": 0,
+  "receipt_sha256": "558be3025aa2f965b8e2fbfa045aaa50baa46e134907174780af197deb502e29",
+  "exit_code": 0,
+  "battery_temp_pre_c": 37.0,
+  "battery_temp_post_c": 37.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

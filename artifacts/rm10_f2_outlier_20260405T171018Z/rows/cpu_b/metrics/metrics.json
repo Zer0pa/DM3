@@ -1,0 +1,16 @@
+{
+  "run_id": "rm10_f2_outlier_20260405T171018Z_cpu_b",
+  "lane": "cpu",
+  "marker": "cpu_forced",
+  "decision": "Commit",
+  "delta_E": 75.4384765625,
+  "coherence": 0.891244649887085,
+  "duration_ms": 80408,
+  "episode": 0,
+  "receipt_sha256": "80495e41f9b1213bd4151f7e4c50019cdf5159339247bf07cc4d44d68d91b20f",
+  "exit_code": 0,
+  "battery_temp_pre_c": 38.0,
+  "battery_temp_post_c": 38.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

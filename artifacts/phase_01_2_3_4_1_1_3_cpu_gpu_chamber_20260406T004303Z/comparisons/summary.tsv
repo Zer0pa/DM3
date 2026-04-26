@@ -1,0 +1,5 @@
+row_name	lane	task	gated	decision	delta_E	coherence	duration_ms	marker	status
+cpu_harmonic_a	cpu	harmonic	False					cpu_forced	receipt_missing
+gpu_harmonic_a	gpu	harmonic	False					gpu_init	receipt_missing
+cpu_harmonic_b	cpu	harmonic	False	Commit	75.94084167480469	0.8773042559623718	69140	cpu_forced	ok
+gpu_harmonic_b	gpu	harmonic	False	Commit	75.9156265258789	0.8770883083343506	64503	gpu_init	ok

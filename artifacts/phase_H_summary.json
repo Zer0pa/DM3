@@ -1,0 +1,78 @@
+{
+  "phase": "H",
+  "name": "Statistical Replication at N=5",
+  "carving_goal": "Remove the possibility that Session 3's main findings are 2-episode noise.",
+  "started": "2026-04-16T14:36:54Z",
+  "finished": "2026-04-16T16:09:58Z",
+  "device_time_min": 93,
+  "device": "FY25013101C8",
+  "binary_hash": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "thresholds": {
+    "HIGH": "E > 82 AND Coh < 0.82",
+    "LOW": "E < 82 AND Coh > 0.82",
+    "RETRY": "E in [12,20] AND Coh in [0.68,0.78] (holography-task)"
+  },
+  "runs": {
+    "H.1_ham": {"flags": "--use-layernorm false", "n": 5, "high_rate": "1/5", "counts": {"LOW": 4, "HIGH": 1}, "E_range": [74.64, 88.80]},
+    "H.2_ln":  {"flags": "--use-layernorm true",  "n": 5, "high_rate": "1/5", "counts": {"LOW": 4, "HIGH": 1}, "E_range": [75.50, 88.93]},
+    "H.3_asym_neg1":  {"flags": "--asymmetry=-1.0", "n": 5, "high_rate": "0/5", "counts": {"LOW": 5}, "E_range": [68.95, 69.52], "note": "deep-low cluster — all below normal LOW"},
+    "H.4_asym_neg01": {"flags": "--asymmetry=-0.1", "n": 5, "high_rate": "4/5", "counts": {"HIGH": 4, "LOW": 1}, "E_range": [75.42, 88.33]},
+    "H.5_asym_01":    {"flags": "--asymmetry=0.1",  "n": 5, "high_rate": "1/5", "counts": {"HIGH": 1, "LOW": 4}, "E_range": [75.27, 89.54]},
+    "H.6_asym_10":    {"flags": "--asymmetry=1.0",  "n": 5, "high_rate": "1/5", "counts": {"LOW": 3, "OTHER": 1, "HIGH": 1}, "E_range": [80.43, 94.57], "note": "max E=94.57 confirms elevated HIGH existence"},
+    "H.7_rot120":     {"flags": "--rotation 120",   "n": 5, "high_rate": "0/5", "counts": {"LOW": 5}, "E_range": [74.57, 75.89], "note": "C3-generator rotation gave ZERO HIGH — contradicts Session 3"},
+    "H.8_rot60":      {"flags": "--rotation 60",    "n": 5, "high_rate": "1/5", "counts": {"LOW": 4, "HIGH": 1}, "E_range": [74.58, 88.87]},
+    "H.9_rot0":       {"flags": "--rotation 0",     "n": 5, "high_rate": "2/5", "counts": {"LOW": 3, "HIGH": 2}, "E_range": [75.54, 89.00], "note": "rot=0 baseline showed more HIGH than rot=120"},
+    "H.10_freq10":    {"flags": "--freq 1.0",       "n": 5, "high_rate": "1/5", "counts": {"LOW": 4, "HIGH": 1}, "E_range": [74.60, 89.06], "note": "Session 3's 100% HIGH claim FAILS at N=5"},
+    "H.11_freq0033":  {"flags": "--freq 0.033",     "n": 5, "high_rate": "2/5", "counts": {"HIGH": 2, "LOW": 3}, "E_range": [75.49, 89.08], "note": "Mode-1 spectral freq gave MORE HIGH than freq=1.0"},
+    "H.12_holography":{"flags": "--task holography","n": 5, "high_rate": "0/5", "counts": {"RETRY": 5}, "E_range": [14.83, 15.74], "Coh_range": [0.7308, 0.7460], "note": "Monostable retry cluster CONFIRMED — all 5 in E=15±0.5, Coh=0.74±0.01"},
+    "H.13_truth_default": {"flags": "--enable-truth-sensor", "n": 5, "high_rate": "2/5", "counts": {"LOW": 3, "HIGH": 2}, "E_range": [74.98, 89.04]},
+    "H.14_truth_strong":  {"flags": "--enable-truth-sensor --sensor-threshold 0.1 --sensor-strength 0.9", "n": 5, "high_rate": "2/5", "counts": {"LOW": 3, "HIGH": 2}, "E_range": [74.72, 88.92], "note": "Strong sensor did NOT suppress HIGH — Session 3's unidirectional-LOW claim weakens"}
+  },
+  "pre_registration_evaluation": {
+    "H2_HAM_HIGH_le_30pct":            {"predicted": "≤ 30%", "observed": "20% (1/5)", "verdict": "HELD"},
+    "H2_LN_HIGH_ge_50pct":             {"predicted": "≥ 50%", "observed": "20% (1/5)", "verdict": "FAILED"},
+    "asym_neg1_deep_low_all_E_lt_74":  {"predicted": "all E < 74 & Coh > 0.85", "observed": "all E in [68.95, 69.52], Coh in [0.865, 0.878]", "verdict": "HELD"},
+    "asym_pos1_one_E_gt_90":           {"predicted": "at least one E > 90", "observed": "E=94.57 in ep 4", "verdict": "HELD"},
+    "rot120_differs_from_other":       {"predicted": "rot=120 differs from rot={60,0}", "observed": "rot=120 0/5 vs rot=60 1/5 vs rot=0 2/5 — rot=120 is the LOWEST, not the highest", "verdict": "HELD BUT WITH SIGN INVERTED from Session 3"},
+    "freq10_HIGH_ge_80pct":            {"predicted": "≥ 80%", "observed": "20% (1/5)", "verdict": "FAILED"},
+    "holography_cluster_stable":       {"predicted": "all 5 in E∈[12,18] Coh∈[0.70,0.76] Retry", "observed": "all 5 in E∈[14.83,15.74] Coh∈[0.731,0.746]", "verdict": "HELD"},
+    "truth_sensor_le_20pct_overall":   {"predicted": "≤ 20% across 10 eps", "observed": "40% (4/10)", "verdict": "FAILED"}
+  },
+  "kill_criteria_evaluation": {
+    "reopen_H2_if_HAM_HIGH_ge_50pct":           {"criterion": "HAM HIGH ≥ 50%", "observed": "20%", "triggered": false, "note": "H2 kill STANDS — but weakens because LN also dropped to 20%"},
+    "asym_order_param_softens_if_asym_neg1_any_E_gt_82":  {"criterion": "asym=-1 any E > 82", "observed": "max 69.52", "triggered": false, "note": "CONFIRMED"},
+    "C3_softens_if_rot120_equals_rot0":          {"criterion": "rot=120 HIGH rate = rot=0 HIGH rate", "observed": "0/5 vs 2/5 — differentiated but rot=120 is LOWER", "triggered": "PARTIAL"},
+    "H3_dies_if_freq10_lt_60pct":                {"criterion": "freq=1.0 HIGH < 60%", "observed": "20%", "triggered": true, "note": "freq=1.0 'strongest HIGH' claim DIES"},
+    "holography_not_monostable_if_basin_switching": {"criterion": "any basin-switching in holography", "observed": "all 5 in RETRY cluster, no switching", "triggered": false, "note": "MONOSTABLE RETRY CONFIRMED"}
+  },
+  "session_3_findings_revised_status": {
+    "geometry_sovereign":              {"session_3": "solid", "session_4_N5": "HOLDS — HAM and LN both give 20% HIGH, geometry produces bistability without transformer; if anything, transformer's bias role is SMALLER than Session 3 thought"},
+    "C3_dominant_graph_topology":      {"session_3": "solid", "session_4_N5": "UNCHANGED — graph-theoretic claim, not re-tested"},
+    "HIGH_LOW_basin_values":           {"session_3": "solid", "session_4_N5": "REPLICATED — HIGH E≈88-89 Coh≈0.77, LOW E≈75-76 Coh≈0.88-0.89 across all N=5 runs"},
+    "per_episode_basin_selection":     {"session_3": "solid", "session_4_N5": "REPLICATED — all 14 runs show per-episode basin variation"},
+    "inference_mode_stub":             {"session_3": "solid", "session_4_N5": "UNCHANGED — not re-tested"},
+    "asymmetry_order_parameter":       {"session_3": "suggestive", "session_4_N5": "PROMOTED TO SOLID — deep-low at asym=-1 (E=69±0.3), sign-flip HIGH bias (asym=-0.1: 80%, asym=+0.1: 20%), elevated HIGH at asym=+1 (max 94.57)"},
+    "rot120_preserves_bistability":    {"session_3": "suggestive", "session_4_N5": "KILLED — rot=120 gave 0/5 HIGH (lower than rot=0's 2/5)"},
+    "freq10_100pct_HIGH":              {"session_3": "suggestive", "session_4_N5": "KILLED — freq=1.0 gave 20% HIGH (Session 3's 2/2 was noise)"},
+    "holography_third_attractor":      {"session_3": "suggestive", "session_4_N5": "PROMOTED TO SOLID — monostable Retry cluster at E=15.2±0.4, Coh=0.74±0.005"},
+    "truth_sensor_unidirectional_LOW": {"session_3": "suggestive", "session_4_N5": "KILLED — default 40% HIGH, strong 40% HIGH, NOT suppressed below baseline"}
+  },
+  "verdicts": {
+    "H1_asymmetry_breaks_Z2":       {"session_3": "CONFIRMED", "session_4": "CONFIRMED (strengthened)"},
+    "H2_transformer_creates_bistability": {"session_3": "KILLED", "session_4": "KILLED (strengthened — HAM and LN now indistinguishable, transformer bias role smaller than thought)"},
+    "H3_resonance_freq_selects_basin":    {"session_3": "PARTIAL (freq=1.0 → 100% HIGH)", "session_4": "KILLED (freq=1.0 → 20% HIGH at N=5)"},
+    "H4_truth_sensor_homeostasis":        {"session_3": "PARTIAL (unidirectional LOW)", "session_4": "KILLED as-described (did not suppress HIGH at N=5)"},
+    "H5_holography_different_basins":     {"session_3": "CONFIRMED", "session_4": "CONFIRMED (monostable Retry)"},
+    "H6_braiding_exposes_attractors":     {"session_3": "WEAK", "session_4": "KILLED (rot=120 gave 0/5, lower than rot=0)"},
+    "H8_C3_dominates_Z2_dynamically":     {"session_3": "SUPPORTED", "session_4": "WEAKENED (C3 rotation's 'specialness' in dynamics does not replicate)"}
+  },
+  "actionable_decisions_for_downstream_phases": {
+    "phase_I": "Run full I.a freq sweep. freq=1.0 dropped to 20% so a nearby peak may still exist. If no peak emerges, skip I.c coupling (per PRD rule). I.b holography subset still worthwhile.",
+    "phase_J": "Proceed — holography attractor is confirmed monostable at default, so sweep tests whether parameters move it.",
+    "phase_K": "Proceed — asymmetry is the strongest confirmed parameter. Fine sweep should locate sharp vs smooth transition.",
+    "phase_L": "Proceed — rotation effect is now uncertain. Rotation×asymmetry coupling may reveal hidden structure.",
+    "phase_M": "Proceed unchanged.",
+    "phase_N": "Proceed unchanged."
+  },
+  "carving_achieved": "Five of seven 'suggestive' Session 3 findings were either killed or redefined at N=5. Only asymmetry-order-parameter and holography-monostable-attractor survived promotion to solid. The object is less parameter-responsive than Session 3 suggested — most of the apparent control came from statistical noise at N=2."
+}

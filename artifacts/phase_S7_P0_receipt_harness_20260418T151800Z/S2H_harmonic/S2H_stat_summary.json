@@ -1,0 +1,38 @@
+{
+  "harness_version": "s7_p0_v2",
+  "experiment_id": "S2H_harmonic",
+  "experiment_type": "substrate-invariance_statistical",
+  "timestamp_utc": "2026-04-19T14:05:00Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "task": "harmonic",
+  "steps_per_run": 5,
+  "total_runs": 50,
+  "total_episodes": 250,
+  "pinned_core": 7,
+  "pre_registered_criterion": "Wilson 95% CI of observed p(HIGH) overlaps Session 5 P2a baseline CI [25.5%, 43.7%] AND the canonical-SHA multiset is not invariant under pinned-substrate repetition (each run produces its own canonical SHA because harmonic basin selection is IID Bernoulli per Session 5).",
+  "basin_counts": {
+    "HIGH": 89,
+    "LOW": 161,
+    "OTHER": 0
+  },
+  "p_HIGH": 0.356,
+  "wilson_95_ci": [0.299, 0.417],
+  "baseline_p_HIGH_session5_p2a": 0.34,
+  "baseline_95_ci": [0.255, 0.437],
+  "ci_overlap_with_baseline": true,
+  "ci_overlap_range": [0.299, 0.417],
+  "unique_canonical_sha_count": 50,
+  "unique_raw_sha_count": 50,
+  "per_run_HIGH_distribution": {
+    "0_HIGH_of_5": 4,
+    "1_HIGH_of_5": 19,
+    "2_HIGH_of_5": 15,
+    "3_HIGH_of_5": 8,
+    "4_HIGH_of_5": 4,
+    "5_HIGH_of_5": 0
+  },
+  "kat_pre_run": "OK",
+  "kat_post_run": "OK",
+  "verdict": "PASS",
+  "verdict_interpretation": "Dynamics-layer substrate invariance confirmed. Observed p(HIGH) under pinned Prime-core cpu7 / airplane preserved / fan auto / walt governor is statistically indistinguishable from Session 5 P2a baseline (asym=0, independent session). The 50 distinct canonical SHAs reflect the per-episode IID Bernoulli RNG that Session 5 P2a confirmed at N=100; they are the correct signature of stochastic-selection dynamics, NOT a substrate-coupling signature."
+}

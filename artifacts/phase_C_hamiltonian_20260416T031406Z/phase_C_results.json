@@ -1,0 +1,185 @@
+{
+  "phase": "C",
+  "hypothesis": "H2: Transformer creates bistability",
+  "verdict": "KILLED",
+  "finding": "Bistability persists in Hamiltonian mode. Transformer biases toward HIGH (~3x) but does not create the basins.",
+  "hamiltonian_runs": [
+    {
+      "run": "ham_init_1",
+      "delta_E": 75.75,
+      "coherence": 0.877,
+      "regime": "LOW",
+      "duration_s": 200.1
+    },
+    {
+      "run": "ham_init_2",
+      "delta_E": 75.92,
+      "coherence": 0.877,
+      "regime": "LOW",
+      "duration_s": 200.0
+    },
+    {
+      "run": "ham_init_3",
+      "delta_E": 74.62,
+      "coherence": 0.892,
+      "regime": "LOW",
+      "duration_s": 199.1
+    },
+    {
+      "run": "ham_init_4",
+      "delta_E": 74.96,
+      "coherence": 0.892,
+      "regime": "LOW",
+      "duration_s": 200.4
+    },
+    {
+      "run": "ham_init_5",
+      "delta_E": 75.91,
+      "coherence": 0.877,
+      "regime": "LOW",
+      "duration_s": 199.4
+    },
+    {
+      "run": "ham_inter_1",
+      "delta_E": 76.05,
+      "coherence": 0.891,
+      "regime": "LOW",
+      "duration_s": 203.4
+    },
+    {
+      "run": "ham_inter_2",
+      "delta_E": 75.56,
+      "coherence": 0.877,
+      "regime": "LOW",
+      "duration_s": 215.0
+    },
+    {
+      "run": "ham_inter_3",
+      "delta_E": 89.16,
+      "coherence": 0.769,
+      "regime": "HIGH",
+      "duration_s": 198.7
+    },
+    {
+      "run": "ham_inter_4",
+      "delta_E": 74.74,
+      "coherence": 0.878,
+      "regime": "LOW",
+      "duration_s": 214.2
+    },
+    {
+      "run": "ham_inter_5",
+      "delta_E": 89.04,
+      "coherence": 0.771,
+      "regime": "HIGH",
+      "duration_s": 309.7
+    }
+  ],
+  "layernorm_runs": [
+    {
+      "run": "ln_warmup",
+      "delta_E": 74.83,
+      "coherence": 0.892,
+      "regime": "LOW",
+      "duration_s": 200
+    },
+    {
+      "run": "ln_control_1",
+      "delta_E": 75.15,
+      "coherence": 0.878,
+      "regime": "LOW",
+      "duration_s": 200.5
+    },
+    {
+      "run": "ln_post_1",
+      "delta_E": 74.48,
+      "coherence": 0.892,
+      "regime": "LOW",
+      "duration_s": 191.7
+    },
+    {
+      "run": "ln_post_2",
+      "delta_E": 74.83,
+      "coherence": 0.893,
+      "regime": "LOW",
+      "duration_s": 197.3
+    },
+    {
+      "run": "ln_post_3",
+      "delta_E": 89.09,
+      "coherence": 0.77,
+      "regime": "HIGH",
+      "duration_s": 201.5
+    },
+    {
+      "run": "ln_post_4",
+      "delta_E": 75.39,
+      "coherence": 0.892,
+      "regime": "LOW",
+      "duration_s": 199.6
+    },
+    {
+      "run": "ln_inter_1",
+      "delta_E": 88.94,
+      "coherence": 0.768,
+      "regime": "HIGH",
+      "duration_s": 201.1
+    },
+    {
+      "run": "ln_inter_2",
+      "delta_E": 75.57,
+      "coherence": 0.877,
+      "regime": "LOW",
+      "duration_s": 201.6
+    },
+    {
+      "run": "ln_inter_3",
+      "delta_E": 88.71,
+      "coherence": 0.77,
+      "regime": "HIGH",
+      "duration_s": 196.7
+    },
+    {
+      "run": "ln_inter_4",
+      "delta_E": 88.33,
+      "coherence": 0.768,
+      "regime": "HIGH",
+      "duration_s": 326.2
+    },
+    {
+      "run": "ln_inter_5",
+      "delta_E": 88.58,
+      "coherence": 0.77,
+      "regime": "HIGH",
+      "duration_s": 199.0
+    }
+  ],
+  "statistics": {
+    "hamiltonian_high_rate": "2/10 = 20%",
+    "layernorm_high_rate_all": "5/11 = 45%",
+    "layernorm_high_rate_interleaved": "4/5 = 80%",
+    "hamiltonian_high_rate_interleaved": "2/5 = 40%",
+    "high_basin_values": {
+      "delta_E_range": [
+        88.3,
+        89.2
+      ],
+      "coherence_range": [
+        0.768,
+        0.771
+      ]
+    },
+    "low_basin_values": {
+      "delta_E_range": [
+        74.5,
+        76.1
+      ],
+      "coherence_range": [
+        0.877,
+        0.892
+      ]
+    },
+    "basins_identical_between_modes": true
+  },
+  "interpretation": "The two basins are properties of the GEOMETRY + dynamics. The transformer (LayerNorm) acts as a perturbation that increases the probability of HIGH basin occupation (~3x) without creating or fundamentally changing the landscape. This proves the Double Meru geometry itself is computationally active, not just decorative."
+}

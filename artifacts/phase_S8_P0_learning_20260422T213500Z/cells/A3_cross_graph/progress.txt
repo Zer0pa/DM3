@@ -1,0 +1,28 @@
+[13:55:56] A3 RERUN start: cross-graph SY/RA x v1/v2 @ steps=20 N=3 (CPU-only thermal gate)
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_SY_v1_r1.bin': No such file or directory
+OK A3_cross_graph_SY_v1_r1 rc=0 out_sha= receipt_sha=a9bd256c7ee7a9f34571ddb7d173ba50dfcd4c4da47c787422010be8466fa0fc
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_SY_v1_r2.bin': No such file or directory
+OK A3_cross_graph_SY_v1_r2 rc=0 out_sha= receipt_sha=1e98a2828252e769b0a6bc84aecdb7c66f458b2e472fb9eac007f972a5d3244d
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_SY_v1_r3.bin': No such file or directory
+OK A3_cross_graph_SY_v1_r3 rc=0 out_sha= receipt_sha=37c960c662bd89d094cf8a6f6f62cf89796a2a9ea3b8d38fa6abdeff15e31f7c
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_SY_v2_r1.bin': No such file or directory
+OK A3_cross_graph_SY_v2_r1 rc=0 out_sha= receipt_sha=aa01b112b9313b82710e03990c8acb0e01e37faf072b5dce0877901541a25a7f
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_SY_v2_r2.bin': No such file or directory
+OK A3_cross_graph_SY_v2_r2 rc=0 out_sha= receipt_sha=a84dc08ce84c8d31f5e40ac9ab4fd2555a03340eda2cc691acbfe831dfb63097
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_SY_v2_r3.bin': No such file or directory
+OK A3_cross_graph_SY_v2_r3 rc=0 out_sha= receipt_sha=0bba38ed95a84cc0c9e9cefd9fda668938aa6533ceaf68791a8f99b906447937
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_RA_v1_r1.bin': No such file or directory
+OK A3_cross_graph_RA_v1_r1 rc=0 out_sha= receipt_sha=5848b3f536c34335f3b2fe338cc7b3a2c51bdb402c2abbe1179059d132f424ee
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_RA_v1_r2.bin': No such file or directory
+OK A3_cross_graph_RA_v1_r2 rc=0 out_sha= receipt_sha=da596d69993a03ec3e671b23f4dfa8ce83e759da01d376c5ac4d6558967be1c0
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_RA_v1_r3.bin': No such file or directory
+OK A3_cross_graph_RA_v1_r3 rc=0 out_sha= receipt_sha=a3ec06ba638b320b2f4fa31b686ab1563e7c7d36c17efbda413e891c89769aab
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_RA_v2_r1.bin': No such file or directory
+OK A3_cross_graph_RA_v2_r1 rc=0 out_sha= receipt_sha=ae63b82bd33e9ac129d60d9f577ca20737fa60397a02f07d51673ceec0d3c617
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_RA_v2_r2.bin': No such file or directory
+OK A3_cross_graph_RA_v2_r2 rc=0 out_sha= receipt_sha=843fc5e2e6c36aea6bedc9546e705e05a94de2bb97bc058d254bfc935bf4f3cd
+cp: bad '/data/local/tmp/dm3_harness/cells/A3_cross_graph/A3_cross_graph_RA_v2_r3.bin': No such file or directory
+OK A3_cross_graph_RA_v2_r3 rc=0 out_sha= receipt_sha=8aae1604b30c62bf3af1c5b4ca83614fb0ea2338fa6a6484e3801a07ecec09db
+SUMMARY exp=A3_cross_graph runs=13 unique_canonical=1 verdict=PASS summary_sha=1100f4707ccd86fd9080ee92f965434e359e4251c43cf9ed64cafe2ed7707cf5
+[17:43:22] A3_RERUN_COMPLETE
+[17:43:22] EXIT

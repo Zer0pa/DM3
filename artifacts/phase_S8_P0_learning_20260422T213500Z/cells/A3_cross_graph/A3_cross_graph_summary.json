@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "A3_cross_graph",
+  "timestamp_utc": "2026-04-23T17:43:22Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 13,
+  "unique_output_sha256_raw": 12,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 12,
+  "unique_output_sha256_list_raw": ["A3_cross_graph_RA_v1_r1.bin","A3_cross_graph_RA_v1_r2.bin","A3_cross_graph_RA_v1_r3.bin","A3_cross_graph_RA_v2_r1.bin","A3_cross_graph_RA_v2_r2.bin","A3_cross_graph_RA_v2_r3.bin","A3_cross_graph_SY_v1_r1.bin","A3_cross_graph_SY_v1_r2.bin","A3_cross_graph_SY_v1_r3.bin","A3_cross_graph_SY_v2_r1.bin","A3_cross_graph_SY_v2_r2.bin","A3_cross_graph_SY_v2_r3.bin"],
+  "unique_output_sha256_list_canonical": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "output_sha256_per_run": ["A3_cross_graph_RA_v1_r1.bin","A3_cross_graph_RA_v1_r2.bin","A3_cross_graph_RA_v1_r3.bin","A3_cross_graph_RA_v2_r1.bin","A3_cross_graph_RA_v2_r2.bin","A3_cross_graph_RA_v2_r3.bin","A3_cross_graph_SY_v1_r1.bin","A3_cross_graph_SY_v1_r2.bin","A3_cross_graph_SY_v1_r3.bin","A3_cross_graph_SY_v2_r1.bin","A3_cross_graph_SY_v2_r2.bin","A3_cross_graph_SY_v2_r3.bin"],
+  "output_canonical_sha256_per_run": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "receipt_sha256_per_run": ["5848b3f536c34335f3b2fe338cc7b3a2c51bdb402c2abbe1179059d132f424ee","da596d69993a03ec3e671b23f4dfa8ce83e759da01d376c5ac4d6558967be1c0","a3ec06ba638b320b2f4fa31b686ab1563e7c7d36c17efbda413e891c89769aab","ae63b82bd33e9ac129d60d9f577ca20737fa60397a02f07d51673ceec0d3c617","843fc5e2e6c36aea6bedc9546e705e05a94de2bb97bc058d254bfc935bf4f3cd","8aae1604b30c62bf3af1c5b4ca83614fb0ea2338fa6a6484e3801a07ecec09db","a9bd256c7ee7a9f34571ddb7d173ba50dfcd4c4da47c787422010be8466fa0fc","1e98a2828252e769b0a6bc84aecdb7c66f458b2e472fb9eac007f972a5d3244d","37c960c662bd89d094cf8a6f6f62cf89796a2a9ea3b8d38fa6abdeff15e31f7c","aa01b112b9313b82710e03990c8acb0e01e37faf072b5dce0877901541a25a7f","a84dc08ce84c8d31f5e40ac9ab4fd2555a03340eda2cc691acbfe831dfb63097","0bba38ed95a84cc0c9e9cefd9fda668938aa6533ceaf68791a8f99b906447937"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}

@@ -1,0 +1,30 @@
+starting
+[1/14] H.1_ham starting at 2026-04-16T14:36:54Z
+[1/14] H.1_ham done at 2026-04-16T14:41:51Z rc=0 pull_rc=0 batt=48 therm=0
+[2/14] H.2_ln starting at 2026-04-16T14:41:51Z
+[2/14] H.2_ln done at 2026-04-16T14:47:08Z rc=0 pull_rc=0 batt=51 therm=0
+[3/14] H.3_asym_neg1 starting at 2026-04-16T14:47:08Z
+[3/14] H.3_asym_neg1 done at 2026-04-16T14:54:02Z rc=0 pull_rc=0 batt=56 therm=0
+[4/14] H.4_asym_neg01 starting at 2026-04-16T14:54:02Z
+[4/14] H.4_asym_neg01 done at 2026-04-16T15:01:07Z rc=0 pull_rc=0 batt=60 therm=0
+[5/14] H.5_asym_01 starting at 2026-04-16T15:01:08Z
+[5/14] H.5_asym_01 done at 2026-04-16T15:07:55Z rc=0 pull_rc=0 batt=65 therm=0
+[6/14] H.6_asym_10 starting at 2026-04-16T15:07:55Z
+[6/14] H.6_asym_10 done at 2026-04-16T15:15:05Z rc=0 pull_rc=0 batt=69 therm=0
+[7/14] H.7_rot120 starting at 2026-04-16T15:15:06Z
+[7/14] H.7_rot120 done at 2026-04-16T15:22:01Z rc=0 pull_rc=0 batt=74 therm=0
+[8/14] H.8_rot60 starting at 2026-04-16T15:22:01Z
+[8/14] H.8_rot60 done at 2026-04-16T15:32:11Z rc=0 pull_rc=0 batt=80 therm=0
+[9/14] H.9_rot0 starting at 2026-04-16T15:32:12Z
+[9/14] H.9_rot0 done at 2026-04-16T15:38:53Z rc=0 pull_rc=0 batt=80 therm=0
+[10/14] H.10_freq10 starting at 2026-04-16T15:38:53Z
+[10/14] H.10_freq10 done at 2026-04-16T15:45:02Z rc=0 pull_rc=0 batt=80 therm=0
+[11/14] H.11_freq0033 starting at 2026-04-16T15:45:02Z
+[11/14] H.11_freq0033 done at 2026-04-16T15:51:16Z rc=0 pull_rc=0 batt=80 therm=0
+[12/14] H.12_holography starting at 2026-04-16T15:51:16Z
+[12/14] H.12_holography done at 2026-04-16T15:57:27Z rc=0 pull_rc=0 batt=80 therm=0
+[13/14] H.13_truth_default starting at 2026-04-16T15:57:28Z
+[13/14] H.13_truth_default done at 2026-04-16T16:02:51Z rc=0 pull_rc=0 batt=80 therm=0
+[14/14] H.14_truth_strong starting at 2026-04-16T16:02:51Z
+[14/14] H.14_truth_strong done at 2026-04-16T16:09:58Z rc=0 pull_rc=0 batt=80 therm=0
+done

@@ -1,0 +1,14 @@
+{
+  "name": "gpu_harmonic_a",
+  "surface_id": "f2_root_chamber_candidate",
+  "lane": "gpu",
+  "task": "harmonic",
+  "steps": 1,
+  "gated": false,
+  "freq": null,
+  "rotation": 0.0,
+  "asymmetry": 0.0,
+  "note": "GPU-coupled harmonic row A.",
+  "command_exact": "adb shell 'cd /data/local/tmp && rm -f /data/local/tmp/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_gpu_harmonic_a.jsonl && /system/bin/timeout 180 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --output /data/local/tmp/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_gpu_harmonic_a.jsonl'",
+  "output_path": "/data/local/tmp/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_gpu_harmonic_a.jsonl"
+}

@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "gpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_gpu_a",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_gpu_a.jsonl",
+      "receipt_sha256": "79dbac115132a39fdcfe3e4b471af0b7e7cbe0e731e239efb553b32beee8c7de",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay/rows/gpu_a/identity/command.txt",
+      "start_utc": "2026-04-15T23:01:59Z",
+      "end_utc": "2026-04-15T23:05:23Z"
+    }
+  ]
+}

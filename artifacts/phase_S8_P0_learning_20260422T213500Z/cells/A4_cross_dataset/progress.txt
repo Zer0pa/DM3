@@ -1,0 +1,22 @@
+[17:43:22] A4 RERUN start: xnor_{train,mini,test} @ steps=20 N=3 (CPU-only thermal gate)
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_train_r1.bin': No such file or directory
+OK A4_cross_dataset_xnor_train_r1 rc=0 out_sha= receipt_sha=cb52bd6c99d3f7b7d387d37abeab587170211737d32c22256fdb01b65881965a
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_train_r2.bin': No such file or directory
+OK A4_cross_dataset_xnor_train_r2 rc=0 out_sha= receipt_sha=6e100ce73b8ae6d71aba8b0e56749f08cc344b85cc93f8134652b40360df31d0
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_train_r3.bin': No such file or directory
+OK A4_cross_dataset_xnor_train_r3 rc=0 out_sha= receipt_sha=84a17e067cb3bd354de6623b08f30f85b4847d7c44d595050f8e9c933d142e3c
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_mini_r1.bin': No such file or directory
+OK A4_cross_dataset_xnor_mini_r1 rc=0 out_sha= receipt_sha=bb43d8d6bfa3e4f835685684328a2361f2bdb7ec8059912a95d7be65bc5d78b8
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_mini_r2.bin': No such file or directory
+OK A4_cross_dataset_xnor_mini_r2 rc=0 out_sha= receipt_sha=e62ef3b1bae65e0a7d1019f02b436faab9ee7e6ea8cdfdf7a003c489fb46cdb1
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_mini_r3.bin': No such file or directory
+OK A4_cross_dataset_xnor_mini_r3 rc=0 out_sha= receipt_sha=c53c1fb994025cc0c621ce0034e8076b6803ecae9344449529d55623832ef26c
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_test_r1.bin': No such file or directory
+OK A4_cross_dataset_xnor_test_r1 rc=0 out_sha= receipt_sha=aa773fde0fa800f50ab566d4ea87556eb97407938f5887fb4ba6f97e12eccb40
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_test_r2.bin': No such file or directory
+OK A4_cross_dataset_xnor_test_r2 rc=0 out_sha= receipt_sha=f9e5815c4bcd53c89f7f74b81ffc3c96929037c7ecd764e78ce9ca0319747596
+cp: bad '/data/local/tmp/dm3_harness/cells/A4_cross_dataset/A4_cross_dataset_xnor_test_r3.bin': No such file or directory
+OK A4_cross_dataset_xnor_test_r3 rc=0 out_sha= receipt_sha=d51065450f782e89fec56d7bc9638647145035e447506b0c027203f20da3247f
+SUMMARY exp=A4_cross_dataset runs=10 unique_canonical=1 verdict=PASS summary_sha=164d300347b8bc8b58a2066879200093a5968c199e077d01617db5123fd3ab54
+[21:17:05] A4_RERUN_COMPLETE
+[21:17:05] EXIT

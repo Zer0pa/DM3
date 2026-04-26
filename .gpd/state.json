@@ -2,7 +2,7 @@
   "project_reference": {
     "project_md_updated": null,
     "core_research_question": "What kind of computational object is the 3D Double Meru under surviving evidence, and can that object be reconstructed, falsified, and compared across Mac host and RM10 witness lanes without promoting unrecovered hybrid source into authority?",
-    "current_focus": "Phase 01.2.3.4.1.1.3 is complete on the RM10-primary branch: it established one explicit same-family CPU/GPU chamber environment smoke, closed the NPU route at inventory-only, falsified the positive chamber story, and justified one next move only: continue environment engineering on the surviving width boundary."
+    "current_focus": "Phase 01.2.3.4.1.1.3.1.2.1 is complete on the RM10-primary branch: the same-family confirmation replay disproved a reproducible repaired packet, the bounded localization replay showed the low regime can already be present at row cpu_a, and the live gate is now entrance-condition localization before any homeostasis reopening."
   },
   "project_contract": {
     "schema_version": 1,
@@ -594,15 +594,15 @@
     }
   },
   "position": {
-    "current_phase": "01.2.3.4.1.1.3",
-    "current_phase_name": "RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Battery",
-    "total_phases": 21,
-    "current_plan": "6",
-    "total_plans_in_phase": 6,
+    "current_phase": "01.2.3.4.1.1.3.1.2.1",
+    "current_phase_name": "RM10 Regime Localization From Confirmation Instability",
+    "total_phases": 23,
+    "current_plan": "3",
+    "total_plans_in_phase": 3,
     "status": "Complete",
-    "last_activity": "2026-04-06",
-    "last_activity_desc": "Closed Phase 01.2.3.4.1.1.3 with an explicit same-family chamber environment, a retained two-window CPU/GPU smoke, a widened four-window collapse, a corrected inventory-only NPU verdict, a narrow width-boundary result without persistence, and a final recommendation to continue environment engineering only.",
-    "progress_percent": 87,
+    "last_activity": "2026-04-16",
+    "last_activity_desc": "Closed Phase 01.2.3.4.1.1.3.1.2.1 after the failed confirmation replay: the bounded cpu_a,gpu_a,cpu_b localization packet entered the low regime from row 1, rejected third-row-only instability, and reduced the live blocker to pre-run entrance-condition localization.",
+    "progress_percent": 100,
     "paused_at": null
   },
   "active_calculations": [
@@ -637,13 +637,17 @@
     "The retained `01.2.3.4.1` validator packet now proves the live device default path still compares against a stale compiled `verify` constant `97bd...` while the surviving retained witness and active recovery payloads are `e894...`.",
     "The retained `01.2.3.4.1` top-level same-family packet now proves the callable root family itself splits between a low default CPU cluster and a high explicit-assets / `RegionTags_v1` cluster, while `/data/local/tmp/PhonemePatterns_v1.bin` is absent from the retained identity packet.",
     "The retained `01.2.3.4.1` official same-family rerun now sharpens the same-family defect to low `cpu_a`, high `gpu_a`, low `gpu_b`, then a timed-out `cpu_b` that leaves only a zero-byte output path under the current `180` second ceiling.",
-    "The retained `01.2.3.4.1` heterogeneous micro packet is an explicit abstain packet because the fresh same-family rerun did not preserve a governed observable and therefore did not reopen any admissible split boundary."
+    "The retained `01.2.3.4.1` heterogeneous micro packet is an explicit abstain packet because the fresh same-family rerun did not preserve a governed observable and therefore did not reopen any admissible split boundary.",
+    "Phase `01.2.3.4.1.1.3` established one explicit top-level same-family chamber environment and preserved a two-window CPU-forced versus GPU-backed smoke packet on `/data/local/tmp/dm3_runner`.",
+    "Phase `01.2.3.4.1.1.3` then widened the same-family chamber packet to four windows and observed collapse into signal exits plus missing or zero-byte receipts before any honest chamber-behavior verdict survived.",
+    "Phase `01.2.3.4.1.1.3` corrected an NPU-path probe false positive and retained the NPU route as `ABSTAIN / inventory_only`.",
+    "Phase `01.2.3.4.1.1.3` retained one narrow engineering result, `boundary_sensitivity_without_persistence`, and closed with `continue environment engineering` as the only justified next move."
   ],
   "open_questions": [
     "Does the historical bundled `G2` residue belong to a neighboring launcher generation, or would recovering it now require explicit redevelopment?",
     "Which exact baked-in default target or default-selection rule is still active on the live device validator?",
     "Can the current RM10 ADB-shell replay surface be promoted from a prebuilt-stub lane to a true source-build parity lane?",
-    "What exact late-session precondition causes the top-level same-family `F2` bracket to reach low/high/low and then stall on the closing `cpu_b` row inside one locked session?",
+        "What exact pre-run entrance condition selects the high versus low same-family regime on `/data/local/tmp/dm3_runner` under the same stronger envelope?",
     "Can the top-level `/data/local/tmp/dm3_runner` family be stabilized enough to preserve one same-family observable without silently substituting the legacy `/data/local/tmp/dm3/dm3_runner` surface?",
     "Which exact validator-default repair or operator-policy route should replace the stale compiled device pair on live governed RM10 work?"
   ],
@@ -887,6 +891,26 @@
       "phase": "01.2.3.4.1.1.4",
       "summary": "Inserted Phase 01.2.3.4.1.1.4 after Phase 01.2.3.4.1.1: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Probe (URGENT)",
       "rationale": "Urgent work discovered mid-project requiring immediate attention"
+    },
+    {
+      "phase": "01.2.3.4.1.1.3.1",
+      "summary": "Closed Phase 01.2.3.4.1.1.3.1 with a retained full four-row same-family replay and repaired cpu_b closeout",
+      "rationale": "The stronger replay envelope produced four real receipts on the top-level same-family surface, collapsing the old hard closing-row failure as the active live truth floor while leaving the repair mechanism unresolved."
+    },
+    {
+      "phase": "01.2.3.4.1.1.3.1.1",
+      "summary": "Closed Phase 01.2.3.4.1.1.3.1.1 with a physical-organism doctrine for DM3 branch work",
+      "rationale": "The branch now has one converged artifact reading: geometry as body plan, dynamics as homeostatic medium, transformer-like machinery as boundary adapter by default, and the immediate same-family confirmation replay as the unchanged live empirical gate."
+    },
+    {
+      "phase": "01.2.3.4.1.1.3.1.2",
+      "summary": "Closed Phase 01.2.3.4.1.1.3.1.2 with a failed confirmation replay and a blocked homeostasis gate",
+      "rationale": "The full same-family packet completed under the stronger envelope, but the repaired packet did not reproduce and instead split into whole-session instability."
+    },
+    {
+      "phase": "01.2.3.4.1.1.3.1.2.1",
+      "summary": "Closed Phase 01.2.3.4.1.1.3.1.2.1 with bounded regime localization",
+      "rationale": "The bounded cpu_a,gpu_a,cpu_b packet entered the low regime from row 1, so the live blocker is now the entrance condition before the packet starts rather than a third-row-only trigger."
     }
   ],
   "approximations": [],
@@ -913,8 +937,8 @@
   },
   "propagated_uncertainties": [],
   "pending_todos": [
-    "Engineer around the same-family width boundary on `/data/local/tmp/dm3_runner` and rerun the widened packet under the retained geometric environment contract.",
-    "Keep chamber science blocked until a widened packet preserves interpretable tuples beyond the two-window smoke.",
+    "Run a fresh single-row `cpu_a` entrance-condition battery under controlled pre-run states so the branch can tell what selects the high versus low same-family regime.",
+    "Keep chamber science and homeostasis blocked until the entrance condition is localized and a full same-family confirmation replay reproduces honestly.",
     "Keep NPU assist at `ABSTAIN / inventory_only` until a callable device entrypoint exists with retained receipts.",
     "Keep explicit heterogeneous role partition at `ABSTAIN` until one preserved same-family observable survives widening honestly.",
     "Repair or operator-policy-route the stale compiled validator-default pair on the live `genesis_cli` surface so governed `F1` work can rejoin cleanly."
@@ -924,16 +948,16 @@
     "The newer hybrid DM3 source remains missing.",
     "The current phone `genesis_cli` default validator still rejects the historical Mac-parity witness under default handling.",
     "The fresh phone lanes currently depend on prebuilt device binaries and a cargo stub.",
-    "The top-level same-family `/data/local/tmp/dm3_runner` chamber packet now supports a bounded two-window smoke, but the widened four-window packet still collapses into signal exits plus missing or zero-byte receipts before a chamber-behavior verdict survives.",
+    "The top-level same-family `/data/local/tmp/dm3_runner` packet is now callable under the stronger envelope, but the branch cannot yet control which high or low regime it enters before row 1.",
     "The legacy `/data/local/tmp/dm3/dm3_runner` is callable, but it is a separate surface and cannot be silently substituted for the top-level root family.",
     "No callable NPU assist path exists yet beyond inventory-only residue.",
     "No stable preserved same-family observable exists yet for a heterogeneous role-partition claim."
   ],
   "session": {
-    "last_date": "2026-04-06T02:58:04+02:00",
-    "stopped_at": "Phase `01.2.3.4.1.1.3` is complete: the branch now has one explicit same-family CPU/GPU chamber smoke, one widened four-window collapse, one corrected `ABSTAIN / inventory_only` NPU verdict, and one narrow width-boundary result without persistence. The next brief should stay on environment engineering for that same-family width boundary and must not widen into chamber-science or heterogeneous pass language yet.",
-    "resume_file": ".gpd/phases/01.2.3.4.1.1.3-rm10-resonance-chamber-heterogeneous-bootstrap-and-geometric-computation-battery/01.2.3.4.1.1.3-06-SUMMARY.md"
+    "last_date": "2026-04-16T23:24:09Z",
+    "stopped_at": "Phase `01.2.3.4.1.1.3.1.2.1` is complete: the confirmation replay disproved a reproducible repaired packet, and the bounded localization packet showed the low regime can already be present at `cpu_a`. The next brief should stay on entrance-condition localization with fresh single-row `cpu_a` anchors and must not reopen homeostasis or broader chamber language yet.",
+    "resume_file": ".gpd/phases/01.2.3.4.1.1.3.1.2.1-rm10-regime-localization-from-confirmation-instability/01.2.3.4.1.1.3.1.2.1-03-SUMMARY.md"
   },
   "_version": 1,
-  "_synced_at": "2026-04-06T00:55:54.584412+00:00"
+  "_synced_at": "2026-04-16T23:30:00+00:00"
 }

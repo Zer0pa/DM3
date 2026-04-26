@@ -1,0 +1,9 @@
+{
+  "config": "configs/CONFIG.no_priors.json",
+  "device_output_dir": "audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r11_priors_off_b",
+  "expectation": "Tests whether any candidate response survives a repeat.",
+  "perturbation_family": "priors",
+  "perturbation_summary": "Repeated priors-off row.",
+  "role": "candidate-repeat",
+  "row_id": "r11_priors_off_b"
+}

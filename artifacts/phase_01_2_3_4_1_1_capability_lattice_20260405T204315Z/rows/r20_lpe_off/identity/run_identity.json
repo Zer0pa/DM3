@@ -1,0 +1,17 @@
+{
+  "baseline_config_sha256": "1ca44c0112ed2287579bd583bd0ac70e70daa5b8482933e789ed466c3db70fc4",
+  "baseline_config_source": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_rescue_pack_20260405T202422Z/device_snapshot/f1_workspace/workspace/configs/CONFIG.json",
+  "binary_path": "/data/local/tmp/genesis_cli",
+  "binary_sha256": "e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "device_cwd": "/data/local/tmp/SoC_runtime/workspace",
+  "device_model": "NX789J",
+  "device_serial": "FY25013101C8",
+  "lane_id": "rm10_f1_cleanup_control",
+  "phase": "01.2.3.4.1.1",
+  "plan": "02",
+  "row_id": "r20_lpe_off",
+  "run_id": "phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r20_lpe_off",
+  "started_at_utc": "2026-04-05T20:50:02Z",
+  "wrapper_surface": "PATH=/data/local/tmp/SoC_Harness/bin:$PATH"
+}

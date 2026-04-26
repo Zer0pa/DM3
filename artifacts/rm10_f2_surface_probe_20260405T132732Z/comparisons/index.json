@@ -1,0 +1,66 @@
+{
+  "question": "Is the top-level F2 root residue surface ready for an official outlier-localization packet?",
+  "rows": [
+    {
+      "name": "root_cpu_default",
+      "classification": "stalled_after_resonance_start",
+      "exit_code": 124,
+      "cwd": "/data/local/tmp",
+      "binary_path": "/data/local/tmp/dm3_runner",
+      "command": "/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/root_cpu_default.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/root_cpu_default.jsonl",
+      "receipt_text": ""
+    },
+    {
+      "name": "root_cpu_explicit_assets",
+      "classification": "stalled_after_resonance_start",
+      "exit_code": 124,
+      "cwd": "/data/local/tmp",
+      "binary_path": "/data/local/tmp/dm3_runner",
+      "command": "/data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --adj SriYantraAdj_v1.bin --tags RegionTags_v1.bin --output /data/local/tmp/root_cpu_explicit_assets.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/root_cpu_explicit_assets.jsonl",
+      "receipt_text": ""
+    },
+    {
+      "name": "cleanroom_minimal_cpu",
+      "classification": "missing_ambient_dependency",
+      "exit_code": 1,
+      "cwd": "/data/local/tmp/f2_cleanroom_minimal_probe",
+      "binary_path": "/data/local/tmp/f2_cleanroom_minimal_probe/dm3_runner",
+      "command": "/data/local/tmp/f2_cleanroom_minimal_probe/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/f2_cleanroom_minimal_probe/out.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\n",
+      "stderr": "Error: No such file or directory (os error 2)\n",
+      "receipt_path": "/data/local/tmp/f2_cleanroom_minimal_probe/out.jsonl",
+      "receipt_text": ""
+    },
+    {
+      "name": "cleanroom_regiontags_v1_cpu",
+      "classification": "stalled_after_resonance_start",
+      "exit_code": 124,
+      "cwd": "/data/local/tmp/f2_cleanroom_rtags_probe",
+      "binary_path": "/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner",
+      "command": "/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl",
+      "stdout": "Entering Training Mode...\nForcing CPU Mode (GPU Disabled).\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl",
+      "receipt_text": ""
+    },
+    {
+      "name": "legacy_dm3_gpu_train",
+      "classification": "callable",
+      "exit_code": 0,
+      "cwd": "/data/local/tmp/dm3",
+      "binary_path": "/data/local/tmp/dm3/dm3_runner",
+      "command": "/data/local/tmp/dm3/dm3_runner --mode train --task harmonic --steps 1 -o /data/local/tmp/dm3/legacy_gpu_train.jsonl",
+      "stdout": "Entering Training Mode...\nGPU MatMul Kernel Initialized.\nGPU Transformer Kernel Initialized.\nEntering Resonance Mode (Legacy)...\nStarting Resonance Training (Episodes: 1, Asymmetry: 0)\nEp 0: Dec=Retry dE=0.0017 Coh=0.1128\nResonance Loop Complete.\n",
+      "stderr": "",
+      "receipt_path": "/data/local/tmp/dm3/legacy_gpu_train.jsonl",
+      "receipt_text": "{\"asymmetry\":0.0,\"coherence\":0.1127573624253273,\"decision\":\"Retry\",\"delta_E\":0.0017281674081459641,\"duration_ms\":167,\"episode\":0}\n"
+    }
+  ],
+  "next_admissible_move": "Repair or exact-localize the top-level /data/local/tmp/dm3_runner root surface before any official F2 outlier capture or heterogeneous brief."
+}

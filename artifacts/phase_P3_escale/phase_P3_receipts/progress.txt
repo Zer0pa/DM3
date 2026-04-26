@@ -1,0 +1,15 @@
+[2026-04-17T20:46:04Z] start holo_asym_p2 bat=80
+[2026-04-17T21:02:30Z] done holo_asym_p2 rc=0 lines=5
+[2026-04-17T21:02:30Z] start holo_asym_p5 bat=80
+[2026-04-17T21:18:59Z] done holo_asym_p5 rc=0 lines=5
+[2026-04-17T21:18:59Z] start holo_asym_m2 bat=80
+[2026-04-17T21:35:17Z] done holo_asym_m2 rc=0 lines=5
+[2026-04-17T21:35:17Z] start harm_asym_m2 bat=80
+[2026-04-17T21:51:31Z] done harm_asym_m2 rc=0 lines=5
+[2026-04-17T21:51:31Z] start harm_asym_m3 bat=80
+[2026-04-17T22:07:51Z] done harm_asym_m3 rc=0 lines=5
+[2026-04-17T22:07:51Z] start harm_asym_m5 bat=80
+[2026-04-17T22:24:01Z] done harm_asym_m5 rc=0 lines=5
+[2026-04-17T22:24:01Z] start harm_asym_p2 bat=80
+[2026-04-17T22:37:15Z] done harm_asym_p2 rc=0 lines=5
+[2026-04-17T22:37:15Z] COMPLETE

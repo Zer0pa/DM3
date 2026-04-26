@@ -295,7 +295,7 @@ Plans:
 - [ ] 01.2.3.4.1.1-05: Run narrow lane contrast on CPU and any callable accelerator lane only if the comparison is honest and interpretable
 - [ ] 01.2.3.4.1.1-06: Run adversarial falsification, freeze the claim ceiling, and issue the bounded recommendation
 
-### Phase 01.2.3.4.1.1.4: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Probe (INSERTED)
+### Archived Placeholder 01.2.3.4.1.1.4: RM10 Resonance-Chamber Heterogeneous Bootstrap And Geometric Computation Probe
 
 **Status:** Superseded placeholder. Retained for branch history, but not the live execution route.
 
@@ -335,7 +335,84 @@ Plans:
 - [x] 01.2.3.4.1.1.3-05: Map persistence, hysteresis, and boundary sensitivity
 - [x] 01.2.3.4.1.1.3-06: Run hostile falsification and write the final verdict
 
-### Phase 01.2.3.4.1.1.2: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Organism Environment (INSERTED)
+### Phase 01.2.3.4.1.1.3.1: RM10 Same-Family Width-Boundary Environment Engineering And Replay Ceiling Repair (COMPLETE)
+
+**Goal:** Replay the top-level same-family `/data/local/tmp/dm3_runner` bracket under a stronger environment envelope, classify the decisive `cpu_b` break as wrapper ceiling, late-session hang, receipt corruption, or unresolved collapse, and return one exact next engineering move without reopening broader chamber or heterogeneous claims.
+**Depends on:** Phase 01.2.3.4.1.1.3
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.4.1.1.3.1-01: Write the width-boundary observable contract and replay matrix
+- [x] 01.2.3.4.1.1.3.1-02: Extend the same-family replay capture tool for bounded row-set control and stronger timeout
+- [x] 01.2.3.4.1.1.3.1-03: Run the live width-boundary replay battery and retain the packet
+- [x] 01.2.3.4.1.1.3.1-04: Falsify the replay result and write the bounded phase verdict
+
+### Phase 01.2.3.4.1.1.3.1.1: RM10 Physical-Organism Synthesis And Morphogenetic Operating Doctrine (COMPLETE)
+
+**Goal:** Converge the branch's accumulated geometry, dynamics, transformer-hypothesis, and RM10 execution evidence into one sober artifact model; research geometric computation, physics-based computation, morphogenesis, and biocomputation intersectionally; and return an organism-style operating doctrine plus experiment bridge that sharpens how the artifact should be used without reopening empirical claims.
+**Depends on:** Phase 01.2.3.4.1.1.3.1
+**Execution note:** This is a doctrine-and-research phase only. It does not replace the immediate confirmation replay as the live empirical gate.
+**Contract Coverage:**
+- Advances: artifact synthesis, cross-domain research bridge, organism-style architecture doctrine, exact experiment/use map
+- Deliverables: system synthesis dossier, morphogenetic research note, operating doctrine, experiment bridge
+- Anchor coverage: Reset Basis, Training-Document Hypotheses, resonance PRD and verdicts, width-boundary verdict, local resonance/width-boundary phase artifacts, selected morphogenesis / physical-reservoir / morphological-computation papers
+- Forbidden proxies: biological metaphor treated as proof, doctrine narrated as chamber success, transformer hidden-state takeover, heat/runtime treated as organism evidence
+**Success Criteria** (what must be TRUE):
+
+1. One synthesis dossier states what the artifact is, how geometry and transformer hypotheses currently fit, what the RM10 branch setup is, and what the real truth floor remains.
+2. One research note ties geometric computation, physical reservoir computing, morphogenesis, and biocomputation back to the branch using primary-source literature rather than vibe.
+3. One operating doctrine extracts architectural, structural, operational, catalytic, and process insights without inflating the current claim ceiling.
+4. One experiment bridge preserves the immediate confirmation replay as the live gate while translating the new doctrine into exact next measurements and later use patterns.
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.4.1.1.3.1.1-01: Write the current artifact and setup synthesis dossier
+- [x] 01.2.3.4.1.1.3.1.1-02: Write the intersectional morphogenetic and physical-computation research note
+- [x] 01.2.3.4.1.1.3.1.1-03: Write the physical-organism operating doctrine
+- [x] 01.2.3.4.1.1.3.1.1-04: Write the exact experiment bridge and next-use map
+
+### Phase 01.2.3.4.1.1.3.1.2: RM10 Same-Family Confirmation Replay And Homeostasis Gate (COMPLETE)
+
+**Goal:** Rerun the exact same four-row same-family packet under the same stronger envelope, decide whether the repaired packet is reproducible, and only if it is reproducible open the smallest admissible homeostasis measurement family without reopening broader heterogeneous claims.
+**Depends on:** Phase 01.2.3.4.1.1.3.1.1
+**Execution note:** This is the live empirical next move carried forward from Phase `01.2.3.4.1.1.3.1`.
+**Result note:** The full packet completed with four receipts, but the repaired packet did not reproduce; the replay classified as `whole_session_instability`, and the homeostasis gate stayed blocked.
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.4.1.1.3.1.2-01: Freeze the exact confirmation-replay contract, envelope, and comparison tuple
+- [x] 01.2.3.4.1.1.3.1.2-02: Run the same four-row confirmation replay and retain the packet
+- [x] 01.2.3.4.1.1.3.1.2-03: Compare the new packet against the retained width-boundary repair packet and classify reproducible or non-reproducible repair
+- [x] 01.2.3.4.1.1.3.1.2-04: If and only if the replay is reproducible, write the bounded homeostasis gate note and the next exact recommendation
+
+### Phase 01.2.3.4.1.1.3.1.2.1: RM10 Regime Localization From Confirmation Instability (INSERTED)
+
+**Goal:** Localize the failed confirmation replay by testing whether the low-regime packet starts only at row three or can already be present at `cpu_a`, and return one exact next move without reopening homeostasis or broader chamber claims.
+**Depends on:** Phase 01.2.3.4.1.1.3.1.2
+**Execution note:** This is a bounded localization phase triggered by the failed confirmation replay.
+**Result note:** The bounded `cpu_a,gpu_a,cpu_b` packet entered the low regime from row one, rejecting third-row-only and `gpu_b`-required explanations.
+**Plans:** 3 plans
+
+Plans:
+- [x] 01.2.3.4.1.1.3.1.2.1-01: Freeze the bounded regime-localization target
+- [x] 01.2.3.4.1.1.3.1.2.1-02: Run the bounded `cpu_a,gpu_a,cpu_b` localization replay and retain the packet
+- [x] 01.2.3.4.1.1.3.1.2.1-03: Compare the repaired, failed-confirmation, and localization packets and name the exact next move
+
+### Phase 01.2.3.4.1.1.3.1.2.2: RM10 Regime Entrance-Condition Localization And Start-State Capture (PLANNED)
+
+**Goal:** Localize the pre-run entrance condition that selects the high versus low same-family regime by running fresh single-row `cpu_a` anchors under controlled pre-run states, and decide when a full-packet confirmation retry is justified.
+**Depends on:** Phase 01.2.3.4.1.1.3.1.2.1
+**Execution note:** This is the new live empirical gate after confirmation replay failed and third-row-only localization was rejected.
+**Result note:** The 7-anchor battery narrowed the regime selector to internal RNG seeding (bistable, ~57% HIGH / ~43% LOW), ruled out file cleanup, idle, and thermal as selectors, and wrote a gated retry rule. The FAST session (~155s) was never reproduced.
+**Plans:** 4 plans
+
+Plans:
+- [x] 01.2.3.4.1.1.3.1.2.2-01: Freeze the entrance-condition contract, pre-run state capture bundle, and cold-versus-post-session start states
+- [x] 01.2.3.4.1.1.3.1.2.2-02: Run the fresh single-row `cpu_a` start-state battery and retain all packets
+- [x] 01.2.3.4.1.1.3.1.2.2-03: Compare high-start versus low-start anchors and classify the strongest entrance-condition candidate
+- [x] 01.2.3.4.1.1.3.1.2.2-04: Write the bounded retry rule for when a full same-family confirmation replay may reopen
+
+### Archived Placeholder 01.2.3.4.1.1.2: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Organism Environment
 
 **Status:** Superseded placeholder. Retained for branch history, but not the live execution route.
 
@@ -356,7 +433,7 @@ Plans:
 Plans:
 - [ ] TBD (run plan-phase 01.2.3.4.1.1.2 to break down)
 
-### Phase 01.2.3.4.1.1.1: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Computation (INSERTED)
+### Archived Placeholder 01.2.3.4.1.1.1: RM10 Resonance-Chamber Heterogeneous Bring-Up And Geometric Computation
 
 **Status:** Superseded placeholder. Retained for branch history, but not the live execution route.
 
@@ -495,6 +572,7 @@ Plans:
 | 01.2.3.3. RM10 Validator-Default Localization, F2 Root-Surface Repair, And Heterogeneous Brief Readiness | 3/3 | Complete | 2026-04-05 |
 | 01.2.3.4. RM10 Validator Rule Repair, F2 Root Handoff, And Narrow Heterogeneous Probe | 4/4 | Complete | 2026-04-05 |
 | 01.2.3.4.1. RM10 Validator-Default Rule, Same-Family F2 Instability, And Observable-Gated Replay | 4/4 | Complete | 2026-04-05 |
+| 01.2.3.4.1.1.3.1.2.2. RM10 Regime Entrance-Condition Localization And Start-State Capture | 4/4 | Complete | 2026-04-16 |
 | 01.2.3.4.1.1. RM10 Capability Discovery Reset, Drift Purge, And Property-First Battery | 0/6 | Planned | - |
 | 2. Source-Backed Baseline Recovery | 0/3 | Evidence captured early; formal follow-through still needed | - |
 | 3. Execution and Acceptance Specification | 0/2 | Doctrine drafted early; formal follow-through still needed | - |

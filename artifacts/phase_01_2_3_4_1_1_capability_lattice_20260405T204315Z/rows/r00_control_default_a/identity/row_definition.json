@@ -1,0 +1,9 @@
+{
+  "config": null,
+  "device_output_dir": "audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r00_control_default_a",
+  "expectation": "Control anchor for first-result gate.",
+  "perturbation_family": "baseline",
+  "perturbation_summary": "No config override; cleaned-lane reset baseline.",
+  "role": "control",
+  "row_id": "r00_control_default_a"
+}

@@ -1,0 +1,7 @@
+InterferenceTask: Detected JSON RegionTags.
+--- G2 Boundary Readout Experiment (Mode: R2Contrastive) ---
+Epoch, AvgSleepE, AvgMatchE, AvgMismatchE, Gap_Match, Gap_Mismatch, ReadoutAcc
+0, 200000.00, 500000.00, 500000.03, 300000.00, 300000.03, 0.50
+1, 199999.98, 500000.03, 500000.00, 300000.06, 300000.00, 0.50
+2, 200000.00, 500000.00, 499999.97, 300000.00, 299999.97, 0.50
+3, 200000.00, 500000.00, 500000.00, 300000.00, 300000.00, 0.50

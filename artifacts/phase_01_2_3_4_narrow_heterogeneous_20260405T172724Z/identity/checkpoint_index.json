@@ -1,0 +1,15 @@
+{
+  "policy": "retain-all",
+  "attempts": [
+    {
+      "name": "surface_probe_gate",
+      "status": "retained",
+      "path": "artifacts/rm10_f2_surface_probe_20260405T170543Z/summary.json"
+    },
+    {
+      "name": "same_family_outlier_packet",
+      "status": "retained",
+      "path": "artifacts/rm10_f2_outlier_20260405T171018Z/OUTCOME.md"
+    }
+  ]
+}

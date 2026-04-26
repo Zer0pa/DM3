@@ -1,0 +1,44 @@
+{
+  "cfg_hash": "791a2b292d5e9a5c3ab3455661977e1142e7c8c13af603050f21e8862c1221a7",
+  "report": {
+    "delta_e_monotone": true,
+    "jac_spectral_bound_ok": true,
+    "mode_lock_pass": true,
+    "notes": {
+      "K": 12,
+      "alpha": "164/165",
+      "energies_L1": [
+        "18/1",
+        "984/55",
+        "53792/3025",
+        "8821888/499125",
+        "1446789632/82355625",
+        "237273499648/13588678125",
+        "38912853942272/2242131890625",
+        "6381708046532608/369951761953125",
+        "1046600119631347712/61042040722265625",
+        "171642419619541024768/10071936719173828125",
+        "28149356817604728061952/1661869558663681640625",
+        "4616494518087175402160128/274208477179507470703125",
+        "757105100966296765954260992/45244398734618732666015625"
+      ],
+      "norm_inf_J": "164/165",
+      "proofs": {
+        "delta_e_monotone": "E_k = ||x_k - x*||_1 non-increasing over k steps (checked exactly).",
+        "jacobian_contracts": "||J||_∞ = α < 1 since P is row-stochastic; hence ρ(J) ≤ ||J||_∞ = α = 164/165.",
+        "mode_lock": "Contractive LTI ⇒ bounded periodic input yields unique asymptotically periodic response (locked).",
+        "steady_state_exact": "(I - αP) x* = (1-α) u solved in ℚ via Gauss–Jordan."
+      }
+    }
+  },
+  "solution": {
+    "x_star_sample": [
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1"
+    ]
+  }
+}

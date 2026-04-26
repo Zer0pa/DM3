@@ -1,0 +1,3 @@
+40c7ee25865ba804d0ce01bdbd949c0b7a1d1cc8b8840e8923b95a1e4744af97  artifacts/solve_h2.json
+816e3c938a6f6661cdacf75175f8f3989fc97de60237813c6593f2bfc3acf7a0  artifacts/verify.json
+a6a9dc12cdb214adfdf1e0166db5303c9e12999d0dfd29ea9373d2b3d6ecf605  receipts/VERIFY_SUMMARY.json

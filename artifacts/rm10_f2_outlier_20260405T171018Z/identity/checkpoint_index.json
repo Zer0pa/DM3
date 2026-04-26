@@ -1,0 +1,41 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "cpu_a",
+      "run_id": "rm10_f2_outlier_20260405T171018Z_cpu_a",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_20260405T171018Z_cpu_a.jsonl",
+      "receipt_sha256": "5f90525e73364f64814aa1903ee4ddd3193ec4e8386f2be2a4246c00b5eaaa4c",
+      "command_path": "artifacts/rm10_f2_outlier_20260405T171018Z/rows/cpu_a/identity/command.txt"
+    },
+    {
+      "name": "gpu_a",
+      "run_id": "rm10_f2_outlier_20260405T171018Z_gpu_a",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_20260405T171018Z_gpu_a.jsonl",
+      "receipt_sha256": "558be3025aa2f965b8e2fbfa045aaa50baa46e134907174780af197deb502e29",
+      "command_path": "artifacts/rm10_f2_outlier_20260405T171018Z/rows/gpu_a/identity/command.txt"
+    },
+    {
+      "name": "gpu_b",
+      "run_id": "rm10_f2_outlier_20260405T171018Z_gpu_b",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_20260405T171018Z_gpu_b.jsonl",
+      "receipt_sha256": "6269072745fbb9d32c71cea5dceefe6db11872906aa431eec24c767e3870d36e",
+      "command_path": "artifacts/rm10_f2_outlier_20260405T171018Z/rows/gpu_b/identity/command.txt"
+    },
+    {
+      "name": "cpu_b",
+      "run_id": "rm10_f2_outlier_20260405T171018Z_cpu_b",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_20260405T171018Z_cpu_b.jsonl",
+      "receipt_sha256": "80495e41f9b1213bd4151f7e4c50019cdf5159339247bf07cc4d44d68d91b20f",
+      "command_path": "artifacts/rm10_f2_outlier_20260405T171018Z/rows/cpu_b/identity/command.txt"
+    }
+  ]
+}

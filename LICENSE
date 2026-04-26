@@ -1,0 +1,433 @@
+# Zer0pa DM3 Research and Receipt License v1.0
+
+**SPDX Identifier:** `LicenseRef-Zer0pa-DM3-RRL-1.0`
+**Master Resolver Endpoint:** `https://github.com/Zer0pa/DM3` (initial; relocatable under §19)
+**License Date:** published at the Master Resolver Endpoint for this version.
+**Licensor:** Zer0pa (legal name and domicile as published at the Master Resolver Endpoint).
+
+---
+
+## Preamble
+
+This License governs use of the work known as **DM3** (three-dimensional Double Meru) — a deterministic, binary-distributed geometric artefact and its associated receipt chain, claims documentation, and retractions, collectively described in Section 3.
+
+DM3 is distributed in a scientific posture the Licensor calls **receipts-first**: claims are pre-registered with kill-criteria; failed claims are retracted on the public record as first-class outputs; the receipt chain and canonical SHA bundle anchor every public statement to a reproducible artefact. The License is designed to preserve that posture across all downstream use.
+
+The Licensor makes no claim, either in this License or in the works it governs, that DM3 constitutes, embodies, or produces artificial intelligence, artificial general intelligence, cognition, consciousness, awareness, or any mystical, esoteric, or supernatural phenomenon. DM3 is a geometric and computational artefact. Its construction draws on the topology of the Sri Yantra, a classical figure of Indian origin and shared cultural heritage; the Licensor's contribution is the three-dimensional lattice, the deterministic construction code, and the receipt chain, not the underlying classical figure.
+
+Commercial use above the Revenue Threshold, hosting or managed-service provision of DM3 to third parties, and any use that modifies the artefact's identity or representations of its scientific status are outside the scope of this License and require a separate Commercial License.
+
+By exercising any right granted here, You accept this License.
+
+---
+
+## 1. Definitions
+
+For the purposes of this License:
+
+**"Artefact Bundle"** means the complete set of files constituting DM3 as published by the Licensor at the Master Resolver Endpoint, including without limitation: the DM3 Binary, the adjacency data, the tag data, the receipt files, the claims documentation, the is/is-not documentation, and the geometry construction and findings documentation.
+
+**"Canonical Bundle Hashes"** means the SHA-256 hashes of each file in the Artefact Bundle, as published in the Artefact Bundle Register at the Master Resolver Endpoint.
+
+**"Change Date"** has the meaning given in Section 10.
+
+**"Claims Document"** means the file or URL published at the Master Resolver Endpoint (initially `CLAIMS.md`) listing DM3's current active claims.
+
+**"Commercial License"** means a separate written agreement between the Licensor and a user, obtained per Section 14, for uses outside the scope of this License.
+
+**"DM3 Binary"** means the Licensor-compiled executable identified in the Artefact Bundle Register and verifiable by its Canonical Bundle Hash (as at the License Date, a binary of approximately 9.5 megabytes with SHA-256 as published at the Endpoint).
+
+**"Hosted Service"** means any arrangement under which a third party (other than You) can exercise functionality of DM3 — including without limitation queries, computations, receipt generation, verification, or any interaction that produces outputs — through a network-accessible interface, regardless of whether the third party receives the DM3 Binary, adjacency data, receipts, or any other component of the Artefact Bundle.
+
+**"Is/Is-Not Document"** means the file or URL published at the Master Resolver Endpoint (initially `IS_AND_IS_NOT.md`) stating what DM3 is and is not.
+
+**"Kill Criterion"** means a pre-registered, publicly recorded, falsifiable condition the failure of which causes the associated Claim to be moved to the Retractions Register.
+
+**"License"** means this Zer0pa DM3 Research and Receipt License v1.0, together with the Canonical References defined in Section 19.
+
+**"Licensed Work"** means the Artefact Bundle.
+
+**"Licensor"** means Zer0pa, under the legal name and domicile published at the Master Resolver Endpoint.
+
+**"Master Resolver Endpoint"** has the meaning given in Section 19.
+
+**"Operational Documentation"** has the meaning given in Section 18.
+
+**"Receipt Chain"** means the ordered set of receipt files published by the Licensor at the Master Resolver Endpoint, anchored to the DM3 Binary and the Canonical Bundle Hashes, and any successor receipt files subsequently published by the Licensor.
+
+**"Retractions Register"** means the file or URL published at the Master Resolver Endpoint recording Claims that have been retracted and the reason for retraction, including any prior published claim so recorded.
+
+**"Revenue Threshold"** means one hundred million United States dollars (USD 100,000,000) in aggregate gross revenue of an Entity and its Affiliates in the trailing twelve-month period, measured on the date on which commercial use within the meaning of Section 5 is first made and on each subsequent anniversary.
+
+**"Scientific Framing Restriction"** has the meaning given in Section 6.5.
+
+**"Sri Yantra"** means the classical geometric figure of Indian origin from which the topology of DM3 is derived.
+
+**"Substantial Derivative"** means any work that (i) reuses, incorporates, or is otherwise derived from the DM3 Binary, its adjacency data, its tag data, or any Receipt, **and** (ii) reproduces, presents, or purports to reproduce DM3 outputs in a manner that would lead a reasonable reader familiar with DM3 to treat the work as representing DM3 results. In applying clause (ii), a tribunal may have regard to the work's title, the presentation of receipts or Canonical Bundle Hashes, the prominence of any DM3 reference, and the clarity of any disclaimer distinguishing the work's outputs from DM3 outputs. A work that (x) clearly distinguishes its own outputs from DM3 outputs, (y) cites DM3 only as a reference, and (z) does not reproduce or represent DM3 Receipts or Canonical Bundle Hashes as its own, is not a Substantial Derivative.
+
+**"You"** means an individual or Entity exercising rights under this License. "Entity" means any legal person. "Affiliates" means Entities under common Control. "Control" means ownership of more than fifty percent (50%) of the voting securities or equivalent beneficial interest, or the power to direct management, of an Entity.
+
+---
+
+## 2. Acceptance
+
+You accept this License by (a) downloading, copying, forking, mirroring, executing, or otherwise obtaining or using the Licensed Work; (b) incorporating any portion of the Licensed Work into any other work; (c) publishing, citing, or relying on any output of the Licensed Work in a manner governed by this License; or (d) purporting to sublicense or redistribute the Licensed Work.
+
+If You do not accept this License, You have no rights under it and must not use the Licensed Work.
+
+---
+
+## 3. Licensed Work
+
+The Licensed Work is the Artefact Bundle. The composition of the Artefact Bundle, the Canonical Bundle Hashes, and the identity of each constituent file are published at the Master Resolver Endpoint. As at the License Date, the Artefact Bundle includes:
+
+(a) the **DM3 Binary** — the deterministic executable implementing the DM3 construction, as compiled and distributed by the Licensor;
+
+(b) the **adjacency data** — the edge list or equivalent serialisation of the DM3 geometry, constructed as a three-dimensional Double Meru and comprising a C3-symmetric graph of 380 vertices as described in the construction documentation;
+
+(c) the **tag data** — the vertex and edge tag annotations supporting the construction;
+
+(d) the **Receipt Chain** — the receipt files produced by the DM3 Binary and published by the Licensor, anchored to the Canonical Bundle Hashes and the six-gate self-certification described in the construction documentation;
+
+(e) the **Claims Document** and the **Is/Is-Not Document**;
+
+(f) the **construction and findings documentation** — the textual description of how the geometry is constructed and the scientific status of each published claim.
+
+For the avoidance of doubt:
+
+1. The Licensor distributes the DM3 Binary as a compiled executable. The source for the supporting internal crate `dm3_microtx` is not part of the Artefact Bundle and is not distributed under this License. Any redistribution of the DM3 Binary under Section 4 must preserve its Canonical Bundle Hash; no licence is granted to reverse-engineer, disassemble, or otherwise derive the source of `dm3_microtx` except as permitted by mandatory applicable law.
+
+2. The state space referenced in the construction documentation (approximately 72,960 dimensions) is a property of the artefact, not a claim about general-purpose computation or cognition. It is recorded here for artefact-identification purposes only.
+
+3. The Master Resolver Endpoint publishes, and updates from time to time under Section 19, the authoritative composition of the Artefact Bundle and the Canonical Bundle Hashes. Where there is any inconsistency between this Section and the current publication at the Master Resolver Endpoint, the current publication controls for purposes of identifying the Licensed Work, subject to Section 19.7 (substantive terms unchanged).
+
+---
+
+## 4. Grant of Rights
+
+Subject to Your compliance with this License and to the restrictions in Section 6, the Licensor hereby grants You, during the term, a worldwide, royalty-free, non-exclusive, non-sublicensable (except as expressly provided) license to:
+
+**4.1 Use.** Execute the DM3 Binary and access the rest of the Artefact Bundle for any purpose not restricted by Section 6.
+
+**4.2 Research.** Use the Licensed Work for internal, academic, or industrial research, evaluation, benchmarking, reproduction, and independent verification of its published claims or published retractions.
+
+**4.3 Redistribution of the Artefact Bundle.** Redistribute the Artefact Bundle, in whole, in its then-current canonical form as published by the Licensor, provided that:
+
+(a) You preserve the Canonical Bundle Hashes and the integrity of every file in the Bundle;
+
+(b) You include a copy of this License, or a conspicuous link to the Master Resolver Endpoint, with the redistribution;
+
+(c) You do not represent any modified or fabricated file as an authentic element of the Artefact Bundle;
+
+(d) You preserve the SPDX identifier `LicenseRef-Zer0pa-DM3-RRL-1.0` where SPDX metadata is used.
+
+**4.4 Citation and Reference.** Cite and reference DM3, the Claims Document, the Is/Is-Not Document, the Retractions Register, and any file in the Artefact Bundle in academic, scientific, journalistic, or internal publications. No separate permission is required for reasonable citation, provided You comply with the Scientific Framing Restriction (Section 6.5) and the Traditional Knowledge Acknowledgment (Section 8).
+
+**4.5 Derivative Analysis.** Produce analyses, commentaries, benchmarks, reproductions, and critiques of DM3, and distribute the resulting analysis, provided that:
+
+(a) any claim You make about DM3 outputs is traceable to a specific Receipt in the Receipt Chain or to a specific published file in the Artefact Bundle;
+
+(b) You do not represent Your analysis as being authored or endorsed by the Licensor;
+
+(c) any Substantial Derivative You distribute must carry a conspicuous notice that it is a derivative work and not the authoritative DM3 Artefact Bundle, and must link to the Master Resolver Endpoint;
+
+(d) the Scientific Framing Restriction (Section 6.5) applies to all derivative works that reference DM3.
+
+**4.6 Internal Modification for Research.** You may modify Your own copy of the Artefact Bundle for the sole purpose of internal research, provided that You do not distribute the modified Bundle as DM3, do not represent it as carrying a valid Canonical Bundle Hash, and do not publish receipts generated from the modified binary as DM3 Receipts.
+
+This Section 4 grant is limited by, and does not extend to, the conduct restricted in Section 6. The Grant is conditioned on continuing compliance with Sections 6 through 9.
+
+---
+
+## 5. Revenue Threshold and Commercial Use
+
+**5.1 Revenue-Gated Commercial Use.** You may make commercial use of the Licensed Work without a Commercial License only if, at the time of such commercial use and on each subsequent anniversary, Your aggregate gross revenue and that of Your Affiliates in the trailing twelve-month period does not exceed the Revenue Threshold. For clarity: all use within the scope of the Section 4 grant is permitted up to and until the Revenue Threshold is crossed.
+
+**5.2 Above the Revenue Threshold.** If Your aggregate revenue exceeds the Revenue Threshold, further commercial use (as distinct from internal research, citation, or academic use, which remain within the Section 4 grant) requires a Commercial License obtained under Section 14.
+
+**5.3 Hosted Service.** Irrespective of the Revenue Threshold, operating a Hosted Service that exposes DM3 functionality to third parties requires a Commercial License.
+
+**5.4 Revenue Measurement.** The Revenue Threshold is measured in United States dollars at the prevailing spot rate on the measurement date. Aggregation across Affiliates is required. You are responsible for accurate good-faith self-measurement. In connection with a bona fide dispute under Section 17, the Licensor may require You, upon not less than thirty (30) days' written notice, to provide a written certification signed by a responsible officer of Your Entity confirming compliance with the Revenue Threshold for the relevant period, together with reasonable supporting evidence. Such evidence will be treated as confidential information and used only for the purpose of resolving the dispute.
+
+**5.5 Industry-Specific Licensing.** The Licensor reserves the right to require a Commercial License for use in specific industries or applications where the Licensor has published industry-specific terms at the Master Resolver Endpoint, irrespective of the Revenue Threshold. Any industry-specific terms so introduced take effect prospectively only, no earlier than thirty (30) days after conspicuous publication at the Master Resolver Endpoint, and do not retroactively affect commercial use lawfully undertaken before their effective date. As of the License Date, no such industry-specific terms are in force.
+
+---
+
+## 6. Restrictions
+
+Notwithstanding any grant in Section 4, You may not, without a Commercial License obtained under Section 14 or other written authorisation from the Licensor:
+
+**6.1 No Hosted or Managed Service.** Operate any Hosted Service that exposes DM3 functionality to third parties. Internal-only deployment that serves solely You or Your Affiliates, and that is not made available to third parties under any commercial, evaluative, or operational arrangement, is not a Hosted Service.
+
+**6.2 Anti-Circumvention.** Take any action whose purpose or effect is to circumvent the Revenue Threshold, the Hosted Service restriction, or any other restriction of this License. Circumvention includes without limitation: fragmenting activity across Affiliates or counterparties to keep individual entities below the Revenue Threshold where the aggregate exceeds it; restructuring a Hosted Service as a nominally-internal deployment that in substance exposes DM3 functionality to third parties; relabelling DM3 outputs as outputs of a third system for the purpose of evading this License. The substance of Your conduct controls over its form.
+
+**6.3 Binary-Only Redistribution Constraint.** You may redistribute the DM3 Binary only as published by the Licensor, preserving its Canonical Bundle Hash. You may not:
+
+(a) redistribute any compiled variant of the DM3 Binary produced from other source;
+
+(b) publish or redistribute the source of `dm3_microtx` or any derivative of it whether or not independently obtained, except as may be permitted by mandatory applicable law and only to the extent so permitted;
+
+(c) represent any other compiled binary, whether Yours or a third party's, as DM3.
+
+**6.4 No Fabricated or Modified Receipts.** You may not (a) fabricate Receipts and represent them as elements of the Receipt Chain; (b) modify any Receipt and represent the modified form as authentic; (c) publish receipts produced by a modified copy of the DM3 Binary as DM3 Receipts; (d) selectively publish portions of the Receipt Chain in a manner that materially misrepresents the status of a Claim.
+
+**6.5 Scientific Framing Restriction.** You may not publicly represent, or allow to be represented on Your behalf, DM3 or any Substantial Derivative of DM3 as:
+
+(a) an artificial intelligence, artificial general intelligence, cognitive system, reasoning system, conscious system, or a system that possesses, embodies, or produces any of the foregoing;
+
+(b) a system having mystical, esoteric, spiritual, religious, supernatural, or metaphysical properties;
+
+(c) a system that does anything other than what the Claims Document, as at the relevant time, states it does; or
+
+(d) a system whose retracted claims are active, without fair and legible reference to the Retractions Register.
+
+Nothing in this Section 6.5 restricts good-faith research critique, reproduction efforts, or falsification attempts, including discussion of framings the Licensor has non-claimed for the purpose of evaluating or dismissing them. The target of this Section 6.5 is the marketing, promotional, commercial, or popular-press re-framing of DM3 in terms the Licensor has expressly non-claimed; it is not the discussion of such framings in bona fide scientific or scholarly criticism.
+
+**6.6 No Identity Spoofing.** You may not represent any work not authored by the Licensor as being DM3 or as being endorsed by the Licensor. The Artefact Bundle Register at the Master Resolver Endpoint is dispositive for authorship and canonicity.
+
+**6.7 No License Replacement.** You may not distribute the Licensed Work or any Substantial Derivative under a different license purporting to supersede this License, except after the Change Date and under the narrow post-Change-Date terms of Section 10.
+
+---
+
+## 7. Receipt Chain Integrity and Retraction Protection
+
+**7.1 Receipt Chain Integrity.** The Receipt Chain is a material term of this License. You acknowledge that the scientific status of DM3 and of any claim made about it depends on the integrity of the Receipt Chain and the Canonical Bundle Hashes. You will:
+
+(a) preserve the Canonical Bundle Hashes and the integrity of the Receipt Chain when redistributing the Artefact Bundle;
+
+(b) cite the specific Receipt when making a factual claim about DM3 outputs;
+
+(c) not represent a Receipt as having been generated from the DM3 Binary unless the Canonical Bundle Hash of the binary used is the then-current Canonical Bundle Hash published at the Master Resolver Endpoint or a prior Canonical Bundle Hash so published and retained in the Endpoint's history.
+
+**7.2 Retraction Protection.** The Retractions Register is a material term of this License. Retractions published at the Master Resolver Endpoint (including, as at the License Date, the H2 kill and the γ retraction) are binding on all licensees prospectively from their publication. You will:
+
+(a) not represent a retracted Claim as active;
+
+(b) where You have previously published material relying on a retracted Claim, take commercially reasonable steps to make the retraction visible to readers of that material, including by (i) updating any preprint, working paper, institutional repository copy, project website, or other version of the material over which You have control; (ii) posting an erratum or correction note on Your own controlled channels (such as a laboratory, project, or institutional website); and (iii) where the publication venue permits, submitting a formal erratum or addendum to that venue. This obligation is to act in good faith to surface the retraction; it does not require amendment of immutable external publications outside Your control;
+
+(c) accept that future retractions, pre-registered kill criterion outcomes, or changes to the Claims Document published at the Master Resolver Endpoint take effect prospectively from publication, without amendment of this License.
+
+**7.3 Evidence of Integrity.** The Licensor may request, as part of any dispute under Section 17, reasonable evidence of Your compliance with this Section 7. Wilful fabrication, modification, or misrepresentation of Receipts, Canonical Bundle Hashes, or retraction status is a material breach, not curable under Section 16.2.
+
+---
+
+## 8. Traditional Knowledge Acknowledgment
+
+**8.1 Acknowledgment.** The topology on which the DM3 geometry is based is the Sri Yantra, a classical geometric figure of Indian origin and shared cultural heritage. The Licensor claims no proprietary right, and asserts no cultural authority, over the Sri Yantra itself. The Licensor's work is the three-dimensional lattice construction ("3D Double Meru"), the deterministic construction code, and the receipt chain and tests that accompany it.
+
+**8.2 Required Acknowledgment.** When citing DM3 in a context that references its geometric construction, You will reference the Sri Yantra as the classical topological source and the Licensor's work as the lattice construction. A reasonable form of acknowledgment is sufficient; elaborate or ritualised form is not required. The acknowledgment may be integrated into Your citation of DM3 or may appear separately, at Your discretion.
+
+**8.3 Non-Appropriation.** You may not claim proprietary ownership of the Sri Yantra figure itself or of any traditional knowledge on which it draws, in Your own name or on behalf of the Licensor.
+
+---
+
+## 9. Contributions
+
+**9.1 Contribution License.** Any contribution intentionally submitted by You to the Licensor for inclusion in the Licensed Work (including via pull request or equivalent mechanism) is, unless separately agreed in writing, licensed to the Licensor and to all downstream licensees under this License, without additional terms or conditions.
+
+**9.2 Original Contribution.** You represent that each contribution You submit is either Your original work or work You have the right to submit under this License. You retain copyright in Your contribution.
+
+**9.3 No Obligation to Accept.** The Licensor is under no obligation to accept any contribution. Contributions are accepted at the Licensor's discretion and may be subject to receipt-chain integrity and kill-criterion pre-registration review.
+
+---
+
+## 10. Change Date and Post-Change-Date License
+
+**10.1 Change Date.** The Change Date for this License is four (4) years after the License Date published for this version at the Master Resolver Endpoint, or such earlier or later date as the Licensor publishes at the Master Resolver Endpoint and in a subsequent version of this License.
+
+**10.2 Change License.** On and after the Change Date, this License converts to the Apache License, Version 2.0 (the "Change License") with respect to the DM3 Binary, the adjacency data, the tag data, and the construction and findings documentation, subject to Section 10.3.
+
+**10.3 Survival of Integrity Terms.** Notwithstanding Section 10.2, the following Sections survive the Change Date and continue to apply to the Licensed Work and any work derived from it after the Change Date, as a condition of reliance on the post-Change-Date license:
+
+(a) Section 6.1 (No Hosted or Managed Service) — unless and until the Licensor expressly releases the Hosted Service restriction at the Master Resolver Endpoint;
+
+(b) Section 6.4 (No Fabricated or Modified Receipts);
+
+(c) Section 6.5 (Scientific Framing Restriction);
+
+(d) Section 6.6 (No Identity Spoofing);
+
+(e) Section 7 (Receipt Chain Integrity and Retraction Protection);
+
+(f) Section 8 (Traditional Knowledge Acknowledgment);
+
+(g) Section 12 (Trademark) to the extent of its survival by operation of trademark law.
+
+The Receipt Chain, the Retractions Register, and the Canonical Bundle Hashes are identity and integrity artefacts, not copyright-protected works, and their preservation is a matter of scientific honesty independent of the copyright licence. Sections 6.5 and 7 persist because the re-framing and fabrication risks they protect against do not diminish after the Change Date.
+
+**10.4 Post-Change-Date Redistribution.** A party relying on the Change License after the Change Date must include a conspicuous notice of the surviving Sections under Section 10.3 with any redistribution.
+
+---
+
+## 11. Notices
+
+**11.1 Notice in Redistribution.** Any redistribution of the Artefact Bundle or any Substantial Derivative must carry a conspicuous notice identifying the work as licensed under this License and linking to the Master Resolver Endpoint.
+
+**11.2 Notice to the Licensor.** Notices to the Licensor must be sent to the Licensor Contact published at the Master Resolver Endpoint. The Licensor may update the Licensor Contact under Section 19 without amending this License.
+
+**11.3 Legal Notices.** Any notice under Sections 14, 16, or 17 must be in writing, must clearly identify this License (by SPDX identifier or full name and version), must identify the Licensor by reference to the Licensor Identity published at the Master Resolver Endpoint, and must be sent to the Licensor Contact.
+
+---
+
+## 12. Trademark
+
+**12.1 No Trademark License.** This License does not grant any right to use any trademark, service mark, trade name, or logo of the Licensor, including without limitation the marks "Zer0pa" and "DM3," except as necessary for factual reference to the Licensed Work.
+
+**12.2 Factual Reference Permitted.** You may refer to DM3 by name for the purpose of (a) identifying the Licensed Work as the source of an output, analysis, or citation; (b) stating that Your work is licensed under this License; (c) stating that Your work does or does not rely on DM3. Factual reference must not imply endorsement, sponsorship, affiliation, or partnership with the Licensor.
+
+**12.3 Trademark Register.** The Licensor's marks relevant to the Licensed Work are listed in the Trademark Register at the Master Resolver Endpoint. The Licensor may update the Trademark Register under Section 19 without amending this License.
+
+---
+
+## 13. Patents
+
+**13.1 Patent Grant.** The Licensor grants You a worldwide, non-exclusive, royalty-free, revocable-only under Section 13.2 patent license to make, use, offer, and distribute the Licensed Work as permitted under this License, under patent claims owned or controlled by the Licensor that are necessarily infringed by such permitted exercise of the Licensed Work as distributed.
+
+**13.2 Patent Retaliation.** If You, or any Affiliate of Yours, initiate patent litigation (including by cross-claim or counterclaim) against the Licensor or any other user of the Licensed Work alleging that the Licensed Work or any Substantial Derivative directly or indirectly infringes a patent, then any patent license granted to You under this License terminates as of the date such litigation is filed, and this License terminates as to You under Section 16.
+
+**13.3 No Implied Patent License.** Except as expressly stated in Section 13.1, no patent license is granted under this License.
+
+---
+
+## 14. Commercial Licensing Intake
+
+**14.1 Intake Address.** Commercial Licensing enquiries — including for Hosted or Managed Service licences, for use above the Revenue Threshold, and for any industry-specific terms — must be sent to the Licensor Contact published at the Master Resolver Endpoint.
+
+**14.2 Form of Enquiry.** An enquiry should identify (a) the party requesting the Commercial License and its Affiliates; (b) the use-case; (c) whether it involves a Hosted Service, revenue above the Revenue Threshold, or an industry-specific application; (d) the estimated volume and duration.
+
+**14.3 Good-Faith Response.** The Licensor will respond to good-faith commercial enquiries in a reasonable time. The Licensor is not obligated to grant a Commercial License, to grant one on any particular terms, or to treat any two requests on the same terms.
+
+**14.4 No Use Pending Execution.** Pending execution of a Commercial License, the use requiring such a License is not permitted. Good-faith pre-contract negotiation does not constitute authorisation.
+
+**14.5 Per-Deal Terms.** A Commercial License may agree different or additional terms — including without limitation different governing law, different dispute-resolution forum, different liability treatment, or different integrity, framing, or confidentiality provisions — by written agreement signed by both parties. Any such terms apply only to that Commercial License and the parties to it; they do not amend, waive, or affect this License generally or its application to any other licensee. In the event of inconsistency between a Commercial License and this License, the Commercial License controls as between its parties.
+
+---
+
+## 15. Disclaimer of Warranty and Limitation of Liability
+
+**15.1 As-Is.** THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ACCURACY OF RESULTS. THE LICENSOR DOES NOT WARRANT THAT THE LICENSED WORK WILL MEET YOUR REQUIREMENTS, THAT IT IS ERROR-FREE, OR THAT ANY CLAIM IN THE CLAIMS DOCUMENT IS OR WILL REMAIN VALID.
+
+**15.2 Scientific Status.** You acknowledge that (a) the scientific status of each Claim is governed by the Claims Document and the Retractions Register as in force from time to time at the Master Resolver Endpoint; (b) Claims may be retracted at any time and the retraction is effective prospectively from publication; (c) reliance on any Claim is at Your own risk.
+
+**15.3 Limitation of Liability.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH THIS LICENSE OR THE LICENSED WORK, INCLUDING WITHOUT LIMITATION LOSS OF PROFITS, LOSS OF DATA, LOSS OF GOODWILL, OR SCIENTIFIC OR REPUTATIONAL HARM, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE LICENSOR'S AGGREGATE LIABILITY UNDER THIS LICENSE SHALL NOT EXCEED FIVE HUNDRED UNITED STATES DOLLARS (USD 500).
+
+**15.4 Basis of the Bargain.** You acknowledge that the disclaimers and limitations in this Section 15 are a fundamental element of the basis on which the Licensed Work is made available and would not be made available without them.
+
+---
+
+## 16. Termination and Cure
+
+**16.1 Automatic Termination.** If You breach any of Sections 5 (Revenue Threshold and Commercial Use), 6 (Restrictions), 7 (Receipt Chain Integrity and Retraction Protection), 8 (Traditional Knowledge Acknowledgment), or 13.2 (Patent Retaliation), this License terminates automatically as to You.
+
+**16.2 Cure Period.** Except for breaches identified in Section 16.3 as non-curable, if You cease the breach within thirty (30) days of the earlier of (i) receipt of written notice of the breach from the Licensor, and (ii) Your first actual awareness of the breach, and You take reasonable remedial steps (including public correction where a public misrepresentation is the basis of the breach), the License is reinstated. For the purposes of clause (ii), where the fact of the breach is reasonably ascertainable from Your own records, publications, or conduct, You will be deemed to have become aware of the breach no later than the date on which a reasonable licensee in Your position acting with reasonable diligence would have become so aware. Reinstatement under this Section applies only once per breach category.
+
+**16.3 Non-Curable Breaches.** The following breaches are non-curable: (a) wilful fabrication, modification, or misrepresentation of Receipts or Canonical Bundle Hashes (Section 7.3); (b) wilful representation of retracted Claims as active after notice (Section 7.2); (c) wilful breach of the Scientific Framing Restriction after notice (Section 6.5); (d) any breach undertaken for the purpose of circumventing the License (Section 6.2); (e) Patent Retaliation (Section 13.2).
+
+**16.4 Effect of Termination.** Upon termination: (a) all rights granted to You under Section 4 cease; (b) You must stop distributing the Artefact Bundle and any Substantial Derivative; (c) You must not represent Yourself as a licensee; (d) Sections 7, 8, 12, 13.2, 15, 16.4, 17, and 19 survive termination.
+
+**16.5 No Effect on Downstream Licensees.** Termination of Your License does not terminate the License of any downstream licensee who is itself in compliance with this License.
+
+---
+
+## 17. Governing Law and Dispute Resolution
+
+**17.1 Governing Law.** This License is governed by the laws of the Republic of South Africa, excluding its conflict-of-laws rules.
+
+**17.2 Good-Faith Negotiation.** The Licensor and any user in dispute will first attempt to resolve the dispute by good-faith written negotiation for a period of thirty (30) days from written notice of the dispute, before proceeding under Section 17.3 or Section 17.4.
+
+**17.3 Arbitration.** Any dispute, controversy, or claim arising out of or relating to this License, or the breach, termination, or validity of it, that is not resolved under Section 17.2 shall be finally resolved by arbitration under the Rules of Arbitration of the International Chamber of Commerce, by a sole arbitrator where the dispute is below USD 1,000,000 in amount in controversy and by three arbitrators otherwise. The seat of arbitration is Cape Town, South Africa. The language of the arbitration is English. The award is final and binding.
+
+**17.4 Equitable Relief.** Notwithstanding Section 17.3, either party may seek urgent interim or conservatory relief from a court of competent jurisdiction in relation to (a) a breach of Section 6 (Restrictions), (b) a breach of Section 7 (Receipt Chain Integrity and Retraction Protection), or (c) a breach of Section 12 (Trademark), and such application does not constitute a waiver of the obligation to arbitrate the merits.
+
+**17.4.1 Election.** A party intending to invoke Section 17.4 in respect of a Section 6.5 (Scientific Framing Restriction) matter must notify the other party in writing within sixty (60) days of first becoming aware of the matter, failing which the matter proceeds to arbitration under Section 17.3 without Section 17.4 relief.
+
+**17.4.2 Coordination.** A court entertaining an application under Section 17.4 may grant urgent relief pending arbitration; the merits remain for the arbitral tribunal unless both parties agree in writing otherwise.
+
+**17.5 No Class Proceedings.** All disputes under this License are resolved on an individual basis. Class, collective, or representative proceedings are excluded to the maximum extent permitted by applicable law.
+
+---
+
+## 18. License Precedence Over Operational Documentation
+
+**18.1 Operational Documentation.** "Operational Documentation" means any README, contributing guide, code-of-conduct, repository playbook, project ethos, website copy, marketing material, social-media content, investor material, academic preprint or publication text, scientific commentary, press release, or other document authored or published by the Licensor or on its behalf, **other than** (a) this License itself, (b) a Commercial License, and (c) the Canonical References identified in Section 19.
+
+**18.2 Precedence.** In the event of any inconsistency between Operational Documentation and this License (including the Canonical References), this License controls.
+
+**18.3 No Amendment by Operational Documentation.** Operational Documentation cannot amend, waive, or alter this License. Statements in Operational Documentation are illustrative, aspirational, explanatory, or marketing in nature unless incorporated by express reference into a writing signed by the Licensor.
+
+**18.4 Claims Document Is Operational in Scope, Material in Effect.** The Claims Document and the Is/Is-Not Document are Operational Documentation under this Section, but Sections 6.5 and 7.2 expressly elevate their content to material effect for the purposes of this License. To the extent the Claims Document states what DM3 is and is not, and to the extent the Retractions Register records retractions, those statements control the permitted-representations scope of Sections 6.5 and 7.2.
+
+**18.5 No Estoppel by Operational Documentation.** No statement in Operational Documentation, and no pattern of publishing or omitting Operational Documentation, gives rise to estoppel, waiver, or license-by-conduct against the Licensor with respect to the terms of this License.
+
+---
+
+## 19. Canonical References and Master Resolver Endpoint
+
+**19.1 Purpose.** This Section collapses each mutable external reference in this License into a bounded set of Canonical References, all resolved at a single public resource. The effect is that operational changes to the Licensor's publishing surface, artefact composition, contact address, legal name, marks, and published claims do not require a new version of this License.
+
+**19.2 Master Resolver Endpoint.** The Master Resolver Endpoint is the URL identified at the head of this License, or such successor URL as the Licensor publishes under Section 19.5. At the Master Resolver Endpoint the Licensor publishes, and maintains current, the Canonical References defined in Section 19.3.
+
+**19.3 Canonical References.** The following references are the Canonical References for this License:
+
+(a) **Artefact Bundle Register** — the current composition of the Artefact Bundle and the Canonical Bundle Hashes of each constituent file;
+
+(b) **Claims Document** — the current statement of what DM3 is claimed to be, to do, and to produce;
+
+(c) **Is/Is-Not Document** — the current statement of what DM3 is not claimed to be, to do, or to produce;
+
+(d) **Retractions Register** — the current record of retractions, including without limitation prior-published claims so recorded;
+
+(e) **Licensor Contact** — the current address for notices under Section 11, Commercial Licensing Intake under Section 14, and dispute notices under Section 17;
+
+(f) **Licensor Identity** — the Licensor's current legal name and domicile, where different from that stated in the header of this License;
+
+(g) **Trademark Register** — the current list of the Licensor's marks relevant to the Licensed Work;
+
+(h) **License Date For This Version** — the date on which this License version was first published at the Master Resolver Endpoint;
+
+(i) **Supplemental Novelty or Construction Schedules** — any Licensor-published schedule further describing the construction, adjacency, or tags of the DM3 geometry, expressly stated to be incorporated into this License for the purpose of artefact identification. None are in force as at the License Date.
+
+**19.4 Updates Are Not Amendments.** An update to any Canonical Reference published at the Master Resolver Endpoint is operational in nature and does not constitute an amendment of this License. Counterparties rely on the Canonical Reference as in force at the time of the act in question; prior versions of a Canonical Reference remain available in the Endpoint's history for evidentiary purposes.
+
+**19.5 Relocation.** The Licensor may relocate the Master Resolver Endpoint to a successor URL by (a) publishing, at the current Master Resolver Endpoint, a relocation notice identifying the successor URL, and (b) maintaining the relocation notice at the current Endpoint for at least ninety (90) days. On and after the ninety-day mark, the successor URL is the Master Resolver Endpoint.
+
+**19.5.1 Emergency Relocation.** Where the Licensor loses the ability to publish at the current Master Resolver Endpoint (including by reason of platform unavailability, account suspension, or takedown), the Licensor may relocate by publishing the relocation notice at a Licensor-controlled fallback surface (including a `zer0pa.ai` path or sub-domain). The ninety-day period begins from publication at the fallback surface. The Licensor will take commercially reasonable steps to make the relocation notice discoverable.
+
+**19.6 Counterparty Reliance.** A counterparty acting in good-faith reliance on a Canonical Reference at the time of the act is not in breach of this License by reason of a subsequent update to that Canonical Reference, provided the counterparty comes into compliance with the updated Canonical Reference prospectively.
+
+**19.7 Substantive Terms Unchanged.** Nothing in this Section 19 permits the Licensor to alter the substantive terms of this License — the grant (Section 4), the Restrictions (Section 6), the Receipt Chain and Retraction terms (Section 7), the Traditional Knowledge Acknowledgment (Section 8), the Change Date mechanics (Section 10), the Revenue Threshold amount (Section 5), the Hosted Service restriction (Section 6.1), the governing law (Section 17.1), or any other text of this License other than the Canonical References — without publishing a new version of this License.
+
+**19.8 Construction.** Where this License refers to a Canonical Reference, the reference is to the Canonical Reference as in force at the Master Resolver Endpoint at the time of the act in question, except where this License expressly refers to the Canonical Reference "as at the License Date" or similar.
+
+---
+
+## 20. General Provisions
+
+**20.1 Entire Agreement.** This License, together with the Canonical References, constitutes the entire agreement between the Licensor and You with respect to the Licensed Work, superseding all prior and contemporaneous understandings, except for a Commercial License separately executed in writing.
+
+**20.2 Severability.** If any provision of this License is held unenforceable, the remaining provisions remain in effect, and the unenforceable provision is reformed to the minimum extent necessary to make it enforceable while preserving its intent.
+
+**20.3 No Waiver.** No failure or delay by the Licensor in enforcing any right under this License operates as a waiver of that right. A single or partial exercise of a right does not preclude further exercise.
+
+**20.4 Assignment.** You may not assign this License or any rights under it without the Licensor's prior written consent, which will not be unreasonably withheld. The Licensor may assign this License in connection with a reorganisation, merger, or sale of all or substantially all of its assets, provided the assignee undertakes the obligations of the Licensor under this License.
+
+**20.5 Force Majeure.** Neither party is liable for any failure or delay in performing under this License to the extent caused by circumstances beyond its reasonable control, except that no force majeure excuses payment obligations or breaches of Sections 6 or 7.
+
+**20.6 Independent Contractors.** Nothing in this License creates any agency, partnership, joint venture, or employment relationship between the Licensor and any licensee.
+
+**20.7 Third-Party Beneficiaries.** This License does not confer any rights on any third party, except that downstream licensees in compliance with this License may rely on it as against an upstream licensee as provided in Section 16.5.
+
+**20.8 Construction.** Headings are for convenience only and do not affect interpretation. "Including" and its variants are non-exclusive. Singular includes plural and vice versa. References to "Section" are to Sections of this License. Time periods expressed in days are in calendar days unless otherwise stated.
+
+**20.9 Language.** This License is executed in the English language. Any translation is provided for convenience only; the English text controls.
+
+---
+
+*End of Zer0pa DM3 Research and Receipt License v1.0.*
+
+---
+
+**SPDX-License-Identifier:** `LicenseRef-Zer0pa-DM3-RRL-1.0`
+**Master Resolver Endpoint:** published as stated in the header.
+**Licensor:** Zer0pa.
+**Licensor Contact, Licensor Identity, Trademark Register, License Date For This Version, Artefact Bundle Register, Claims Document, Is/Is-Not Document, Retractions Register, Supplemental Schedules:** published at the Master Resolver Endpoint under Section 19.

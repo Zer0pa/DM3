@@ -1,0 +1,24 @@
+Initializing GPU Kernels...
+TransformerKernel: adapter max_compute_workgroup_storage_size=32768 < target 65536; using reduced limit
+--- Holographic Memory Experiment ---
+Epoch 0: Train E=35273.77, Recall E=32131.88, Gain=0.0000, Cosine=-0.0012
+Epoch 1: Train E=35273.77, Recall E=34709.73, Gain=0.0000, Cosine=-0.0012
+Epoch 2: Train E=35273.77, Recall E=29757.30, Gain=0.0000, Cosine=-0.0013
+Epoch 3: Train E=35273.77, Recall E=32126.40, Gain=0.0000, Cosine=-0.0010
+Epoch 4: Train E=35273.77, Recall E=31200.50, Gain=0.0000, Cosine=-0.0011
+Epoch 5: Train E=35273.77, Recall E=34494.94, Gain=0.0000, Cosine=-0.0013
+Epoch 6: Train E=35273.77, Recall E=31922.88, Gain=0.0000, Cosine=-0.0011
+Epoch 7: Train E=35273.77, Recall E=31398.82, Gain=0.0000, Cosine=-0.0010
+Epoch 8: Train E=35273.77, Recall E=34517.19, Gain=0.0000, Cosine=-0.0009
+Epoch 9: Train E=35273.77, Recall E=28615.05, Gain=0.0000, Cosine=-0.0012
+Epoch 10: Train E=35273.77, Recall E=31200.18, Gain=0.0000, Cosine=-0.0011
+Epoch 11: Train E=35273.77, Recall E=33788.05, Gain=0.0000, Cosine=-0.0008
+Epoch 12: Train E=35273.77, Recall E=34297.26, Gain=0.0000, Cosine=-0.0010
+Epoch 13: Train E=35273.77, Recall E=32342.83, Gain=0.0000, Cosine=-0.0010
+Epoch 14: Train E=35273.77, Recall E=33062.59, Gain=0.0000, Cosine=-0.0009
+Epoch 15: Train E=35273.77, Recall E=33783.32, Gain=0.0000, Cosine=-0.0012
+Epoch 16: Train E=35273.77, Recall E=32128.57, Gain=0.0000, Cosine=-0.0010
+Epoch 17: Train E=35273.77, Recall E=34497.68, Gain=0.0000, Cosine=-0.0010
+Epoch 18: Train E=35273.77, Recall E=32128.66, Gain=0.0000, Cosine=-0.0013
+Epoch 19: Train E=35273.77, Recall E=33774.49, Gain=0.0000, Cosine=-0.0010
+Holographic Memory Experiment Complete. Log saved to holographic_memory_log.csv

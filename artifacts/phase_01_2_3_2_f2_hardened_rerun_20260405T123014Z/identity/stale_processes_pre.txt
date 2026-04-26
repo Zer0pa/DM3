@@ -1,0 +1,2 @@
+11643  1925       00:00 sh                          sh -c ps -A -o PID,PPID,ETIME,NAME,ARGS | grep dm3_runner || true
+11651 11643       00:00 grep                        grep dm3_runner

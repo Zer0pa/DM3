@@ -1,0 +1,1 @@
+TransformerKernel: adapter max_compute_workgroup_storage_size=32768 < target 65536; using reduced limit

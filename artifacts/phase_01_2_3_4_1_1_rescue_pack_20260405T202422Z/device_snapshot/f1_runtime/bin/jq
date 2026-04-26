@@ -1,0 +1,29 @@
+#!/system/bin/sh
+FILTER="$1"
+shift
+FILE="$1"
+if [ -z "$FILE" ]; then
+  cat
+  exit 0
+fi
+if [ ! -f "$FILE" ]; then
+  echo "{}"
+  exit 0
+fi
+extract() {
+  key="$1"
+  val=$(grep -m1 "\"$key\"" "$FILE" | sed -E 's/.*:[[:space:]]*([^,]+).*/\1/' | tr -d '"')
+  if [ -z "$val" ]; then
+    echo "false"
+  else
+    case "$val" in
+      true|false) echo "$val" ;;
+      *) echo "$val" ;;
+    esac
+  fi
+}
+printf '{\n  "gates_ok": %s,\n' "$(extract gates_ok)"
+printf '  "egraph_proof_valid": %s,\n' "$(extract egraph_proof_valid)"
+printf '  "dep_cert_present": %s,\n' "$(extract dep_cert_present)"
+printf '  "gc_invariants_pass": %s,\n' "$(extract gc_invariants_pass)"
+printf '  "cad_sos_present": %s\n}\n' "$(extract cad_sos_present)"

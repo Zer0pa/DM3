@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "A4_cross_dataset",
+  "timestamp_utc": "2026-04-23T03:43:00Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 0,
+  "unique_output_sha256_raw": 0,
+  "unique_output_sha256_canonical": 0,
+  "unique_receipt_sha256": 0,
+  "unique_output_sha256_list_raw": [],
+  "unique_output_sha256_list_canonical": [],
+  "output_sha256_per_run": [],
+  "output_canonical_sha256_per_run": [],
+  "receipt_sha256_per_run": [],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "FAIL"
+}

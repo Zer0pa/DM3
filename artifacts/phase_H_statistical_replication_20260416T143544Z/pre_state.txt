@@ -1,0 +1,9 @@
+=== Pre-State ===
+battery_capacity:
+44
+thermal_zone0:
+0
+loadavg:
+1.63 1.58 1.73 1/11409 21081
+binary_hash:
+daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672  /data/local/tmp/dm3_runner

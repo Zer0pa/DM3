@@ -1,0 +1,4 @@
+GPU Transformer Kernel Initialized.
+InterferenceTask: Detected JSON RegionTags.
+--- G2 Boundary Readout Experiment (Mode: R2Contrastive) ---
+Epoch, AvgSleepE, AvgMatchE, AvgMismatchE, Gap_Match, Gap_Mismatch, ReadoutAcc

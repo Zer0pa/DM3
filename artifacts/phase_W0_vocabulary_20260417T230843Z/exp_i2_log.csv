@@ -1,0 +1,4 @@
+phase,step,energy
+train,0,2500.0864
+test,correct,2500.0864
+test,wrong,2500.0864

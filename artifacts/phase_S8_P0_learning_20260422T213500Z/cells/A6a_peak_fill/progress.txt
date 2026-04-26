@@ -1,0 +1,34 @@
+[03:43:55] A6a start: peak-fill steps in {33-37}, N=3, SY_v1, xnor_train
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s33_r1.bin': No such file or directory
+OK A6a_peak_fill_s33_r1 rc=0 out_sha= receipt_sha=7575718b2ea02d4b12a28aca739b328bbe72984d0e564fd889d107325a07bd7c
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s33_r2.bin': No such file or directory
+OK A6a_peak_fill_s33_r2 rc=0 out_sha= receipt_sha=3e689fa1329dfb1d41a3117b47625b0b1410031ddc2456a554db9e9bc1cbf247
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s33_r3.bin': No such file or directory
+OK A6a_peak_fill_s33_r3 rc=0 out_sha= receipt_sha=72c1fe8adc78a6cc304c40050f89cdffd039f02219463aabcb27afc616750648
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s34_r1.bin': No such file or directory
+OK A6a_peak_fill_s34_r1 rc=0 out_sha= receipt_sha=4053991cca357004f0974aa80e1e62f3618e8006232c7f695b533033f5d1ae88
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s34_r2.bin': No such file or directory
+OK A6a_peak_fill_s34_r2 rc=0 out_sha= receipt_sha=77a1be282bee52cab1c88b52b86ea5b10a82a566971c6c55472d256154cc4cf7
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s34_r3.bin': No such file or directory
+OK A6a_peak_fill_s34_r3 rc=0 out_sha= receipt_sha=624c99661ef6099901610e8d03f69a755bd7e2c270c43ced2eb4b1a86f51b079
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s35_r1.bin': No such file or directory
+OK A6a_peak_fill_s35_r1 rc=0 out_sha= receipt_sha=6810d1221bbadca28726610180a114336c2dd082338b16ec27625296268197d0
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s35_r2.bin': No such file or directory
+OK A6a_peak_fill_s35_r2 rc=0 out_sha= receipt_sha=3424e853e1f8bdf8dfa0b244d21ffd1112c0d3db5831d87d6e4f2be307db6856
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s35_r3.bin': No such file or directory
+OK A6a_peak_fill_s35_r3 rc=0 out_sha= receipt_sha=f7c79a839b2ee3eb839fb1b3e5bf06c2bff1edf062a7d6f4b116dab67d992976
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s36_r1.bin': No such file or directory
+OK A6a_peak_fill_s36_r1 rc=0 out_sha= receipt_sha=0bb1cc44bf4b9425f2b5e99383e136a98fa510b7d508d7d7666732af008f952d
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s36_r2.bin': No such file or directory
+OK A6a_peak_fill_s36_r2 rc=0 out_sha= receipt_sha=a9a858fb5ed93d50e37259a25d1e04ec59e6a065f3118ee216671927c8ca4139
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s36_r3.bin': No such file or directory
+OK A6a_peak_fill_s36_r3 rc=0 out_sha= receipt_sha=69a198367e7aa0bed62b5b7d48750df517200fc9dff44a7b3819df4433d94d28
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s37_r1.bin': No such file or directory
+OK A6a_peak_fill_s37_r1 rc=0 out_sha= receipt_sha=c0024945a478cbf910ca29d3b62e8d1a7eb0f5f1d57fac9fbe49d9c451c6a044
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s37_r2.bin': No such file or directory
+OK A6a_peak_fill_s37_r2 rc=0 out_sha= receipt_sha=e31bb5964dfacbd86fca29086517f208a173a76d70d1fb3028974e9106dcbebd
+cp: bad '/data/local/tmp/dm3_harness/cells/A6a_peak_fill/A6a_peak_fill_s37_r3.bin': No such file or directory
+OK A6a_peak_fill_s37_r3 rc=0 out_sha= receipt_sha=7783e0db14fce612d4297bcc12c724bd4028a27bb9121d0a32a4665e681f2eae
+SUMMARY exp=A6a_peak_fill runs=15 unique_canonical=1 verdict=PASS summary_sha=9bff0dc0d88e8aae2fae3cb6e92423f7cb8bf54b0a9bd4a4f8d90652030aaac0
+[09:34:38] A6a_COMPLETE
+[09:34:38] EXIT

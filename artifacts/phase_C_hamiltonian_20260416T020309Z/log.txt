@@ -1,0 +1,73 @@
+=== PHASE C: HAMILTONIAN MODE (TRANSFORMER OFF) ===
+Timestamp: 20260416T020309Z
+
+--- Pre-State ---
+80
+---
+0
+---
+2.29 4.82 3.68 1/11988 30691
+---
+daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672  /data/local/tmp/dm3_runner
+
+=== HAMILTONIAN RUN 1/5 ===
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.7454 Coh=0.8768
+Resonance Loop Complete.
+Duration: 200.1s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8767709732055664,"decision":"Commit","delta_E":75.7453842163086,"duration_ms":199458,"episode":0}
+
+=== HAMILTONIAN RUN 2/5 ===
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.9245 Coh=0.8769
+Resonance Loop Complete.
+Duration: 200.0s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8769375085830688,"decision":"Commit","delta_E":75.92446899414062,"duration_ms":199342,"episode":0}
+
+=== HAMILTONIAN RUN 3/5 ===
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.6213 Coh=0.8924
+Resonance Loop Complete.
+Duration: 199.1s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8924267888069153,"decision":"Commit","delta_E":74.62132263183594,"duration_ms":198480,"episode":0}
+
+=== HAMILTONIAN RUN 4/5 ===
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.9582 Coh=0.8923
+Resonance Loop Complete.
+Duration: 200.4s
+Receipt:
+{"asymmetry":0.0,"coherence":0.8922542333602905,"decision":"Commit","delta_E":74.95823669433594,"duration_ms":199782,"episode":0}
+
+=== HAMILTONIAN RUN 5/5 ===
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 1, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.9089 Coh=0.8772
+Resonance Loop Complete.
+Duration: 199.4s
+Receipt:
+{"asymmetry":0.0,"coherence":0.877213716506958,"decision":"Commit","delta_E":75.90885925292969,"duration_ms":198795,"episode":0}
+
+--- Post-State ---
+80
+---
+0
+
+=== PHASE C COMPLETE ===

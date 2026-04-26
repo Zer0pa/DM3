@@ -1,0 +1,55 @@
+{
+  "phase": "J",
+  "name": "Holography Parameter Sweep",
+  "carving_goal": "Distinguish degenerate / narrowly-bistable / task-parameterized-same-family / multi-stable.",
+  "started": "2026-04-16T20:40:21Z",
+  "finished": "2026-04-17T00:50:50Z",
+  "device_time_min": 131,
+  "runs_total": 9,
+  "asymmetry_arm": {
+    "table": [
+      {"asym": -1.0, "E_mean": 10.62, "E_std": 0.30, "Coh_mean": 0.723, "basin": "LOW_ULTRA (all E < 12)"},
+      {"asym": -0.5, "E_mean": 12.86, "E_std": 0.67, "Coh_mean": 0.724, "basin": "RETRY (E ∈ [12, 14])"},
+      {"asym":  0.0, "E_mean": 15.02, "E_std": 0.27, "Coh_mean": 0.727, "basin": "RETRY (E ~ 15)"},
+      {"asym":  0.5, "E_mean": 17.54, "E_std": 0.58, "Coh_mean": 0.729, "basin": "RETRY (high end, E ~ 17-18)"},
+      {"asym":  1.0, "E_mean": 20.17, "E_std": 0.66, "Coh_mean": 0.748, "basin": "3/5 OTHER + 2/5 RETRY (E > 20 zone)"}
+    ],
+    "trend": "MONOTONIC INCREASE: E scales linearly with asymmetry from ~10 to ~20",
+    "slope_approx": "~4.8 E units per asymmetry unit",
+    "coherence_sensitivity": "NONE — Coh flat at 0.72-0.75 across all asymmetry values",
+    "comparison_to_harmonic": "SAME DIRECTION. Harmonic: E goes from 69 (asym=-1) to 75-89 (asym=0) to 80-95 (asym=+1). Holography: E goes from 10.6 to 15 to 20.2. Both monotone increasing. Holography energy scale is ~5x lower."
+  },
+  "rotation_arm": {
+    "table": [
+      {"rot": 0,   "E_mean": 14.81, "Coh_mean": 0.740},
+      {"rot": 60,  "E_mean": 14.85, "Coh_mean": 0.728},
+      {"rot": 120, "E_mean": 14.70, "Coh_mean": 0.734}
+    ],
+    "trend": "FLAT — rotation has zero measurable effect on holography",
+    "comparison_to_harmonic": "Same as harmonic where rotation was also noise-dominated at N=5"
+  },
+  "frequency_arm": {
+    "table": [
+      {"freq": 0.5, "E_mean": 14.61, "Coh_mean": 0.733, "source": "Phase J fresh"},
+      {"freq": 1.0, "E_mean": 14.88, "Coh_mean": 0.731, "source": "Phase I.b"},
+      {"freq": 2.0, "E_mean": 14.54, "Coh_mean": 0.724, "source": "Phase I.b"}
+    ],
+    "trend": "FLAT — frequency does not affect holography (confirmed Phase I.b finding)"
+  },
+  "categorization": {
+    "verdict": "TASK-PARAMETERIZED-SAME-FAMILY",
+    "reasoning": "Holography is NOT degenerate — asymmetry moves its attractor monotonically just like in harmonic. NOT narrowly-bistable — no second attractor emerged under any parameter setting. NOT multi-stable — always single basin. It IS the same dynamical family as harmonic at a different operating point. The --task parameter shifts the entire energy scale (harmonic: E~75-89, holography: E~15). Asymmetry deforms both in the same direction.",
+    "key_evidence": "Holography E scales linearly from 10.6 (asym=-1) to 20.2 (asym=+1) with slope ~4.8 E/asym-unit. Harmonic E shifts from 69 (asym=-1) through 75-89 bistability (asym=0) to 80-95 (asym=+1). Same direction, different scale.",
+    "implications": "The 380-vertex graph supports ONE dynamical family, not two separate objects. The --task parameter is an operating-point selector, not a mode switch. Holography's lower energy scale prevents the bistability visible in harmonic — it may lack the energy headroom for a second basin."
+  },
+  "pre_registration_evaluation": {
+    "degenerate": "KILLED — asymmetry clearly moves the attractor",
+    "narrowly_bistable": "KILLED — no second basin found at any setting (0/45 episodes)",
+    "task_parameterized_same_family": "CONFIRMED — monotone asymmetry response matches harmonic direction",
+    "multi_stable": "KILLED — single monostable attractor throughout"
+  },
+  "kill_criteria": {
+    "all_15_runs_in_RETRY": {"triggered": false, "note": "Not all in RETRY — asym=-1 gave E<12, asym=+1 gave E>20. But all single-basin."},
+    "asym_matches_harmonic_pattern": {"triggered": true, "note": "Linear E-vs-asym in same direction as harmonic"}
+  }
+}

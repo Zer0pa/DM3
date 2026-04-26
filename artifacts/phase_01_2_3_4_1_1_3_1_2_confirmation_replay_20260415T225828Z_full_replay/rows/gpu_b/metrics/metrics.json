@@ -1,0 +1,16 @@
+{
+  "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_gpu_b",
+  "lane": "gpu",
+  "marker": "gpu_init",
+  "decision": "Commit",
+  "delta_E": 74.88800811767578,
+  "coherence": 0.8780325055122375,
+  "duration_ms": 201120,
+  "episode": 0,
+  "receipt_sha256": "762ce418166f37ffd4616742203197fb2367164c33eba830aab9d24534523e4e",
+  "exit_code": 0,
+  "battery_temp_pre_c": 27.0,
+  "battery_temp_post_c": 27.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

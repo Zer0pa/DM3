@@ -1,0 +1,12 @@
+[16:29:10] T3 start: resonance_r3 scaling
+cp: bad '/data/local/tmp/dm3_harness/cells/T3_plasticity/T3_plasticity_s1_001.bin': No such file or directory
+OK T3_plasticity_s1_001 rc=0 out_sha= receipt_sha=af69387384b38bf0b83a12787f94cc9c94b0ccce87717b379e7570d792e5e976
+cp: bad '/data/local/tmp/dm3_harness/cells/T3_plasticity/T3_plasticity_s5_001.bin': No such file or directory
+OK T3_plasticity_s5_001 rc=0 out_sha= receipt_sha=1c68666d40840f12eb4eb477039d17b31d95c84659e6326e9f374e62ac92c6c9
+cp: bad '/data/local/tmp/dm3_harness/cells/T3_plasticity/T3_plasticity_s10_001.bin': No such file or directory
+OK T3_plasticity_s10_001 rc=0 out_sha= receipt_sha=4c852cd5a762c95d0109ca4592b85045322af213fda14e3a3ae77c3a8ec97292
+cp: bad '/data/local/tmp/dm3_harness/cells/T3_plasticity/T3_plasticity_s20_001.bin': No such file or directory
+OK T3_plasticity_s20_001 rc=0 out_sha= receipt_sha=7b0c32df7dd2814fd60f8b0e87e5d2342301842b413a5b848f79dcc65a71bedf
+SUMMARY exp=T3_plasticity runs=4 unique_canonical=1 verdict=PASS summary_sha=40e1a8b7ccfc692fb2b6fc452a590656c9490fac47d3940ecbfe407ce3a85879
+[16:45:26] T3_COMPLETE
+[16:45:26] EXIT

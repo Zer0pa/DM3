@@ -1,0 +1,290 @@
+[
+  {
+    "left": "r00_control_default_a",
+    "right": "r00_control_default_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r00_control_default_a",
+    "right": "r01_control_default_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r00_control_default_a",
+    "right": "r10_priors_off_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r00_control_default_a",
+    "right": "r11_priors_off_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r00_control_default_a",
+    "right": "r20_lpe_off",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r00_control_default_a",
+    "right": "r30_nonharmonic",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r01_control_default_b",
+    "right": "r00_control_default_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r01_control_default_b",
+    "right": "r01_control_default_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r01_control_default_b",
+    "right": "r10_priors_off_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r01_control_default_b",
+    "right": "r11_priors_off_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r01_control_default_b",
+    "right": "r20_lpe_off",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r01_control_default_b",
+    "right": "r30_nonharmonic",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r10_priors_off_a",
+    "right": "r00_control_default_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r10_priors_off_a",
+    "right": "r01_control_default_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r10_priors_off_a",
+    "right": "r10_priors_off_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r10_priors_off_a",
+    "right": "r11_priors_off_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r10_priors_off_a",
+    "right": "r20_lpe_off",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r10_priors_off_a",
+    "right": "r30_nonharmonic",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r11_priors_off_b",
+    "right": "r00_control_default_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r11_priors_off_b",
+    "right": "r01_control_default_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r11_priors_off_b",
+    "right": "r10_priors_off_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r11_priors_off_b",
+    "right": "r11_priors_off_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r11_priors_off_b",
+    "right": "r20_lpe_off",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r11_priors_off_b",
+    "right": "r30_nonharmonic",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r20_lpe_off",
+    "right": "r00_control_default_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r20_lpe_off",
+    "right": "r01_control_default_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r20_lpe_off",
+    "right": "r10_priors_off_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r20_lpe_off",
+    "right": "r11_priors_off_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r20_lpe_off",
+    "right": "r20_lpe_off",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r20_lpe_off",
+    "right": "r30_nonharmonic",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r30_nonharmonic",
+    "right": "r00_control_default_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r30_nonharmonic",
+    "right": "r01_control_default_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r30_nonharmonic",
+    "right": "r10_priors_off_a",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r30_nonharmonic",
+    "right": "r11_priors_off_b",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r30_nonharmonic",
+    "right": "r20_lpe_off",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  },
+  {
+    "left": "r30_nonharmonic",
+    "right": "r30_nonharmonic",
+    "same_semantic_digest": true,
+    "same_solve_semantic": true,
+    "same_summary_semantic": true,
+    "same_verify_semantic": true
+  }
+]

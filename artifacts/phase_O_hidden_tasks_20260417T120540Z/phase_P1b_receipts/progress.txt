@@ -1,0 +1,5 @@
+[2026-04-17T12:32:33Z] start r1r4_steps10 bat=80
+[2026-04-17T12:41:23Z] done r1r4_steps10 rc=0 bytes=3735 lines=161
+[2026-04-17T12:41:23Z] start interf_asym_n05 bat=80
+[2026-04-17T13:05:47Z] done interf_asym_n05 rc=0 bytes=0 lines=0
+[2026-04-17T13:05:47Z] start interf_asym_0 bat=80

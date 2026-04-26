@@ -1,0 +1,10 @@
+{
+  "status": "ABSTAIN",
+  "reason": "same_family_pass_absent",
+  "detail": "The fresh official same-family rerun reproduced low/high/low drift across cpu_a, gpu_a, and gpu_b, then timed out on cpu_b and left no closing receipt.",
+  "upstream_same_family_packet": "artifacts/phase_01_2_3_4_1_outlier_rerun_20260405T183712Z/",
+  "upstream_same_family_outcome": "artifacts/phase_01_2_3_4_1_outlier_rerun_20260405T183712Z/OUTCOME.md",
+  "upstream_same_family_ledger": "docs/restart/F2_OFFICIAL_OUTLIER_RERUN_LEDGER.md",
+  "observable_contract": "docs/restart/OBSERVABLE_CONTRACT_NOTE.md",
+  "heterogeneous_execution_run": false
+}

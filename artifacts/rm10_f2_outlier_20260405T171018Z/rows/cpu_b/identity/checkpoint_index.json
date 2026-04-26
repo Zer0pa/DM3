@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "cpu_b",
+      "run_id": "rm10_f2_outlier_20260405T171018Z_cpu_b",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_20260405T171018Z_cpu_b.jsonl",
+      "receipt_sha256": "80495e41f9b1213bd4151f7e4c50019cdf5159339247bf07cc4d44d68d91b20f",
+      "command_path": "artifacts/rm10_f2_outlier_20260405T171018Z/rows/cpu_b/identity/command.txt",
+      "start_utc": "2026-04-05T17:23:16Z",
+      "end_utc": "2026-04-05T17:24:37Z"
+    }
+  ]
+}

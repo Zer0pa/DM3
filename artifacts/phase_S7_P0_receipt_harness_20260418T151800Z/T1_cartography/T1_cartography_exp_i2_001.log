@@ -1,0 +1,10 @@
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+--- Exp_I2: Geometry Grammar & Auto-Correction ---
+GPU MatMul Kernel Initialized.
+TransformerKernel: adapter max_compute_workgroup_storage_size=32768 < target 65536; using reduced limit
+GPU Transformer Kernel Initialized.
+Teaching Grammar (Bhupura -> Ring 9)...
+Correction Test:
+  Ring 9 (Correct Geometry): E=2.5001e3
+  Ring 8 (Wrong Geometry):   E=2.5001e3

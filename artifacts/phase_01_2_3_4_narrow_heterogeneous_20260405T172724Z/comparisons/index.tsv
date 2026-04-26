@@ -1,0 +1,2 @@
+status	reason	detail
+ABSTAIN	no_preserved_observable	The official same-family packet exists, but the CPU bracket drifted materially inside the locked session so no preserved observable survives for a narrow heterogeneous split.

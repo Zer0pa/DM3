@@ -1,0 +1,22 @@
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+--- Starting R3: Plasticity & Transfer Test ---
+PRE-TEST (Om): dE=1.2745, Coh=1.0048
+TRAINING (Aum) - 10 Episodes...
+  Ep 0: COMMIT (dE=1.2745, Coh=1.0048) -> Updated Weights
+  Ep 1: COMMIT (dE=1.2745, Coh=1.0048) -> Updated Weights
+  Ep 2: COMMIT (dE=1.2744, Coh=1.0048) -> Updated Weights
+  Ep 3: COMMIT (dE=1.2744, Coh=1.0048) -> Updated Weights
+  Ep 4: COMMIT (dE=1.2744, Coh=1.0048) -> Updated Weights
+  Ep 5: COMMIT (dE=1.2743, Coh=1.0048) -> Updated Weights
+  Ep 6: COMMIT (dE=1.2743, Coh=1.0048) -> Updated Weights
+  Ep 7: COMMIT (dE=1.2742, Coh=1.0048) -> Updated Weights
+  Ep 8: COMMIT (dE=1.2742, Coh=1.0048) -> Updated Weights
+  Ep 9: COMMIT (dE=1.2742, Coh=1.0048) -> Updated Weights
+POST-TEST (Om): dE=1.2741, Coh=1.0048
+---------------------------------------------
+Results:
+  Om dE: 1.2745 -> 1.2741
+  Om Coh: 1.0048 -> 1.0048
+  Delta dE: -0.0004
+VERDICT: PLASTICITY CONFIRMED (State Changed)

@@ -1,0 +1,34 @@
+{
+  "cad_sos": {
+    "checks": {
+      "first_failure": null,
+      "helix_step": {
+        "count": 15,
+        "failures": 0
+      },
+      "pitch": "1/1",
+      "quaternion_unit": {
+        "count": 18,
+        "failures": 0
+      },
+      "rotation_identity": true,
+      "rotation_parameter": "1/2",
+      "rotor_parameter": "1/3",
+      "rotor_step": {
+        "count": 15,
+        "failures": 0
+      }
+    },
+    "pass": true
+  },
+  "gates": {
+    "cad_sos_present": true,
+    "dep_cert_present": true,
+    "egraph_proof_valid": true,
+    "gates_ok": true,
+    "gc_invariants_pass": true,
+    "lift_pass": true,
+    "stab_pass": true
+  },
+  "ts_utc": "DETERMINISTIC_BUILD"
+}

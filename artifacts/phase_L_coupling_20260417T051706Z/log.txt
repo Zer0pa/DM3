@@ -1,0 +1,128 @@
+=== PHASE RUNNER: phase_L_coupling_20260417T051706Z (9 runs) ===
+Started: 2026-04-17T05:17:39Z
+Config: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_L_coupling_20260417T051706Z/phase_L.cfg
+
+=== [1/9] L.rot0_asym_neg0_5 | steps: 5 | flags: --rotation 0 --asymmetry=-0.5 ===
+start: 2026-04-17T05:17:39Z
+cmd: rm -f /data/local/tmp/L.rot0_asym_neg0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot0_asym_neg0_5.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 0 --asymmetry=-0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.5)
+Ep 0: Dec=Commit E=72.6405 Coh=0.8737
+Resonance Loop Complete.
+end: 2026-04-17T05:33:49Z rc=0
+/data/local/tmp/L.rot0_asym_neg0_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (653 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [2/9] L.rot0_asym_0 | steps: 5 | flags: --rotation 0 --asymmetry=0.0 ===
+start: 2026-04-17T05:33:49Z
+cmd: rm -f /data/local/tmp/L.rot0_asym_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot0_asym_0.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 0 --asymmetry=0.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.0903 Coh=0.8776
+Resonance Loop Complete.
+end: 2026-04-17T05:50:18Z rc=0
+/data/local/tmp/L.rot0_asym_0.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (650 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [3/9] L.rot0_asym_0_5 | steps: 5 | flags: --rotation 0 --asymmetry=0.5 ===
+start: 2026-04-17T05:50:18Z
+cmd: rm -f /data/local/tmp/L.rot0_asym_0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot0_asym_0_5.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 0 --asymmetry=0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.5)
+Ep 0: Dec=Commit E=79.1207 Coh=0.8793
+Resonance Loop Complete.
+end: 2026-04-17T06:06:31Z rc=0
+/data/local/tmp/L.rot0_asym_0_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (650 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [4/9] L.rot60_asym_neg0_5 | steps: 5 | flags: --rotation 60 --asymmetry=-0.5 ===
+start: 2026-04-17T06:06:31Z
+cmd: rm -f /data/local/tmp/L.rot60_asym_neg0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot60_asym_neg0_5.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 60 --asymmetry=-0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.5)
+Ep 0: Dec=Commit E=72.7232 Coh=0.8866
+Resonance Loop Complete.
+end: 2026-04-17T06:22:48Z rc=0
+/data/local/tmp/L.rot60_asym_neg0_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (654 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [5/9] L.rot60_asym_0 | steps: 5 | flags: --rotation 60 --asymmetry=0.0 ===
+start: 2026-04-17T06:22:49Z
+cmd: rm -f /data/local/tmp/L.rot60_asym_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot60_asym_0.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 60 --asymmetry=0.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=76.0345 Coh=0.8918
+Resonance Loop Complete.
+end: 2026-04-17T06:39:06Z rc=0
+/data/local/tmp/L.rot60_asym_0.jsonl: 1 file pulled, 0 skipped. 0.4 MB/s (649 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [6/9] L.rot60_asym_0_5 | steps: 5 | flags: --rotation 60 --asymmetry=0.5 ===
+start: 2026-04-17T06:39:07Z
+cmd: rm -f /data/local/tmp/L.rot60_asym_0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot60_asym_0_5.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 60 --asymmetry=0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.5)
+Ep 0: Dec=Commit E=77.8620 Coh=0.8942
+Resonance Loop Complete.
+end: 2026-04-17T06:55:24Z rc=0
+/data/local/tmp/L.rot60_asym_0_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (650 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [7/9] L.rot120_asym_neg0_5 | steps: 5 | flags: --rotation 120 --asymmetry=-0.5 ===
+start: 2026-04-17T06:55:24Z
+cmd: rm -f /data/local/tmp/L.rot120_asym_neg0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot120_asym_neg0_5.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 120 --asymmetry=-0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.5)
+Ep 0: Dec=Commit E=72.4870 Coh=0.8734
+Resonance Loop Complete.
+end: 2026-04-17T07:11:49Z rc=0
+/data/local/tmp/L.rot120_asym_neg0_5.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (655 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [8/9] L.rot120_asym_0 | steps: 5 | flags: --rotation 120 --asymmetry=0.0 ===
+start: 2026-04-17T07:11:49Z
+cmd: rm -f /data/local/tmp/L.rot120_asym_0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot120_asym_0.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 120 --asymmetry=0.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+end: 2026-04-17T08:19:47Z rc=255
+/data/local/tmp/L.rot120_asym_0.jsonl: 1 file pulled, 0 skipped.
+pull_rc: 0
+device: batt=36 therm=0
+
+=== [9/9] L.rot120_asym_0_5 | steps: 5 | flags: --rotation 120 --asymmetry=0.5 ===
+start: 2026-04-17T08:19:48Z
+cmd: rm -f /data/local/tmp/L.rot120_asym_0_5.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/L.rot120_asym_0_5.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 120 --asymmetry=0.5
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.5)
+end: 2026-04-17T08:19:56Z rc=255
+adb: error: failed to get feature set: device 'FY25013101C8' not found
+pull_rc: 1
+device: 
+
+=== PHASE RUNNER COMPLETE ===
+Finished: 2026-04-17T08:19:56Z

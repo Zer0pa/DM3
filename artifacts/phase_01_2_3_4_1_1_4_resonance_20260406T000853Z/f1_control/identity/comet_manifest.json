@@ -1,0 +1,60 @@
+{
+  "name": "dm3-01.2.3.4.1.1.4-phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z-rm10-f1-serious",
+  "workspace": "zer0pa",
+  "project_name": "dm3",
+  "tags": [
+    "restart",
+    "dm3",
+    "phase-01.2.3.4.1.1.4",
+    "family-F1",
+    "run-kind-serious_run",
+    "authority-governed_non_sovereign",
+    "build-prebuilt_stub",
+    "surface-witness_floor",
+    "machine-rm10_device",
+    "lane-rm10_soc_runtime_genesis"
+  ],
+  "parameters": {
+    "run_id": "phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z",
+    "phase": "01.2.3.4.1.1.4",
+    "plan": "resonance-battery",
+    "hypothesis_branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+    "observable_family": "genesis_protocol",
+    "battery_family": "F1",
+    "battery_class": "control",
+    "command_surface": "genesis_cli",
+    "cwd": "/data/local/tmp/SoC_runtime/workspace",
+    "artifact_root": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control",
+    "device_serial": "FY25013101C8",
+    "device_model": "NX789J",
+    "binary_sha256": "e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae",
+    "receipt_expected": true,
+    "checkpoint_id": "phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z",
+    "checkpoint_parent": "",
+    "canonical_validation_mode": "explicit_hash"
+  },
+  "metrics": [
+    {
+      "name": "run/exit_code",
+      "value": 0
+    },
+    {
+      "name": "validate/default_exit_code",
+      "value": 1
+    },
+    {
+      "name": "validate/explicit_exit_code",
+      "value": 0
+    }
+  ],
+  "others": {
+    "command_text_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/identity/command.txt",
+    "run_identity_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/identity/run_identity.json",
+    "checkpoint_policy_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/identity/checkpoint_policy.txt",
+    "checkpoint_index_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/identity/checkpoint_index.json",
+    "telemetry_root": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/telemetry",
+    "local_receipt_root": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/receipts/phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z",
+    "primary_receipt_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f1_control/receipts/phase_01_2_3_4_1_1_4_f1_control_20260406T000853Z/run00/receipts/VERIFY_SUMMARY.json"
+  },
+  "assets": []
+}

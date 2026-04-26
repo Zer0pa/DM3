@@ -1,0 +1,62 @@
+total 296426
+drwxrwx--x 16 shell shell      8192 2026-04-06 02:44 .
+drwxr-x--x  6 root  root       3452 1970-01-02 12:57 ..
+drwxr-xr-x  5 shell shell      3452 2025-12-03 18:01 .studio
+-rw-rw-rw-  1 shell shell     22012 2025-11-19 22:24 RandomAdj_v1.bin
+-rw-rw-rw-  1 shell shell     13332 2025-11-19 23:19 RegionTags_v1.bin
+-rw-rw-rw-  1 shell shell      1532 2025-11-20 17:59 RegionTags_v2.bin
+-rw-rw-rw-  1 shell shell     23082 2025-11-20 17:59 RegionTags_v2.json
+drwxrwxrwx  4 shell shell      3452 2025-11-22 14:18 Reports
+drwxrwxrwx 11 shell shell      3452 2025-10-30 05:25 SoC_Harness
+drwxrwxrwx  5 shell shell      3452 2025-10-31 23:12 SoC_runtime
+-rw-rw-rw-  1 shell shell     24891 2025-11-19 21:22 SriYantraAdj_v1.bin
+-rwxrwxrwx  1 shell shell     26840 2025-11-14 23:51 agi_launch_producer
+-rw-rw-rw-  1 shell shell         5 2025-11-14 23:51 agi_launch_producer.pid
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:06 codex_phase_probe_cpu_explicit.jsonl
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:06 codex_phase_probe_gpu_explicit.jsonl
+drwxrwxrwx  3 shell shell      3452 2025-11-05 22:35 dalvik-cache
+drwxrwxrwx  2 shell shell      3452 2025-11-20 16:20 data
+drwxrwxr-x  2 shell shell      3452 2025-04-20 00:27 device-explorer
+drwxr-xr-x  2 shell shell      8192 2026-04-05 20:36 dm3
+-rw-rw-rw-  1 shell shell       343 2025-11-01 09:16 dm3_perfetto_config.pbtxt
+-rwxrwxrwx  1 shell shell   9554600 2026-02-09 18:34 dm3_runner
+-rwxr-xr-x  1 shell shell       738 2026-04-03 13:38 dm3_termux_probe.sh
+-rw-rw-rw-  1 shell shell         0 2025-11-15 14:01 dm3_test
+-rwxrwxrwx  1 shell shell   9814024 2025-11-19 21:56 dm3_v1_tests
+-rw-rw-rw-  1 shell shell 134217894 2025-11-23 13:23 emoji_128mb.txt
+-rw-rw-rw-  1 shell shell       359 2025-11-22 13:49 emoji_block.txt
+-rw-rw-rw-  1 shell shell       130 2026-04-06 02:13 f2_run_cpu_a.jsonl
+-rw-rw-rw-  1 shell shell       130 2026-04-06 02:17 f2_run_gpu_a.jsonl
+-rwxr-xr-x  1 shell shell   1998520 2025-10-30 04:39 genesis_cli
+-rwxr-xr-x  1 shell shell   1896792 2025-10-30 04:34 genesis_cli_host
+-rwxrwxrwx  1 shell shell    809136 2025-11-23 14:56 glyph_cli
+-rwxrwxrwx  1 shell shell  10475456 2026-02-09 12:14 math_suite
+-rw-rw-rw-  1 shell shell       753 2025-10-30 22:09 perfetto_config.pbtxt
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:43 phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_cpu_harmonic_a.jsonl
+-rw-rw-rw-  1 shell shell       129 2026-04-06 02:44 phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_cpu_harmonic_b.jsonl
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:43 phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_gpu_harmonic_a.jsonl
+-rw-rw-rw-  1 shell shell       128 2026-04-06 02:45 phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_gpu_harmonic_b.jsonl
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:42 phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_cpu_harmonic_a.jsonl
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:43 phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_cpu_harmonic_b.jsonl
+-rw-rw-rw-  1 shell shell         0 2026-04-06 02:43 phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004242Z_gpu_harmonic_b.jsonl
+-rw-rw-rw-  1 shell shell       129 2026-04-06 02:38 phase_01_2_3_4_1_1_3_env_smoke_20260406T003748Z_cpu_harmonic_a.jsonl
+-rw-rw-rw-  1 shell shell       129 2026-04-06 02:40 phase_01_2_3_4_1_1_3_env_smoke_20260406T003748Z_gpu_harmonic_a.jsonl
+drwxrwxrwx  5 shell shell      3452 2026-04-05 22:24 phase_01_2_3_4_1_1_quarantine_20260405T202459Z
+-rw-rw-rw-  1 shell shell       654 2026-03-17 16:08 req_test.txt
+-rw-rw-rw-  1 shell shell 134217728 2025-11-23 13:14 rtl_128mb.txt
+-rw-rw-rw-  1 shell shell      7633 2025-11-21 01:37 shaders.wgsl
+drwxr-xr-x 41 shell shell      3452 2026-04-03 13:54 snic_workspace_a83f
+drwxrwxrwx  4 shell shell      3452 2025-10-13 14:11 zer0pa
+drwxrwxrwx  2 shell shell      3452 2025-10-13 13:32 zer0pa-run
+drwxrwxrwx  2 shell shell      3452 2025-11-04 21:46 zer0pa_rch
+drwxrwxrwx  7 shell shell      3452 2025-11-02 23:36 zer0pa_tools
+
+--- required residue files ---
+-rw-rw-rw- 1 shell shell 13332 2025-11-19 23:19 /data/local/tmp/RegionTags_v1.bin
+-rw-rw-rw- 1 shell shell  1532 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.bin
+-rw-rw-rw- 1 shell shell 23082 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.json
+-rw-rw-rw- 1 shell shell 24891 2025-11-19 21:22 /data/local/tmp/SriYantraAdj_v1.bin
+-rw-rw-rw- 1 shell shell 84008 2025-11-20 16:20 /data/local/tmp/data/xnor_train.jsonl
+
+--- alternate residue binary ---
+-rwxrwxrwx 1 shell shell 9199920 2025-11-22 02:37 /data/local/tmp/dm3/dm3_runner

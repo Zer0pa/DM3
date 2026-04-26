@@ -1,0 +1,6 @@
+-rw-rw-rw- 1 shell shell 22012 2025-11-19 22:24 /data/local/tmp/RandomAdj_v1.bin
+-rw-rw-rw- 1 shell shell 13332 2025-11-19 23:19 /data/local/tmp/RegionTags_v1.bin
+-rw-rw-rw- 1 shell shell  1532 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.bin
+-rw-rw-rw- 1 shell shell 24891 2025-11-19 21:22 /data/local/tmp/SriYantraAdj_v1.bin
+-rw-rw-rw- 1 shell shell   130 2026-04-16 02:14 /data/local/tmp/entrance_A_cpu_a.jsonl
+-rw-rw-rw- 1 shell shell   130 2026-04-16 02:22 /data/local/tmp/entrance_B_cpu_a.jsonl

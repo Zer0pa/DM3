@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "T11_cross_control",
+  "timestamp_utc": "2026-04-22T15:02:11Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 3,
+  "unique_output_sha256_raw": 3,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 3,
+  "unique_output_sha256_list_raw": ["82c9d134c095502138460eb98808ddfbff08b60b36c9bff7ab46bf1ec603ca1a","c9eaa89a2b18ca45085e7b14c1f6622a8b50811f04c7818e6e06ce6d8c8e9d1a","d5a84f71c754bd3fae6508b66284f820d1be05611c6e5ca0813605b85fcb5083"],
+  "unique_output_sha256_list_canonical": ["39b9a7c748066e9ed81757d9a294b4bfcdde775df330ec079d2b62dbb6877861"],
+  "output_sha256_per_run": ["82c9d134c095502138460eb98808ddfbff08b60b36c9bff7ab46bf1ec603ca1a","c9eaa89a2b18ca45085e7b14c1f6622a8b50811f04c7818e6e06ce6d8c8e9d1a","d5a84f71c754bd3fae6508b66284f820d1be05611c6e5ca0813605b85fcb5083"],
+  "output_canonical_sha256_per_run": ["39b9a7c748066e9ed81757d9a294b4bfcdde775df330ec079d2b62dbb6877861","39b9a7c748066e9ed81757d9a294b4bfcdde775df330ec079d2b62dbb6877861","39b9a7c748066e9ed81757d9a294b4bfcdde775df330ec079d2b62dbb6877861"],
+  "receipt_sha256_per_run": ["a336b31b27103b6d1b0e9aa1956a6fa62dc4715c2d9adfce126e797bea414a67","4979625e866b56a349401e89c2c6e2d5fd0db9ee8ef2bc44850c2a21721bd358","f370cf7dcf6f4d53f2b319fc98c6c6426e9a3c5ca5e02f7483711bd5a926d0fa"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}

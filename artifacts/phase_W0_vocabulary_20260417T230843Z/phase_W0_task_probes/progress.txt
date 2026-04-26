@@ -1,0 +1,31 @@
+[2026-04-17T23:33:29Z] start exp_i1 --task exp_i1
+[2026-04-17T23:37:48Z] done exp_i1 rc=0 bytes=0 lines=0
+[2026-04-17T23:37:48Z] start exp_i2 --task exp_i2
+[2026-04-17T23:39:16Z] done exp_i2 rc=0 bytes=0 lines=0
+[2026-04-17T23:39:16Z] start exp_h1_h2 --task exp_h1_h2
+[2026-04-17T23:40:15Z] done exp_h1_h2 rc=0 bytes=0 lines=0
+[2026-04-17T23:40:15Z] start exp_i1_thermodynamics --task exp_i1_thermodynamics
+[2026-04-17T23:40:15Z] done exp_i1_thermodynamics rc=1 bytes=0 lines=0
+[2026-04-17T23:40:15Z] start exp_k1_patterns --task exp_k1_patterns
+[2026-04-17T23:40:15Z] done exp_k1_patterns rc=1 bytes=0 lines=0
+[2026-04-17T23:40:15Z] start exp_k2_denoise --task exp_k2_denoise
+[2026-04-17T23:40:16Z] done exp_k2_denoise rc=1 bytes=0 lines=0
+[2026-04-17T23:40:16Z] start exp_k2_scars --task exp_k2_scars
+[2026-04-17T23:40:49Z] done exp_k2_scars rc=0 bytes=0 lines=0
+[2026-04-17T23:40:49Z] start exp_k3_truth_sensor --task exp_k3_truth_sensor
+[2026-04-17T23:41:21Z] done exp_k3_truth_sensor rc=0 bytes=0 lines=0
+[2026-04-17T23:41:21Z] start exp_j1_holo_capacity --task exp_j1_holo_capacity
+[2026-04-17T23:41:21Z] done exp_j1_holo_capacity rc=1 bytes=0 lines=0
+[2026-04-17T23:41:21Z] start exp_j2_resonant_compute --task exp_j2_resonant_compute
+[2026-04-17T23:41:22Z] done exp_j2_resonant_compute rc=1 bytes=0 lines=0
+[2026-04-17T23:41:22Z] start exp_g1_contrastive --task exp_g1_contrastive
+[2026-04-17T23:41:22Z] done exp_g1_contrastive rc=1 bytes=0 lines=0
+[2026-04-17T23:41:22Z] start exp_g2_readout --task exp_g2_readout
+[2026-04-17T23:41:22Z] done exp_g2_readout rc=1 bytes=0 lines=0
+[2026-04-17T23:41:22Z] start exp_o2_interference --task exp_o2_interference
+[2026-04-17T23:41:23Z] done exp_o2_interference rc=1 bytes=0 lines=0
+[2026-04-17T23:41:23Z] start resonance_r3 --task resonance_r3
+[2026-04-17T23:45:18Z] done resonance_r3 rc=0 bytes=0 lines=0
+[2026-04-17T23:45:18Z] start resonance_v2 --task resonance_v2
+[2026-04-17T23:45:19Z] done resonance_v2 rc=0 bytes=0 lines=0
+[2026-04-17T23:45:19Z] COMPLETE

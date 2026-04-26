@@ -1,0 +1,81 @@
+[00:02:31] A2 start: overfit boundary walk steps=20..50 step=5 N=3 each
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s20_r1.bin': No such file or directory
+OK A2_overfit_boundary_s20_r1 rc=0 out_sha= receipt_sha=0a5a7fa8c50d368ed9c4489647f70ab2899644b2128481bc60e081f9e6a29a91
+[00:18:09] cooling 180s (worst=67261)
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s20_r2.bin': No such file or directory
+OK A2_overfit_boundary_s20_r2 rc=0 out_sha= receipt_sha=529b6644daa6ff7fbfb1d1d37851967e8c446f5c1a01244648e12617e0889c8f
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s20_r3.bin': No such file or directory
+OK A2_overfit_boundary_s20_r3 rc=0 out_sha= receipt_sha=f55d83659999bbd74eb864b768d6c5bf55dc14b8aaa1f26cde7ae59550d4a723
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s25_r1.bin': No such file or directory
+OK A2_overfit_boundary_s25_r1 rc=0 out_sha= receipt_sha=0e2c76cbd7d73104c41028df8e12222ae1e13eb1f641346543fa8de492b5d775
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s25_r2.bin': No such file or directory
+OK A2_overfit_boundary_s25_r2 rc=0 out_sha= receipt_sha=07ede045ab23a4c4be54369b7a6bc6887c829d110437f675b0e54a0beab10f1a
+[01:08:19] cooling 180s (worst=67126)
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s25_r3.bin': No such file or directory
+OK A2_overfit_boundary_s25_r3 rc=0 out_sha= receipt_sha=1a8860ade8fe8ac0eac857555c56dfe1740c658104c4af726c72bac436d81b75
+[01:30:33] cooling 180s (worst=68946)
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s30_r1.bin': No such file or directory
+OK A2_overfit_boundary_s30_r1 rc=0 out_sha= receipt_sha=c0319d70a9f01970bfc7506c189bbc14d26f5bab50c40e62838afdef7ec0a7f9
+[01:56:21] cooling 180s (worst=70059)
+THERMAL_OVER_CEILING worst_mc=70497 ceiling_mc=70000
+[01:59:24] cooling 180s (worst=70497)
+THERMAL_OVER_CEILING worst_mc=70665 ceiling_mc=70000
+[02:02:27] cooling 180s (worst=70766)
+THERMAL_OVER_CEILING worst_mc=71002 ceiling_mc=70000
+[02:05:30] cooling 180s (worst=70968)
+THERMAL_OVER_CEILING worst_mc=71103 ceiling_mc=70000
+[02:08:32] cooling 180s (worst=70968)
+THERMAL_OVER_CEILING worst_mc=71171 ceiling_mc=70000
+[02:11:35] cooling 180s (worst=71272)
+THERMAL_OVER_CEILING worst_mc=71339 ceiling_mc=70000
+[02:14:38] cooling 180s (worst=71305)
+THERMAL_OVER_CEILING worst_mc=71474 ceiling_mc=70000
+[02:17:41] cooling 180s (worst=71474)
+THERMAL_OVER_CEILING worst_mc=71440 ceiling_mc=70000
+[02:20:44] cooling 180s (worst=71541)
+THERMAL_OVER_CEILING worst_mc=71643 ceiling_mc=70000
+[02:23:47] cooling 180s (worst=71575)
+THERMAL_OVER_CEILING worst_mc=71609 ceiling_mc=70000
+[02:26:49] cooling 180s (worst=71643)
+THERMAL_OVER_CEILING worst_mc=71777 ceiling_mc=70000
+[02:29:52] cooling 180s (worst=71777)
+THERMAL_OVER_CEILING worst_mc=71845 ceiling_mc=70000
+[02:32:55] cooling 180s (worst=71744)
+THERMAL_OVER_CEILING worst_mc=71811 ceiling_mc=70000
+[02:35:58] cooling 180s (worst=71676)
+THERMAL_OVER_CEILING worst_mc=71811 ceiling_mc=70000
+SUMMARY exp=A2_overfit_boundary runs=7 unique_canonical=1 verdict=PASS summary_sha=493cf5c15dd99962d12ec8f0a84d263e2253394b79bedb0f89559c685a12e43b
+[02:39:00] A2_COMPLETE
+[02:39:00] EXIT
+[09:33:40] A2 RESUME start: 14 missing runs (s30 r2-r3; s35-s50 N=3 each)
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s30_r2.bin': No such file or directory
+OK A2_overfit_boundary_s30_r2 rc=0 out_sha= receipt_sha=c1edac14027973476765b18c5ab0a2351fac61de92146da05202421449f6dd36
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s30_r3.bin': No such file or directory
+OK A2_overfit_boundary_s30_r3 rc=0 out_sha= receipt_sha=c9650340b686e844df365c2007d55e635034450752eb64ba685b6e0fb0986f61
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s35_r1.bin': No such file or directory
+OK A2_overfit_boundary_s35_r1 rc=0 out_sha= receipt_sha=530b69f605940075b77550baf4e4855c6065b87f3129e46ff389d485542ba545
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s35_r2.bin': No such file or directory
+OK A2_overfit_boundary_s35_r2 rc=0 out_sha= receipt_sha=e359b5bf47077b5dfe34395539775258c76ea8228b1763f46849c6928d65fd20
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s35_r3.bin': No such file or directory
+OK A2_overfit_boundary_s35_r3 rc=0 out_sha= receipt_sha=f5d979812880243d6d1bc3c9f42858a53fce6e70c8ff2ed547d9f5f26bd20b86
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s40_r1.bin': No such file or directory
+OK A2_overfit_boundary_s40_r1 rc=0 out_sha= receipt_sha=5209c18de438a7babee0a92eb81dd2dafce5732afdfb04fd1d05b6669c057ab5
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s40_r2.bin': No such file or directory
+OK A2_overfit_boundary_s40_r2 rc=0 out_sha= receipt_sha=10968ac5def7d97dab4ab07a24a94ec94d667ceede03a790dc19f44a72cdce48
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s40_r3.bin': No such file or directory
+OK A2_overfit_boundary_s40_r3 rc=0 out_sha= receipt_sha=005c24c1957b5c4a0f9163a25736d2b02c907778271a867675bc3d19553d7d92
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s45_r1.bin': No such file or directory
+OK A2_overfit_boundary_s45_r1 rc=0 out_sha= receipt_sha=af96579dc7c6fa216dc634b0c1f7aff72189e75b7537c00e8c665cce655d5b23
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s45_r2.bin': No such file or directory
+OK A2_overfit_boundary_s45_r2 rc=0 out_sha= receipt_sha=19104b5e0581b19711a290ea7794f1f28d056d34e6f55cd854ff00f9137370ef
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s45_r3.bin': No such file or directory
+OK A2_overfit_boundary_s45_r3 rc=0 out_sha= receipt_sha=19ceb06d8587661801eb5b596a5b693742e9648de8fac519c74882735ca2f503
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s50_r1.bin': No such file or directory
+OK A2_overfit_boundary_s50_r1 rc=0 out_sha= receipt_sha=4f55cbe19a7e50039131d70938b46ff961ff0f17d7dc0e611d34b71e8d886738
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s50_r2.bin': No such file or directory
+OK A2_overfit_boundary_s50_r2 rc=0 out_sha= receipt_sha=fd1df9665c84da41ab841e8267d41aa0d2c63bc200d63817a0dd76ce5a9e8cf0
+cp: bad '/data/local/tmp/dm3_harness/cells/A2_overfit_boundary/A2_overfit_boundary_s50_r3.bin': No such file or directory
+OK A2_overfit_boundary_s50_r3 rc=0 out_sha= receipt_sha=5320fbd3e3abc797c761d6726de551e50746cbd7bc13d50d7ba62e27f8bd852d
+SUMMARY exp=A2_overfit_boundary runs=22 unique_canonical=1 verdict=PASS summary_sha=3b513c8f2d3eba6bebf61d67a41c1c174f17186a3d0dc6794ddbe527a8451458
+[13:55:55] A2_RESUME_COMPLETE
+[13:55:55] EXIT

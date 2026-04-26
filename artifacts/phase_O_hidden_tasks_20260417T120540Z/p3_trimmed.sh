@@ -1,0 +1,40 @@
+#!/system/bin/sh
+# P3 trimmed: E-scale via extreme asymmetry for both holography and harmonic.
+
+set -u
+OUT_DIR=/data/local/tmp/phase_P3_receipts
+mkdir -p "$OUT_DIR"
+PROG="$OUT_DIR/progress.txt"
+: > "$PROG"
+
+cd /data/local/tmp || exit 2
+
+run_cell() {
+  label="$1"; shift
+  out="$OUT_DIR/${label}.jsonl"
+  log="$OUT_DIR/${label}.log"
+  rm -f "$out" "$log"
+  start=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+  bat=$(cat /sys/class/power_supply/battery/capacity 2>/dev/null || echo "?")
+  echo "[$start] start $label bat=$bat" >> "$PROG"
+  ./dm3_runner --cpu --mode train --steps 5 -o "$out" "$@" > "$log" 2>&1
+  rc=$?
+  end=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+  lines=$(wc -l < "$out" 2>/dev/null || echo 0)
+  echo "[$end] done $label rc=$rc lines=$lines" >> "$PROG"
+}
+
+# Holography with extreme asymmetry: can E be pushed into harmonic range?
+run_cell "holo_asym_p2"  --task holography --asymmetry 2.0
+run_cell "holo_asym_p5"  --task holography --asymmetry 5.0
+run_cell "holo_asym_m2"  --task holography --asymmetry=-2.0
+
+# Harmonic with extreme negative asymmetry: can E be pushed into holography range?
+run_cell "harm_asym_m2"  --task harmonic --asymmetry=-2.0
+run_cell "harm_asym_m3"  --task harmonic --asymmetry=-3.0
+run_cell "harm_asym_m5"  --task harmonic --asymmetry=-5.0
+
+# Harmonic beyond Phase K ceiling
+run_cell "harm_asym_p2"  --task harmonic --asymmetry 2.0
+
+echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] COMPLETE" >> "$PROG"

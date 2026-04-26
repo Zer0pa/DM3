@@ -1,0 +1,32 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "cpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b_cpu_a",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_b_cpu_a.jsonl",
+      "receipt_sha256": "0e573e57b98274f38b83ab25011cf2a8434b5baf00e2c31a2a2257c75049678e",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/rows/cpu_a/identity/command.txt"
+    },
+    {
+      "name": "gpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b_gpu_a",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_b_gpu_a.jsonl",
+      "receipt_sha256": "2076b674904d05d38770fdbb47eaab8a2c848856fc627d5bf13d648f2a1be9c7",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/rows/gpu_a/identity/command.txt"
+    },
+    {
+      "name": "cpu_b",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b_cpu_b",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_b_cpu_b.jsonl",
+      "receipt_sha256": "9823e7c69ff68e854ecaeac0e1ee79af046ef7c203dbf48d5e4823611cc7eab9",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/rows/cpu_b/identity/command.txt"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+## hypothesis/rm10-primary-platform-heterogeneous-learning...origin/hypothesis/rm10-primary-platform-heterogeneous-learning
+ M .gpd/PROJECT.md
+ M .gpd/ROADMAP.md
+ M .gpd/STATE.md
+ M .gpd/hypotheses/rm10-primary-platform-heterogeneous-learning/HYPOTHESIS.md
+ M .gpd/state.json
+ M .gpd/state.json.bak
+ M Makefile
+ M README.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/000_START_HERE__RM10_PRIMARY_PLATFORM_BRANCH_GUIDE.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/010_EXECUTIVE__RM10_PRIMARY_PLATFORM_BRANCH_VERDICT.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/020_SYSTEM__RM10_DEVICE_ENGINEERING_AND_RUN_SURFACES.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/030_HISTORY__MINED_CLUES_OBSERVABLES_AND_FAILURES.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/040_GOVERNANCE__RUN_RULES_AND_STOPPING_CRITERIA.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/050_BATTERIES__BOUNDARY_SPECTRAL_TOPOLOGY_RECIPROCITY_PERSISTENCE.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/060_RESULTS__RM10_CPU_GPU_NPU_HETERO_FIRST_PASS.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/070_RESULTS__HETEROGENEOUS_COMPUTE_AND_HYPOTHESIS_VERDICTS.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/080_NEXT__ENGINEERING_PRIORITY_AND_BRANCH_ROUTE.md
+ D briefing-pack-dm3-rm10-primary-platform-10doc-20260405/090_EVIDENCE__ARTIFACT_AND_COMMAND_INDEX.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/000_START_HERE__PHASE_01_2_3_BRIEFING_GUIDE.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/010_EXECUTIVE__LONG_HORIZON_EXECUTIVE_VERDICT.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/020_SCIENCE__DOUBLE_MERU_OBJECT_AND_SURVIVING_CLAIMS.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/030_SYSTEM__AUTHORITY_SURFACES_AND_EXECUTION_MAP.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/040_RESULTS__PROJECT_AND_WORKSTREAM_TESTS_SUMMARY_20260404.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/050_RESULTS__G2_ROUTE_ARCHAEOLOGY_AND_RETIREMENT.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/060_STATE__CURRENT_STATE_AND_BLOCKERS.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/070_NEXT__LONG_HORIZON_NEXT_PHASE_RECOMMENDATION.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/080_ENGINEERING__READINESS_CEILINGS_AND_OPERATING_RULES.md
+ D briefing-pack-dm3-science-engineering-phase-01-2-3-closeout-10doc-20260404/090_EVIDENCE__ARTIFACTS_AND_COMMIT_INDEX.md
+ M docs/restart/AGENT_STARTUP_PROMPT.md
+ M docs/restart/ENTERPRISE_DRIFT_ELIMINATION_AND_ENGINEERING_COMPLETION_PRD.md
+ M docs/restart/FRESH_CLONE.md
+ M docs/restart/GPD_OPERATING_MAP.md
+ D docs/restart/RUNBOOK_DRIFT_ELIMINATION_AND_AUTHORITY_CONTROL.md
+ D docs/restart/RUNBOOK_ENTERPRISE_ENGINEERING_COMPLETION_AND_NEXT_BRIEF_READINESS.md
+?? .gpd/phases/01.2.3.3-rm10-validator-default-localization-f2-root-surface-repair-and-heterogeneous-brief-readiness/
+?? .gpd/phases/01.2.3.4-rm10-validator-rule-repair-f2-root-handoff-and-narrow-heterogeneous-probe/
+?? .gpd/phases/01.2.3.4.1-rm10-validator-default-rule-same-family-f2-instability-and-observable-gated-replay/
+?? .gpd/phases/01.2.3.4.1.1-rm10-capability-discovery-reset-drift-purge-and-property-first-battery/
+?? artifacts/phase_01_2_3_2_f1_hardened_20260405T122222Z/
+?? artifacts/phase_01_2_3_2_f2_hardened_20260405T122222Z/
+?? artifacts/phase_01_2_3_2_f2_hardened_rerun_20260405T123014Z/
+?? artifacts/phase_01_2_3_4_1_1_rescue_pack_20260405T202422Z/
+?? artifacts/phase_01_2_3_4_1_f2_toplevel_20260405T183201Z/
+?? artifacts/phase_01_2_3_4_1_f2_toplevel_20260405T183234Z/
+?? artifacts/phase_01_2_3_4_1_heterogeneous_micro_20260405T184748Z/
+?? artifacts/phase_01_2_3_4_1_outlier_rerun_20260405T183712Z/
+?? artifacts/phase_01_2_3_4_1_validator_default_20260405T183201Z/
+?? artifacts/phase_01_2_3_4_1_validator_default_20260405T183234Z/
+?? artifacts/phase_01_2_3_4_narrow_heterogeneous_20260405T172724Z/
+?? artifacts/rm10_f1_serious_20260405T122831Z/
+?? artifacts/rm10_f2_outlier_20260405T132921Z/
+?? artifacts/rm10_f2_outlier_20260405T171018Z/
+?? artifacts/rm10_f2_surface_probe_20260405T130827Z/
+?? artifacts/rm10_f2_surface_probe_20260405T132732Z/
+?? artifacts/rm10_f2_surface_probe_20260405T170543Z/
+?? artifacts/rm10_validator_probe_20260405T130819Z/
+?? artifacts/rm10_validator_probe_20260405T132730Z/
+?? artifacts/rm10_validator_probe_20260405T170530Z/
+?? briefing-pack-dm3-rm10-readiness-thread-handoff-20260405/
+?? docs/restart/ACCELERATOR_CEILING_AND_BOUNDARY_NOTE.md
+?? docs/restart/COMET_AND_LEDGER_HARDENING_NOTE.md
+?? docs/restart/ENGINEERING_GAP_LEDGER.md
+?? docs/restart/F2_OFFICIAL_OUTLIER_RERUN_LEDGER.md
+?? docs/restart/F2_OUTLIER_LOCALIZATION_PLAN.md
+?? docs/restart/F2_REQUIRED_CAPTURE_MATRIX.md
+?? docs/restart/F2_TOPLEVEL_INSTABILITY_LEDGER.md
+?? docs/restart/HETEROGENEOUS_HANDOFF_REQUIREMENTS_NOTE.md
+?? docs/restart/MULTI_MACHINE_HANDOFF_RULES.md
+?? docs/restart/NARROW_HETEROGENEOUS_MICRO_LEDGER.md
+?? docs/restart/NEXT_BOUNDED_ENGINEERING_MOVE.md
+?? docs/restart/NPU_ABSTAIN_JUSTIFICATION_NOTE.md
+?? docs/restart/OBSERVABLE_CONTRACT_NOTE.md
+?? docs/restart/PHASE_01_2_3_4_1_ARTIFACT_INDEX.md
+?? docs/restart/PHASE_01_2_3_4_1_BOUNDED_VERDICT.md
+?? docs/restart/PHASE_01_2_3_4_1_MANIFEST_INDEX.md
+?? docs/restart/RM10_STAGING_AND_PATH_AUDIT.md
+?? docs/restart/RM10_STARTUP_REALITY_NOTE.md
+?? docs/restart/RUN_IDENTITY_AND_RECEIPT_AUDIT.md
+?? docs/restart/SCIENCE_AND_ENGINEERING_TEAM_HANDOFF_20260405.md
+?? docs/restart/SOURCE_VS_PREBUILT_BOUNDARY_NOTE.md
+?? docs/restart/STARTUP_READING_ORDER_FREEZE.md
+?? docs/restart/THERMAL_BASELINE_REFRESH.md
+?? docs/restart/VALIDATOR_AND_CANONICAL_GAP_LEDGER.md
+?? docs/restart/VALIDATOR_DEFAULT_RULE_LEDGER.md
+?? tools/rm10_capture.py
+?? tools/rm10_engineering_readiness.py
+?? tools/rm10_f2_outlier_capture.py

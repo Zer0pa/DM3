@@ -1,0 +1,1 @@
+adb shell 'rm -f /data/local/tmp/dm3/legacy_gpu_train.jsonl && cd /data/local/tmp/dm3 && /system/bin/timeout 15 /data/local/tmp/dm3/dm3_runner --mode train --task harmonic --steps 1 -o /data/local/tmp/dm3/legacy_gpu_train.jsonl'

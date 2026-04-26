@@ -1,0 +1,188 @@
+=== PHASE RUNNER: phase_K_asymmetry_fine_20260417T013126Z (13 runs) ===
+Started: 2026-04-17T01:32:01Z
+Config: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_K_asymmetry_fine_20260417T013126Z/phase_K.cfg
+
+=== [1/13] K.asym_neg0_30 | steps: 5 | flags: --asymmetry=-0.30 ===
+start: 2026-04-17T01:32:01Z
+cmd: rm -f /data/local/tmp/K.asym_neg0_30.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_neg0_30.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.30
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.3)
+Ep 0: Dec=Commit E=73.6245 Coh=0.8889
+Resonance Loop Complete.
+end: 2026-04-17T01:48:30Z rc=0
+/data/local/tmp/K.asym_neg0_30.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (734 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [2/13] K.asym_neg0_20 | steps: 5 | flags: --asymmetry=-0.20 ===
+start: 2026-04-17T01:48:30Z
+cmd: rm -f /data/local/tmp/K.asym_neg0_20.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_neg0_20.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.20
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.2)
+Ep 0: Dec=Commit E=87.7636 Coh=0.7681
+Resonance Loop Complete.
+end: 2026-04-17T02:04:50Z rc=0
+/data/local/tmp/K.asym_neg0_20.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (731 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [3/13] K.asym_neg0_15 | steps: 5 | flags: --asymmetry=-0.15 ===
+start: 2026-04-17T02:04:51Z
+cmd: rm -f /data/local/tmp/K.asym_neg0_15.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_neg0_15.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.15
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.15)
+Ep 0: Dec=Commit E=74.9373 Coh=0.8774
+Resonance Loop Complete.
+end: 2026-04-17T02:21:08Z rc=0
+/data/local/tmp/K.asym_neg0_15.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (732 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [4/13] K.asym_neg0_10 | steps: 5 | flags: --asymmetry=-0.10 ===
+start: 2026-04-17T02:21:08Z
+cmd: rm -f /data/local/tmp/K.asym_neg0_10.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_neg0_10.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.10
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.1)
+Ep 0: Dec=Commit E=88.2777 Coh=0.7701
+Resonance Loop Complete.
+end: 2026-04-17T02:37:33Z rc=0
+/data/local/tmp/K.asym_neg0_10.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (734 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [5/13] K.asym_neg0_05 | steps: 5 | flags: --asymmetry=-0.05 ===
+start: 2026-04-17T02:37:33Z
+cmd: rm -f /data/local/tmp/K.asym_neg0_05.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_neg0_05.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.05
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.05)
+Ep 0: Dec=Commit E=75.5592 Coh=0.8767
+Resonance Loop Complete.
+end: 2026-04-17T02:54:03Z rc=0
+/data/local/tmp/K.asym_neg0_05.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (735 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [6/13] K.asym_neg0_02 | steps: 5 | flags: --asymmetry=-0.02 ===
+start: 2026-04-17T02:54:04Z
+cmd: rm -f /data/local/tmp/K.asym_neg0_02.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_neg0_02.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.02
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.02)
+Ep 0: Dec=Commit E=74.6505 Coh=0.8920
+Resonance Loop Complete.
+end: 2026-04-17T03:10:35Z rc=0
+/data/local/tmp/K.asym_neg0_02.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (738 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [7/13] K.asym_0_00 | steps: 5 | flags: --asymmetry=0.00 ===
+start: 2026-04-17T03:10:35Z
+cmd: rm -f /data/local/tmp/K.asym_0_00.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_00.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.00
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=76.2564 Coh=0.8766
+Resonance Loop Complete.
+end: 2026-04-17T03:26:57Z rc=0
+/data/local/tmp/K.asym_0_00.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (649 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [8/13] K.asym_0_02 | steps: 5 | flags: --asymmetry=0.02 ===
+start: 2026-04-17T03:26:57Z
+cmd: rm -f /data/local/tmp/K.asym_0_02.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_02.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.02
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.02)
+Ep 0: Dec=Commit E=75.6660 Coh=0.8924
+Resonance Loop Complete.
+end: 2026-04-17T03:43:30Z rc=0
+/data/local/tmp/K.asym_0_02.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (735 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [9/13] K.asym_0_05 | steps: 5 | flags: --asymmetry=0.05 ===
+start: 2026-04-17T03:43:30Z
+cmd: rm -f /data/local/tmp/K.asym_0_05.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_05.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.05
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.05)
+Ep 0: Dec=Commit E=74.4315 Coh=0.8924
+Resonance Loop Complete.
+end: 2026-04-17T03:59:54Z rc=0
+/data/local/tmp/K.asym_0_05.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (727 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [10/13] K.asym_0_10 | steps: 5 | flags: --asymmetry=0.10 ===
+start: 2026-04-17T03:59:54Z
+cmd: rm -f /data/local/tmp/K.asym_0_10.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_10.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.10
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.1)
+Ep 0: Dec=Commit E=76.2404 Coh=0.8775
+Resonance Loop Complete.
+end: 2026-04-17T04:16:19Z rc=0
+/data/local/tmp/K.asym_0_10.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (729 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [11/13] K.asym_0_15 | steps: 5 | flags: --asymmetry=0.15 ===
+start: 2026-04-17T04:16:20Z
+cmd: rm -f /data/local/tmp/K.asym_0_15.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_15.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.15
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.15)
+Ep 0: Dec=Commit E=89.9238 Coh=0.7703
+Resonance Loop Complete.
+end: 2026-04-17T04:32:32Z rc=0
+/data/local/tmp/K.asym_0_15.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (725 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [12/13] K.asym_0_20 | steps: 5 | flags: --asymmetry=0.20 ===
+start: 2026-04-17T04:32:32Z
+cmd: rm -f /data/local/tmp/K.asym_0_20.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_20.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.20
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.2)
+Ep 0: Dec=Commit E=77.3707 Coh=0.8781
+Resonance Loop Complete.
+end: 2026-04-17T04:49:01Z rc=0
+/data/local/tmp/K.asym_0_20.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (729 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [13/13] K.asym_0_30 | steps: 5 | flags: --asymmetry=0.30 ===
+start: 2026-04-17T04:49:01Z
+cmd: rm -f /data/local/tmp/K.asym_0_30.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/K.asym_0_30.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.30
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.3)
+Ep 0: Dec=Commit E=90.4491 Coh=0.7698
+Resonance Loop Complete.
+end: 2026-04-17T05:05:18Z rc=0
+/data/local/tmp/K.asym_0_30.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (730 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== PHASE RUNNER COMPLETE ===
+Finished: 2026-04-17T05:05:19Z

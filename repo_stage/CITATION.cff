@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you reference this work, cite it as below."
+title: "DM3 — 380-vertex bistable relaxation dynamical system with self-evaluating gate surface"
+abstract: >
+  A precompiled Rust binary implementing a 72,960-dimensional bistable
+  relaxation dynamical system on a C3-symmetric 380-vertex graph derived
+  from an exact-rational 2D Sri Yantra construction lifted to 3D.
+  The binary exposes twelve callable tasks including a self-evaluating
+  six-gate capability campaign. Basin selection at default parameters is
+  IID Bernoulli with p(HIGH) ≈ 0.34 (N = 100). Two of the three failing
+  gates have reproducible flips under graph-structure parameter changes.
+  This repository is a live research artifact with pre-registered kill
+  criteria; retractions are first-class events.
+type: software
+authors:
+  - given-names: "Priniven"
+    family-names: "Pillay"
+    email: "architects@zer0pa.ai"
+    affiliation: "Zer0pa"
+repository-code: "https://github.com/zer0pa/dm3"
+keywords:
+  - "dynamical systems"
+  - "graph-based computation"
+  - "bistable relaxation"
+  - "Sri Yantra geometry"
+  - "capability-gate evaluation"
+license: "to-be-determined"
+version: "0.6.0-session6"
+date-released: "2026-04-18"

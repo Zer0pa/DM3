@@ -1,0 +1,163 @@
+{
+  "phase": "E",
+  "sub_experiments": {
+    "E1_E3_holography": {
+      "verdict": "Different attractor family",
+      "observations": [
+        {
+          "run": "E1",
+          "delta_E": 15.54,
+          "coherence": 0.729,
+          "decision": "Retry",
+          "duration_s": 196.4
+        },
+        {
+          "run": "E2",
+          "delta_E": 13.7,
+          "coherence": 0.732,
+          "decision": "Retry",
+          "duration_s": 196.3
+        },
+        {
+          "run": "E3",
+          "delta_E": 14.65,
+          "coherence": 0.723,
+          "decision": "Retry",
+          "duration_s": 195.3
+        }
+      ],
+      "finding": "Holography task produces completely different observables: E ~14, Coh ~0.73, Decision=Retry (not Commit). No bistability visible in 3 runs \u2014 all tight cluster at low E / mid coherence.",
+      "hypothesis_verdict": "H5 TENTATIVELY CONFIRMED: Holography has different basin structure than harmonic. Not bimodal in small sample."
+    },
+    "E4_steps5": {
+      "verdict": "All 5 episodes LOW regime (session-locked in this case)",
+      "episodes": [
+        {
+          "ep": 0,
+          "delta_E": 74.54,
+          "coherence": 0.892,
+          "regime": "LOW"
+        },
+        {
+          "ep": 1,
+          "delta_E": 74.73,
+          "coherence": 0.892,
+          "regime": "LOW"
+        },
+        {
+          "ep": 2,
+          "delta_E": 76.07,
+          "coherence": 0.877,
+          "regime": "LOW"
+        },
+        {
+          "ep": 3,
+          "delta_E": 74.65,
+          "coherence": 0.892,
+          "regime": "LOW"
+        },
+        {
+          "ep": 4,
+          "delta_E": 75.42,
+          "coherence": 0.878,
+          "regime": "LOW"
+        }
+      ]
+    },
+    "E5_steps10": {
+      "verdict": "Basin flips WITHIN a session \u2014 H9 partially confirmed",
+      "episodes": [
+        {
+          "ep": 0,
+          "delta_E": 75.03,
+          "coherence": 0.878,
+          "regime": "LOW"
+        },
+        {
+          "ep": 1,
+          "delta_E": 76.25,
+          "coherence": 0.876,
+          "regime": "LOW"
+        },
+        {
+          "ep": 2,
+          "delta_E": 75.68,
+          "coherence": 0.891,
+          "regime": "LOW"
+        },
+        {
+          "ep": 3,
+          "delta_E": 88.88,
+          "coherence": 0.77,
+          "regime": "HIGH"
+        },
+        {
+          "ep": 4,
+          "delta_E": 75.81,
+          "coherence": 0.891,
+          "regime": "LOW"
+        },
+        {
+          "ep": 5,
+          "delta_E": 89.16,
+          "coherence": 0.769,
+          "regime": "HIGH"
+        },
+        {
+          "ep": 6,
+          "delta_E": 75.55,
+          "coherence": 0.891,
+          "regime": "LOW"
+        },
+        {
+          "ep": 7,
+          "delta_E": 75.22,
+          "coherence": 0.892,
+          "regime": "LOW"
+        },
+        {
+          "ep": 8,
+          "delta_E": 76.14,
+          "coherence": 0.878,
+          "regime": "LOW"
+        },
+        {
+          "ep": 9,
+          "delta_E": 74.04,
+          "coherence": 0.892,
+          "regime": "LOW"
+        }
+      ],
+      "statistics": {
+        "high_count": 2,
+        "low_count": 8,
+        "high_rate": "20%",
+        "consecutive_same_basin_runs": "LOW x3, HIGH x1, LOW x1, HIGH x1, LOW x4"
+      },
+      "finding": "Basin selection is PER-EPISODE, not per-session. Each episode has independent basin probability. Between-episode flipping proves the basin is a runtime property, not an initialization lock."
+    },
+    "E6_soak": {
+      "verdict": "Soak mode runs 100 episodes \u2014 killed at 136s before first completion",
+      "note": "--soak N runs 20x N episodes (100 for soak=5). Too long for interactive testing."
+    },
+    "E7_angle": {
+      "verdict": "Killed externally \u2014 inconclusive"
+    },
+    "E8_inference_mode": {
+      "verdict": "STUB \u2014 ignores all parameters",
+      "finding": "Inference mode always runs T1: Contraction and always returns identical receipt regardless of --task, --asymmetry, --rotation, --use-layernorm, --enable-truth-sensor, or CPU/GPU selection. State hash before = state hash after (no state change). coherence=1.0, all error metrics=0. This is a prebuilt stub.",
+      "implication": "The real observable science happens in training mode only. Inference mode is architecture evidence but not a live computational surface."
+    }
+  },
+  "cross_cutting_findings": [
+    "Per-episode basin selection proves bistability is a runtime property of the harmonic training loop, not an initialization artifact",
+    "The holography task has a third attractor family (E~14, Coh~0.73, Decision=Retry) distinct from harmonic's two basins",
+    "The inference mode runs named tests (T1 Contraction) that map to the manifesto's T-registry, but the implementation is a stub",
+    "--soak N multiplies episodes by 20 \u2014 likely a deeper training schedule"
+  ],
+  "hypothesis_updates": {
+    "H5_holography_different_basins": "CONFIRMED (different attractor, Decision=Retry, tight cluster)",
+    "H9_multi_step_convergence": "PARTIAL \u2014 basin flips per-episode, not convergence to fixed point",
+    "H11_soak_mode": "PARTIAL \u2014 soak exists, runs longer (100 episodes for soak=5), uninterpretable in brief time"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "phase_01_2_3_4_1_1_3_1_width_boundary_20260415T000001Z_full_replay_cpu_a",
+  "lane": "cpu",
+  "marker": "cpu_forced",
+  "decision": "Commit",
+  "delta_E": 88.84970092773438,
+  "coherence": 0.769934356212616,
+  "duration_ms": 154758,
+  "episode": 0,
+  "receipt_sha256": "378bb6b837efb494647ddff4a3a706fb4650d5ed5c60e7e6c777a6551057d0cc",
+  "exit_code": 0,
+  "battery_temp_pre_c": 24.0,
+  "battery_temp_post_c": 25.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

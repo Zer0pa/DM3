@@ -1,0 +1,13 @@
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+--- Exp_H1_H2: Two-Lesson Probe (Bhupura vs Lotus) ---
+GPU MatMul Kernel Initialized.
+TransformerKernel: adapter max_compute_workgroup_storage_size=32768 < target 65536; using reduced limit
+GPU Transformer Kernel Initialized.
+Lesson 1: Bhupura -> Ring 9 (Expect Frustration)...
+  L1 Step 0: E=2.5001e3
+  L1 Step 10: E=2.5001e3
+Lesson 2: Lotus -> Ring 8 (Expect Resonance)...
+  L2 Step 0: E=2.5001e3
+  L2 Step 10: E=2.5001e3
+Exp_H1_H2 Complete.

@@ -1,0 +1,28 @@
+starting
+[1/13] K.asym_neg0_30 starting at 2026-04-17T01:32:01Z
+[1/13] K.asym_neg0_30 done at 2026-04-17T01:48:30Z rc=0 pull_rc=0 batt=80 therm=0
+[2/13] K.asym_neg0_20 starting at 2026-04-17T01:48:30Z
+[2/13] K.asym_neg0_20 done at 2026-04-17T02:04:50Z rc=0 pull_rc=0 batt=80 therm=0
+[3/13] K.asym_neg0_15 starting at 2026-04-17T02:04:51Z
+[3/13] K.asym_neg0_15 done at 2026-04-17T02:21:08Z rc=0 pull_rc=0 batt=80 therm=0
+[4/13] K.asym_neg0_10 starting at 2026-04-17T02:21:08Z
+[4/13] K.asym_neg0_10 done at 2026-04-17T02:37:33Z rc=0 pull_rc=0 batt=80 therm=0
+[5/13] K.asym_neg0_05 starting at 2026-04-17T02:37:33Z
+[5/13] K.asym_neg0_05 done at 2026-04-17T02:54:03Z rc=0 pull_rc=0 batt=80 therm=0
+[6/13] K.asym_neg0_02 starting at 2026-04-17T02:54:04Z
+[6/13] K.asym_neg0_02 done at 2026-04-17T03:10:35Z rc=0 pull_rc=0 batt=80 therm=0
+[7/13] K.asym_0_00 starting at 2026-04-17T03:10:35Z
+[7/13] K.asym_0_00 done at 2026-04-17T03:26:57Z rc=0 pull_rc=0 batt=80 therm=0
+[8/13] K.asym_0_02 starting at 2026-04-17T03:26:57Z
+[8/13] K.asym_0_02 done at 2026-04-17T03:43:30Z rc=0 pull_rc=0 batt=80 therm=0
+[9/13] K.asym_0_05 starting at 2026-04-17T03:43:30Z
+[9/13] K.asym_0_05 done at 2026-04-17T03:59:54Z rc=0 pull_rc=0 batt=80 therm=0
+[10/13] K.asym_0_10 starting at 2026-04-17T03:59:54Z
+[10/13] K.asym_0_10 done at 2026-04-17T04:16:19Z rc=0 pull_rc=0 batt=80 therm=0
+[11/13] K.asym_0_15 starting at 2026-04-17T04:16:20Z
+[11/13] K.asym_0_15 done at 2026-04-17T04:32:32Z rc=0 pull_rc=0 batt=80 therm=0
+[12/13] K.asym_0_20 starting at 2026-04-17T04:32:32Z
+[12/13] K.asym_0_20 done at 2026-04-17T04:49:01Z rc=0 pull_rc=0 batt=80 therm=0
+[13/13] K.asym_0_30 starting at 2026-04-17T04:49:01Z
+[13/13] K.asym_0_30 done at 2026-04-17T05:05:18Z rc=0 pull_rc=0 batt=80 therm=0
+done

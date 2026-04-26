@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "T2_scars_scaling",
+  "timestamp_utc": "2026-04-22T16:29:10Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 5,
+  "unique_output_sha256_raw": 5,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 5,
+  "unique_output_sha256_list_raw": ["T2_scars_scaling_s10_001.bin","T2_scars_scaling_s1_001.bin","T2_scars_scaling_s20_001.bin","T2_scars_scaling_s50_001.bin","T2_scars_scaling_s5_001.bin"],
+  "unique_output_sha256_list_canonical": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "output_sha256_per_run": ["T2_scars_scaling_s10_001.bin","T2_scars_scaling_s1_001.bin","T2_scars_scaling_s20_001.bin","T2_scars_scaling_s50_001.bin","T2_scars_scaling_s5_001.bin"],
+  "output_canonical_sha256_per_run": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "receipt_sha256_per_run": ["314dc3c01ac9b683bbc9495a3047aeec483a502acb79311f8b0c427398364700","c4de34484070ecf1c7c5479523bfd36e8f1ffd3e6222e0ae7ac97eddb5f85651","170bcf20c0a298003e74386d6f44b4f81fbc37ccfae8bb1f36acdd2eadc0764c","c18b9cbd068f8d341b8235046a80c0b0d5b9ca58095a250bcb675c60fe6488e7","c91e1d0ee82af3c691f6816bc08970dfc483217bbad8be08752b6a72a7010a69"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}

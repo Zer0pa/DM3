@@ -1,0 +1,53 @@
+[12:56:17] B3 start: 12-task CLI responsiveness audit (--steps 1 vs 20)
+OK B3_cli_audit_harmonic_steps1 rc=0 out_sha=27863be5be096306c93810b79728d07c9ab6626225fcfc224304fc5a48a90ecd receipt_sha=125aeda8e44b6fb2cfadcc582e6a496d252993ffbfdb68216536f5988ba3d369
+OK B3_cli_audit_harmonic_steps20 rc=0 out_sha=048166088861546473d0cbf58cebb045bdcd16cf6c81df3b926ea8d30ec8d8bd receipt_sha=f8c572ff839efaf80b7065a6346864294bcecce97c69ceb0c5997f5cfdae6e57
+OK B3_cli_audit_holography_steps1 rc=0 out_sha=38754ba9fe1c65e8d5585b30fe3b9e35f967c46db2cd417d84bc00b4124d5d00 receipt_sha=acbc60bf33a2550d97f56c78421b24816eab2b0ad5aa6701be4aaebbe077976c
+OK B3_cli_audit_holography_steps20 rc=0 out_sha=44e7405b45ad7f4f1759d344bf3c8d7dcaddec3eb28bc4ce524a885ebe4ee8d3 receipt_sha=e67708cc66ef381ee5a3e70ff7e9e0ca6983db0cc567a7dafccafd95ff5d1fc7
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_interference_steps1.bin': No such file or directory
+OK B3_cli_audit_interference_steps1 rc=0 out_sha= receipt_sha=3d95ffed87f663141e34f7839b19a9411e43920b212cc5d40e4b992644e1e782
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_interference_steps20.bin': No such file or directory
+OK B3_cli_audit_interference_steps20 rc=143 out_sha= receipt_sha=7ac28beb1d5f6d96e436181750995faaab2295e6b93c5b1a8889d9669aa50072
+[16:33:28] EXIT
+[16:42:07] B3_REORDERED start: Tier A (3 tasks) + Tier C (7 tasks remaining) @ --steps 1 vs 20
+[16:42:07] --- TIER A ---
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_k2_scars_steps1.bin': No such file or directory
+OK B3_cli_audit_exp_k2_scars_steps1 rc=0 out_sha= receipt_sha=572596cc8ed616891dd8cdc969cdea71739cbacc8f25b494f2cdc1893f7d489a
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_k2_scars_steps20.bin': No such file or directory
+OK B3_cli_audit_exp_k2_scars_steps20 rc=0 out_sha= receipt_sha=c26c04580f05b1f3a51267a825f75fc3277471200d9cac8e1b90f27ce78dfa69
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_k3_truth_sensor_steps1.bin': No such file or directory
+OK B3_cli_audit_exp_k3_truth_sensor_steps1 rc=0 out_sha= receipt_sha=82f51610d2a517e45eeb3c0bbac5f59061163857c427514f8b4517376427d7b1
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_k3_truth_sensor_steps20.bin': No such file or directory
+OK B3_cli_audit_exp_k3_truth_sensor_steps20 rc=0 out_sha= receipt_sha=2663f97f31ea829ee75f243b663e44cbd82c35a64b12c4ffad26b2c8defaacad
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_resonance_r3_steps1.bin': No such file or directory
+OK B3_cli_audit_resonance_r3_steps1 rc=0 out_sha= receipt_sha=d9aad0e34c6119f1c293887ada8854d763583a98f4a113e13cebc2e016b825c2
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_resonance_r3_steps20.bin': No such file or directory
+OK B3_cli_audit_resonance_r3_steps20 rc=0 out_sha= receipt_sha=ebc208b615152f43a1211af436ebb908ff6ad1490d20b71c764754592c93fe6c
+[17:06:10] --- TIER C ---
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_holographic_memory_steps1.bin': No such file or directory
+OK B3_cli_audit_holographic_memory_steps1 rc=0 out_sha= receipt_sha=6da5a6f66b072fec5d1e081185d7a03d4f2b94e9c56bf8c3ab2a9fde0ba518e7
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_holographic_memory_steps20.bin': No such file or directory
+OK B3_cli_audit_holographic_memory_steps20 rc=0 out_sha= receipt_sha=fccb7185166988ef8a435c079ae1bbee814fd95f374e6070286aef6299804800
+OK B3_cli_audit_exp_r1_r4_campaign_steps1 rc=0 out_sha=3dcd23fd9aa67fd754ca046328bfb2cbea0e2a377a0b20409ffa77788cd75904 receipt_sha=20e349627ce2c4986eceb59c85d7a56026dc7a196873afd8964e1cb917bcb98a
+OK B3_cli_audit_exp_r1_r4_campaign_steps20 rc=0 out_sha=69f97b5b4a063395baebd4cc9fe393837997d0d211ef4ea86781235687ea1e38 receipt_sha=c51606bf7e9bd3670302e88998bee4591c747a2833e7c56fbc7435d21c655285
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_i1_steps1.bin': No such file or directory
+OK B3_cli_audit_exp_i1_steps1 rc=0 out_sha= receipt_sha=5486e41c22156cd03f9b7fdb186693cefc36c5406ecce494eefde15da29ba103
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_i1_steps20.bin': No such file or directory
+OK B3_cli_audit_exp_i1_steps20 rc=0 out_sha= receipt_sha=9d893694cd6c275f6e4b20054f9eba5766a1a10bea6e3d1af5cff0a1f77399e3
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_i2_steps1.bin': No such file or directory
+OK B3_cli_audit_exp_i2_steps1 rc=0 out_sha= receipt_sha=06f56c0c9485cee37955768fab584abde3ab15e87cd0e02ac39dc474f6e13354
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_i2_steps20.bin': No such file or directory
+OK B3_cli_audit_exp_i2_steps20 rc=0 out_sha= receipt_sha=c2eb556aab0a12608b06ac14fc94e90d4d4eaaad7fd1d92de119ab091516e3cf
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_h1_h2_steps1.bin': No such file or directory
+OK B3_cli_audit_exp_h1_h2_steps1 rc=0 out_sha= receipt_sha=a579dc8615d12b9884adcccd140454a0ea7cee7216cd78acc71277a3e64ffb3c
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_exp_h1_h2_steps20.bin': No such file or directory
+OK B3_cli_audit_exp_h1_h2_steps20 rc=0 out_sha= receipt_sha=9155bf29768f0c567a5a753db4d3c43d528008230b6809c87eda4344f32f12d5
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_resonance_v2_steps1.bin': No such file or directory
+OK B3_cli_audit_resonance_v2_steps1 rc=0 out_sha= receipt_sha=597cfa7ec34c17775cb9ca47b4ebb97929927f1a2208eeb79e6107d937740f1c
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_resonance_v2_steps20.bin': No such file or directory
+OK B3_cli_audit_resonance_v2_steps20 rc=0 out_sha= receipt_sha=e43ad1a54f3f8fcf9651799ffc23ab856aa0250c1713ca02e4b0020dde626b42
+[22:19:33] interference_steps1 already present; skip
+cp: bad '/data/local/tmp/dm3_harness/cells/B3_cli_audit/B3_cli_audit_interference_steps20.bin': No such file or directory
+OK B3_cli_audit_interference_steps20 rc=0 out_sha= receipt_sha=4239349966f0629581b2c71dfa19a1cd7b7e8e9dceaa28f46ca3216200164eb4
+SUMMARY exp=B3_cli_audit runs=24 unique_canonical=7 verdict=FAIL summary_sha=d3c6a6c85cbd387cf294d1265a24e693c36a2bb03bd0a5c8591983fc56e59a8e
+[03:43:55] B3_REORDERED_COMPLETE
+[03:43:55] EXIT

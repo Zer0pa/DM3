@@ -1,0 +1,17 @@
+{
+  "question": "Does the earlier F2 GPU-backed drift localize to startup or order sensitivity under locked identity capture, or does the residue family remain too unstable to interpret even at the current feasibility ceiling?",
+  "row_order": [
+    "cpu_a",
+    "gpu_a",
+    "gpu_b",
+    "cpu_b"
+  ],
+  "device_cwd": "/data/local/tmp",
+  "binary_path": "/data/local/tmp/dm3_runner",
+  "alt_binary_path": "/data/local/tmp/dm3/dm3_runner",
+  "branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+  "phase": "01.2.3.4",
+  "plan": "f2-outlier-hardened-capture",
+  "artifact_root": "artifacts/rm10_f2_outlier_20260405T171018Z",
+  "surface_probe_summary": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/rm10_f2_surface_probe_20260405T170543Z/summary.json"
+}

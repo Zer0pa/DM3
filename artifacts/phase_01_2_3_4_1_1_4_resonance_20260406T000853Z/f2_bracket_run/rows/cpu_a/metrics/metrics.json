@@ -1,0 +1,16 @@
+{
+  "run_id": "f2_bracket_run_cpu_a",
+  "lane": "cpu",
+  "marker": "cpu_forced",
+  "decision": "Commit",
+  "delta_E": 88.95978546142578,
+  "coherence": 0.7684673070907593,
+  "duration_ms": 200519,
+  "episode": 0,
+  "receipt_sha256": "64b04ca8b7df1e15a2b4e25d2cbc8c2ab97131ead11a82d03381e0973ef325c2",
+  "exit_code": 0,
+  "battery_temp_pre_c": 28.0,
+  "battery_temp_post_c": 29.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

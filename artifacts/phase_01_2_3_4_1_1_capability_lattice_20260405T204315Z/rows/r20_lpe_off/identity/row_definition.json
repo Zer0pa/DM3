@@ -1,0 +1,9 @@
+{
+  "config": "configs/CONFIG.m2_lpe_off.json",
+  "device_output_dir": "audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r20_lpe_off",
+  "expectation": "Orthogonal probe for encoding sensitivity.",
+  "perturbation_family": "state-initialization",
+  "perturbation_summary": "Disable laplacian positional encoding while retaining harmonic family.",
+  "role": "orthogonal-candidate",
+  "row_id": "r20_lpe_off"
+}

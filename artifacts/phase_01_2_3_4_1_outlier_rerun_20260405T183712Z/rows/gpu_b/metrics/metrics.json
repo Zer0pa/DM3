@@ -1,0 +1,16 @@
+{
+  "run_id": "phase_01_2_3_4_1_outlier_rerun_20260405T183712Z_gpu_b",
+  "lane": "gpu",
+  "marker": "gpu_init",
+  "decision": "Commit",
+  "delta_E": 76.11676788330078,
+  "coherence": 0.8772754073143005,
+  "duration_ms": 98214,
+  "episode": 0,
+  "receipt_sha256": "b5da46ab65ac91476d4691b4f1ec89e29c2a4db110da67cf1f23bae8caa5c76b",
+  "exit_code": 0,
+  "battery_temp_pre_c": 34.0,
+  "battery_temp_post_c": 34.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

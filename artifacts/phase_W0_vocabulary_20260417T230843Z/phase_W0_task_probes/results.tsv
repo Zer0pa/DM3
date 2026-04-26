@@ -1,0 +1,16 @@
+label	arg	start	end	rc	bytes	lines
+exp_i1	exp_i1	2026-04-17T23:33:29Z	2026-04-17T23:37:48Z	0	0	0
+exp_i2	exp_i2	2026-04-17T23:37:48Z	2026-04-17T23:39:16Z	0	0	0
+exp_h1_h2	exp_h1_h2	2026-04-17T23:39:16Z	2026-04-17T23:40:15Z	0	0	0
+exp_i1_thermodynamics	exp_i1_thermodynamics	2026-04-17T23:40:15Z	2026-04-17T23:40:15Z	1	0	0
+exp_k1_patterns	exp_k1_patterns	2026-04-17T23:40:15Z	2026-04-17T23:40:15Z	1	0	0
+exp_k2_denoise	exp_k2_denoise	2026-04-17T23:40:15Z	2026-04-17T23:40:16Z	1	0	0
+exp_k2_scars	exp_k2_scars	2026-04-17T23:40:16Z	2026-04-17T23:40:49Z	0	0	0
+exp_k3_truth_sensor	exp_k3_truth_sensor	2026-04-17T23:40:49Z	2026-04-17T23:41:21Z	0	0	0
+exp_j1_holo_capacity	exp_j1_holo_capacity	2026-04-17T23:41:21Z	2026-04-17T23:41:21Z	1	0	0
+exp_j2_resonant_compute	exp_j2_resonant_compute	2026-04-17T23:41:21Z	2026-04-17T23:41:22Z	1	0	0
+exp_g1_contrastive	exp_g1_contrastive	2026-04-17T23:41:22Z	2026-04-17T23:41:22Z	1	0	0
+exp_g2_readout	exp_g2_readout	2026-04-17T23:41:22Z	2026-04-17T23:41:22Z	1	0	0
+exp_o2_interference	exp_o2_interference	2026-04-17T23:41:22Z	2026-04-17T23:41:23Z	1	0	0
+resonance_r3	resonance_r3	2026-04-17T23:41:23Z	2026-04-17T23:45:18Z	0	0	0
+resonance_v2	resonance_v2	2026-04-17T23:45:18Z	2026-04-17T23:45:19Z	0	0	0

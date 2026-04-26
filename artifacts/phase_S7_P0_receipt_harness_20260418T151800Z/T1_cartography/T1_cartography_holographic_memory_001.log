@@ -1,0 +1,5 @@
+Initializing GPU Kernels...
+TransformerKernel: adapter max_compute_workgroup_storage_size=32768 < target 65536; using reduced limit
+--- Holographic Memory Experiment ---
+Epoch 0: Train E=35273.77, Recall E=32131.88, Gain=0.0000, Cosine=-0.0012
+Holographic Memory Experiment Complete. Log saved to holographic_memory_log.csv

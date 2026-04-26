@@ -1,0 +1,57 @@
+{
+  "name": "dm3-rm10_f2_outlier_20260405T171018Z",
+  "workspace": "zer0pa",
+  "project_name": "dm3",
+  "tags": [
+    "restart",
+    "dm3",
+    "hypothesis-rm10-primary-platform-heterogeneous-learning",
+    "phase-01.2.3.4",
+    "run-family-f2",
+    "run-kind-feasibility_probe",
+    "authority-feasibility_only",
+    "build-exploratory_compiled_residue",
+    "machine-rm10_device",
+    "lane-rm10_root_hybrid_smoke",
+    "outlier-localization"
+  ],
+  "parameters": {
+    "run_id": "rm10_f2_outlier_20260405T171018Z",
+    "phase": "01.2.3.4",
+    "plan": "f2-outlier-hardened-capture",
+    "hypothesis_branch": "hypothesis/rm10-primary-platform-heterogeneous-learning",
+    "observable_family": "f2_harmonic_residue",
+    "battery_family": "F2",
+    "battery_class": "micro",
+    "command_surface": "dm3_runner",
+    "cwd": "/data/local/tmp",
+    "artifact_root": "artifacts/rm10_f2_outlier_20260405T171018Z",
+    "device_serial": "FY25013101C8",
+    "device_model": "NX789J",
+    "binary_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+    "receipt_expected": true,
+    "checkpoint_id": "rm10_f2_outlier_20260405T171018Z:rerun-only",
+    "checkpoint_parent": "none",
+    "question": "Does the earlier F2 GPU-backed drift localize to startup or order sensitivity under locked identity capture, or does the residue family remain too unstable to interpret even at the current feasibility ceiling?",
+    "outcome_class": "whole_session_instability"
+  },
+  "metrics": [
+    {
+      "name": "run/receipt_complete",
+      "value": 1
+    },
+    {
+      "name": "run/rows",
+      "value": 4
+    }
+  ],
+  "others": {
+    "artifact_root": "artifacts/rm10_f2_outlier_20260405T171018Z",
+    "summary_path": "artifacts/rm10_f2_outlier_20260405T171018Z/metrics/summary.tsv",
+    "comparison_index_path": "artifacts/rm10_f2_outlier_20260405T171018Z/comparisons/index.json",
+    "checkpoint_index_path": "artifacts/rm10_f2_outlier_20260405T171018Z/identity/checkpoint_index.json",
+    "notes": "Residue classification only, not bridge progress.",
+    "route_outcome": "NOT_APPLICABLE"
+  },
+  "assets": []
+}

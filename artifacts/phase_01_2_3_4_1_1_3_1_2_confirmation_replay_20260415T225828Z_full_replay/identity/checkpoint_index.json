@@ -1,0 +1,41 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "cpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_cpu_a",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_cpu_a.jsonl",
+      "receipt_sha256": "221cc6c3eb8aff89d214c216438f37bccda5d013ea84c7d0b7d090521d4806b9",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay/rows/cpu_a/identity/command.txt"
+    },
+    {
+      "name": "gpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_gpu_a",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_gpu_a.jsonl",
+      "receipt_sha256": "79dbac115132a39fdcfe3e4b471af0b7e7cbe0e731e239efb553b32beee8c7de",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay/rows/gpu_a/identity/command.txt"
+    },
+    {
+      "name": "gpu_b",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_gpu_b",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_gpu_b.jsonl",
+      "receipt_sha256": "762ce418166f37ffd4616742203197fb2367164c33eba830aab9d24534523e4e",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay/rows/gpu_b/identity/command.txt"
+    },
+    {
+      "name": "cpu_b",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_cpu_b",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_cpu_b.jsonl",
+      "receipt_sha256": "3c899383381deb549c4c4859c52adc3b29ddbcff5ceb61c5a47d767fd36e2ba2",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay/rows/cpu_b/identity/command.txt"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "gpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_width_boundary_20260415T000001Z_full_replay_gpu_a",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_gpu_a.jsonl",
+      "receipt_sha256": "293008d12bd01f17df554cfe30b170861cb86d7188e123a496942bbaf03e3e4b",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_width_boundary_20260415T000001Z_full_replay/rows/gpu_a/identity/command.txt",
+      "start_utc": "2026-04-15T22:04:56Z",
+      "end_utc": "2026-04-15T22:07:33Z"
+    }
+  ]
+}

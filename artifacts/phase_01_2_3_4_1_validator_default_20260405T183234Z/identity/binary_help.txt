@@ -1,0 +1,49 @@
+Deterministic Genesis organism orchestrator
+
+Usage: genesis_cli [OPTIONS] <--protocol|--test-battery <TEST_BATTERY>|--validate|--progeny <PROGENY>|--audit-report <AUDIT_REPORT>|--lineage-batch>
+
+Options:
+      --protocol
+          Execute the deterministic pipeline
+      --runs <RUNS>
+          Number of clean deterministic runs to execute [default: 1]
+      --output-dir <OUTPUT_DIR>
+          Directory where per-run outputs are archived [default: audit/runs]
+      --config <CONFIG>
+          Optional configuration override to apply before each run
+      --capsule <CAPSULE>
+          Optional capsule root for copying run artefacts
+      --env-report-only
+          If set, print the frozen environment and exit without running the pipeline
+      --test-battery <TEST_BATTERY>
+          Run the deterministic pipeline N times and ensure byte identity
+      --test-output-dir <TEST_OUTPUT_DIR>
+          Directory where the test battery results are archived [default: audit/test_runs]
+      --validate
+          Validate hashes within a run directory against canonical values
+      --reference-dir <REFERENCE_DIR>
+          Directory containing artifacts/verify.json + artifacts/solve_h2.json [default: audit/runs/run00]
+      --verify-hash <VERIFY_HASH>
+          Override canonical hash for verify.json if needed
+      --solve-hash <SOLVE_HASH>
+          Override canonical hash for solve_h2.json if needed
+      --progeny <PROGENY>
+          Generate a tagged progeny build (stored under progeny/<name>)
+      --progeny-root <PROGENY_ROOT>
+          Root directory for progeny outputs [default: audit/progeny]
+      --audit-report <AUDIT_REPORT>
+          Emit a summary report (JSON) describing deterministic runs
+      --report-source <REPORT_SOURCE>
+          Directory to scan when assembling the report [default: audit/runs]
+      --lineage-batch
+          Execute the sealed progeny batch and capture deterministic hashes
+      --lineage-root <LINEAGE_ROOT>
+          Root directory containing Z_P1_* sealed workspaces [default: ../01_PROVEN_LINEAGE]
+      --lineage-runs <LINEAGE_RUNS>
+          Number of clean runs per workspace [default: 1]
+      --lineage-output-dir <LINEAGE_OUTPUT_DIR>
+          Directory under the current workspace where batch logs are archived [default: audit/lineage_batch]
+  -h, --help
+          Print help
+  -V, --version
+          Print version

@@ -1,0 +1,6 @@
+total 2563
+drwxrwxrwx  2 shell shell    3452 2025-11-20 16:20 .
+drwxrwx--x 16 shell shell    8192 2026-04-16 02:08 ..
+-rw-rw-rw-  1 shell shell  840575 2025-11-20 15:44 xnor_mini.jsonl
+-rw-rw-rw-  1 shell shell 1680272 2025-11-20 15:34 xnor_test.jsonl
+-rw-rw-rw-  1 shell shell   84008 2025-11-20 16:20 xnor_train.jsonl

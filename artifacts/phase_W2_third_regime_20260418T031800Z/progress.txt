@@ -1,0 +1,2 @@
+[2026-04-18T02:18:47Z] spawn H_m5 task=harmonic asym=-5.0 steps=10
+[2026-04-18T02:18:47Z] spawn H_m4 task=harmonic asym=-4.0 steps=10

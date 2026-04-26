@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "T3_plasticity",
+  "timestamp_utc": "2026-04-22T16:45:26Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 4,
+  "unique_output_sha256_raw": 4,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 4,
+  "unique_output_sha256_list_raw": ["T3_plasticity_s10_001.bin","T3_plasticity_s1_001.bin","T3_plasticity_s20_001.bin","T3_plasticity_s5_001.bin"],
+  "unique_output_sha256_list_canonical": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "output_sha256_per_run": ["T3_plasticity_s10_001.bin","T3_plasticity_s1_001.bin","T3_plasticity_s20_001.bin","T3_plasticity_s5_001.bin"],
+  "output_canonical_sha256_per_run": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "receipt_sha256_per_run": ["4c852cd5a762c95d0109ca4592b85045322af213fda14e3a3ae77c3a8ec97292","af69387384b38bf0b83a12787f94cc9c94b0ccce87717b379e7570d792e5e976","7b0c32df7dd2814fd60f8b0e87e5d2342301842b413a5b848f79dcc65a71bedf","1c68666d40840f12eb4eb477039d17b31d95c84659e6326e9f374e62ac92c6c9"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}

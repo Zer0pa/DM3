@@ -1,0 +1,2 @@
+status	reason	detail
+BLOCKED	root_surface_not_ready	The retained F2 surface probe classifies root_cpu_default as `stalled_after_resonance_start`.

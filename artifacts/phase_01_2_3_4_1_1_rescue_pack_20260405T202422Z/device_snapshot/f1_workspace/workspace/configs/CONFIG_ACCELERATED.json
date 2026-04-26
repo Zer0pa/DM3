@@ -1,0 +1,1 @@
+{ "meta": { "run_id": "genesis_accelerated_1.6" }, "io": { "input_dir": "genesis_inputs", "output_dir": "genesis_receipts/accelerated" }, "deq": { "relaxation_factor": 1.6 } }

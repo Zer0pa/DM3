@@ -1,0 +1,20 @@
+--- K2: Scar Formation Grid Search (Multi-Pattern) ---
+
+=== Testing Lesson Count: 0 ===
+Lessons: 0, Max Scar Weight: 0.000000000e0
+KPI_K2_SCAR_WEIGHTS lessons=0 max_abs_delta=0.000000000e0 mean_abs_delta=0.000000000e0 changed_edges=0 total_edges=4560
+  Noise 0.1:
+    Pattern Bhupura: Recall Error = 89.2473
+    Pattern Lotus: Recall Error = 56.9803
+KPI_K2 lesson=0 noise=0.100 avg_recall_err=73.113831 baseline_recall_err=73.113831 uplift=0.000000 scar_max=0.000000
+KPI_K2_LESSON lessons=0 eta=0.0500 duration_sec=3.934 evals_per_sec=0.508
+
+=== Testing Lesson Count: 3 ===
+Lessons: 3, Max Scar Weight: 3.380720019e-1
+KPI_K2_SCAR_WEIGHTS lessons=3 max_abs_delta=1.999999881e-1 mean_abs_delta=8.211766183e-2 changed_edges=1892 total_edges=4560
+  Noise 0.1:
+    Pattern Bhupura: Recall Error = 89.2365
+    Pattern Lotus: Recall Error = 56.9708
+KPI_K2 lesson=3 noise=0.100 avg_recall_err=73.103683 baseline_recall_err=73.113831 uplift=0.010147 scar_max=0.338072
+KPI_K2_LESSON lessons=3 eta=0.0500 duration_sec=15.197 evals_per_sec=0.132
+KPI_K2_SUMMARY duration_sec=19.132 max_scar_weight=0.338072 best_uplift=0.010147

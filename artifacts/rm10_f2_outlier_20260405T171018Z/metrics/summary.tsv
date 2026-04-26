@@ -1,0 +1,5 @@
+run_id	lane	decision	delta_E	coherence	duration_ms	stdout_marker
+rm10_f2_outlier_20260405T171018Z_cpu_a	cpu	Commit	88.62701416015625	0.7702850699424744	81398	cpu_forced
+rm10_f2_outlier_20260405T171018Z_gpu_a	gpu	Commit	76.27044677734375	0.8767790198326111	81139	gpu_init
+rm10_f2_outlier_20260405T171018Z_gpu_b	gpu	Commit	88.8446044921875	0.770219087600708	80886	gpu_init
+rm10_f2_outlier_20260405T171018Z_cpu_b	cpu	Commit	75.4384765625	0.891244649887085	80408	cpu_forced

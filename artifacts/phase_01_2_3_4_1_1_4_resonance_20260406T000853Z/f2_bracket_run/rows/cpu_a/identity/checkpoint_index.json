@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "cpu_a",
+      "run_id": "f2_bracket_run_cpu_a",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_run_cpu_a.jsonl",
+      "receipt_sha256": "64b04ca8b7df1e15a2b4e25d2cbc8c2ab97131ead11a82d03381e0973ef325c2",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_4_resonance_20260406T000853Z/f2_bracket_run/rows/cpu_a/identity/command.txt",
+      "start_utc": "2026-04-06T00:10:15Z",
+      "end_utc": "2026-04-06T00:13:36Z"
+    }
+  ]
+}

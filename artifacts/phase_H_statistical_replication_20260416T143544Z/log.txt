@@ -1,0 +1,203 @@
+=== PHASE H: STATISTICAL REPLICATION (N=5) ===
+Started: 2026-04-16T14:36:54Z
+Device: FY25013101C8
+
+
+=== [1/14] H.1_ham | flags: --use-layernorm false ===
+start: 2026-04-16T14:36:54Z
+cmd: rm -f /data/local/tmp/H.1_ham.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.1_ham.jsonl --mode train --task harmonic --steps 5 --cpu --use-layernorm false
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.1707 Coh=0.8918
+Resonance Loop Complete.
+end: 2026-04-16T14:41:51Z rc=0
+/data/local/tmp/H.1_ham.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (645 bytes in 0.003s)
+pull_rc: 0
+device: batt=48 therm=0
+
+=== [2/14] H.2_ln | flags: --use-layernorm true ===
+start: 2026-04-16T14:41:51Z
+cmd: rm -f /data/local/tmp/H.2_ln.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.2_ln.jsonl --mode train --task harmonic --steps 5 --cpu --use-layernorm true
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.4949 Coh=0.8909
+Resonance Loop Complete.
+end: 2026-04-16T14:47:08Z rc=0
+/data/local/tmp/H.2_ln.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (640 bytes in 0.002s)
+pull_rc: 0
+device: batt=51 therm=0
+
+=== [3/14] H.3_asym_neg1 | flags: --asymmetry=-1.0 ===
+start: 2026-04-16T14:47:08Z
+cmd: rm -f /data/local/tmp/H.3_asym_neg1.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.3_asym_neg1.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-1.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -1)
+Ep 0: Dec=Commit E=68.9754 Coh=0.8658
+Resonance Loop Complete.
+end: 2026-04-16T14:54:02Z rc=0
+/data/local/tmp/H.3_asym_neg1.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (645 bytes in 0.002s)
+pull_rc: 0
+device: batt=56 therm=0
+
+=== [4/14] H.4_asym_neg01 | flags: --asymmetry=-0.1 ===
+start: 2026-04-16T14:54:02Z
+cmd: rm -f /data/local/tmp/H.4_asym_neg01.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.4_asym_neg01.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=-0.1
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.1)
+Ep 0: Dec=Commit E=87.9986 Coh=0.7701
+Resonance Loop Complete.
+end: 2026-04-16T15:01:07Z rc=0
+/data/local/tmp/H.4_asym_neg01.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (727 bytes in 0.003s)
+pull_rc: 0
+device: batt=60 therm=0
+
+=== [5/14] H.5_asym_01 | flags: --asymmetry=0.1 ===
+start: 2026-04-16T15:01:08Z
+cmd: rm -f /data/local/tmp/H.5_asym_01.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.5_asym_01.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=0.1
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.1)
+Ep 0: Dec=Commit E=89.5418 Coh=0.7707
+Resonance Loop Complete.
+end: 2026-04-16T15:07:55Z rc=0
+/data/local/tmp/H.5_asym_01.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (722 bytes in 0.003s)
+pull_rc: 0
+device: batt=65 therm=0
+
+=== [6/14] H.6_asym_10 | flags: --asymmetry=1.0 ===
+start: 2026-04-16T15:07:55Z
+cmd: rm -f /data/local/tmp/H.6_asym_10.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.6_asym_10.jsonl --mode train --task harmonic --steps 5 --cpu --asymmetry=1.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 1)
+Ep 0: Dec=Commit E=80.8697 Coh=0.8924
+Resonance Loop Complete.
+end: 2026-04-16T15:15:05Z rc=0
+/data/local/tmp/H.6_asym_10.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (640 bytes in 0.002s)
+pull_rc: 0
+device: batt=69 therm=0
+
+=== [7/14] H.7_rot120 | flags: --rotation 120 ===
+start: 2026-04-16T15:15:06Z
+cmd: rm -f /data/local/tmp/H.7_rot120.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.7_rot120.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 120
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.0750 Coh=0.8925
+Resonance Loop Complete.
+end: 2026-04-16T15:22:01Z rc=0
+/data/local/tmp/H.7_rot120.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (644 bytes in 0.003s)
+pull_rc: 0
+device: batt=74 therm=0
+
+=== [8/14] H.8_rot60 | flags: --rotation 60 ===
+start: 2026-04-16T15:22:01Z
+cmd: rm -f /data/local/tmp/H.8_rot60.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.8_rot60.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 60
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.7445 Coh=0.8914
+Resonance Loop Complete.
+end: 2026-04-16T15:32:11Z rc=0
+/data/local/tmp/H.8_rot60.jsonl: 1 file pulled, 0 skipped. 0.4 MB/s (647 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [9/14] H.9_rot0 | flags: --rotation 0 ===
+start: 2026-04-16T15:32:12Z
+cmd: rm -f /data/local/tmp/H.9_rot0.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.9_rot0.jsonl --mode train --task harmonic --steps 5 --cpu --rotation 0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.8400 Coh=0.8773
+Resonance Loop Complete.
+end: 2026-04-16T15:38:53Z rc=0
+/data/local/tmp/H.9_rot0.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (643 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [10/14] H.10_freq10 | flags: --freq 1.0 ===
+start: 2026-04-16T15:38:53Z
+cmd: rm -f /data/local/tmp/H.10_freq10.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.10_freq10.jsonl --mode train --task harmonic --steps 5 --cpu --freq 1.0
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.5721 Coh=0.8768
+Resonance Loop Complete.
+end: 2026-04-16T15:45:02Z rc=0
+/data/local/tmp/H.10_freq10.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (643 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [11/14] H.11_freq0033 | flags: --freq 0.033 ===
+start: 2026-04-16T15:45:02Z
+cmd: rm -f /data/local/tmp/H.11_freq0033.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.11_freq0033.jsonl --mode train --task harmonic --steps 5 --cpu --freq 0.033
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=88.7265 Coh=0.7702
+Resonance Loop Complete.
+end: 2026-04-16T15:51:16Z rc=0
+/data/local/tmp/H.11_freq0033.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (642 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [12/14] H.12_holography | flags: --task holography ===
+start: 2026-04-16T15:51:16Z
+cmd: rm -f /data/local/tmp/H.12_holography.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.12_holography.jsonl --mode train --steps 5 --cpu --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=15.7361 Coh=0.7308
+Resonance Loop Complete.
+end: 2026-04-16T15:57:27Z rc=0
+/data/local/tmp/H.12_holography.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (645 bytes in 0.004s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [13/14] H.13_truth_default | flags: --enable-truth-sensor ===
+start: 2026-04-16T15:57:28Z
+cmd: rm -f /data/local/tmp/H.13_truth_default.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.13_truth_default.jsonl --mode train --task harmonic --steps 5 --cpu --enable-truth-sensor
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=75.1995 Coh=0.8779
+Resonance Loop Complete.
+end: 2026-04-16T16:02:51Z rc=0
+/data/local/tmp/H.13_truth_default.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (641 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [14/14] H.14_truth_strong | flags: --enable-truth-sensor --sensor-threshold 0.1 --sensor-strength 0.9 ===
+start: 2026-04-16T16:02:51Z
+cmd: rm -f /data/local/tmp/H.14_truth_strong.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/H.14_truth_strong.jsonl --mode train --task harmonic --steps 5 --cpu --enable-truth-sensor --sensor-threshold 0.1 --sensor-strength 0.9
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Commit E=74.9387 Coh=0.8924
+Resonance Loop Complete.
+end: 2026-04-16T16:09:58Z rc=0
+/data/local/tmp/H.14_truth_strong.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (645 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== PHASE H COMPLETE ===
+Finished: 2026-04-16T16:09:58Z

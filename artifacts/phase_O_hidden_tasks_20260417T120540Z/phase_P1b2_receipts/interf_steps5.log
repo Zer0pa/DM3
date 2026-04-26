@@ -1,0 +1,40 @@
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Running Interference Task (Phase F)...
+Starting Resonance Training (Doc #5 Loop) | Gated: false...
+Loaded 10 samples.
+  Sample 5/10: Acc=0.40, E_i=482.10, E_f=103.71, dE=-378.39, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 84.853546, 39.41706, 40.9072]
+  Sample 8/10: Acc=0.38, E_i=482.10, E_f=92.49, dE=-389.61, Correct=false, Label=0, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 76.35811, 32.897335, 40.049694]
+  Sample 9/10: Acc=0.44, E_i=482.11, E_f=115.55, dE=-366.56, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 92.75377, 43.154182, 44.800983]
+Epoch 1: Acc = 0.5000, Avg Energy = 107.3147, Updates = 0
+  Sample 5/10: Acc=0.40, E_i=482.10, E_f=103.71, dE=-378.39, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 84.853546, 39.41706, 40.9072]
+  Sample 8/10: Acc=0.38, E_i=482.10, E_f=92.49, dE=-389.61, Correct=false, Label=0, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 76.35811, 32.897335, 40.049694]
+  Sample 9/10: Acc=0.44, E_i=482.11, E_f=115.55, dE=-366.56, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 92.75377, 43.154182, 44.800983]
+Epoch 2: Acc = 0.5000, Avg Energy = 107.3147, Updates = 0
+  Sample 5/10: Acc=0.40, E_i=482.10, E_f=103.71, dE=-378.39, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 84.853546, 39.41706, 40.9072]
+  Sample 8/10: Acc=0.38, E_i=482.10, E_f=92.49, dE=-389.61, Correct=false, Label=0, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 76.35811, 32.897335, 40.049694]
+  Sample 9/10: Acc=0.44, E_i=482.11, E_f=115.55, dE=-366.56, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 92.75377, 43.154182, 44.800983]
+Epoch 3: Acc = 0.5000, Avg Energy = 107.3147, Updates = 0
+  Sample 5/10: Acc=0.40, E_i=482.10, E_f=103.71, dE=-378.39, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 84.853546, 39.41706, 40.9072]
+  Sample 8/10: Acc=0.38, E_i=482.10, E_f=92.49, dE=-389.61, Correct=false, Label=0, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 76.35811, 32.897335, 40.049694]
+  Sample 9/10: Acc=0.44, E_i=482.11, E_f=115.55, dE=-366.56, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 92.75377, 43.154182, 44.800983]
+Epoch 4: Acc = 0.5000, Avg Energy = 107.3147, Updates = 0
+  Sample 5/10: Acc=0.40, E_i=482.10, E_f=103.71, dE=-378.39, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 84.853546, 39.41706, 40.9072]
+  Sample 8/10: Acc=0.38, E_i=482.10, E_f=92.49, dE=-389.61, Correct=false, Label=0, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 76.35811, 32.897335, 40.049694]
+  Sample 9/10: Acc=0.44, E_i=482.11, E_f=115.55, dE=-366.56, Correct=true, Label=1, Update=true
+    Features: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 92.75377, 43.154182, 44.800983]
+Epoch 5: Acc = 0.5000, Avg Energy = 107.3147, Updates = 0

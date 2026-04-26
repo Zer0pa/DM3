@@ -1,0 +1,16 @@
+{
+  "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_cpu_b",
+  "lane": "cpu",
+  "marker": "cpu_forced",
+  "decision": "Commit",
+  "delta_E": 74.59822845458984,
+  "coherence": 0.8928934335708618,
+  "duration_ms": 200744,
+  "episode": 0,
+  "receipt_sha256": "3c899383381deb549c4c4859c52adc3b29ddbcff5ceb61c5a47d767fd36e2ba2",
+  "exit_code": 0,
+  "battery_temp_pre_c": 27.0,
+  "battery_temp_post_c": 26.0,
+  "thermal_status_pre": 0,
+  "thermal_status_post": 0
+}

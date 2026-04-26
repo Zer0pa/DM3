@@ -1,0 +1,10 @@
+drwxrwx--x 19 shell shell 8192 2026-04-05 20:29 /data/local/tmp
+drwxr-xr-x 2 shell shell 8192 2026-04-05 19:18 /data/local/tmp/dm3
+-rwxrwxrwx 1 shell shell 9554600 2026-02-09 18:34 /data/local/tmp/dm3_runner
+-rwxrwxrwx 1 shell shell 9199920 2025-11-22 02:37 /data/local/tmp/dm3/dm3_runner
+-rw-rw-rw- 1 shell shell 24891 2025-11-19 21:22 /data/local/tmp/SriYantraAdj_v1.bin
+-rw-rw-rw- 1 shell shell 13332 2025-11-19 23:19 /data/local/tmp/RegionTags_v1.bin
+-rw-rw-rw- 1 shell shell 1532 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.bin
+-rw-rw-rw- 1 shell shell 23082 2025-11-20 17:59 /data/local/tmp/RegionTags_v2.json
+missing /data/local/tmp/PhonemePatterns_v1.bin
+-rw-rw-rw- 1 shell shell 84008 2025-11-20 16:20 /data/local/tmp/data/xnor_train.jsonl

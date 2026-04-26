@@ -1,0 +1,85 @@
+[
+  {
+    "attack_id": "stale-path-illusion",
+    "result": "survived",
+    "decisive_reason": "Wave 1 quarantined stale root and prior F1 audit material before the cleaned lane was rerun, so the retained F1 packet is not a reuse of stale path state.",
+    "sources": [
+      "docs/restart/RM10_CAPABILITY_RESET_CLEANUP_REPORT.md",
+      "artifacts/phase_01_2_3_4_1_1_cleanup_smoke_20260405T202714Z/identity/run_identity.json"
+    ]
+  },
+  {
+    "attack_id": "validator-illusion",
+    "result": "survived",
+    "decisive_reason": "Default validation stayed exit 1 and explicit-hash validation stayed exit 0 on cleanup and every Wave 2 row, so the capability verdict did not depend on validator-default success or failure.",
+    "sources": [
+      "docs/restart/RM10_CAPABILITY_RESET_CLEANUP_REPORT.md",
+      "artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/comparisons/row_summaries.json"
+    ]
+  },
+  {
+    "attack_id": "output-contamination",
+    "result": "survived",
+    "decisive_reason": "Wave 1 allocated a fresh audit leaf after quarantine and Wave 2 allocated fresh row-specific audit leaves, so no cited packet reused quarantined output directories.",
+    "sources": [
+      "docs/restart/RM10_CAPABILITY_RESET_CLEANUP_REPORT.md",
+      "artifacts/phase_01_2_3_4_1_1_cleanup_smoke_20260405T202714Z/live_surface_post.txt",
+      "artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/comparisons/row_summaries.json"
+    ]
+  },
+  {
+    "attack_id": "logging-illusion",
+    "result": "killed",
+    "decisive_reason": "The raw receipt hashes changed across perturbations, but all six rows normalized to the same semantic digest and all 36 pairwise comparisons report same_semantic_digest=true.",
+    "sources": [
+      "docs/restart/RM10_CAPABILITY_RESULT.md",
+      "artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/comparisons/row_summaries.json",
+      "artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/comparisons/semantic_matrix.json"
+    ]
+  },
+  {
+    "attack_id": "thermal-confound",
+    "result": "killed",
+    "decisive_reason": "Wave 2 held battery temperature at 34.0 C pre and post on every row with thermal status 0 throughout, so no thermal excursion remains to explain or rescue a split response family.",
+    "sources": [
+      "docs/restart/RM10_PROPERTY_MAP.md",
+      "artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/comparisons/row_summaries.json"
+    ]
+  },
+  {
+    "attack_id": "hidden-fallback",
+    "result": "unresolved",
+    "decisive_reason": "The cleaned F1 lane still runs through a prebuilt-backed genesis_cli, so hidden internal fallback cannot be ruled out mechanistically, but nothing hidden surfaced as a second retained receipt family under the branch contract.",
+    "sources": [
+      "docs/restart/RM10_CAPABILITY_RESET_CLEANUP_REPORT.md",
+      "artifacts/phase_01_2_3_4_1_1_cleanup_smoke_20260405T202714Z/identity/run_identity.json"
+    ]
+  },
+  {
+    "attack_id": "residue-family-contamination",
+    "result": "survived",
+    "decisive_reason": "Wave 2 was explicitly scoped to the cleaned F1 lane only and Wave 5 later rejected any F1-versus-F2 splice as cross-family or unstable, so the retained negative result is not a residue-family mix-up.",
+    "sources": [
+      "artifacts/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z/README.md",
+      "docs/restart/RM10_LANE_CONTRAST_LEDGER.md"
+    ]
+  },
+  {
+    "attack_id": "handoff-illusion",
+    "result": "killed",
+    "decisive_reason": "Wave 4 could not open a same-family handoff battery because no mapped property existed to carry and no handoff packet was admissible.",
+    "sources": [
+      "docs/restart/RM10_PROPERTY_MAP.md",
+      "docs/restart/RM10_SAME_FAMILY_HANDOFF_TRUTH_LEDGER.md"
+    ]
+  },
+  {
+    "attack_id": "lane-illusion",
+    "result": "killed",
+    "decisive_reason": "Wave 5 found no usable lane because the only accelerator path is cross-family or unstable and speed or hardware presence were explicitly rejected as behavior proxies.",
+    "sources": [
+      "docs/restart/RM10_LANE_CONTRAST_LEDGER.md",
+      "docs/restart/HARDWARE_LANE_BASELINE.md"
+    ]
+  }
+]

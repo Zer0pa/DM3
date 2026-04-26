@@ -1,0 +1,1 @@
+{ "meta": { "run_id": "genesis_baseline_1.0" }, "io": { "input_dir": "genesis_inputs", "output_dir": "genesis_receipts/baseline" }, "deq": { "relaxation_factor": 1.0 } }

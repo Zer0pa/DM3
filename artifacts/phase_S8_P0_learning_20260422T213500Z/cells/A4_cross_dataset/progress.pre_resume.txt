@@ -1,0 +1,22 @@
+[03:15:34] A4 start: cross-dataset xnor_{train,mini,test} @ steps=20 N=3
+[03:15:35] cooling 180s (worst=72080)
+THERMAL_OVER_CEILING worst_mc=72148 ceiling_mc=70000
+[03:18:38] cooling 180s (worst=72216)
+THERMAL_OVER_CEILING worst_mc=72114 ceiling_mc=70000
+[03:21:41] cooling 180s (worst=72080)
+THERMAL_OVER_CEILING worst_mc=72249 ceiling_mc=70000
+[03:24:44] cooling 180s (worst=72216)
+THERMAL_OVER_CEILING worst_mc=72148 ceiling_mc=70000
+[03:27:47] cooling 180s (worst=72216)
+THERMAL_OVER_CEILING worst_mc=72216 ceiling_mc=70000
+[03:30:49] cooling 180s (worst=72182)
+THERMAL_OVER_CEILING worst_mc=72114 ceiling_mc=70000
+[03:33:52] cooling 180s (worst=72249)
+THERMAL_OVER_CEILING worst_mc=72316 ceiling_mc=70000
+[03:36:55] cooling 180s (worst=72316)
+THERMAL_OVER_CEILING worst_mc=72182 ceiling_mc=70000
+[03:39:58] cooling 180s (worst=72249)
+THERMAL_OVER_CEILING worst_mc=72283 ceiling_mc=70000
+SUMMARY exp=A4_cross_dataset runs=0 unique_canonical=0 verdict=FAIL summary_sha=09ad942e75a11be2d79d93787c2de95e428583074738c9b57824076105fd75be
+[03:43:00] A4_COMPLETE
+[03:43:00] EXIT

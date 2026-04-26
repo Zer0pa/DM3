@@ -1,0 +1,4 @@
+drwxrwxr-x 9 shell shell 3452 2026-04-05 14:28 /data/local/tmp/SoC_runtime/workspace
+drwxr-xr-x 5 shell shell 3452 2025-10-28 04:39 /data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00
+drwxr-xr-x 2 shell shell 3452 2025-10-28 04:39 /data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00/artifacts
+drwxr-xr-x 2 shell shell 3452 2025-10-28 04:39 /data/local/tmp/snic_workspace_a83f/audit/RedMagic_T1-T7_20251028T093042Z/termux_protocol_run/run00/receipts

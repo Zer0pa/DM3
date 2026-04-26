@@ -1,0 +1,164 @@
+#!/system/bin/sh
+# run_cell.sh — runs one DM3 invocation under the A3 receipt harness.
+# Usage:
+#   run_cell.sh <exp_id> <run_id> <outdir> [-- dm3_args...]
+# Env (optional):
+#   PIN_CORE=<n>       taskset target core
+#   SEED=<n>           seed passed to dm3 as --seed or via --asymmetry etc (caller decides)
+#   DM3_BINARY=<path>  default /data/local/tmp/dm3_runner
+#   THERMAL_CEILING_MC=70000 — hard abort threshold
+#
+# Emits to <outdir>:
+#   <exp_id>_<run_id>.json         — full receipt (env + run + output hashes)
+#   <exp_id>_<run_id>.bin          — dm3 output (copied from --output path)
+#   <exp_id>_<run_id>.bin.sha      — sha256 of the .bin
+#   <exp_id>_<run_id>.receipt.sha  — sha256 of the receipt JSON itself
+#
+# Exit codes: 0=success, 2=thermal abort, 3=binary hash mismatch, 4=KAT fail, 5=dm3 fail
+
+set -u
+
+EXP_ID="$1"
+RUN_ID="$2"
+OUT_DIR="$3"
+shift 3
+if [ "${1:-}" = "--" ]; then shift; fi
+
+BIN="${DM3_BINARY:-/data/local/tmp/dm3_runner}"
+EXPECTED_HASH="daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672"
+TCEIL=${THERMAL_CEILING_MC:-70000}
+HARNESS_DIR=/data/local/tmp/dm3_harness/bin
+
+mkdir -p "$OUT_DIR"
+BASE="$OUT_DIR/${EXP_ID}_${RUN_ID}"
+BIN_OUT="${BASE}.bin"
+LOG="${BASE}.log"
+RECEIPT="${BASE}.json"
+
+# Gate 1: binary hash
+actual=$(sha256sum "$BIN" 2>/dev/null | awk '{print $1}')
+if [ "$actual" != "$EXPECTED_HASH" ]; then
+  echo "BINARY_HASH_MISMATCH expected=$EXPECTED_HASH actual=$actual" >&2
+  exit 3
+fi
+
+# Gate 2: idle
+other=$(pidof dm3_runner 2>/dev/null)
+if [ -n "$other" ]; then
+  echo "DM3_RUNNER_ALREADY_RUNNING pid=$other" >&2
+  exit 5
+fi
+
+# Gate 3: thermal — CPU/GPU sensors only.
+# Session 8 patch: pmih010x_lite_tz (PMIC) has massive thermal inertia and
+# stays at 70+ for hours after compute stops, while actual CPU is cool.
+# We filter to compute-relevant sensors so the gate tracks load, not PMIC.
+worst=0
+worst_zone=""
+for z in /sys/class/thermal/thermal_zone*; do
+  tp=$(cat "$z/type" 2>/dev/null)
+  case "$tp" in
+    cpu-*|cpuss-*|gpuss-*) : ;;
+    *) continue ;;
+  esac
+  t=$(cat "$z/temp" 2>/dev/null)
+  [ -z "$t" ] && continue
+  if [ "$t" -gt "$worst" ]; then worst=$t; worst_zone="$tp"; fi
+done
+if [ "$worst" -gt "$TCEIL" ]; then
+  echo "THERMAL_OVER_CEILING worst_mc=$worst worst_zone=$worst_zone ceiling_mc=$TCEIL" >&2
+  exit 2
+fi
+
+# Pre-run snapshot
+ENV_PRE=$(PIN_CORE="${PIN_CORE:-}" sh "$HARNESS_DIR/env_snapshot.sh")
+
+# Build hashes of static inputs
+bin_sha=$(sha256sum "$BIN" | awk '{print $1}')
+adj_path=""
+tags_path=""
+# Pull --adj and --tags from args; if not passed, harness records binary defaults
+args="$*"
+case "$args" in
+  *"--adj "*) adj_path=$(echo "$args" | sed -n 's/.*--adj \([^ ]*\).*/\1/p');;
+esac
+case "$args" in
+  *"--tags "*) tags_path=$(echo "$args" | sed -n 's/.*--tags \([^ ]*\).*/\1/p');;
+esac
+# Absolute vs relative
+[ -n "$adj_path" ] && [ ! -f "$adj_path" ] && adj_path="/data/local/tmp/$adj_path"
+[ -n "$tags_path" ] && [ ! -f "$tags_path" ] && tags_path="/data/local/tmp/$tags_path"
+# Defaults if unspecified
+[ -z "$adj_path" ] && adj_path="/data/local/tmp/SriYantraAdj_v1.bin"
+[ -z "$tags_path" ] && tags_path="/data/local/tmp/RegionTags_v1.bin"
+
+adj_sha=$(sha256sum "$adj_path" 2>/dev/null | awk '{print $1}')
+tags_sha=$(sha256sum "$tags_path" 2>/dev/null | awk '{print $1}')
+
+# Run — dm3 needs cwd=/data/local/tmp so it finds default adj/tags/patterns/dataset
+start_ns=$(date +%s%N)
+(
+  cd /data/local/tmp
+  if [ -n "${PIN_CORE:-}" ]; then
+    taskset "$(printf '%x' "$((1 << PIN_CORE))")" "$BIN" "$@" -o "$BIN_OUT" > "$LOG" 2>&1
+  else
+    "$BIN" "$@" -o "$BIN_OUT" > "$LOG" 2>&1
+  fi
+)
+rc=$?
+end_ns=$(date +%s%N)
+
+# Post-run snapshot
+ENV_POST=$(PIN_CORE="${PIN_CORE:-}" sh "$HARNESS_DIR/env_snapshot.sh")
+
+# Output hash (raw + canonical)
+out_sha=$(sha256sum "$BIN_OUT" 2>/dev/null | awk '{print $1}')
+echo "$out_sha  ${EXP_ID}_${RUN_ID}.bin" > "${BIN_OUT}.sha"
+
+# Canonical hash: zero any "run_sec": N fields before hashing.
+# Applies to exp_r1_r4_campaign JSON outputs; for other tasks the
+# sed is a no-op so canonical == raw.
+can_file="${BIN_OUT}.canonical"
+sed -E 's/"run_sec":[[:space:]]*[-0-9.eE+]+/"run_sec":0/g' "$BIN_OUT" > "$can_file" 2>/dev/null || cp "$BIN_OUT" "$can_file"
+can_sha=$(sha256sum "$can_file" 2>/dev/null | awk '{print $1}')
+echo "$can_sha  ${EXP_ID}_${RUN_ID}.bin.canonical" > "${BIN_OUT}.canonical.sha"
+rm -f "$can_file"
+
+# Assemble receipt JSON
+cli_args_json=$(echo "$*" | sed 's/\\/\\\\/g; s/"/\\"/g')
+duration_ns=$(awk -v a="$start_ns" -v b="$end_ns" 'BEGIN{printf "%.0f", b-a}')
+duration_sec=$(awk -v a="$start_ns" -v b="$end_ns" 'BEGIN{printf "%.3f", (b-a)/1000000000.0}')
+
+cat > "$RECEIPT" <<EOF
+{
+  "harness_version": "s7_p0_v2",
+  "exp_id": "${EXP_ID}",
+  "run_id": "${RUN_ID}",
+  "binary_sha256": "${bin_sha}",
+  "binary_expected_sha256": "${EXPECTED_HASH}",
+  "adjacency_path": "${adj_path}",
+  "adjacency_sha256": "${adj_sha}",
+  "tags_path": "${tags_path}",
+  "tags_sha256": "${tags_sha}",
+  "start_ns": ${start_ns},
+  "end_ns": ${end_ns},
+  "duration_ns": ${duration_ns},
+  "duration_sec": ${duration_sec},
+  "rc": ${rc},
+  "cli_args": "${cli_args_json}",
+  "output_path": "${BIN_OUT}",
+  "output_sha256": "${out_sha}",
+  "output_canonical_sha256": "${can_sha}",
+  "env_pre": ${ENV_PRE},
+  "env_post": ${ENV_POST},
+  "kat_pre_ok": ${KAT_PRE_OK:-null},
+  "kat_post_ok": ${KAT_POST_OK:-null}
+}
+EOF
+
+# Hash the receipt itself
+receipt_sha=$(sha256sum "$RECEIPT" | awk '{print $1}')
+echo "$receipt_sha  ${EXP_ID}_${RUN_ID}.json" > "${BASE}.receipt.sha"
+
+echo "OK ${EXP_ID}_${RUN_ID} rc=$rc out_sha=$out_sha receipt_sha=$receipt_sha"
+exit $rc

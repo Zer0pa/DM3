@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "cpu_b",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay_cpu_b",
+      "lane": "cpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_replay_cpu_b.jsonl",
+      "receipt_sha256": "3c899383381deb549c4c4859c52adc3b29ddbcff5ceb61c5a47d767fd36e2ba2",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_confirmation_replay_20260415T225828Z_full_replay/rows/cpu_b/identity/command.txt",
+      "start_utc": "2026-04-15T23:08:49Z",
+      "end_utc": "2026-04-15T23:12:10Z"
+    }
+  ]
+}

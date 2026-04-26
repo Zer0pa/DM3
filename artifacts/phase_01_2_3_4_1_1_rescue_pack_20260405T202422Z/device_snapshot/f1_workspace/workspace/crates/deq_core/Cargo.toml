@@ -1,0 +1,15 @@
+[package]
+name = "deq_core"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+num-bigint.workspace = true
+num-rational.workspace = true
+num-traits.workspace = true
+blake3.workspace = true
+lift_3d = { path = "../lift_3d" }
+yantra_3d_dual = { path = "../yantra_3d_dual" }

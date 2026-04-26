@@ -1,0 +1,1 @@
+e64ec08e4f8dedddea05b00b3c84c830ee3c9d5afb7cbb1acd4ade5c6f51bcae  /data/local/tmp/genesis_cli

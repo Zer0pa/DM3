@@ -1,0 +1,162 @@
+{
+  "adjacency_file": "RandomAdj_v1.bin",
+  "claim_level": "CL-0",
+  "convergence_step": 5,
+  "gates": {
+    "EPSILON_CRIT": true,
+    "R1": true,
+    "R2": false,
+    "R3": false,
+    "R4": true,
+    "WAKE_SLEEP_ALIGN": true
+  },
+  "operational_steps": 5,
+  "r1": {
+    "adj_baseline_acc": 0.5,
+    "adj_gate": true,
+    "arnold_tongue": {
+      "grid": [],
+      "productive_ratio": 0.0
+    },
+    "convergence_epsilon": 0.009999999776482582,
+    "convergence_points": [
+      {
+        "boundary_projection": 1.005544900894165,
+        "energy": 56318.73046875,
+        "interior_projection": 0.0,
+        "rel_delta": 1.0,
+        "steps": 2,
+        "tension": 1.005544900894165
+      },
+      {
+        "boundary_projection": 1.0155161619186401,
+        "energy": 61407.921875,
+        "interior_projection": 0.0,
+        "rel_delta": 0.09036409854888916,
+        "steps": 5,
+        "tension": 1.0155161619186401
+      }
+    ],
+    "dm3_discrimination_acc": 1.0,
+    "epsilon_crit": {
+      "gate": true,
+      "selected_threshold": 1000000.0,
+      "stable_candidate_count": 2,
+      "steps": 2,
+      "thresholds": [
+        {
+          "autobrake_threshold": 1000.0,
+          "fail_count": 0,
+          "finite_ratio": 1.0,
+          "max_energy_abs": 507.86322021484375,
+          "mean_energy_abs": 507.86322021484375,
+          "mean_mse": 0.6140689253807068,
+          "stable": true,
+          "steps": 2,
+          "trials": 1
+        },
+        {
+          "autobrake_threshold": 1000000.0,
+          "fail_count": 0,
+          "finite_ratio": 1.0,
+          "max_energy_abs": 56617.46875,
+          "mean_energy_abs": 56617.46875,
+          "mean_mse": 0.0177882332354784,
+          "stable": true,
+          "steps": 2,
+          "trials": 1
+        }
+      ]
+    },
+    "gate": true,
+    "margin": 0.5,
+    "margin_threshold": 0.05000000074505806,
+    "wake_sleep_audit": {
+      "gate": true,
+      "same_step_mse": 0.0,
+      "shifted_step_mse": 0.0028117161709815264,
+      "sleep_steps": 5,
+      "wake_steps": 5
+    }
+  },
+  "r2": {
+    "eta": 0.10000000149011612,
+    "gate": false,
+    "lessons": 1,
+    "phase_a": {
+      "boundary_proj": 1.0147649049758911,
+      "gate": true,
+      "interior_proj": 0.0
+    },
+    "phase_b": {
+      "boundary_precision_gap": 0.0,
+      "boundary_proj": 0.0,
+      "gate": false,
+      "interior_proj": 0.0
+    },
+    "phase_c": {
+      "boundary_after": 1.0151437520980835,
+      "boundary_before": 1.0147649049758911,
+      "gate": true,
+      "retention": 1.000373363494873
+    },
+    "phase_d": {
+      "gate": true,
+      "pair_accuracy": 1.0
+    },
+    "reflexive": {
+      "boundary_curvature": 0.0,
+      "boundary_fisher": 0.0,
+      "curvature_surrogate": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fisher_surrogate": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": true,
+      "interior_curvature_mean": 0.0,
+      "interior_fisher_mean": 0.0
+    }
+  },
+  "r3": {
+    "gate": false,
+    "k2_uplift": 0.007156353443861008,
+    "points": [
+      {
+        "k": 2,
+        "mean_uplift": 0.007156353443861008,
+        "trials": 1
+      }
+    ]
+  },
+  "r4": {
+    "base_holdout_err": 0.043650299310684204,
+    "base_trained_err": 0.03101240284740925,
+    "gate": true,
+    "holdout_uplift": 0.0012600570917129517,
+    "post_holdout_err": 0.04239024221897125,
+    "post_trained_err": 0.029096031561493874,
+    "trained_uplift": 0.0019163712859153748,
+    "transfer_ratio": 0.657522439956665
+  },
+  "run_sec": 1343.791015625,
+  "steps_hint": 1
+}

@@ -1,0 +1,9 @@
+{
+  "name": "cleanroom_regiontags_v1_cpu",
+  "classification": "callable",
+  "exit_code": 0,
+  "cwd": "/data/local/tmp/f2_cleanroom_rtags_probe",
+  "binary_path": "/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner",
+  "command": "/data/local/tmp/f2_cleanroom_rtags_probe/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl",
+  "receipt_path": "/data/local/tmp/f2_cleanroom_rtags_probe/out.jsonl"
+}

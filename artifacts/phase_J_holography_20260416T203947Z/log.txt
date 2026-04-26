@@ -1,0 +1,143 @@
+=== PHASE RUNNER: phase_J_holography_20260416T203947Z (9 runs) ===
+Started: 2026-04-16T20:40:21Z
+Config: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_J_holography_20260416T203947Z/phase_J.cfg
+
+=== [1/9] J.asym_neg1_holo | steps: 5 | flags: --asymmetry=-1.0 --task holography ===
+start: 2026-04-16T20:40:21Z
+cmd: rm -f /data/local/tmp/J.asym_neg1_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.asym_neg1_holo.jsonl --mode train --steps 5 --cpu --asymmetry=-1.0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -1)
+Ep 0: Dec=Retry E=10.3140 Coh=0.7109
+Resonance Loop Complete.
+end: 2026-04-16T20:56:55Z rc=0
+/data/local/tmp/J.asym_neg1_holo.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (653 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [2/9] J.asym_neg0_5_holo | steps: 5 | flags: --asymmetry=-0.5 --task holography ===
+start: 2026-04-16T20:56:55Z
+cmd: rm -f /data/local/tmp/J.asym_neg0_5_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.asym_neg0_5_holo.jsonl --mode train --steps 5 --cpu --asymmetry=-0.5 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: -0.5)
+Ep 0: Dec=Retry E=12.5736 Coh=0.7292
+Resonance Loop Complete.
+end: 2026-04-16T21:13:17Z rc=0
+/data/local/tmp/J.asym_neg0_5_holo.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (652 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [3/9] J.asym_0_holo | steps: 5 | flags: --asymmetry=0.0 --task holography ===
+start: 2026-04-16T21:13:18Z
+cmd: rm -f /data/local/tmp/J.asym_0_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.asym_0_holo.jsonl --mode train --steps 5 --cpu --asymmetry=0.0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=14.9998 Coh=0.7268
+Resonance Loop Complete.
+end: 2026-04-16T21:29:33Z rc=0
+/data/local/tmp/J.asym_0_holo.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (649 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [4/9] J.asym_0_5_holo | steps: 5 | flags: --asymmetry=0.5 --task holography ===
+start: 2026-04-16T21:29:33Z
+cmd: rm -f /data/local/tmp/J.asym_0_5_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.asym_0_5_holo.jsonl --mode train --steps 5 --cpu --asymmetry=0.5 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0.5)
+Ep 0: Dec=Retry E=16.9663 Coh=0.7202
+Resonance Loop Complete.
+end: 2026-04-16T21:46:06Z rc=0
+/data/local/tmp/J.asym_0_5_holo.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (645 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [5/9] J.asym_1_0_holo | steps: 5 | flags: --asymmetry=1.0 --task holography ===
+start: 2026-04-16T21:46:06Z
+cmd: rm -f /data/local/tmp/J.asym_1_0_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.asym_1_0_holo.jsonl --mode train --steps 5 --cpu --asymmetry=1.0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 1)
+=== PHASE RUNNER: phase_J_holography_20260416T203947Z (5 runs) ===
+Started: 2026-04-17T00:02:34Z
+Config: /Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_J_holography_20260416T203947Z/phase_J_cont.cfg
+
+=== [1/5] J.asym_1_0_holo | steps: 5 | flags: --asymmetry=1.0 --task holography ===
+start: 2026-04-17T00:02:35Z
+cmd: rm -f /data/local/tmp/J.asym_1_0_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.asym_1_0_holo.jsonl --mode train --steps 5 --cpu --asymmetry=1.0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 1)
+Ep 0: Dec=Retry E=21.3226 Coh=0.7387
+Resonance Loop Complete.
+end: 2026-04-17T00:07:35Z rc=0
+/data/local/tmp/J.asym_1_0_holo.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (641 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [2/5] J.rot_0_holo | steps: 5 | flags: --rotation 0 --task holography ===
+start: 2026-04-17T00:07:35Z
+cmd: rm -f /data/local/tmp/J.rot_0_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.rot_0_holo.jsonl --mode train --steps 5 --cpu --rotation 0 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=14.9656 Coh=0.7433
+Resonance Loop Complete.
+end: 2026-04-17T00:14:14Z rc=0
+/data/local/tmp/J.rot_0_holo.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (641 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [3/5] J.rot_60_holo | steps: 5 | flags: --rotation 60 --task holography ===
+start: 2026-04-17T00:14:15Z
+cmd: rm -f /data/local/tmp/J.rot_60_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.rot_60_holo.jsonl --mode train --steps 5 --cpu --rotation 60 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=15.2210 Coh=0.7257
+Resonance Loop Complete.
+end: 2026-04-17T00:19:37Z rc=0
+/data/local/tmp/J.rot_60_holo.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (645 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [4/5] J.rot_120_holo | steps: 5 | flags: --rotation 120 --task holography ===
+start: 2026-04-17T00:19:37Z
+cmd: rm -f /data/local/tmp/J.rot_120_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.rot_120_holo.jsonl --mode train --steps 5 --cpu --rotation 120 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=14.3919 Coh=0.7416
+Resonance Loop Complete.
+end: 2026-04-17T00:34:23Z rc=0
+/data/local/tmp/J.rot_120_holo.jsonl: 1 file pulled, 0 skipped. 0.2 MB/s (649 bytes in 0.003s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== [5/5] J.freq_0_5_holo | steps: 5 | flags: --freq 0.5 --task holography ===
+start: 2026-04-17T00:34:24Z
+cmd: rm -f /data/local/tmp/J.freq_0_5_holo.jsonl && cd /data/local/tmp && ./dm3_runner -o /data/local/tmp/J.freq_0_5_holo.jsonl --mode train --steps 5 --cpu --freq 0.5 --task holography
+Entering Training Mode...
+Forcing CPU Mode (GPU Disabled).
+Entering Resonance Mode (Legacy)...
+Starting Resonance Training (Episodes: 5, Asymmetry: 0)
+Ep 0: Dec=Retry E=13.6679 Coh=0.7269
+Resonance Loop Complete.
+end: 2026-04-17T00:50:50Z rc=0
+/data/local/tmp/J.freq_0_5_holo.jsonl: 1 file pulled, 0 skipped. 0.3 MB/s (650 bytes in 0.002s)
+pull_rc: 0
+device: batt=80 therm=0
+
+=== PHASE RUNNER COMPLETE ===
+Finished: 2026-04-17T00:50:50Z

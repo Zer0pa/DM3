@@ -1,0 +1,9 @@
+{
+  "config": "configs/CONFIG.m1_nonharmonic.json",
+  "device_output_dir": "audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r30_nonharmonic",
+  "expectation": "Orthogonal probe for family sensitivity.",
+  "perturbation_family": "input-family",
+  "perturbation_summary": "Swap harmonic drives to a nonharmonic set.",
+  "role": "orthogonal-candidate",
+  "row_id": "r30_nonharmonic"
+}

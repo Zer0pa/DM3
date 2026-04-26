@@ -1,0 +1,5 @@
+error: the argument '--mode <MODE>' cannot be used multiple times
+
+Usage: dm3_runner [OPTIONS]
+
+For more information, try '--help'.

@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp/SoC_runtime/workspace && PATH=/data/local/tmp/SoC_Harness/bin:$PATH /data/local/tmp/genesis_cli --protocol --runs 1 --output-dir audit/phase_01_2_3_4_1_1_capability_lattice_20260405T204315Z_r10_priors_off_a --config configs/CONFIG.no_priors.json'

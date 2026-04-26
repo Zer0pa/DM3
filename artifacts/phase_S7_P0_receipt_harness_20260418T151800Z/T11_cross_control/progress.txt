@@ -1,0 +1,7 @@
+[14:30:40] T11 start: RA+v2 @ default steps, 3 replicates
+OK T11_cross_control_RAv2_001 rc=0 out_sha=82c9d134c095502138460eb98808ddfbff08b60b36c9bff7ab46bf1ec603ca1a receipt_sha=a336b31b27103b6d1b0e9aa1956a6fa62dc4715c2d9adfce126e797bea414a67
+OK T11_cross_control_RAv2_002 rc=0 out_sha=c9eaa89a2b18ca45085e7b14c1f6622a8b50811f04c7818e6e06ce6d8c8e9d1a receipt_sha=4979625e866b56a349401e89c2c6e2d5fd0db9ee8ef2bc44850c2a21721bd358
+OK T11_cross_control_RAv2_003 rc=0 out_sha=d5a84f71c754bd3fae6508b66284f820d1be05611c6e5ca0813605b85fcb5083 receipt_sha=f370cf7dcf6f4d53f2b319fc98c6c6426e9a3c5ca5e02f7483711bd5a926d0fa
+SUMMARY exp=T11_cross_control runs=3 unique_canonical=1 verdict=PASS summary_sha=95a75e0b10b0d3fabdcecae6602adf23c4c7385a9cfa6564a2ca0c3a9370d485
+[15:02:11] T11_COMPLETE
+[15:02:11] EXIT

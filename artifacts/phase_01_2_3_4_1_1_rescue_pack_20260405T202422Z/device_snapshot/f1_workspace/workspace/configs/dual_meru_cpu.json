@@ -1,0 +1,11 @@
+{
+  "helix": {"radius": "1/1", "pitch": "1/2"},
+  "deq": {"tol": "1/1000000", "max_nfe": 50},
+  "resonance": {"cavities": 12},
+  "gates": {
+    "epsilon_throat": 0.05,
+    "delta_orth": 0.10,
+    "kappa_max": 10.0,
+    "reciprocity_eps": 0.02
+  }
+}

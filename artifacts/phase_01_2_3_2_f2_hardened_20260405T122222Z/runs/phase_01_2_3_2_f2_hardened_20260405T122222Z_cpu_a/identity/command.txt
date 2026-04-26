@@ -1,0 +1,1 @@
+adb shell 'cd /data/local/tmp && rm -f /data/local/tmp/phase_01_2_3_2_f2_hardened_20260405T122222Z_cpu_a.jsonl && ./dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/phase_01_2_3_2_f2_hardened_20260405T122222Z_cpu_a.jsonl'

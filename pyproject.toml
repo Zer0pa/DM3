@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zpe-dm3"
+version = "0.1.0"
+description = "Repo-surface utilities and review scaffolding for the DM3 structural diagnostic."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LicenseRef-Zer0pa-DM3-RRL-1.0"
+authors = [
+  { name = "Zer0pa-Architect-Prime" },
+]
+keywords = ["dm3", "zer0pa", "graph diagnostic", "structural diagnostic"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+zpe-dm3 = "zpe_dm3.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

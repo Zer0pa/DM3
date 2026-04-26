@@ -1,0 +1,18 @@
+InterferenceTask: Detected JSON RegionTags.
+--- G2 Boundary Readout Experiment (Mode: R2Contrastive) ---
+Epoch, AvgSleepE, AvgMatchE, AvgMismatchE, Gap_Match, Gap_Mismatch, ReadoutAcc
+Epoch 0: Processing sample 0/2
+Epoch 0: Processing sample 1/2
+0, 9215.56, 47016.44, 45192.15, 37800.88, 35976.59, 1.00
+Epoch 1: Processing sample 0/2
+Epoch 1: Processing sample 1/2
+1, 8818.46, 44218.17, 44036.42, 35399.72, 35217.96, 1.00
+Epoch 2: Processing sample 0/2
+Epoch 2: Processing sample 1/2
+2, 8607.34, 43113.33, 43021.40, 34505.99, 34414.06, 1.00
+Epoch 3: Processing sample 0/2
+Epoch 3: Processing sample 1/2
+3, 8418.11, 42132.32, 42102.32, 33714.21, 33684.22, 1.00
+Epoch 4: Processing sample 0/2
+Epoch 4: Processing sample 1/2
+Terminated 

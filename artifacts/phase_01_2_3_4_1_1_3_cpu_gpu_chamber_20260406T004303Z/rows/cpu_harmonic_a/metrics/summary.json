@@ -1,0 +1,19 @@
+{
+  "row_name": "cpu_harmonic_a",
+  "surface_id": "f2_root_chamber_candidate",
+  "lane": "cpu",
+  "task": "harmonic",
+  "gated": false,
+  "freq": null,
+  "rotation": 0.0,
+  "asymmetry": 0.0,
+  "marker": "cpu_forced",
+  "status": "receipt_missing",
+  "exit_code": 137,
+  "command_exact": "adb shell 'cd /data/local/tmp && rm -f /data/local/tmp/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_cpu_harmonic_a.jsonl && /system/bin/timeout 180 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --output /data/local/tmp/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_cpu_harmonic_a.jsonl'",
+  "binary_path": "/data/local/tmp/dm3_runner",
+  "device_cwd": "/data/local/tmp",
+  "output_path": "/data/local/tmp/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_cpu_harmonic_a.jsonl",
+  "receipt_path": "/Users/Zer0pa/DM3/restart-hypothesis-rm10-primary-platform/artifacts/phase_01_2_3_4_1_1_3_cpu_gpu_chamber_20260406T004303Z/rows/cpu_harmonic_a/receipts/phase_01_2_3_4_1_1_3_chamber_20260406T004303Z_cpu_harmonic_a.jsonl",
+  "receipt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

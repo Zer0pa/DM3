@@ -1,0 +1,1 @@
+adb shell 'rm -f /data/local/tmp/root_cpu_explicit_assets.jsonl && cd /data/local/tmp && /system/bin/timeout 15 /data/local/tmp/dm3_runner --mode train --task harmonic --steps 1 --cpu --adj SriYantraAdj_v1.bin --tags RegionTags_v1.bin --output /data/local/tmp/root_cpu_explicit_assets.jsonl'

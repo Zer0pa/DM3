@@ -1,0 +1,9 @@
+{
+  "name": "legacy_dm3_gpu_train",
+  "classification": "callable",
+  "exit_code": 0,
+  "cwd": "/data/local/tmp/dm3",
+  "binary_path": "/data/local/tmp/dm3/dm3_runner",
+  "command": "/data/local/tmp/dm3/dm3_runner --mode train --task harmonic --steps 1 -o /data/local/tmp/dm3/legacy_gpu_train.jsonl",
+  "receipt_path": "/data/local/tmp/dm3/legacy_gpu_train.jsonl"
+}

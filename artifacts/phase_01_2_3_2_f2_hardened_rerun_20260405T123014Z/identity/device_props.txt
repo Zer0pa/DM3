@@ -1,0 +1,3 @@
+ro.product.model=NX789J
+ro.build.fingerprint=nubia/NX789J-EEA/NX789J:15/AQ3A.240812.002/20251031.123842:user/release-keys
+ro.hardware.vulkan=adreno

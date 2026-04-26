@@ -1,0 +1,16 @@
+{
+  "policy": "rerun-only",
+  "attempts": [
+    {
+      "name": "gpu_a",
+      "run_id": "phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b_gpu_a",
+      "lane": "gpu",
+      "exit_code": 0,
+      "device_receipt": "/data/local/tmp/f2_b_gpu_a.jsonl",
+      "receipt_sha256": "2076b674904d05d38770fdbb47eaab8a2c848856fc627d5bf13d648f2a1be9c7",
+      "command_path": "artifacts/phase_01_2_3_4_1_1_3_1_2_1_third_row_localization_20260415T231357Z_cpu_a_gpu_a_cpu_b/rows/gpu_a/identity/command.txt",
+      "start_utc": "2026-04-15T23:17:25Z",
+      "end_utc": "2026-04-15T23:20:47Z"
+    }
+  ]
+}

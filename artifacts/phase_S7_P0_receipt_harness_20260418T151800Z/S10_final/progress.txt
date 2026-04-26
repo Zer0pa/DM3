@@ -1,0 +1,23 @@
+[13:10:28] S10 start
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_A_s0p0_001.bin': No such file or directory
+OK S10_truth_sensor_A_s0p0_001 rc=0 out_sha= receipt_sha=6f9d46a86668bc279c0d38d63709671ae239a6934842c304a6f2f9bbd16bd887
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_A_s0p1_001.bin': No such file or directory
+OK S10_truth_sensor_A_s0p1_001 rc=0 out_sha= receipt_sha=3f2f6d1492bfdb4d1664fb1d6b226dbb70bd634449ad48582034c5d92f1b5189
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_A_s0p25_001.bin': No such file or directory
+OK S10_truth_sensor_A_s0p25_001 rc=0 out_sha= receipt_sha=f9fad3d4d7c9caa0eac285c944689d0301298e10e9503e347ea9f8a30c45313c
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_A_s0p5_001.bin': No such file or directory
+OK S10_truth_sensor_A_s0p5_001 rc=0 out_sha= receipt_sha=af9b2774f0eafa762915d6bc20b905d29106685f981382f411f0fcb6756ebea4
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_A_s0p75_001.bin': No such file or directory
+OK S10_truth_sensor_A_s0p75_001 rc=0 out_sha= receipt_sha=65f3a17bddf93217e9b9dca5ec21ba5ea62d8c860b669fec804b07890ac987f5
+THERMAL_OVER_CEILING worst_mc=130048 ceiling_mc=70000
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_B_t0p01_001.bin': No such file or directory
+OK S10_truth_sensor_B_t0p01_001 rc=0 out_sha= receipt_sha=75ef5409ce0555656854cdbe3b62e0e79e49dcbe2edb10a47cec9ccd22af0478
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_B_t0p1_001.bin': No such file or directory
+OK S10_truth_sensor_B_t0p1_001 rc=0 out_sha= receipt_sha=6f6ca9b5a7e8adaf048ac31a5ea64bd39cd8ef6b3c0ebebaf09a75d42efceaab
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_B_t1p0_001.bin': No such file or directory
+OK S10_truth_sensor_B_t1p0_001 rc=0 out_sha= receipt_sha=ee4a83e9d70b6f601abf894e302db8014766398d917e45894e067e15e3797756
+cp: bad '/data/local/tmp/dm3_harness/cells/S10_truth_sensor/S10_truth_sensor_B_t10p0_001.bin': No such file or directory
+OK S10_truth_sensor_B_t10p0_001 rc=0 out_sha= receipt_sha=edcaee981d56e51259c5e6cd527c75de0247434aa8c036384428a99c3763b68d
+SUMMARY exp=S10_truth_sensor runs=9 unique_canonical=1 verdict=PASS summary_sha=33528e068a376c870fda0e1db10abd54a8c4ecff76f028401a50dc12b54c2592
+[14:16:38] S10_COMPLETE
+[14:16:38] EXIT

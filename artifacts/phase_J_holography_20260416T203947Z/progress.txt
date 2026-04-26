@@ -1,0 +1,12 @@
+starting
+[1/5] J.asym_1_0_holo starting at 2026-04-17T00:02:35Z
+[1/5] J.asym_1_0_holo done at 2026-04-17T00:07:35Z rc=0 pull_rc=0 batt=80 therm=0
+[2/5] J.rot_0_holo starting at 2026-04-17T00:07:35Z
+[2/5] J.rot_0_holo done at 2026-04-17T00:14:14Z rc=0 pull_rc=0 batt=80 therm=0
+[3/5] J.rot_60_holo starting at 2026-04-17T00:14:15Z
+[3/5] J.rot_60_holo done at 2026-04-17T00:19:37Z rc=0 pull_rc=0 batt=80 therm=0
+[4/5] J.rot_120_holo starting at 2026-04-17T00:19:37Z
+[4/5] J.rot_120_holo done at 2026-04-17T00:34:23Z rc=0 pull_rc=0 batt=80 therm=0
+[5/5] J.freq_0_5_holo starting at 2026-04-17T00:34:24Z
+[5/5] J.freq_0_5_holo done at 2026-04-17T00:50:50Z rc=0 pull_rc=0 batt=80 therm=0
+done

@@ -1,0 +1,40 @@
+[09:34:38] A6b start: post-peak steps in {42-49 excl 45}, N=3, SY_v1, xnor_train
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s43_r1.bin': No such file or directory
+OK A6b_post_peak_s43_r1 rc=0 out_sha= receipt_sha=dad9937942717fc2dee1e4111fed4ccde859b857cf99db2ce0a3b52c6c055123
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s43_r2.bin': No such file or directory
+OK A6b_post_peak_s43_r2 rc=0 out_sha= receipt_sha=dddc77f50c84b12a671803ec5483c8dfbb26a177e6a858ff9af0372a95afdd02
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s43_r3.bin': No such file or directory
+OK A6b_post_peak_s43_r3 rc=0 out_sha= receipt_sha=9765d55b8bfcdafcea034077a19766317fcc95aba196afa646f9bb8d0d9e864d
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s44_r1.bin': No such file or directory
+OK A6b_post_peak_s44_r1 rc=0 out_sha= receipt_sha=647e9cee2c6fe6af2ad74b722ffcafb4d1225c41e54077a5465e1baad1c552eb
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s44_r2.bin': No such file or directory
+OK A6b_post_peak_s44_r2 rc=0 out_sha= receipt_sha=11ce00e15634af60b7c094ea46830dcc5c5069f6008dbac54c6bb3e0b2091fcb
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s44_r3.bin': No such file or directory
+OK A6b_post_peak_s44_r3 rc=0 out_sha= receipt_sha=20e09bb6c99e844809f36c4add82356f5f9e516a2cb3420b9460d538b977a292
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s46_r1.bin': No such file or directory
+OK A6b_post_peak_s46_r1 rc=0 out_sha= receipt_sha=ea5c01bbdc105699f4d77f7ab2b4106d6050c4843a54691ec1a68383b072280e
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s46_r2.bin': No such file or directory
+OK A6b_post_peak_s46_r2 rc=0 out_sha= receipt_sha=a319ed6a6640c86747e1dfe70fe0aed1a9481a100edb930ee8784cd7ce2aaf9f
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s46_r3.bin': No such file or directory
+OK A6b_post_peak_s46_r3 rc=0 out_sha= receipt_sha=ef4b4950f508d732606d35b345a004af1bad99f715c80f8a8f2474f26e1daefa
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s47_r1.bin': No such file or directory
+OK A6b_post_peak_s47_r1 rc=0 out_sha= receipt_sha=762c266dbe0223de07fd1839f5de06a9a75d66adcdc2226323f8f130430b9820
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s47_r2.bin': No such file or directory
+OK A6b_post_peak_s47_r2 rc=0 out_sha= receipt_sha=84a0357b5a2dba25c98bde16f4c594b6a5ba3ec302c07bbe6017508e8b6ce7ba
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s47_r3.bin': No such file or directory
+OK A6b_post_peak_s47_r3 rc=0 out_sha= receipt_sha=7c44fb5830420637124af30d63ef1fd977559bb1cc71fcf7dcd179884212a937
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s48_r1.bin': No such file or directory
+OK A6b_post_peak_s48_r1 rc=0 out_sha= receipt_sha=e809bd4e052416a30250600808cdda1928e9461d5e8f4cab5006851b45a49684
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s48_r2.bin': No such file or directory
+OK A6b_post_peak_s48_r2 rc=0 out_sha= receipt_sha=5a42afa733e5fa6293db5a31f01b6e25843089ed03cd91d73eed3ed0629f91f0
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s48_r3.bin': No such file or directory
+OK A6b_post_peak_s48_r3 rc=0 out_sha= receipt_sha=964b23406449d89ca25b71916532da9ec44268ffff981d43a89e317a7a3dd69a
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s49_r1.bin': No such file or directory
+OK A6b_post_peak_s49_r1 rc=0 out_sha= receipt_sha=42618c1a9f87e004fa860d169175f444a1ccd9774be053af962e4c0404a5a26f
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s49_r2.bin': No such file or directory
+OK A6b_post_peak_s49_r2 rc=0 out_sha= receipt_sha=a2176fefe9415c3ad1dc0f5441c0d7bfe331d621aac4a3914279214bed9b8ea7
+cp: bad '/data/local/tmp/dm3_harness/cells/A6b_post_peak/A6b_post_peak_s49_r3.bin': No such file or directory
+OK A6b_post_peak_s49_r3 rc=0 out_sha= receipt_sha=4ed448c2b524a410a50676169242209abd33014c593118478aeb3d12519a2acb
+SUMMARY exp=A6b_post_peak runs=18 unique_canonical=1 verdict=PASS summary_sha=ca3ff1a542118d4772cd099698015f921c8a076a4baf17b234fe90a61ec09f89
+[16:57:04] A6b_COMPLETE
+[16:57:04] EXIT
