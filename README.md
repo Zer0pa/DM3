@@ -88,7 +88,7 @@ diagnostic surface.
 | Field | Value |
 |---|---|
 | Verdict | RESEARCH_PUBLICATION_STAGED |
-| Commit SHA | pending integration PR |
+| Commit SHA | cfc1134496df |
 | Confidence | scoped by claim kill criteria |
 | Source | `CLAIMS.md`; `IS_AND_IS_NOT.md`; `CHARACTERIZATION_REPORT.md` |
 
