@@ -1,5 +1,7 @@
 # DM3
 
+DM3 is a structural diagnostic on a closed Android `aarch64` Rust binary, not a codec, not a cognition claim, and not a productized service. The job is to characterize a fixed 380-vertex graph object and its 72,960-dimensional relaxation state under twelve callable task modes — to identify what the binary is doing geometrically, name the gates that hold, and name the gates that don't. **Claim τ** confirms ARM64 cross-platform determinism for `exp_k2_scars`: bit-exact KPIs at `--steps {20,30,40,45,50}` between RM10 native Android and Apple M1 Android ARM64 AVD; the σ″ trimodal sawtooth is now CONFIRMED for shape across three Phase G `G.2` cross-controls with a sharp `49 → 50` cliff at exactly `0.000000`. **R8 — the Tier-3 live runtime trace — remains `OPEN_TIER3_BLOCKED`**; static reconstruction has closed `R1`–`R7` at Tier-2 (loaded fixture exactly `P_95 ☐ K_4`, internal default skeleton exactly `P_95 ☐ K_3`), but reconstruction is not the same as runtime identity. The companion artifact is **Genesis**, a source-available deterministic Rust pipeline on the `K_3` substrate (`P_95 ☐ K_3`) — see §"Sibling Research Artifact — Genesis" below for the relationship.
+
 ## What This Is
 DM3 is a graph-structure diagnostic built around a precompiled Android
 aarch64 Rust binary (`dm3_runner`, SHA-256
@@ -83,6 +85,10 @@ diagnostic surface.
 - ARM64 determinism does not imply x86 parity, source-rebuild parity,
   GPU parity, or NPU parity.
 - Source provenance remains unavailable on this public surface.
+
+## Sibling Research Artifact — Genesis
+
+Genesis (`genesis_comparative`, internal repository) is a source-available deterministic Rust pipeline on the same 95-station path base as DM3 — specifically on `P_95 ☐ K_3` (285 vertices, 567 edges, 96 triangular faces, `Aut = D_6` of order 12), which is **bit-identical to DM3's internal default skeleton** (the graph that `Dm3State::initialize → build_helix_meru → build_dual_meru` constructs when no fixture is loaded). The DM3 loaded fixture `P_95 ☐ K_4` (`Aut = C_2 × S_4`, order 48) is one discrete `K_3 → K_4` complete-graph fiber promotion away from the Genesis substrate; the relationship is lateral, not subordinate — Genesis is a source-available falsifiable instance of DM3's `K_3` surface, exercised on the same RM10 Android device. The source-built mesh authority is byte-identical between the two geometry bundles at `dual_meru_mesh.ply` SHA `7ee17457b7daeec565bb1e06982b8a1facd8169f` and `dual_meru_yantra_2d.svg` SHA `a1dbf572167960b9bd348d392d3405b1114db1ef` (same upstream Rust pipeline: `yantra_2d → lift_3d → yantra_3d_dual`). On the DM3 side, **R8 OPEN remains the open Tier-3 runtime gate** and is independent of any Genesis result — Genesis confirms or falsifies DM3's signature observables on the `K_3` surface, not DM3's runtime identity on the `K_4` surface. Cross-repository pointer: `Zer0pa/Genesis` (internal — not publicly reachable).
 
 ## Publication Readiness
 | Field | Value |
