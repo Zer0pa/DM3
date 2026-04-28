@@ -76,8 +76,8 @@ For any fresh takeover on this branch:
 
 Only after that:
 
-6. use [$gpd-plan-phase](/Users/prinivenpillay/.agents/skills/gpd-plan-phase/SKILL.md) if a new cleanup or engineering-completion phase needs to be formalized
-7. use [$gpd-execute-phase](/Users/prinivenpillay/.agents/skills/gpd-execute-phase/SKILL.md) only after the execution boundary is current and the cleanup surface is truthful
+6. use [$gpd-plan-phase](~/.agents/skills/gpd-plan-phase/SKILL.md) if a new cleanup or engineering-completion phase needs to be formalized
+7. use [$gpd-execute-phase](~/.agents/skills/gpd-execute-phase/SKILL.md) only after the execution boundary is current and the cleanup surface is truthful
 
 ## Current Branch Reading Priority
 
