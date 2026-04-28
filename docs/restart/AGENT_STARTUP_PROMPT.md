@@ -110,11 +110,11 @@ If those fail or drift, stop and localize the drift before touching science.
 
 Use these first:
 
-1. [$gpd-resume-work](/Users/prinivenpillay/.agents/skills/gpd-resume-work/SKILL.md)
-2. [$gpd-health](/Users/prinivenpillay/.agents/skills/gpd-health/SKILL.md)
-3. [$gpd-progress](/Users/prinivenpillay/.agents/skills/gpd-progress/SKILL.md)
-4. [$gpd-plan-phase](/Users/prinivenpillay/.agents/skills/gpd-plan-phase/SKILL.md) if you need to formalize the cleanup and completion work into a new phase after the drift audit confirms scope
-5. [$gpd-execute-phase](/Users/prinivenpillay/.agents/skills/gpd-execute-phase/SKILL.md) only after the PRD, runbooks, and execution boundary are current and truthful
+1. [$gpd-resume-work](~/.agents/skills/gpd-resume-work/SKILL.md)
+2. [$gpd-health](~/.agents/skills/gpd-health/SKILL.md)
+3. [$gpd-progress](~/.agents/skills/gpd-progress/SKILL.md)
+4. [$gpd-plan-phase](~/.agents/skills/gpd-plan-phase/SKILL.md) if you need to formalize the cleanup and completion work into a new phase after the drift audit confirms scope
+5. [$gpd-execute-phase](~/.agents/skills/gpd-execute-phase/SKILL.md) only after the PRD, runbooks, and execution boundary are current and truthful
 
 Do not skip straight to execution because a stale runbook exists.
 
