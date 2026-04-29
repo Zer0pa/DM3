@@ -1,0 +1,47 @@
+[18:25:54] PHASE_G_CHAIN START
+[18:25:54] G.0 pre-launch checks
+[18:25:54] G.0.1 binary hash OK
+[18:25:54] G.0.2 no parallel runner OK
+[18:25:54] G.0.3 battery OK (44% Charging)
+[18:25:54] G.0.4 airplane ON OK
+[18:25:54] G.0.5 input SHAs OK
+OK
+[18:25:55] G.0.6 KAT canary OK
+[18:25:56] G.0.7 thermal OK (cpu_worst=38600)
+[18:25:56] G.0 ALL CHECKS PASSED
+[18:25:56] --- G0_5 ---
+[23:21:57] G.0.5 verdict=PASS
+[23:21:57] --- G6 ---
+[03:48:29] G.6 verdict=PASS
+[03:48:29] --- G1 ---
+[14:50:55] G.1 verdict=PASS
+[14:50:55] --- G1_5 ---
+[14:52:02] PHASE_G_CHAIN_V2 START (reordered upside-first)
+[14:52:02] V2: G0_5 already COMPLETE — skip
+[14:52:02] V2: G.0.5 verdict=PASS
+[14:52:02] V2: G6 already COMPLETE — skip
+[14:52:02] V2: G.6 verdict=PASS
+[14:52:02] V2: --- G2 ---
+[14:54:20] V2: G.2 verdict=KILL
+[14:54:20] V2: G.7 SKIPPED (G.2 verdict=KILL)
+[14:54:21] V2: --- G3 ---
+[14:55:33] V2: G.4 launching (elapsed=0h, gate=40h)
+[14:55:33] V2: --- G4 ---
+[14:56:18] V2: G1 already COMPLETE — skip
+[14:56:18] V2: G.1 verdict=PASS
+[14:56:18] V2: --- G1_5 ---
+[14:58:42] V2: --- G5 ---
+[15:02:30] V2: --- G5plus ---
+[15:02:49] PHASE_G_CHAIN_V2_COMPLETE
+G.0.5=PASS G.6=PASS G.2=KILL G.1=PASS
+elapsed=0h
+293
+[23:04:46] V2_RESUME: chain master alive (PIDs=461 ) — no-op
+[23:05:24] PHASE_G_CHAIN_V2 START (reordered upside-first)
+[23:05:24] V2: G0_5 already COMPLETE — skip
+[23:05:24] V2: G.0.5 verdict=PASS
+[23:05:24] V2: G6 already COMPLETE — skip
+[23:05:24] V2: G.6 verdict=PASS
+[23:05:24] V2: --- G2 ---
+[13:25:38] V2: G.2 verdict=PASS
+[13:25:38] V2: --- G7 ---

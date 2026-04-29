@@ -1,6 +1,6 @@
 # Repo Agent Findings
 
-Last updated: `2026-04-25`
+Last updated: `2026-04-29`
 
 This file records seams that matter to a hostile reviewer and should
 stay visible until cleared.
@@ -229,7 +229,7 @@ keeps the strongest τ metric, source-provenance blocker, missing
 `dm3-verify` wrapper, and Mode A non-claim in the front-door posture
 instead of burying them in downstream notes.
 
-## F13 — Phase G partial host pull is evidence, not chain close
+## F13 — First Phase G partial host pull is evidence, not chain close
 
 Paths:
 
@@ -240,7 +240,7 @@ Paths:
 
 Finding:
 
-The 2026-04-29 partial pull mirrors closed-cell receipts and
+The 2026-04-29 02:35 UTC partial pull mirrors closed-cell receipts and
 `outcome.json` files for `G.0.5`, `G.1`, `G.1.5`, `G.2`, and `G.6`,
 plus six immutable in-flight `G.7` receipts. It is not a Phase G chain
 close. The raw `phase_g_chain.log` includes an earlier pre-resume
@@ -249,3 +249,27 @@ the promoted σ″ shape claim is anchored to the final
 `cells/G2_trimodal_portability/outcome.json` PASS packet and keeps the
 raw chain log visible. `G.7` has no promoted outcome here, and
 `MANIFEST.tsv` remains deferred to chain close.
+
+## F14 — Second Phase G partial pull sharpens `s50` without promoting G.7
+
+Paths:
+
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/PULLED_AT.txt`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G2_trimodal_portability/outcome.json`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G6_path_dependence/outcome.json`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r1.log`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r2.log`
+
+Finding:
+
+The 2026-04-29 13:01 UTC pull supersedes the public G.2/G.6 evidence
+paths with an identical later immutable tree and adds eight in-flight
+G.7 receipts. It is still not a chain close. The G.7 cfg-A `s50`
+replicates show that `best_uplift = 0.000000` is a clipped
+max-over-conditions summary: `lesson=3` per-condition uplifts are
+negative and bit-identical across `ca_s50_r1` and `ca_s50_r2`
+(`-0.201691` at `noise=0.100`, `-0.219131` at `noise=0.200`). The
+public surface records this as a scope note on σ″ and as supporting
+evidence for ξ fixed-config determinism, not as an independent G.7
+claim. `MANIFEST.tsv` remains deferred to chain close.

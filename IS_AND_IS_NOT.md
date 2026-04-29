@@ -1,6 +1,6 @@
 # DM3 — IS / IS NOT Ledger
 
-Last updated: `2026-04-28` (Session 7 closeout + Session 8 Phase A/A5/B3/A6 + Phase G v2 partial chain + reconstruction Tier-2)
+Last updated: `2026-04-29` (Session 7 closeout + Session 8 Phase A/A5/B3/A6 + Phase G v2 partial chain + reconstruction Tier-2)
 
 This ledger captures scoped positive and negative statements about what
 DM3 is and is not, as evidenced by receipted experiments across
@@ -132,6 +132,13 @@ task names:
   `p50 = 0.000000` exactly. The cliff is the strongest universal
   feature on the tested surface; its fine structure is `G.7`'s next
   deeper test (in flight at this update).
+- **The `s50` zero is a clipped `best_uplift`, not absence of
+  per-condition learning dynamics.** The 2026-04-29 13:01 UTC G.7
+  in-flight logs show cfg-A `s50` returning `best_uplift = 0.000000`
+  by max-over-conditions clipping while `lesson=3` per-condition
+  uplifts go negative (`-0.201691` at `noise=0.100`, `-0.219131` at
+  `noise=0.200`). This is a scope note on the σ″ cliff, not an
+  independent G.7 claim.
 - **Cycle past the cliff.** Phase G `G.1 cycle_probe` reports
   `s56 best_uplift = 1.970840` on the σ″ baseline, higher than the σ″
   primary peak `s33 = 1.873756`. The `49 → 50` cliff is therefore not
@@ -351,7 +358,7 @@ block. The relevant IS statements for this surface are:
   now contains the CPU/GPU-only patched `run_cell.sh` and the pre-patch
   backup.
 
-## Phase G v2 chain note (G.2 closed; G.7 in flight; updated 2026-04-29 02:35 UTC)
+## Phase G v2 chain note (G.2 closed; G.7 in flight; updated 2026-04-29 13:05 UTC)
 
 - Phase G v2 launched 2026-04-25 18:25:54 UTC. Master log on device
   at `/data/local/tmp/dm3_harness/phase_g_chain.log`. PRD at
@@ -369,14 +376,16 @@ block. The relevant IS statements for this surface are:
     CONFIRMED for shape; magnitudes config-dependent, not portable)
 - `G.7 cliff-class characterization` is in flight at this update.
   STEPS = `48, 49, 50, 51, 52` × 3 cfgs × 3 reps = 45 receipts. The
-  partial host pull contains six immutable in-flight G.7 receipts and
-  no G.7 outcome. Findings promote at chain close.
+  latest partial host pull contains eight immutable in-flight G.7
+  receipts and no G.7 outcome. Findings promote at chain close.
 - Cells pending after G.7: `G.3` (LEARNS cartography), `G.4`
   (basin-coupling), `G.5`/`G.5+` (forensic).
-- Closed-cell evidence for `G.0.5`, `G.1`, `G.1.5`, `G.2`, and `G.6`
-  is now mirrored under
-  `artifacts/phase_S8_PG_followup_20260429T023308Z/`. The next
-  ledger update for Phase G lands when the chain closes and the
+- Closed-cell evidence for `G.0.5`, `G.1`, and `G.1.5` remains mirrored
+  under `artifacts/phase_S8_PG_followup_20260429T023308Z/`. The
+  13:01 UTC partial pull under
+  `artifacts/phase_S8_PG_followup_20260429T130215Z/` supersedes G.2 and
+  G.6 evidence paths and adds the eight in-flight G.7 receipts. The
+  next ledger update for Phase G lands when the chain closes and the
   remaining cell receipts are pulled to host.
 
 ## Reconstruction (static, Tier-2) note (2026-04-28)

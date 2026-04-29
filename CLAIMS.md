@@ -28,7 +28,7 @@ Session 8 Phase A / A5-B3-A6 close note:
 - Claims `ξ`, `ο`, `σ″` (shape only), and `τ` are CONFIRMED; Claims
   `π`, `ρ`, and `φ` are CANDIDATE
 
-Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-29 02:35 UTC):
+Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-29 13:05 UTC):
 - Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
   `phase_g_chain_v2.sh`; PRD at
   `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -47,11 +47,13 @@ Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-29 02:35 UT
 - Cells pending after G.7: `G.3` LEARNS cartography, `G.4`
   basin-coupling, `G.5`/`G.5+` forensic. Their findings are not
   promoted here.
-- Partial host pull now lives at
-  `artifacts/phase_S8_PG_followup_20260429T023308Z/`. It contains
-  closed-cell receipts/outcomes for `G.0.5`, `G.1`, `G.1.5`, `G.2`,
-  and `G.6`, plus six immutable `G.7` in-flight receipts. G.7 has no
-  promoted outcome in this update.
+- Partial host pulls now live at
+  `artifacts/phase_S8_PG_followup_20260429T023308Z/` and
+  `artifacts/phase_S8_PG_followup_20260429T130215Z/`. The 02:35 UTC
+  pull covers `G.0.5`, `G.1`, and `G.1.5`; the 13:01 UTC pull
+  supersedes the G.2/G.6 evidence paths and adds eight immutable
+  `G.7` in-flight receipts. G.7 has no promoted outcome in this
+  update.
 
 Reconstruction (Tier-2 static) note (added 2026-04-28):
 - An independent backwards-reconstruction lane authored at
@@ -469,6 +471,16 @@ bit-exact `best_uplift` reproduction at both `s30 = 1.644524` and
 evidence base into the Phase G era. Evidence:
 `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G0_5_determinism_recheck/outcome.json`.
 
+**G.7 in-flight determinism observation (2026-04-29 13:05 UTC):**
+The 13:01 UTC partial pull shows that fixed-config determinism extends
+into the post-cliff overfitting regime, without promoting a G.7
+outcome. `ca_s50_r1` and `ca_s50_r2` reproduce identical per-condition
+uplifts at `lesson=3`: `-0.201691` for `noise=0.100` and `-0.219131`
+for `noise=0.200`, with `scar_max = 0.589225`, `avg_recall_err =
+118.984787`, and `baseline_recall_err = 118.783096` matched exactly.
+Evidence:
+`artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r{1,2}.log`.
+
 **Kill criterion:** A same-config future replicate returning a different
 promoted KPI value for the same config.
 
@@ -554,7 +566,7 @@ trimodal sawtooth rather than a bimodal 30/40 peak. Local maxima are
   (15 receipts)
 - `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6b_post_peak/`
   (18 receipts)
-- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G2_trimodal_portability/outcome.json`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G2_trimodal_portability/outcome.json`
   plus the G.2 receipt/log tree (54 receipts)
 - cross-cell exact matches with A2 at `s30`, `s35`, `s40`, and `s45`
 
@@ -686,7 +698,7 @@ path A and B`. The binary therefore exposes no observable
 cross-invocation state coupling on the tested surface.
 
 **Evidence:**
-- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G6_path_dependence/outcome.json`
+- `artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G6_path_dependence/outcome.json`
   plus the G.6 receipt/log tree (8 receipts).
 - Phase G PRD anchor:
   `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`,

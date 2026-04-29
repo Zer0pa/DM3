@@ -1,0 +1,7 @@
+{
+  "cell": "G2_trimodal_portability",
+  "verdict": "KILL",
+  "summary": "trimodal shape preserved in only 0/3 configs",
+  "metrics": {"preserved_count":0,"preserved_configs":[],"cfg_a":{"p33":"NA","p34":"NA","p41":"NA","p43":"NA","p49":"NA","p50":"NA","shape_ok":0},"cfg_b":{"p33":"NA","p34":"NA","p41":"NA","p43":"NA","p49":"NA","p50":"NA","shape_ok":0},"cfg_c":{"p33":"NA","p34":"NA","p41":"NA","p43":"NA","p49":"NA","p50":"NA","shape_ok":0}},
+  "next_actions": ["skip_g7"]
+}

@@ -1,6 +1,6 @@
 # DM3 Characterization Report (Sessions 1–8 Phase A/A5/B3/A6, Phase G v2 partial)
 
-Last updated: `2026-04-28` — Session 7 closeout + Session 8 Phase A/A5/B3/A6 + live Phase G v2 partial chain + reconstruction Tier-2
+Last updated: `2026-04-29` — Session 7 closeout + Session 8 Phase A/A5/B3/A6 + live Phase G v2 partial chain + reconstruction Tier-2
 
 ## What the object is
 
@@ -281,7 +281,7 @@ thermal rule after PMIC lag caused an A.2 halt. The mirrored
 `device_snapshot/bin/` contains both the patched `run_cell.sh` and the
 pre-patch backup.
 
-## Phase G v2 chain (G.2 closed; G.7 in flight; updated 2026-04-29 02:35 UTC)
+## Phase G v2 chain (G.2 closed; G.7 in flight; updated 2026-04-29 13:05 UTC)
 
 The Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
 `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -301,7 +301,7 @@ Closed cells with promoted ledger entries:
 | `G.2` | **PASS** | `σ″` → CONFIRMED for shape | trimodal sawtooth shape preserved across 3/3 cross-controls (cfg-A `RandomAdj_v1`, cfg-B `RegionTags_v2`, cfg-C `xnor_mini`); cliff at `s50 = 0.000000` exact in all three; magnitudes config-dependent (cfg-B substantially weaker), explicitly not portable |
 
 `G.2` per-config metrics from
-`artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G2_trimodal_portability/outcome.json`:
+`artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G2_trimodal_portability/outcome.json`:
 
 ```
 cfg-A  RandomAdj_v1   p33=1.919380  p34=1.408173  p41=1.784622  p43=1.217201  p49=1.897110  p50=0.000000  shape_ok=1
@@ -309,11 +309,19 @@ cfg-B  RegionTags_v2  p33=0.995499  p34=0.000000  p41=0.477169  p43=0.000000  p4
 cfg-C  xnor_mini      p33=1.873756  p34=1.370651  p41=1.708374  p43=1.160828  p49=1.819397  p50=0.000000  shape_ok=1
 ```
 
+The `s50 = 0.000000` cliff is reported as `best_uplift`, the maximum
+over `(lesson, noise)` conditions. The 2026-04-29 13:01 UTC G.7
+in-flight cfg-A logs sharpen the interpretation: `ca_s50_r1` and
+`ca_s50_r2` both show `lesson=3` per-condition uplifts of `-0.201691`
+at `noise=0.100` and `-0.219131` at `noise=0.200`, while the clipped
+`best_uplift` summary remains `0.000000`. This is a σ″ cliff
+scope-note, not a G.7 outcome promotion.
+
 Cell `G.7 cliff-class characterization` is in flight at this update,
 running the cliff fine structure across `STEPS = {48, 49, 50, 51, 52}`
 × 3 cfgs × 3 reps = 45 receipts. The 2026-04-29 partial pull contains
-six immutable G.7 receipts and no G.7 outcome. G.7 promotion happens at
-chain close.
+eight immutable G.7 receipts and no G.7 outcome. G.7 promotion happens
+at chain close.
 
 Cells pending after G.7: `G.3` LEARNS cartography across 8 tasks,
 `G.4` basin-coupling, `G.5` pre-cliff robustness, `G.5+`
@@ -322,9 +330,12 @@ discontinuity drill. Their findings are not in this report.
 The Phase G v2 chain is autonomous on the RM10 device. Watcher
 infrastructure (`master_death_watcher.sh`, `post_chain_g4_launcher.sh`)
 ensures resume on disconnect. Closed-cell receipts for `G.0.5`, `G.1`,
-`G.1.5`, `G.2`, and `G.6` are now mirrored under
-`artifacts/phase_S8_PG_followup_20260429T023308Z/`. Remaining Phase G
-promotion still happens at chain close, not mid-flight.
+and `G.1.5` are mirrored under
+`artifacts/phase_S8_PG_followup_20260429T023308Z/`; the later partial
+pull under `artifacts/phase_S8_PG_followup_20260429T130215Z/`
+supersedes G.2/G.6 evidence paths and adds the eight G.7 in-flight
+receipts. Remaining Phase G promotion still happens at chain close, not
+mid-flight.
 
 ## Reconstruction (static, Tier-2)
 
