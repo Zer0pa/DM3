@@ -26,8 +26,8 @@ truth floor.
 By intentionally submitting a contribution for inclusion in DM3, you license
 that contribution under the repository's root license unless separately agreed
 in writing. You retain copyright in your contribution. Accepted contributions
-are governed by the Zer0pa DM3 Research and Receipt License v1.0
-(`LicenseRef-Zer0pa-DM3-RRL-1.0`).
+are governed by the Zer0pa Genesis-DM3 Research and Receipt License v1.0
+(`LicenseRef-Zer0pa-GDM3-RRL-1.0`).
 
 ## First Review Path
 
