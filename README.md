@@ -110,7 +110,7 @@ framing.
 | V_04 | Phase A/A5/B3/A6 and Phase G updates routed through claim ledgers | PASS |
 | V_05 | `σ″` shape-vs-magnitudes distinction present | PASS |
 | V_06 | R8 remains open; no complete-reconstruction language promoted | PASS |
-| V_07 | DM3 RRL v1.0 instantiated at root with matching SPDX metadata | PASS |
+| V_07 | Genesis-DM3 RRL v1.0 instantiated at root with matching SPDX metadata | PASS |
 | V_08 | Protected files unchanged in this update: `LICENSE`, `CITATION.cff`, `TRADEMARK.md`, `CONTACT.md` | PASS |
 | V_09 | Phase G partial receipt trees mirrored; `MANIFEST.tsv` update deferred to chain close | PASS |
 
