@@ -1,7 +1,7 @@
-# Zer0pa DM3 Research and Receipt License v1.0
+# Zer0pa Genesis-DM3 Research and Receipt License v1.0
 
-**SPDX Identifier:** `LicenseRef-Zer0pa-DM3-RRL-1.0`
-**Master Resolver Endpoint:** `https://github.com/Zer0pa/DM3` (initial; relocatable under §19)
+**SPDX Identifier:** `LicenseRef-Zer0pa-GDM3-RRL-1.0`
+**Master Resolver Endpoint:** `https://github.com/Zer0pa/ZPE-License-Commercial` (initial; relocatable under §19)
 **License Date:** published at the Master Resolver Endpoint for this version.
 **Licensor:** Zer0pa (legal name and domicile as published at the Master Resolver Endpoint).
 
@@ -9,15 +9,17 @@
 
 ## Preamble
 
-This License governs use of the work known as **DM3** (three-dimensional Double Meru) — a deterministic, binary-distributed geometric artefact and its associated receipt chain, claims documentation, and retractions, collectively described in Section 3.
+This License governs use of two related deterministic geometric artefacts published by the Licensor as part of its Computation work: **DM3** (three-dimensional Double Meru, a 380-vertex C3-symmetric graph artefact) and **Genesis** (a 285-vertex D6-symmetric comparative-determinism artefact constructed on a P₉₅ □ K₃ substrate). Each artefact is distributed as a deterministic binary together with its associated receipt chain, claims documentation, and retractions, collectively described in Section 3 as the **Covered Artefacts**.
 
-DM3 is distributed in a scientific posture the Licensor calls **receipts-first**: claims are pre-registered with kill-criteria; failed claims are retracted on the public record as first-class outputs; the receipt chain and canonical SHA bundle anchor every public statement to a reproducible artefact. The License is designed to preserve that posture across all downstream use.
+The two Covered Artefacts are siblings: they share a deterministic-construction posture, a receipts-first scientific discipline, and a single Licensor, but they are not parts of one underlying technology and no claim of a unified architecture or generalised cross-artefact computation is made by this License. They are licensed together because they evolve together; if a third related artefact is later added to this License, this License will be revised or superseded.
 
-The Licensor makes no claim, either in this License or in the works it governs, that DM3 constitutes, embodies, or produces artificial intelligence, artificial general intelligence, cognition, consciousness, awareness, or any mystical, esoteric, or supernatural phenomenon. DM3 is a geometric and computational artefact. Its construction draws on the topology of the Sri Yantra, a classical figure of Indian origin and shared cultural heritage; the Licensor's contribution is the three-dimensional lattice, the deterministic construction code, and the receipt chain, not the underlying classical figure.
+Both Covered Artefacts are distributed in a scientific posture the Licensor calls **receipts-first**: claims are pre-registered with kill-criteria; failed claims are retracted on the public record as first-class outputs; the receipt chain and canonical SHA bundle anchor every public statement to a reproducible artefact. The License is designed to preserve that posture across all downstream use, for both Covered Artefacts.
 
-Commercial use above the Revenue Threshold, hosting or managed-service provision of DM3 to third parties, and any use that modifies the artefact's identity or representations of its scientific status are outside the scope of this License and require a separate Commercial License.
+The Licensor makes no claim, either in this License or in the works it governs, that any Covered Artefact constitutes, embodies, or produces artificial intelligence, artificial general intelligence, cognition, consciousness, awareness, or any mystical, esoteric, or supernatural phenomenon. Each Covered Artefact is a geometric and computational artefact. The DM3 construction draws on the topology of the Sri Yantra, a classical figure of Indian origin and shared cultural heritage; the Licensor's contribution to DM3 is the three-dimensional lattice, the deterministic construction code, and the receipt chain, not the underlying classical figure. The Genesis construction is an independent comparative-determinism artefact on a P₉₅ □ K₃ substrate; it does not draw on Sri Yantra topology and carries no equivalent traditional-knowledge provenance.
 
-By exercising any right granted here, You accept this License.
+Commercial use above the Revenue Threshold, hosting or managed-service provision of any Covered Artefact to third parties, and any use that modifies a Covered Artefact's identity or representations of its scientific status are outside the scope of this License and require a separate Commercial License.
+
+By exercising any right granted here in respect of any Covered Artefact, You accept this License as to that Covered Artefact and as to any other Covered Artefact You subsequently use.
 
 ---
 
@@ -25,27 +27,35 @@ By exercising any right granted here, You accept this License.
 
 For the purposes of this License:
 
-**"Artefact Bundle"** means the complete set of files constituting DM3 as published by the Licensor at the Master Resolver Endpoint, including without limitation: the DM3 Binary, the adjacency data, the tag data, the receipt files, the claims documentation, the is/is-not documentation, and the geometry construction and findings documentation.
+**"Artefact Bundle"** means, in respect of a particular Covered Artefact, the complete set of files constituting that Covered Artefact as published by the Licensor at the Master Resolver Endpoint, including without limitation: the deterministic Binary for that Covered Artefact, its adjacency data, its tag or annotation data, its receipt files, its claims documentation, its is/is-not documentation, and its geometry construction and findings documentation. References to "the Artefact Bundle" without further qualification apply distributively across each Covered Artefact.
 
-**"Canonical Bundle Hashes"** means the SHA-256 hashes of each file in the Artefact Bundle, as published in the Artefact Bundle Register at the Master Resolver Endpoint.
+**"Canonical Bundle Hashes"** means the SHA-256 hashes of each file in the Artefact Bundle of a Covered Artefact, as published in the Artefact Bundle Register at the Master Resolver Endpoint for that Covered Artefact.
 
 **"Change Date"** has the meaning given in Section 10.
 
-**"Claims Document"** means the file or URL published at the Master Resolver Endpoint (initially `CLAIMS.md`) listing DM3's current active claims.
+**"Claims Document"** means, in respect of a particular Covered Artefact, the file or URL published at the Master Resolver Endpoint (initially `CLAIMS.md`) listing that Covered Artefact's current active claims.
 
 **"Commercial License"** means a separate written agreement between the Licensor and a user, obtained per Section 14, for uses outside the scope of this License.
 
-**"DM3 Binary"** means the Licensor-compiled executable identified in the Artefact Bundle Register and verifiable by its Canonical Bundle Hash (as at the License Date, a binary of approximately 9.5 megabytes with SHA-256 as published at the Endpoint).
+**"Covered Artefacts"** means **DM3** and **Genesis** as identified in Section 3. References in this License to "DM3," "Genesis," or "the Licensed Work" apply to each Covered Artefact independently and to all Covered Artefacts jointly where the context so admits.
 
-**"Hosted Service"** means any arrangement under which a third party (other than You) can exercise functionality of DM3 — including without limitation queries, computations, receipt generation, verification, or any interaction that produces outputs — through a network-accessible interface, regardless of whether the third party receives the DM3 Binary, adjacency data, receipts, or any other component of the Artefact Bundle.
+**"DM3"** means the three-dimensional Double Meru artefact identified in Section 3.1, including its Binary, adjacency data, tag data, Receipt Chain, Claims Document, Is/Is-Not Document, and construction and findings documentation.
 
-**"Is/Is-Not Document"** means the file or URL published at the Master Resolver Endpoint (initially `IS_AND_IS_NOT.md`) stating what DM3 is and is not.
+**"DM3 Binary"** means the Licensor-compiled executable for DM3 identified in the Artefact Bundle Register and verifiable by its Canonical Bundle Hash (as at the License Date, a binary of approximately 9.5 megabytes with SHA-256 as published at the Endpoint).
 
-**"Kill Criterion"** means a pre-registered, publicly recorded, falsifiable condition the failure of which causes the associated Claim to be moved to the Retractions Register.
+**"Genesis"** means the 285-vertex D6-symmetric comparative-determinism artefact identified in Section 3.2, including its Binary (or deterministic Rust pipeline), its substrate adjacency data, its receipt chain, its claims documentation, its is/is-not documentation, and its construction and findings documentation.
 
-**"License"** means this Zer0pa DM3 Research and Receipt License v1.0, together with the Canonical References defined in Section 19.
+**"Genesis Binary"** means, in respect of Genesis, the Licensor-published deterministic build (binary, Rust crate output, or platform-specific artefact) identified in the Artefact Bundle Register for Genesis and verifiable by its Canonical Bundle Hashes.
 
-**"Licensed Work"** means the Artefact Bundle.
+**"Hosted Service"** means any arrangement under which a third party (other than You) can exercise functionality of any Covered Artefact — including without limitation queries, computations, receipt generation, verification, or any interaction that produces outputs — through a network-accessible interface, regardless of whether the third party receives the relevant Binary, adjacency data, receipts, or any other component of the Artefact Bundle.
+
+**"Is/Is-Not Document"** means, in respect of a particular Covered Artefact, the file or URL published at the Master Resolver Endpoint (initially `IS_AND_IS_NOT.md`) stating what that Covered Artefact is and is not.
+
+**"Kill Criterion"** means a pre-registered, publicly recorded, falsifiable condition the failure of which causes the associated Claim to be moved to the Retractions Register for the Covered Artefact to which it relates.
+
+**"License"** means this Zer0pa Genesis-DM3 Research and Receipt License v1.0, together with the Canonical References defined in Section 19.
+
+**"Licensed Work"** means each Artefact Bundle (i.e. the DM3 Artefact Bundle and the Genesis Artefact Bundle), individually and together.
 
 **"Licensor"** means Zer0pa, under the legal name and domicile published at the Master Resolver Endpoint.
 
@@ -53,7 +63,7 @@ For the purposes of this License:
 
 **"Operational Documentation"** has the meaning given in Section 18.
 
-**"Receipt Chain"** means the ordered set of receipt files published by the Licensor at the Master Resolver Endpoint, anchored to the DM3 Binary and the Canonical Bundle Hashes, and any successor receipt files subsequently published by the Licensor.
+**"Receipt Chain"** means, in respect of a particular Covered Artefact, the ordered set of receipt files published by the Licensor at the Master Resolver Endpoint for that Covered Artefact, anchored to its Binary and Canonical Bundle Hashes, and any successor receipt files subsequently published by the Licensor for that Covered Artefact.
 
 **"Retractions Register"** means the file or URL published at the Master Resolver Endpoint recording Claims that have been retracted and the reason for retraction, including any prior published claim so recorded.
 
@@ -63,7 +73,7 @@ For the purposes of this License:
 
 **"Sri Yantra"** means the classical geometric figure of Indian origin from which the topology of DM3 is derived.
 
-**"Substantial Derivative"** means any work that (i) reuses, incorporates, or is otherwise derived from the DM3 Binary, its adjacency data, its tag data, or any Receipt, **and** (ii) reproduces, presents, or purports to reproduce DM3 outputs in a manner that would lead a reasonable reader familiar with DM3 to treat the work as representing DM3 results. In applying clause (ii), a tribunal may have regard to the work's title, the presentation of receipts or Canonical Bundle Hashes, the prominence of any DM3 reference, and the clarity of any disclaimer distinguishing the work's outputs from DM3 outputs. A work that (x) clearly distinguishes its own outputs from DM3 outputs, (y) cites DM3 only as a reference, and (z) does not reproduce or represent DM3 Receipts or Canonical Bundle Hashes as its own, is not a Substantial Derivative.
+**"Substantial Derivative"** means any work that (i) reuses, incorporates, or is otherwise derived from the Binary of any Covered Artefact, its adjacency data, its tag data, or any Receipt for that Covered Artefact, **and** (ii) reproduces, presents, or purports to reproduce that Covered Artefact's outputs in a manner that would lead a reasonable reader familiar with the Covered Artefact to treat the work as representing that Covered Artefact's results. In applying clause (ii), a tribunal may have regard to the work's title, the presentation of receipts or Canonical Bundle Hashes, the prominence of any reference to the Covered Artefact (whether by name, by SHA, or otherwise), and the clarity of any disclaimer distinguishing the work's outputs from the Covered Artefact's outputs. A work that (x) clearly distinguishes its own outputs from the Covered Artefact's outputs, (y) cites the Covered Artefact only as a reference, and (z) does not reproduce or represent that Covered Artefact's Receipts or Canonical Bundle Hashes as its own, is not a Substantial Derivative.
 
 **"You"** means an individual or Entity exercising rights under this License. "Entity" means any legal person. "Affiliates" means Entities under common Control. "Control" means ownership of more than fifty percent (50%) of the voting securities or equivalent beneficial interest, or the power to direct management, of an Entity.
 
@@ -77,29 +87,61 @@ If You do not accept this License, You have no rights under it and must not use 
 
 ---
 
-## 3. Licensed Work
+## 3. Licensed Work — Covered Artefacts
 
-The Licensed Work is the Artefact Bundle. The composition of the Artefact Bundle, the Canonical Bundle Hashes, and the identity of each constituent file are published at the Master Resolver Endpoint. As at the License Date, the Artefact Bundle includes:
+The Licensed Work consists of the Artefact Bundles of each Covered Artefact. The composition of each Artefact Bundle, the Canonical Bundle Hashes, and the identity of each constituent file are published at the Master Resolver Endpoint. As at the License Date, the Covered Artefacts are:
+
+### 3.1 DM3 — Three-Dimensional Double Meru
+
+The DM3 Artefact Bundle, comprising:
 
 (a) the **DM3 Binary** — the deterministic executable implementing the DM3 construction, as compiled and distributed by the Licensor;
 
-(b) the **adjacency data** — the edge list or equivalent serialisation of the DM3 geometry, constructed as a three-dimensional Double Meru and comprising a C3-symmetric graph of 380 vertices as described in the construction documentation;
+(b) the **DM3 adjacency data** — the edge list or equivalent serialisation of the DM3 geometry, constructed as a three-dimensional Double Meru and comprising a C3-symmetric graph of 380 vertices as described in the construction documentation;
 
-(c) the **tag data** — the vertex and edge tag annotations supporting the construction;
+(c) the **DM3 tag data** — the vertex and edge tag annotations supporting the construction;
 
-(d) the **Receipt Chain** — the receipt files produced by the DM3 Binary and published by the Licensor, anchored to the Canonical Bundle Hashes and the six-gate self-certification described in the construction documentation;
+(d) the **DM3 Receipt Chain** — the receipt files produced by the DM3 Binary and published by the Licensor, anchored to the Canonical Bundle Hashes and the six-gate self-certification described in the construction documentation;
 
-(e) the **Claims Document** and the **Is/Is-Not Document**;
+(e) the **DM3 Claims Document** and the **DM3 Is/Is-Not Document**;
 
-(f) the **construction and findings documentation** — the textual description of how the geometry is constructed and the scientific status of each published claim.
+(f) the **DM3 construction and findings documentation** — the textual description of how the DM3 geometry is constructed and the scientific status of each published claim.
 
-For the avoidance of doubt:
+For the avoidance of doubt as to DM3:
 
-1. The Licensor distributes the DM3 Binary as a compiled executable. The source for the supporting internal crate `dm3_microtx` is not part of the Artefact Bundle and is not distributed under this License. Any redistribution of the DM3 Binary under Section 4 must preserve its Canonical Bundle Hash; no licence is granted to reverse-engineer, disassemble, or otherwise derive the source of `dm3_microtx` except as permitted by mandatory applicable law.
+1. The Licensor distributes the DM3 Binary as a compiled executable. The source for the supporting internal crate `dm3_microtx` is not part of the DM3 Artefact Bundle and is not distributed under this License. Any redistribution of the DM3 Binary under Section 4 must preserve its Canonical Bundle Hash; no licence is granted to reverse-engineer, disassemble, or otherwise derive the source of `dm3_microtx` except as permitted by mandatory applicable law.
 
-2. The state space referenced in the construction documentation (approximately 72,960 dimensions) is a property of the artefact, not a claim about general-purpose computation or cognition. It is recorded here for artefact-identification purposes only.
+2. The state space referenced in the DM3 construction documentation (approximately 72,960 dimensions) is a property of the artefact, not a claim about general-purpose computation or cognition. It is recorded here for artefact-identification purposes only.
 
-3. The Master Resolver Endpoint publishes, and updates from time to time under Section 19, the authoritative composition of the Artefact Bundle and the Canonical Bundle Hashes. Where there is any inconsistency between this Section and the current publication at the Master Resolver Endpoint, the current publication controls for purposes of identifying the Licensed Work, subject to Section 19.7 (substantive terms unchanged).
+### 3.2 Genesis — 285-Vertex D6-Symmetric Comparative-Determinism Artefact
+
+The Genesis Artefact Bundle, comprising:
+
+(a) the **Genesis Binary** — the Licensor-published deterministic build (binary, Rust crate output, or platform-specific deterministic artefact) implementing the Genesis construction;
+
+(b) the **Genesis substrate adjacency data** — the edge list or equivalent serialisation of the Genesis geometry, constructed on a P₉₅ □ K₃ Cartesian-product substrate and comprising a D6-symmetric graph of 285 vertices as described in the construction documentation;
+
+(c) the **Genesis tag data** — the vertex and edge tag annotations supporting the construction (where applicable to this artefact);
+
+(d) the **Genesis Receipt Chain** — the receipt files produced by the Genesis Binary and published by the Licensor, anchored to the Genesis Canonical Bundle Hashes (as at the License Date, including the cross-platform set of 1,560 byte-identical SHA-256 hashes recorded on commodity Android hardware as described in the Genesis construction documentation);
+
+(e) the **Genesis Claims Document** and the **Genesis Is/Is-Not Document**;
+
+(f) the **Genesis construction and findings documentation** — the textual description of how the Genesis geometry is constructed, the determinism methodology (pure-rational arithmetic), and the scientific status of each published claim.
+
+For the avoidance of doubt as to Genesis:
+
+1. The Licensor distributes the Genesis Binary in the form identified at the Master Resolver Endpoint for Genesis. Where any internal crate or sub-component of the Genesis pipeline is not part of the Genesis Artefact Bundle, it is not distributed under this License; the corresponding restriction in Section 4 applies (preservation of Canonical Bundle Hash; no licence to reverse-engineer or derive the source of internal crates excluded from the Bundle, except as permitted by mandatory applicable law).
+
+2. The Genesis vertex count (285) and substrate identification (P₉₅ □ K₃) are properties of the artefact, not claims about general-purpose computation or cognition.
+
+### 3.3 Authoritative Composition
+
+The Master Resolver Endpoint publishes, and updates from time to time under Section 19, the authoritative composition of each Covered Artefact's Artefact Bundle and its Canonical Bundle Hashes. Where there is any inconsistency between this Section and the current publication at the Master Resolver Endpoint, the current publication controls for purposes of identifying the Licensed Work, subject to Section 19.7 (substantive terms unchanged).
+
+### 3.4 Independence of Covered Artefacts
+
+The Covered Artefacts are independent. A Receipt produced by one Covered Artefact's Binary is a Receipt of that Covered Artefact only, and may not be represented as a Receipt of the other. A Canonical Bundle Hash applies to one Covered Artefact's files only. The two Covered Artefacts are licensed under the same License because they evolve together, not because they share a single underlying construction; nothing in this License creates or implies a unified architecture.
 
 ---
 
@@ -157,21 +199,21 @@ This Section 4 grant is limited by, and does not extend to, the conduct restrict
 
 Notwithstanding any grant in Section 4, You may not, without a Commercial License obtained under Section 14 or other written authorisation from the Licensor:
 
-**6.1 No Hosted or Managed Service.** Operate any Hosted Service that exposes DM3 functionality to third parties. Internal-only deployment that serves solely You or Your Affiliates, and that is not made available to third parties under any commercial, evaluative, or operational arrangement, is not a Hosted Service.
+**6.1 No Hosted or Managed Service.** Operate any Hosted Service that exposes the functionality of any Covered Artefact to third parties. Internal-only deployment that serves solely You or Your Affiliates, and that is not made available to third parties under any commercial, evaluative, or operational arrangement, is not a Hosted Service.
 
-**6.2 Anti-Circumvention.** Take any action whose purpose or effect is to circumvent the Revenue Threshold, the Hosted Service restriction, or any other restriction of this License. Circumvention includes without limitation: fragmenting activity across Affiliates or counterparties to keep individual entities below the Revenue Threshold where the aggregate exceeds it; restructuring a Hosted Service as a nominally-internal deployment that in substance exposes DM3 functionality to third parties; relabelling DM3 outputs as outputs of a third system for the purpose of evading this License. The substance of Your conduct controls over its form.
+**6.2 Anti-Circumvention.** Take any action whose purpose or effect is to circumvent the Revenue Threshold, the Hosted Service restriction, or any other restriction of this License. Circumvention includes without limitation: fragmenting activity across Affiliates or counterparties to keep individual entities below the Revenue Threshold where the aggregate exceeds it; restructuring a Hosted Service as a nominally-internal deployment that in substance exposes any Covered Artefact's functionality to third parties; relabelling outputs of any Covered Artefact as outputs of a third system for the purpose of evading this License. The substance of Your conduct controls over its form.
 
-**6.3 Binary-Only Redistribution Constraint.** You may redistribute the DM3 Binary only as published by the Licensor, preserving its Canonical Bundle Hash. You may not:
+**6.3 Binary-Only Redistribution Constraint.** You may redistribute the Binary of a Covered Artefact only as published by the Licensor, preserving its Canonical Bundle Hash. You may not:
 
-(a) redistribute any compiled variant of the DM3 Binary produced from other source;
+(a) redistribute any compiled variant of a Covered Artefact's Binary produced from other source;
 
-(b) publish or redistribute the source of `dm3_microtx` or any derivative of it whether or not independently obtained, except as may be permitted by mandatory applicable law and only to the extent so permitted;
+(b) publish or redistribute the source of any internal crate excluded from a Covered Artefact's Artefact Bundle (including, in respect of DM3, `dm3_microtx`), or any derivative of it whether or not independently obtained, except as may be permitted by mandatory applicable law and only to the extent so permitted;
 
-(c) represent any other compiled binary, whether Yours or a third party's, as DM3.
+(c) represent any other compiled binary, whether Yours or a third party's, as DM3, as Genesis, or as any other Covered Artefact.
 
-**6.4 No Fabricated or Modified Receipts.** You may not (a) fabricate Receipts and represent them as elements of the Receipt Chain; (b) modify any Receipt and represent the modified form as authentic; (c) publish receipts produced by a modified copy of the DM3 Binary as DM3 Receipts; (d) selectively publish portions of the Receipt Chain in a manner that materially misrepresents the status of a Claim.
+**6.4 No Fabricated or Modified Receipts.** You may not (a) fabricate Receipts and represent them as elements of the Receipt Chain of any Covered Artefact; (b) modify any Receipt and represent the modified form as authentic; (c) publish receipts produced by a modified copy of a Covered Artefact's Binary as Receipts of that Covered Artefact; (d) selectively publish portions of the Receipt Chain of any Covered Artefact in a manner that materially misrepresents the status of a Claim; (e) cross-attribute Receipts between Covered Artefacts (a DM3 Receipt is not a Genesis Receipt and vice versa).
 
-**6.5 Scientific Framing Restriction.** You may not publicly represent, or allow to be represented on Your behalf, DM3 or any Substantial Derivative of DM3 as:
+**6.5 Scientific Framing Restriction.** You may not publicly represent, or allow to be represented on Your behalf, any Covered Artefact or any Substantial Derivative as:
 
 (a) an artificial intelligence, artificial general intelligence, cognitive system, reasoning system, conscious system, or a system that possesses, embodies, or produces any of the foregoing;
 
@@ -181,9 +223,9 @@ Notwithstanding any grant in Section 4, You may not, without a Commercial Licens
 
 (d) a system whose retracted claims are active, without fair and legible reference to the Retractions Register.
 
-Nothing in this Section 6.5 restricts good-faith research critique, reproduction efforts, or falsification attempts, including discussion of framings the Licensor has non-claimed for the purpose of evaluating or dismissing them. The target of this Section 6.5 is the marketing, promotional, commercial, or popular-press re-framing of DM3 in terms the Licensor has expressly non-claimed; it is not the discussion of such framings in bona fide scientific or scholarly criticism.
+Nothing in this Section 6.5 restricts good-faith research critique, reproduction efforts, or falsification attempts, including discussion of framings the Licensor has non-claimed for the purpose of evaluating or dismissing them. The target of this Section 6.5 is the marketing, promotional, commercial, or popular-press re-framing of any Covered Artefact in terms the Licensor has expressly non-claimed; it is not the discussion of such framings in bona fide scientific or scholarly criticism.
 
-**6.6 No Identity Spoofing.** You may not represent any work not authored by the Licensor as being DM3 or as being endorsed by the Licensor. The Artefact Bundle Register at the Master Resolver Endpoint is dispositive for authorship and canonicity.
+**6.6 No Identity Spoofing.** You may not represent any work not authored by the Licensor as being DM3, as being Genesis, as being any other Covered Artefact, or as being endorsed by the Licensor. The Artefact Bundle Register at the Master Resolver Endpoint is dispositive for authorship and canonicity.
 
 **6.7 No License Replacement.** You may not distribute the Licensed Work or any Substantial Derivative under a different license purporting to supersede this License, except after the Change Date and under the narrow post-Change-Date terms of Section 10.
 
@@ -191,15 +233,17 @@ Nothing in this Section 6.5 restricts good-faith research critique, reproduction
 
 ## 7. Receipt Chain Integrity and Retraction Protection
 
-**7.1 Receipt Chain Integrity.** The Receipt Chain is a material term of this License. You acknowledge that the scientific status of DM3 and of any claim made about it depends on the integrity of the Receipt Chain and the Canonical Bundle Hashes. You will:
+**7.1 Receipt Chain Integrity.** The Receipt Chain of each Covered Artefact is a material term of this License. You acknowledge that the scientific status of each Covered Artefact and of any claim made about it depends on the integrity of its Receipt Chain and its Canonical Bundle Hashes. You will:
 
-(a) preserve the Canonical Bundle Hashes and the integrity of the Receipt Chain when redistributing the Artefact Bundle;
+(a) preserve the Canonical Bundle Hashes and the integrity of the Receipt Chain when redistributing the Artefact Bundle of any Covered Artefact;
 
-(b) cite the specific Receipt when making a factual claim about DM3 outputs;
+(b) cite the specific Receipt of the relevant Covered Artefact when making a factual claim about that Covered Artefact's outputs;
 
-(c) not represent a Receipt as having been generated from the DM3 Binary unless the Canonical Bundle Hash of the binary used is the then-current Canonical Bundle Hash published at the Master Resolver Endpoint or a prior Canonical Bundle Hash so published and retained in the Endpoint's history.
+(c) not represent a Receipt as having been generated from a Covered Artefact's Binary unless the Canonical Bundle Hash of the binary used is the then-current Canonical Bundle Hash published at the Master Resolver Endpoint for that Covered Artefact, or a prior Canonical Bundle Hash so published and retained in the Endpoint's history;
 
-**7.2 Retraction Protection.** The Retractions Register is a material term of this License. Retractions published at the Master Resolver Endpoint (including, as at the License Date, the H2 kill and the γ retraction) are binding on all licensees prospectively from their publication. You will:
+(d) not cross-attribute Receipts between Covered Artefacts.
+
+**7.2 Retraction Protection.** The Retractions Register of each Covered Artefact is a material term of this License. Retractions published at the Master Resolver Endpoint (including, as at the License Date, the DM3 H2 kill and the DM3 γ retraction) are binding on all licensees prospectively from their publication, as to the Covered Artefact whose Register records the retraction. You will:
 
 (a) not represent a retracted Claim as active;
 
@@ -211,9 +255,11 @@ Nothing in this Section 6.5 restricts good-faith research critique, reproduction
 
 ---
 
-## 8. Traditional Knowledge Acknowledgment
+## 8. Traditional Knowledge Acknowledgment (DM3 only)
 
-**8.1 Acknowledgment.** The topology on which the DM3 geometry is based is the Sri Yantra, a classical geometric figure of Indian origin and shared cultural heritage. The Licensor claims no proprietary right, and asserts no cultural authority, over the Sri Yantra itself. The Licensor's work is the three-dimensional lattice construction ("3D Double Meru"), the deterministic construction code, and the receipt chain and tests that accompany it.
+**8.0 Scope.** This Section 8 applies to DM3 only. Genesis is an independent comparative-determinism artefact constructed on a P₉₅ □ K₃ substrate; it does not draw on Sri Yantra topology and is not subject to this Section.
+
+**8.1 Acknowledgment.** The topology on which the DM3 geometry is based is the Sri Yantra, a classical geometric figure of Indian origin and shared cultural heritage. The Licensor claims no proprietary right, and asserts no cultural authority, over the Sri Yantra itself. The Licensor's work in DM3 is the three-dimensional lattice construction ("3D Double Meru"), the deterministic construction code, and the receipt chain and tests that accompany it.
 
 **8.2 Required Acknowledgment.** When citing DM3 in a context that references its geometric construction, You will reference the Sri Yantra as the classical topological source and the Licensor's work as the lattice construction. A reasonable form of acknowledgment is sufficient; elaborate or ritualised form is not required. The acknowledgment may be integrated into Your citation of DM3 or may appear separately, at Your discretion.
 
@@ -235,7 +281,7 @@ Nothing in this Section 6.5 restricts good-faith research critique, reproduction
 
 **10.1 Change Date.** The Change Date for this License is four (4) years after the License Date published for this version at the Master Resolver Endpoint, or such earlier or later date as the Licensor publishes at the Master Resolver Endpoint and in a subsequent version of this License.
 
-**10.2 Change License.** On and after the Change Date, this License converts to the Apache License, Version 2.0 (the "Change License") with respect to the DM3 Binary, the adjacency data, the tag data, and the construction and findings documentation, subject to Section 10.3.
+**10.2 Change License.** On and after the Change Date, this License converts to the Apache License, Version 2.0 (the "Change License") with respect to each Covered Artefact's Binary, adjacency data, tag data, and construction and findings documentation, subject to Section 10.3.
 
 **10.3 Survival of Integrity Terms.** Notwithstanding Section 10.2, the following Sections survive the Change Date and continue to apply to the Licensed Work and any work derived from it after the Change Date, as a condition of reliance on the post-Change-Date license:
 
@@ -271,9 +317,9 @@ The Receipt Chain, the Retractions Register, and the Canonical Bundle Hashes are
 
 ## 12. Trademark
 
-**12.1 No Trademark License.** This License does not grant any right to use any trademark, service mark, trade name, or logo of the Licensor, including without limitation the marks "Zer0pa" and "DM3," except as necessary for factual reference to the Licensed Work.
+**12.1 No Trademark License.** This License does not grant any right to use any trademark, service mark, trade name, or logo of the Licensor, including without limitation the marks "Zer0pa," "DM3," and "Genesis," except as necessary for factual reference to the Licensed Work.
 
-**12.2 Factual Reference Permitted.** You may refer to DM3 by name for the purpose of (a) identifying the Licensed Work as the source of an output, analysis, or citation; (b) stating that Your work is licensed under this License; (c) stating that Your work does or does not rely on DM3. Factual reference must not imply endorsement, sponsorship, affiliation, or partnership with the Licensor.
+**12.2 Factual Reference Permitted.** You may refer to DM3 or Genesis by name for the purpose of (a) identifying the relevant Covered Artefact as the source of an output, analysis, or citation; (b) stating that Your work is licensed under this License; (c) stating that Your work does or does not rely on a Covered Artefact. Factual reference must not imply endorsement, sponsorship, affiliation, or partnership with the Licensor.
 
 **12.3 Trademark Register.** The Licensor's marks relevant to the Licensed Work are listed in the Trademark Register at the Master Resolver Endpoint. The Licensor may update the Trademark Register under Section 19 without amending this License.
 
@@ -355,7 +401,7 @@ The Receipt Chain, the Retractions Register, and the Canonical Bundle Hashes are
 
 **18.3 No Amendment by Operational Documentation.** Operational Documentation cannot amend, waive, or alter this License. Statements in Operational Documentation are illustrative, aspirational, explanatory, or marketing in nature unless incorporated by express reference into a writing signed by the Licensor.
 
-**18.4 Claims Document Is Operational in Scope, Material in Effect.** The Claims Document and the Is/Is-Not Document are Operational Documentation under this Section, but Sections 6.5 and 7.2 expressly elevate their content to material effect for the purposes of this License. To the extent the Claims Document states what DM3 is and is not, and to the extent the Retractions Register records retractions, those statements control the permitted-representations scope of Sections 6.5 and 7.2.
+**18.4 Claims Document Is Operational in Scope, Material in Effect.** Each Covered Artefact's Claims Document and Is/Is-Not Document are Operational Documentation under this Section, but Sections 6.5 and 7.2 expressly elevate their content to material effect for the purposes of this License. To the extent a Claims Document states what its Covered Artefact is and is not, and to the extent a Retractions Register records retractions, those statements control the permitted-representations scope of Sections 6.5 and 7.2 in respect of that Covered Artefact.
 
 **18.5 No Estoppel by Operational Documentation.** No statement in Operational Documentation, and no pattern of publishing or omitting Operational Documentation, gives rise to estoppel, waiver, or license-by-conduct against the Licensor with respect to the terms of this License.
 
@@ -369,23 +415,23 @@ The Receipt Chain, the Retractions Register, and the Canonical Bundle Hashes are
 
 **19.3 Canonical References.** The following references are the Canonical References for this License:
 
-(a) **Artefact Bundle Register** — the current composition of the Artefact Bundle and the Canonical Bundle Hashes of each constituent file;
+(a) **Artefact Bundle Register** — the current composition of each Covered Artefact's Artefact Bundle and the Canonical Bundle Hashes of each constituent file (one Register per Covered Artefact, or a single combined Register that distinguishes Covered Artefacts unambiguously);
 
-(b) **Claims Document** — the current statement of what DM3 is claimed to be, to do, and to produce;
+(b) **Claims Document (per Covered Artefact)** — the current statement of what each Covered Artefact is claimed to be, to do, and to produce;
 
-(c) **Is/Is-Not Document** — the current statement of what DM3 is not claimed to be, to do, or to produce;
+(c) **Is/Is-Not Document (per Covered Artefact)** — the current statement of what each Covered Artefact is not claimed to be, to do, or to produce;
 
-(d) **Retractions Register** — the current record of retractions, including without limitation prior-published claims so recorded;
+(d) **Retractions Register (per Covered Artefact)** — the current record of retractions, including without limitation prior-published claims so recorded;
 
 (e) **Licensor Contact** — the current address for notices under Section 11, Commercial Licensing Intake under Section 14, and dispute notices under Section 17;
 
 (f) **Licensor Identity** — the Licensor's current legal name and domicile, where different from that stated in the header of this License;
 
-(g) **Trademark Register** — the current list of the Licensor's marks relevant to the Licensed Work;
+(g) **Trademark Register** — the current list of the Licensor's marks relevant to the Licensed Work, including without limitation "Zer0pa," "DM3," and "Genesis";
 
 (h) **License Date For This Version** — the date on which this License version was first published at the Master Resolver Endpoint;
 
-(i) **Supplemental Novelty or Construction Schedules** — any Licensor-published schedule further describing the construction, adjacency, or tags of the DM3 geometry, expressly stated to be incorporated into this License for the purpose of artefact identification. None are in force as at the License Date.
+(i) **Supplemental Novelty or Construction Schedules** — any Licensor-published schedule further describing the construction, adjacency, or tags of the DM3 geometry or the Genesis substrate, expressly stated to be incorporated into this License for the purpose of artefact identification. None are in force as at the License Date.
 
 **19.4 Updates Are Not Amendments.** An update to any Canonical Reference published at the Master Resolver Endpoint is operational in nature and does not constitute an amendment of this License. Counterparties rely on the Canonical Reference as in force at the time of the act in question; prior versions of a Canonical Reference remain available in the Endpoint's history for evidentiary purposes.
 
@@ -423,11 +469,12 @@ The Receipt Chain, the Retractions Register, and the Canonical Bundle Hashes are
 
 ---
 
-*End of Zer0pa DM3 Research and Receipt License v1.0.*
+*End of Zer0pa Genesis-DM3 Research and Receipt License v1.0.*
 
 ---
 
-**SPDX-License-Identifier:** `LicenseRef-Zer0pa-DM3-RRL-1.0`
+**SPDX-License-Identifier:** `LicenseRef-Zer0pa-GDM3-RRL-1.0`
 **Master Resolver Endpoint:** published as stated in the header.
 **Licensor:** Zer0pa.
-**Licensor Contact, Licensor Identity, Trademark Register, License Date For This Version, Artefact Bundle Register, Claims Document, Is/Is-Not Document, Retractions Register, Supplemental Schedules:** published at the Master Resolver Endpoint under Section 19.
+**Covered Artefacts:** DM3 (three-dimensional Double Meru, 380-vertex C3-symmetric); Genesis (285-vertex D6-symmetric, P₉₅ □ K₃ substrate).
+**Licensor Contact, Licensor Identity, Trademark Register, License Date For This Version, Artefact Bundle Register (per Covered Artefact), Claims Document (per Covered Artefact), Is/Is-Not Document (per Covered Artefact), Retractions Register (per Covered Artefact), Supplemental Schedules:** published at the Master Resolver Endpoint under Section 19.
