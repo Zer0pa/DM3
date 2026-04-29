@@ -1,0 +1,7 @@
+{
+  "cell": "G2_trimodal_portability",
+  "verdict": "PASS",
+  "summary": "trimodal shape preserved in 3/3 configs",
+  "metrics": {"preserved_count":3,"preserved_configs":["a","b","c"],"cfg_a":{"p33":"1.919380","p34":"1.408173","p41":"1.784622","p43":"1.217201","p49":"1.897110","p50":"0.000000","shape_ok":1},"cfg_b":{"p33":"0.995499","p34":"0.000000","p41":"0.477169","p43":"0.000000","p49":"0.543240","p50":"0.000000","shape_ok":1},"cfg_c":{"p33":"1.873756","p34":"1.370651","p41":"1.708374","p43":"1.160828","p49":"1.819397","p50":"0.000000","shape_ok":1}},
+  "next_actions": ["enable_g7"]
+}

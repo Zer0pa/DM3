@@ -1,0 +1,7 @@
+{
+  "cell": "G6_path_dependence",
+  "verdict": "PASS",
+  "summary": "DM3 stateless: 4/4 same-config canonical SHAs match across path A and B",
+  "metrics": {"mismatches":""},
+  "next_actions": []
+}

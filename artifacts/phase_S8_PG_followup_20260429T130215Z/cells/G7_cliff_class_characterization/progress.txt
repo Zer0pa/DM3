@@ -1,0 +1,20 @@
+[13:25:38] G7_cliff_class_characterization start: gating on G2
+[13:25:38] G2 verdict='PASS'
+[13:25:38] preserved_configs='a b c'
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s48_r1.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s48_r1 rc=0 out_sha= receipt_sha=2a111aa22c2cef9f1913f0fadd048db3f07f830e21fe6e69a320a77c184315e7
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s48_r2.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s48_r2 rc=0 out_sha= receipt_sha=e7889f73eef021d69581125e5848bbcda0d0f1458be4a7c083d499160713f680
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s48_r3.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s48_r3 rc=0 out_sha= receipt_sha=408b0e5bbda19023dcbcb44b5a3198169c86dcaa5200d297ba263cc8e13190e7
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s49_r1.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s49_r1 rc=0 out_sha= receipt_sha=b297c43199075c31c56c425a6319b15d6377ea5c9f0e0609974d1aecbc2949f1
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s49_r2.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s49_r2 rc=0 out_sha= receipt_sha=ec4ee219bd275af5a6c26f3b73f2d3f1c26cadd96669eb956f3aadd88cd15fb6
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s49_r3.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s49_r3 rc=0 out_sha= receipt_sha=f47a325a6cbdf41aaa946fe66400a2ce9f63d2aebbf382664e4791388f0f26ca
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r1.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s50_r1 rc=0 out_sha= receipt_sha=b49830b398d7d3b92f2602692ef6dcf3cb971479243727550a786cbb5c99fadf
+[02:38:42] cpu cooling 60s (cpu_worst=65600)
+cp: bad '/data/local/tmp/dm3_harness/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r2.bin': No such file or directory
+OK G7_cliff_class_characterization_ca_s50_r2 rc=0 out_sha= receipt_sha=5eebbf307f4e5c3bd7c5c2a2a76dcf6ae7defee73de1a7499eb038754d62fbc9

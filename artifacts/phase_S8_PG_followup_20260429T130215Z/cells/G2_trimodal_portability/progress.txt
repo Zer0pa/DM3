@@ -1,0 +1,181 @@
+[14:52:02] G2_trimodal_portability start: 3 configs x 6 steps x N=3 = 54 runs
+DM3_RUNNER_ALREADY_RUNNING pid=17081
+DM3_RUNNER_ALREADY_RUNNING pid=17081
+DM3_RUNNER_ALREADY_RUNNING pid=17081
+DM3_RUNNER_ALREADY_RUNNING pid=17081
+[14:52:05] cpu cooling 60s (cpu_worst=96500)
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+SUMMARY exp=G2_trimodal_portability runs=0 unique_canonical=0 verdict=FAIL summary_sha=abddeb6e26d46cac2047caed8b14357f08ed57bb1dd458ff17b64a2f0a7514b3
+[14:54:20] computing outcome
+[14:54:20] cfg=a p33=NA p34=NA p41=NA p43=NA p49=NA p50=NA shape_ok=0
+[14:54:20] cfg=b p33=NA p34=NA p41=NA p43=NA p49=NA p50=NA shape_ok=0
+[14:54:20] cfg=c p33=NA p34=NA p41=NA p43=NA p49=NA p50=NA shape_ok=0
+[14:54:20] G2_trimodal_portability_COMPLETE
+[14:54:20] EXIT
+[23:05:24] G2_trimodal_portability start: 3 configs x 6 steps x N=3 = 54 runs
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s33_r1.bin': No such file or directory
+OK G2_trimodal_portability_ca_s33_r1 rc=0 out_sha= receipt_sha=33f52e3e74322fe2d3c6fc272316b5856c07f129019d335cbe1a7331852dac6d
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s33_r2.bin': No such file or directory
+OK G2_trimodal_portability_ca_s33_r2 rc=0 out_sha= receipt_sha=1b97c2cfee06d32e0fdc58c07bcbea3a757999dd7641d40474b698d838ff9749
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s33_r3.bin': No such file or directory
+OK G2_trimodal_portability_ca_s33_r3 rc=0 out_sha= receipt_sha=21912ed96fcc2b8e187e94e416e79a370ab4c202b22dffda8e01cd922bd76946
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s34_r1.bin': No such file or directory
+OK G2_trimodal_portability_ca_s34_r1 rc=0 out_sha= receipt_sha=d0ba36ba7bb45c2d9a9c066bc64df94f1ab802f36051295939b17c63bd6a227a
+[00:40:59] cpu cooling 60s (cpu_worst=69100)
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s34_r2.bin': No such file or directory
+OK G2_trimodal_portability_ca_s34_r2 rc=0 out_sha= receipt_sha=1a551ce00a39d4c3777cff06dc7150935bc99c5adaf2786060b3bc68e56557b6
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s34_r3.bin': No such file or directory
+OK G2_trimodal_portability_ca_s34_r3 rc=0 out_sha= receipt_sha=20a7346d76a84075263e73676749691ebe6dff79f499bbbad24778a3367a988f
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s41_r1.bin': No such file or directory
+OK G2_trimodal_portability_ca_s41_r1 rc=0 out_sha= receipt_sha=6769f57f6337fdaf6a053deb1e722ca148784e4ab83177aa34328eccab59d3f8
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s41_r2.bin': No such file or directory
+OK G2_trimodal_portability_ca_s41_r2 rc=0 out_sha= receipt_sha=86f9c0b134ecb5c24f84d299812a71408dbdc2fb6947809a6a5226e73c93f9b0
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s41_r3.bin': No such file or directory
+OK G2_trimodal_portability_ca_s41_r3 rc=0 out_sha= receipt_sha=01e66cb469d05bb69212c376ae347a7b27537d94e7154fc51b99ae0974f24831
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s43_r1.bin': No such file or directory
+OK G2_trimodal_portability_ca_s43_r1 rc=0 out_sha= receipt_sha=9671eb46cdbf16f80761cbd50e7ed73f164a8c114e03b5b778bad4a59ee3efc8
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s43_r2.bin': No such file or directory
+OK G2_trimodal_portability_ca_s43_r2 rc=0 out_sha= receipt_sha=b51e130889f1269739b49b344df549bb911c0d549f4affe4fd8c8f7d181b2062
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s43_r3.bin': No such file or directory
+OK G2_trimodal_portability_ca_s43_r3 rc=0 out_sha= receipt_sha=6befc984030eb0726380a3222109a65f214ee9c9d66db18e3eb0873f7d3b4a5c
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s49_r1.bin': No such file or directory
+OK G2_trimodal_portability_ca_s49_r1 rc=0 out_sha= receipt_sha=1b357016109c527d24f4ff418cf18a1d4641ab28684ad0ff3dbb206f3c3f484b
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s49_r2.bin': No such file or directory
+OK G2_trimodal_portability_ca_s49_r2 rc=0 out_sha= receipt_sha=a5995ea8e0788dab72d2900e792043a8174e600f96ce73d6c901e4aeb1e2e2a4
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s49_r3.bin': No such file or directory
+OK G2_trimodal_portability_ca_s49_r3 rc=0 out_sha= receipt_sha=399bace40ae47ecc1a0d7d5cbb370331a4d6954a78dabe6fe797b50d136a3ec6
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s50_r1.bin': No such file or directory
+OK G2_trimodal_portability_ca_s50_r1 rc=0 out_sha= receipt_sha=cf1b86d4e763010af335fc41fc76e32ba53710f29b7c88dfaebf3af460a1200c
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s50_r2.bin': No such file or directory
+OK G2_trimodal_portability_ca_s50_r2 rc=0 out_sha= receipt_sha=37676663a5c57eb8a02a30198539a79ae483de9875d38cd94020162443b2ef96
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_ca_s50_r3.bin': No such file or directory
+OK G2_trimodal_portability_ca_s50_r3 rc=0 out_sha= receipt_sha=7c04ae900047049123e52fb54f7618d22beb6d3b10d008845f65a989b2f667fe
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s33_r1.bin': No such file or directory
+OK G2_trimodal_portability_cb_s33_r1 rc=0 out_sha= receipt_sha=81cb18d2125e900b5556576afbb077256d08dd63ecc301c34b86c9975556402a
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s33_r2.bin': No such file or directory
+OK G2_trimodal_portability_cb_s33_r2 rc=0 out_sha= receipt_sha=5ab8724ba60f0b2178336d856db20a8a95d88afe8fd78295da2f61a3751fe01d
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s33_r3.bin': No such file or directory
+OK G2_trimodal_portability_cb_s33_r3 rc=0 out_sha= receipt_sha=0742a91451315f589ee50f2eba93662f7db4a98cc00874787e418706f299fbd2
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s34_r1.bin': No such file or directory
+OK G2_trimodal_portability_cb_s34_r1 rc=0 out_sha= receipt_sha=4710887ca031ebe87ccdd781bb94ec2399788115d2593c3ac17fab27cf58b814
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s34_r2.bin': No such file or directory
+OK G2_trimodal_portability_cb_s34_r2 rc=0 out_sha= receipt_sha=f8f4e5e6e74c98ba337ef7aa1d85710c19af25e47a1d9f6abdbc4dfd6ea44c9e
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s34_r3.bin': No such file or directory
+OK G2_trimodal_portability_cb_s34_r3 rc=0 out_sha= receipt_sha=51259b7f2ba363e480bb7fd1004d692367eb555cb8f773a2ec3b4af7981d79fb
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s41_r1.bin': No such file or directory
+OK G2_trimodal_portability_cb_s41_r1 rc=0 out_sha= receipt_sha=461a6f8eab4d463d572b7c99facc0da5ac2a3b7d9c114a4f795edb355f13ea72
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s41_r2.bin': No such file or directory
+OK G2_trimodal_portability_cb_s41_r2 rc=0 out_sha= receipt_sha=d6479069fd9b46832cdf5bc94bc2a8b6c44204f002bdc12e8dcde4baff02f26c
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s41_r3.bin': No such file or directory
+OK G2_trimodal_portability_cb_s41_r3 rc=0 out_sha= receipt_sha=d54ba808616e1a8824d360d15c2e6cba9f36667a47a9e070f8b582ed2d362aae
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s43_r1.bin': No such file or directory
+OK G2_trimodal_portability_cb_s43_r1 rc=0 out_sha= receipt_sha=ccf12c1d7c41238a1edbfbeb2e7362f4cb6adf57025a731c5cb0b04806a3055a
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s43_r2.bin': No such file or directory
+OK G2_trimodal_portability_cb_s43_r2 rc=0 out_sha= receipt_sha=166768e8d546542240a8c7aa7be92dc1b5886946085297c422a8c488160a782c
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s43_r3.bin': No such file or directory
+OK G2_trimodal_portability_cb_s43_r3 rc=0 out_sha= receipt_sha=4b97f66cfde937ed0b234d7698561c5b8d1f867806c9283437a0e7ccc48dc322
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s49_r1.bin': No such file or directory
+OK G2_trimodal_portability_cb_s49_r1 rc=0 out_sha= receipt_sha=f33b20f8383c4c0cb15b683e5aaecab023217cbf2b11c59bbd7a46f2b2b31285
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s49_r2.bin': No such file or directory
+OK G2_trimodal_portability_cb_s49_r2 rc=0 out_sha= receipt_sha=1681291fbe02f071468d806e88eb07937ddac98525f7451f3c0de4899c2f26d2
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s49_r3.bin': No such file or directory
+OK G2_trimodal_portability_cb_s49_r3 rc=0 out_sha= receipt_sha=12768e1637d3f15d3403bd482a60f71f8544d1391f16513059a9f96e240bbbcb
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s50_r1.bin': No such file or directory
+OK G2_trimodal_portability_cb_s50_r1 rc=0 out_sha= receipt_sha=6bcd0ce45528d68caaccbc94d4fa9924054c52a5a8153c4e34026254566cba2b
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s50_r2.bin': No such file or directory
+OK G2_trimodal_portability_cb_s50_r2 rc=0 out_sha= receipt_sha=e62c950516099ff1c0a4320322a44e020319d8d9a2bd9bc7b6bb3f27c8e9a2f6
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cb_s50_r3.bin': No such file or directory
+OK G2_trimodal_portability_cb_s50_r3 rc=0 out_sha= receipt_sha=be7e192440b2d036e374dd83f618d2f585785dff620a0fdd5f8681cbe788a256
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s33_r1.bin': No such file or directory
+OK G2_trimodal_portability_cc_s33_r1 rc=0 out_sha= receipt_sha=439c6d46a55071a4ab449f5d9c39e0a320a85f13c97421d159636097dd3e39f9
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s33_r2.bin': No such file or directory
+OK G2_trimodal_portability_cc_s33_r2 rc=0 out_sha= receipt_sha=5cb97329b0c0c73a972b345a70f39da3b37db642d3251fd5ef9f7184016c16b7
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s33_r3.bin': No such file or directory
+OK G2_trimodal_portability_cc_s33_r3 rc=0 out_sha= receipt_sha=e589d650593cf34f99bf3ec36a964fc7ccea9c6d0c2d83823e56774770b677e4
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s34_r1.bin': No such file or directory
+OK G2_trimodal_portability_cc_s34_r1 rc=0 out_sha= receipt_sha=2d6878625d8a302cdb9eb577f3736896619e96c7bd25e2f6b6c22a89cc56643b
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s34_r2.bin': No such file or directory
+OK G2_trimodal_portability_cc_s34_r2 rc=0 out_sha= receipt_sha=be4c34c37115cb549652b2dcae8fbf835d1087103858f03a2cc8443a799f8712
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s34_r3.bin': No such file or directory
+OK G2_trimodal_portability_cc_s34_r3 rc=0 out_sha= receipt_sha=8e233f8dc74a58f1690984ee6f0a2b8c8175eb5d92d85e54ae11e28381d57699
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s41_r1.bin': No such file or directory
+OK G2_trimodal_portability_cc_s41_r1 rc=0 out_sha= receipt_sha=6a77b30a163cf0c9e7091260e59c031f07d9a7e7a03335765aaf2f71d6194454
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s41_r2.bin': No such file or directory
+OK G2_trimodal_portability_cc_s41_r2 rc=0 out_sha= receipt_sha=bf230ee45abc7f64b1024f528b8fc3badc88c7fecafd83032dfd693cc9ffdca1
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s41_r3.bin': No such file or directory
+OK G2_trimodal_portability_cc_s41_r3 rc=0 out_sha= receipt_sha=787cb0efa24e7e05d995d451b2632c22e58d9fb762e3cc4a42fb2157feb85845
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s43_r1.bin': No such file or directory
+OK G2_trimodal_portability_cc_s43_r1 rc=0 out_sha= receipt_sha=3a3adad80320f3772cd66b34e142a7df38c519fb3f4f02eb5641c2dd7956912b
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s43_r2.bin': No such file or directory
+OK G2_trimodal_portability_cc_s43_r2 rc=0 out_sha= receipt_sha=76b05702f9ea05045234f4c1d09d139c14ea1e7cd16321b0a04a6c4006ebe9da
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s43_r3.bin': No such file or directory
+OK G2_trimodal_portability_cc_s43_r3 rc=0 out_sha= receipt_sha=2df5e4544fd9d71e40e28ebdd74fbd395839d19ef8374eca656b2684c6752af2
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s49_r1.bin': No such file or directory
+OK G2_trimodal_portability_cc_s49_r1 rc=0 out_sha= receipt_sha=996edc068b89e02ba6020b54df25d311c6beae21f060e844935970d194672c6b
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s49_r2.bin': No such file or directory
+OK G2_trimodal_portability_cc_s49_r2 rc=0 out_sha= receipt_sha=08f6c7310eb709d058ca5c67a7fd111067e7dee7cdc08921bccd6f24a2bf7ad2
+[11:51:37] cpu cooling 60s (cpu_worst=68700)
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s49_r3.bin': No such file or directory
+OK G2_trimodal_portability_cc_s49_r3 rc=0 out_sha= receipt_sha=6d793271cc505e7acf89384d333db1e08d3984482560df048f873d04604bc668
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s50_r1.bin': No such file or directory
+OK G2_trimodal_portability_cc_s50_r1 rc=0 out_sha= receipt_sha=6276a2ad93789c8047f47f07f5bc215f9fa531b2f84df5941636dc74c27c490b
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s50_r2.bin': No such file or directory
+OK G2_trimodal_portability_cc_s50_r2 rc=0 out_sha= receipt_sha=fcbbb6f217dd1b7d799a1dec6069946e4c27799e8918ffc6a0300ae26748fccf
+cp: bad '/data/local/tmp/dm3_harness/cells/G2_trimodal_portability/G2_trimodal_portability_cc_s50_r3.bin': No such file or directory
+OK G2_trimodal_portability_cc_s50_r3 rc=0 out_sha= receipt_sha=4efbe98887f04d90c07638706612afc8efd60aa1b13c5c08bc387f9e3692aa01
+SUMMARY exp=G2_trimodal_portability runs=55 unique_canonical=1 verdict=PASS summary_sha=81057ca5ec3f6b3301c28ea0423ac40726d79bedb946679306ef75a4be08664f
+[13:25:37] computing outcome
+[13:25:37] cfg=a p33=1.919380 p34=1.408173 p41=1.784622 p43=1.217201 p49=1.897110 p50=0.000000 shape_ok=1
+[13:25:37] cfg=b p33=0.995499 p34=0.000000 p41=0.477169 p43=0.000000 p49=0.543240 p50=0.000000 shape_ok=1
+[13:25:38] cfg=c p33=1.873756 p34=1.370651 p41=1.708374 p43=1.160828 p49=1.819397 p50=0.000000 shape_ok=1
+[13:25:38] G2_trimodal_portability_COMPLETE
+[13:25:38] EXIT
