@@ -1,0 +1,81 @@
+[14:50:55] G.1.5 start: cycle-length disambiguator
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s6_r1.bin': No such file or directory
+OK G1_5_disambiguator_s6_r1 rc=0 out_sha= receipt_sha=1b134fbcec5bf6c6a4d8ffdcc6f60a878c5c2fa7e17dbe2b5c9b337f62dad5aa
+[14:56:18] G.1.5 start: cycle-length disambiguator
+DM3_RUNNER_ALREADY_RUNNING pid=20235
+[14:56:20] cpu cooling 60s (cpu_worst=65200)
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s6_r2.bin': No such file or directory
+OK G1_5_disambiguator_s6_r2 rc=0 out_sha= receipt_sha=8bd7be2c1084afe38d18a1d532c4841218c41f8e1114c4fa04b5f44ba8b2342d
+[14:57:21] cpu cooling 60s (cpu_worst=73700)
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s6_r3.bin': No such file or directory
+OK G1_5_disambiguator_s6_r3 rc=0 out_sha= receipt_sha=850e5d4e136d7141c3f66cad594544f03741d62ac1af33d1fcc6afa29d99394a
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+DM3_RUNNER_ALREADY_RUNNING pid=14441
+SUMMARY exp=G1_5_disambiguator runs=3 unique_canonical=1 verdict=PASS summary_sha=fd0479c78d14c22e53915449b0886b3e0ecd547c3e571a32ac7b9d01f2424c6d
+[14:58:42] G1_5_COMPLETE
+[14:58:42] EXIT
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s12_r1.bin': No such file or directory
+OK G1_5_disambiguator_s12_r1 rc=0 out_sha= receipt_sha=cfcbe5f39aab72ea148db79b4d4c85d95e712587e9033dec0abfcb532e8128bb
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s12_r2.bin': No such file or directory
+OK G1_5_disambiguator_s12_r2 rc=0 out_sha= receipt_sha=be33f5716d455f810990e165f018ef8e5e89740565f9cb8c45a350b75d6ab645
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s12_r3.bin': No such file or directory
+OK G1_5_disambiguator_s12_r3 rc=0 out_sha= receipt_sha=7a08f0697c1632cc887d6b623c2b28fd520004738e42f8f7b98bc27eafab0ee7
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s18_r1.bin': No such file or directory
+OK G1_5_disambiguator_s18_r1 rc=0 out_sha= receipt_sha=dc02e8ff40c8f6bd41187badfe2515a1e6cdece5711cb52a296ba8b578ef7f81
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s18_r2.bin': No such file or directory
+OK G1_5_disambiguator_s18_r2 rc=0 out_sha= receipt_sha=1dc13bbfe1c0ec5653916f2a22e10fdda150eb86f2184058f2635a837c15b879
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s18_r3.bin': No such file or directory
+OK G1_5_disambiguator_s18_r3 rc=0 out_sha= receipt_sha=b8b6d3a20b5fd7dea01a0c74388fb30d492c05a5ffdda343617680f45e489a13
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s24_r1.bin': No such file or directory
+OK G1_5_disambiguator_s24_r1 rc=0 out_sha= receipt_sha=33f8c3219cdce5fb3250f38186b7bf94dd1b0542a4073f9e3273cff0a011adf0
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s24_r2.bin': No such file or directory
+OK G1_5_disambiguator_s24_r2 rc=0 out_sha= receipt_sha=764f1995f4227080737db4326f0704758a489c68bebc30d8ff7ef71400fc8eb6
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s24_r3.bin': No such file or directory
+OK G1_5_disambiguator_s24_r3 rc=0 out_sha= receipt_sha=8fa9a22af5457386e11056ef81880d3c35339b3611cf9b859453eefa265ee771
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s8_r1.bin': No such file or directory
+OK G1_5_disambiguator_s8_r1 rc=0 out_sha= receipt_sha=b65abcc5620f9037f4a78c07035c74539c998699414667329e9c529364939a0c
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s8_r2.bin': No such file or directory
+OK G1_5_disambiguator_s8_r2 rc=0 out_sha= receipt_sha=dbb9aeead54df676a07395b0c3b860b22cc66f5cac93429e3d1ab668d826e63d
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s8_r3.bin': No such file or directory
+OK G1_5_disambiguator_s8_r3 rc=0 out_sha= receipt_sha=32b9184d845ceedf786540694936fcde7b352f069838033c0ead09ce0be8e983
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s16_r1.bin': No such file or directory
+OK G1_5_disambiguator_s16_r1 rc=0 out_sha= receipt_sha=1102569fe741ef4a418b12221675a3d71402e776e369afab2500206bc8e385e1
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s16_r2.bin': No such file or directory
+OK G1_5_disambiguator_s16_r2 rc=0 out_sha= receipt_sha=8da18e243a202fdd86a414b05ef2a84cc45c04b0607f57841850a348e189470e
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s16_r3.bin': No such file or directory
+OK G1_5_disambiguator_s16_r3 rc=0 out_sha= receipt_sha=96318b4834be43945c7f2f26649bac1c61ba3acf29b7cec33ecee93032606540
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s32_r1.bin': No such file or directory
+OK G1_5_disambiguator_s32_r1 rc=0 out_sha= receipt_sha=ca0c17afd6a397856246284c720497b6382c856896caeb77ea2c55fa3e3ac710
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s32_r2.bin': No such file or directory
+OK G1_5_disambiguator_s32_r2 rc=0 out_sha= receipt_sha=77f329b4403be0a9f5acee00b558da524ffff0b7942b7b3c58eb6d0b52c14f0a
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s32_r3.bin': No such file or directory
+OK G1_5_disambiguator_s32_r3 rc=0 out_sha= receipt_sha=d47c424beebe301ba0d725fdc0b19eeb2e8e1971fcdd4f2b36afc3cc0fef8334
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s48_r1.bin': No such file or directory
+OK G1_5_disambiguator_s48_r1 rc=0 out_sha= receipt_sha=11cdd57c8a669808e928805fbe9f992d9014c24cd997d0e94daaab5f8574077c
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s48_r2.bin': No such file or directory
+OK G1_5_disambiguator_s48_r2 rc=0 out_sha= receipt_sha=7ca3e1655af75e48df7700f3e544b14dc66fa27d3c6b74f951ee2f9bb6167870
+cp: bad '/data/local/tmp/dm3_harness/cells/G1_5_disambiguator/G1_5_disambiguator_s48_r3.bin': No such file or directory
+OK G1_5_disambiguator_s48_r3 rc=0 out_sha= receipt_sha=a4613a46d6bb4ebbd305a826dce7c8e3247d02ea9860bec5362b3d5cdfc4d7a9
+SUMMARY exp=G1_5_disambiguator runs=25 unique_canonical=1 verdict=PASS summary_sha=e15f0a7cd51cbd0347d38a655d326875084ff3c33c7d992c331a66d5484636c1
+[22:51:12] G1_5_COMPLETE
+[22:51:12] EXIT
