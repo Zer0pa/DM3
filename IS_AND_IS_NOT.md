@@ -351,7 +351,7 @@ block. The relevant IS statements for this surface are:
   now contains the CPU/GPU-only patched `run_cell.sh` and the pre-patch
   backup.
 
-## Phase G v2 chain note (G.2 closed; G.7 in flight; updated 2026-04-28 16:00 UTC)
+## Phase G v2 chain note (G.2 closed; G.7 in flight; updated 2026-04-29 02:35 UTC)
 
 - Phase G v2 launched 2026-04-25 18:25:54 UTC. Master log on device
   at `/data/local/tmp/dm3_harness/phase_g_chain.log`. PRD at
@@ -368,14 +368,16 @@ block. The relevant IS statements for this surface are:
     across cfg-A / cfg-B / cfg-C cross-controls; promotes σ″ to
     CONFIRMED for shape; magnitudes config-dependent, not portable)
 - `G.7 cliff-class characterization` is in flight at this update.
-  STEPS = `48, 49, 50, 51, 52` × 3 cfgs × 3 reps = 45 receipts;
-  2 done at the time of write, 1 in flight. Findings promote at
-  chain close.
+  STEPS = `48, 49, 50, 51, 52` × 3 cfgs × 3 reps = 45 receipts. The
+  partial host pull contains six immutable in-flight G.7 receipts and
+  no G.7 outcome. Findings promote at chain close.
 - Cells pending after G.7: `G.3` (LEARNS cartography), `G.4`
   (basin-coupling), `G.5`/`G.5+` (forensic).
-- This ledger does not re-narrate Phase G mid-flight. The next
+- Closed-cell evidence for `G.0.5`, `G.1`, `G.1.5`, `G.2`, and `G.6`
+  is now mirrored under
+  `artifacts/phase_S8_PG_followup_20260429T023308Z/`. The next
   ledger update for Phase G lands when the chain closes and the
-  cell receipts are pulled to host.
+  remaining cell receipts are pulled to host.
 
 ## Reconstruction (static, Tier-2) note (2026-04-28)
 

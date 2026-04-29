@@ -1,0 +1,7 @@
+{
+  "cell": "G1_5_disambiguator",
+  "verdict": "PARTIAL",
+  "summary": "operator interprets — mean amplitudes at mult-6 vs mult-8 vs G.1's mult-7",
+  "metrics": {"values":" s6=0.104355 s12=0.404053 s18=1.207115 s24=1.632584 s8=0.176193 s16=1.111351 s32=1.790665 s48=1.677055"},
+  "next_actions": []
+}

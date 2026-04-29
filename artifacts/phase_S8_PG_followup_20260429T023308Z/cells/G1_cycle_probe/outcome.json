@@ -1,0 +1,7 @@
+{
+  "cell": "G1_cycle_probe",
+  "verdict": "PASS",
+  "summary": "vals: s7=0.137939 s14=0.578789 s21=1.391617 s28=1.521027 s35=1.405548 s42=1.383827 s49=1.819397 s56=1.970840 — verdict heuristic: peaks at multiples of 7 vs s42 dip",
+  "metrics": {"values_at_mult7":" s7=0.137939 s14=0.578789 s21=1.391617 s28=1.521027 s35=1.405548 s42=1.383827 s49=1.819397 s56=1.970840","s49":"1.819397","s56":"1.970840","s42":"1.383827"},
+  "next_actions": ["enable_g5"]
+}

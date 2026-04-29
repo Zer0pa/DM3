@@ -25,10 +25,10 @@ Session 8 Phase A / A5-B3-A6 close note:
 - `docs/restart/DM3_SESSION8_PHASE_A5_B3_A6_FINAL_REPORT_20260425.md`
   closes 57 additional A5/B3/A6 per-run receipts and supersedes the
   earlier coarse `σ` wording before promotion
-- Claims `ξ`, `ο`, and `τ` are CONFIRMED; Claims `π`, `ρ`, `σ″`, and
-  `φ` are CANDIDATE
+- Claims `ξ`, `ο`, `σ″` (shape only), and `τ` are CONFIRMED; Claims
+  `π`, `ρ`, and `φ` are CANDIDATE
 
-Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-28 16:00 UTC):
+Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-29 02:35 UTC):
 - Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
   `phase_g_chain_v2.sh`; PRD at
   `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -47,6 +47,11 @@ Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-28 16:00 UT
 - Cells pending after G.7: `G.3` LEARNS cartography, `G.4`
   basin-coupling, `G.5`/`G.5+` forensic. Their findings are not
   promoted here.
+- Partial host pull now lives at
+  `artifacts/phase_S8_PG_followup_20260429T023308Z/`. It contains
+  closed-cell receipts/outcomes for `G.0.5`, `G.1`, `G.1.5`, `G.2`,
+  and `G.6`, plus six immutable `G.7` in-flight receipts. G.7 has no
+  promoted outcome in this update.
 
 Reconstruction (Tier-2 static) note (added 2026-04-28):
 - An independent backwards-reconstruction lane authored at
@@ -461,8 +466,8 @@ approximately 142 receipts. See `repo_stage/REPO_AGENT_FINDINGS.md`.
 The Phase G v2 cell `G.0.5 determinism_recheck` reports `10/10`
 bit-exact `best_uplift` reproduction at both `s30 = 1.644524` and
 `s33 = 1.873756` on the σ″ baseline surface. This expands the ξ
-evidence base into the Phase G era and is pulled to host with the rest
-of the chain at chain close.
+evidence base into the Phase G era. Evidence:
+`artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G0_5_determinism_recheck/outcome.json`.
 
 **Kill criterion:** A same-config future replicate returning a different
 promoted KPI value for the same config.
@@ -549,6 +554,8 @@ trimodal sawtooth rather than a bimodal 30/40 peak. Local maxima are
   (15 receipts)
 - `artifacts/phase_S8_P0_learning_20260422T213500Z/cells/A6b_post_peak/`
   (18 receipts)
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G2_trimodal_portability/outcome.json`
+  plus the G.2 receipt/log tree (54 receipts)
 - cross-cell exact matches with A2 at `s30`, `s35`, `s40`, and `s45`
 
 **Scope guard:** The cycle structure shape is now mapped across three
@@ -679,9 +686,8 @@ path A and B`. The binary therefore exposes no observable
 cross-invocation state coupling on the tested surface.
 
 **Evidence:**
-- `cells/G6_path_dependence/outcome.json` (Phase G v2 chain;
-  receipts pulled to host at chain close at
-  `artifacts/phase_S8_PG_followup_<TS>/cells/G6_path_dependence/`).
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G6_path_dependence/outcome.json`
+  plus the G.6 receipt/log tree (8 receipts).
 - Phase G PRD anchor:
   `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`,
   cell ordering and dependency table.
@@ -705,8 +711,8 @@ collapse; the baseline curve admits at least one further cycle past
 recovery shape are not yet mapped.
 
 **Evidence:**
-- `cells/G1_cycle_probe/outcome.json` (Phase G v2 chain, receipts
-  pulled at chain close).
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G1_cycle_probe/outcome.json`
+  plus the G.1 receipt/log tree (24 receipts).
 - Comparator: σ″ peak `s33 = 1.873756` from
   `cells/A5_peak_finder/`.
 
@@ -714,7 +720,8 @@ recovery shape are not yet mapped.
 The G.1.5 cycle disambiguator reports the multiplicity-7 sawtooth fits
 tighter than multiplicity-6 or -8 on the same surface. This is
 suggestive of a cycle-7 mechanism for σ″ but is recorded as PARTIAL,
-not promoted.
+not promoted. Evidence:
+`artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G1_5_disambiguator/outcome.json`.
 
 **Scope guard:** ψ does not claim a periodic curve. It claims one
 super-cliff value above σ″'s primary peak. Cycle structure

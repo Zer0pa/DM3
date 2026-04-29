@@ -228,3 +228,24 @@ ethos exception that DM3 is separately licensed under
 keeps the strongest τ metric, source-provenance blocker, missing
 `dm3-verify` wrapper, and Mode A non-claim in the front-door posture
 instead of burying them in downstream notes.
+
+## F13 — Phase G partial host pull is evidence, not chain close
+
+Paths:
+
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/`
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/phase_g_chain.log`
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G2_trimodal_portability/outcome.json`
+- `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G7_cliff_class_characterization/`
+
+Finding:
+
+The 2026-04-29 partial pull mirrors closed-cell receipts and
+`outcome.json` files for `G.0.5`, `G.1`, `G.1.5`, `G.2`, and `G.6`,
+plus six immutable in-flight `G.7` receipts. It is not a Phase G chain
+close. The raw `phase_g_chain.log` includes an earlier pre-resume
+`G.2 verdict=KILL` line before the later resumed `G.2 verdict=PASS`;
+the promoted σ″ shape claim is anchored to the final
+`cells/G2_trimodal_portability/outcome.json` PASS packet and keeps the
+raw chain log visible. `G.7` has no promoted outcome here, and
+`MANIFEST.tsv` remains deferred to chain close.

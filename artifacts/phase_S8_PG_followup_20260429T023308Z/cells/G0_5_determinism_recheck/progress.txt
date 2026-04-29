@@ -1,0 +1,24 @@
+[18:25:56] G0_5 start: re-check s30=1.644524 N=5 + s33=1.873756 N=5
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s30_r1.bin': No such file or directory
+OK G0_5_determinism_recheck_s30_r1 rc=0 out_sha= receipt_sha=9261351bb719e0a6358fa8378400af99b76ed231a4a1ad2c81c673a73f9f858b
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s30_r2.bin': No such file or directory
+OK G0_5_determinism_recheck_s30_r2 rc=0 out_sha= receipt_sha=559d71a135ae393fd00f4573a9c1713134ebf58d09e9cba008e4a65e65a73824
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s30_r3.bin': No such file or directory
+OK G0_5_determinism_recheck_s30_r3 rc=0 out_sha= receipt_sha=7d96a47ebc3ff07db9a3ee8b79e9a4624523c6b713b31610a7173a9b1f14ed39
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s30_r4.bin': No such file or directory
+OK G0_5_determinism_recheck_s30_r4 rc=0 out_sha= receipt_sha=dccc3dac2df2cd19015d34cadd8d22cf57f0c3203950f2c90ddf45524c24f2ef
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s30_r5.bin': No such file or directory
+OK G0_5_determinism_recheck_s30_r5 rc=0 out_sha= receipt_sha=b30e7955c18f1b49b74378ff735d96e8945f2c8759897a16fcfe9ad874d3514a
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s33_r1.bin': No such file or directory
+OK G0_5_determinism_recheck_s33_r1 rc=0 out_sha= receipt_sha=f742c4de43b3578cc7ca75236a2a236b469cb20c86464558ffe75ed8dcc7c58a
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s33_r2.bin': No such file or directory
+OK G0_5_determinism_recheck_s33_r2 rc=0 out_sha= receipt_sha=7951041b5076e68e0742a2b77c36643c701e70df265713a683f1868fadb78061
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s33_r3.bin': No such file or directory
+OK G0_5_determinism_recheck_s33_r3 rc=0 out_sha= receipt_sha=72c46e53c07430145390a197c5335b80868cbdf2c79141f03fc5a8c9c053b2c8
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s33_r4.bin': No such file or directory
+OK G0_5_determinism_recheck_s33_r4 rc=0 out_sha= receipt_sha=600c9381e2a39f21939004684aa9ead60d69ffd9218f57b465f72efc80df10bd
+cp: bad '/data/local/tmp/dm3_harness/cells/G0_5_determinism_recheck/G0_5_determinism_recheck_s33_r5.bin': No such file or directory
+OK G0_5_determinism_recheck_s33_r5 rc=0 out_sha= receipt_sha=f78d70d3b5b2ef140be2e15cdca78504fc8f81000d147eb222994be9fdfc71f2
+SUMMARY exp=G0_5_determinism_recheck runs=10 unique_canonical=1 verdict=PASS summary_sha=aebe90405bffb6a2d5024b651b64a97761f1a4b08f5ecd05e091b793ddff57c5
+[23:21:57] G0_5_COMPLETE verdict=PASS
+[23:21:57] EXIT

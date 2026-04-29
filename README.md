@@ -94,7 +94,7 @@ Genesis (`genesis_comparative`, internal repository) is a source-available deter
 | Field | Value |
 |---|---|
 | Verdict | RESEARCH_PUBLICATION_STAGED |
-| Commit SHA | cfc1134496df |
+| Commit SHA | see current public `main` HEAD |
 | Confidence | scoped by claim kill criteria |
 | Source | `CLAIMS.md`; `IS_AND_IS_NOT.md`; `CHARACTERIZATION_REPORT.md` |
 
@@ -112,7 +112,7 @@ framing.
 | V_06 | R8 remains open; no complete-reconstruction language promoted | PASS |
 | V_07 | DM3 RRL v1.0 instantiated at root with matching SPDX metadata | PASS |
 | V_08 | Protected files unchanged in this update: `LICENSE`, `CITATION.cff`, `TRADEMARK.md`, `CONTACT.md` | PASS |
-| V_09 | Phase G receipt-tree / `MANIFEST.tsv` update deferred to chain close | PASS |
+| V_09 | Phase G partial receipt tree mirrored; `MANIFEST.tsv` update deferred to chain close | PASS |
 
 ## Proof Anchors
 | Path | State |
@@ -131,14 +131,17 @@ framing.
 | CLAIM_TAU_CONFIRMED_20260424.md | VERIFIED |
 | RECONSTRUCTION_TIER2_NOTE.md | VERIFIED |
 | REPO_AGENT_FINDINGS.md | VERIFIED |
-| Phase G `cells/G2_trimodal_portability/outcome.json` | ON_DEVICE_HANDLE |
-| Phase G receipt tree under `artifacts/phase_S8_PG_followup_<TS>/` | CHAIN_CLOSE_PENDING |
+| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G2_trimodal_portability/outcome.json | VERIFIED |
+| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G6_path_dependence/outcome.json | VERIFIED |
+| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G1_cycle_probe/outcome.json | VERIFIED |
+| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G0_5_determinism_recheck/outcome.json | VERIFIED |
+| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G7_cliff_class_characterization/ | PARTIAL_IN_FLIGHT_NOT_PROMOTED |
 | `dm3-runner-reconstruction-2026-04-27/` static lane | HANDLE_ONLY |
 
 ## Repo Shape
 | Field | Value |
 |---|---|
-| Proof Anchors | 16 |
+| Proof Anchors | 20 |
 | Modality Lanes | 1 |
 | Authority Source | proofs/manifests/CURRENT_AUTHORITY_PACKET.md |
 | Canonical References | 8 |
@@ -163,8 +166,9 @@ pytest -q
   session PRDs, handovers, and mirrored receipts.
 - `proofs/` and `validation/` hold root-level authority manifests and
   repo-shape checks for review.
-- Phase G receipt pull and `MANIFEST.tsv` update are deferred until the
-  live chain closes.
+- The Phase G closed-cell partial pull is mirrored under
+  `artifacts/phase_S8_PG_followup_20260429T023308Z/`; `MANIFEST.tsv`
+  remains deferred until the live chain closes.
 
 ### Canonical References
 
@@ -185,7 +189,9 @@ Session 7 closeout remains the promoted authority floor. Session 8
 adds fixed-config `exp_k2_scars` determinism, a sharp `49 -> 50` cliff,
 ARM64 cross-platform determinism, and the trimodal sawtooth curve
 lineage. Phase G v2 is integrated only through closed cells `G.0` to
-`G.2`; `G.7` and later cells stay out of promotion until chain close.
+`G.2`; the 2026-04-29 partial data pull is mirrored under
+`artifacts/phase_S8_PG_followup_20260429T023308Z/`. `G.7` and later
+cells stay out of promotion until chain close.
 
 The reconstruction lane is static Tier-2 only. R1-R7 are public because
 their evidence is host-recomputable from parsed fixtures, static

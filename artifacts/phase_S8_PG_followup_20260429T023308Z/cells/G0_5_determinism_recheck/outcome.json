@@ -1,0 +1,7 @@
+{
+  "cell": "G0_5_determinism_recheck",
+  "verdict": "PASS",
+  "summary": "s30 5/5=1.644524, s33 5/5=1.873756, σ″ baseline holds",
+  "metrics": {"s30_values":" 1.644524 1.644524 1.644524 1.644524 1.644524","s33_values":" 1.873756 1.873756 1.873756 1.873756 1.873756","s30_expected":"1.644524","s33_expected":"1.873756"},
+  "next_actions": []
+}

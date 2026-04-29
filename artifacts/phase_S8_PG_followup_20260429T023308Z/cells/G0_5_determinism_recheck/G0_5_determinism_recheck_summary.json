@@ -1,0 +1,17 @@
+{
+  "harness_version": "s7_p0_v1",
+  "experiment_id": "G0_5_determinism_recheck",
+  "timestamp_utc": "2026-04-25T23:21:57Z",
+  "binary_expected_sha256": "daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672",
+  "total_runs": 10,
+  "unique_output_sha256_raw": 10,
+  "unique_output_sha256_canonical": 1,
+  "unique_receipt_sha256": 10,
+  "unique_output_sha256_list_raw": ["G0_5_determinism_recheck_s30_r1.bin","G0_5_determinism_recheck_s30_r2.bin","G0_5_determinism_recheck_s30_r3.bin","G0_5_determinism_recheck_s30_r4.bin","G0_5_determinism_recheck_s30_r5.bin","G0_5_determinism_recheck_s33_r1.bin","G0_5_determinism_recheck_s33_r2.bin","G0_5_determinism_recheck_s33_r3.bin","G0_5_determinism_recheck_s33_r4.bin","G0_5_determinism_recheck_s33_r5.bin"],
+  "unique_output_sha256_list_canonical": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "output_sha256_per_run": ["G0_5_determinism_recheck_s30_r1.bin","G0_5_determinism_recheck_s30_r2.bin","G0_5_determinism_recheck_s30_r3.bin","G0_5_determinism_recheck_s30_r4.bin","G0_5_determinism_recheck_s30_r5.bin","G0_5_determinism_recheck_s33_r1.bin","G0_5_determinism_recheck_s33_r2.bin","G0_5_determinism_recheck_s33_r3.bin","G0_5_determinism_recheck_s33_r4.bin","G0_5_determinism_recheck_s33_r5.bin"],
+  "output_canonical_sha256_per_run": ["e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"],
+  "receipt_sha256_per_run": ["9261351bb719e0a6358fa8378400af99b76ed231a4a1ad2c81c673a73f9f858b","559d71a135ae393fd00f4573a9c1713134ebf58d09e9cba008e4a65e65a73824","7d96a47ebc3ff07db9a3ee8b79e9a4624523c6b713b31610a7173a9b1f14ed39","dccc3dac2df2cd19015d34cadd8d22cf57f0c3203950f2c90ddf45524c24f2ef","b30e7955c18f1b49b74378ff735d96e8945f2c8759897a16fcfe9ad874d3514a","f742c4de43b3578cc7ca75236a2a236b469cb20c86464558ffe75ed8dcc7c58a","7951041b5076e68e0742a2b77c36643c701e70df265713a683f1868fadb78061","72c46e53c07430145390a197c5335b80868cbdf2c79141f03fc5a8c9c053b2c8","600c9381e2a39f21939004684aa9ead60d69ffd9218f57b465f72efc80df10bd","f78d70d3b5b2ef140be2e15cdca78504fc8f81000d147eb222994be9fdfc71f2"],
+  "verdict_basis": "canonical (run_sec zeroed)",
+  "verdict": "PASS"
+}
