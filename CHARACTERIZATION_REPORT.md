@@ -1,6 +1,6 @@
 # DM3 Characterization Report (Sessions 1–8 Phase A/A5/B3/A6, Phase G v2 partial)
 
-Last updated: `2026-04-29` — Session 7 closeout + Session 8 Phase A/A5/B3/A6 + live Phase G v2 partial chain + reconstruction Tier-2
+Last updated: `2026-04-30` — Session 7 closeout + Session 8 Phase A/A5/B3/A6 + live Phase G v2 partial chain + reconstruction Tier-2
 
 ## What the object is
 
@@ -281,7 +281,7 @@ thermal rule after PMIC lag caused an A.2 halt. The mirrored
 `device_snapshot/bin/` contains both the patched `run_cell.sh` and the
 pre-patch backup.
 
-## Phase G v2 chain (G.2 closed; G.7 in flight; updated 2026-04-29 13:05 UTC)
+## Phase G v2 chain (G.2 closed; G.7 in flight; updated 2026-04-30 08:30 UTC)
 
 The Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
 `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -310,18 +310,29 @@ cfg-C  xnor_mini      p33=1.873756  p34=1.370651  p41=1.708374  p43=1.160828  p4
 ```
 
 The `s50 = 0.000000` cliff is reported as `best_uplift`, the maximum
-over `(lesson, noise)` conditions. The 2026-04-29 13:01 UTC G.7
-in-flight cfg-A logs sharpen the interpretation: `ca_s50_r1` and
-`ca_s50_r2` both show `lesson=3` per-condition uplifts of `-0.201691`
-at `noise=0.100` and `-0.219131` at `noise=0.200`, while the clipped
-`best_uplift` summary remains `0.000000`. This is a σ″ cliff
-scope-note, not a G.7 outcome promotion.
+over `(lesson, noise)` conditions. The 2026-04-30 08:30 UTC G.7
+in-flight logs sharpen the interpretation: completed cfg-A `s50`
+receipts show deterministic negative uplift, and the first completed
+cfg-B `s50` receipt shows the same negative direction with larger
+config-bound magnitude.
+
+| Config | G.7 `s50` status | Baseline scale | `lesson=3 noise=0.100` | `lesson=3 noise=0.200` |
+|---|---|---:|---:|---:|
+| cfg-A `RandomAdj_v1` | complete, 3/3 receipts | `~118.78` | `-0.201691` | `-0.219131` |
+| cfg-B `RegionTags_v2` | partial, `cb_s50_r1` complete and `cb_s50_r2` in flight | `~39.85` | `-1.803669` | `-1.860878` |
+| cfg-C `xnor_mini` | pending | n/a | n/a | n/a |
+
+Both observed configs still clip to `best_uplift = 0.000000`. Direction
+is preserved across cfg-A and the first completed cfg-B `s50` receipt;
+magnitude is not portable. This remains a σ″ cliff scope-note, not a
+G.7 outcome promotion.
 
 Cell `G.7 cliff-class characterization` is in flight at this update,
 running the cliff fine structure across `STEPS = {48, 49, 50, 51, 52}`
-× 3 cfgs × 3 reps = 45 receipts. The 2026-04-29 partial pull contains
-eight immutable G.7 receipts and no G.7 outcome. G.7 promotion happens
-at chain close.
+× 3 cfgs × 3 reps = 45 receipts. The 2026-04-30 partial pull contains
+22 immutable G.7 receipts: cfg-A complete at 15/15, cfg-B partial at
+7/15, and cfg-C pending at 0/15. There is no G.7 outcome. G.7
+promotion happens at chain close.
 
 Cells pending after G.7: `G.3` LEARNS cartography across 8 tasks,
 `G.4` basin-coupling, `G.5` pre-cliff robustness, `G.5+`
@@ -333,9 +344,9 @@ ensures resume on disconnect. Closed-cell receipts for `G.0.5`, `G.1`,
 and `G.1.5` are mirrored under
 `artifacts/phase_S8_PG_followup_20260429T023308Z/`; the later partial
 pull under `artifacts/phase_S8_PG_followup_20260429T130215Z/`
-supersedes G.2/G.6 evidence paths and adds the eight G.7 in-flight
-receipts. Remaining Phase G promotion still happens at chain close, not
-mid-flight.
+supersedes G.2/G.6 evidence paths. The latest G.7 snapshot is mirrored
+under `artifacts/phase_S8_PG_followup_20260430T082723Z/`. Remaining
+Phase G promotion still happens at chain close, not mid-flight.
 
 ## Reconstruction (static, Tier-2)
 

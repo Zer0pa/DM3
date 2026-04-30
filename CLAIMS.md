@@ -28,7 +28,7 @@ Session 8 Phase A / A5-B3-A6 close note:
 - Claims `ξ`, `ο`, `σ″` (shape only), and `τ` are CONFIRMED; Claims
   `π`, `ρ`, and `φ` are CANDIDATE
 
-Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-29 13:05 UTC):
+Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-30 08:30 UTC):
 - Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
   `phase_g_chain_v2.sh`; PRD at
   `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -49,11 +49,13 @@ Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-29 13:05 UT
   promoted here.
 - Partial host pulls now live at
   `artifacts/phase_S8_PG_followup_20260429T023308Z/` and
-  `artifacts/phase_S8_PG_followup_20260429T130215Z/`. The 02:35 UTC
+  `artifacts/phase_S8_PG_followup_20260429T130215Z/`, with the latest
+  G.7-only snapshot at
+  `artifacts/phase_S8_PG_followup_20260430T082723Z/`. The 02:35 UTC
   pull covers `G.0.5`, `G.1`, and `G.1.5`; the 13:01 UTC pull
-  supersedes the G.2/G.6 evidence paths and adds eight immutable
-  `G.7` in-flight receipts. G.7 has no promoted outcome in this
-  update.
+  supersedes the G.2/G.6 evidence paths; the 08:30 UTC pull contains
+  22 immutable `G.7` in-flight receipts. G.7 has no promoted outcome
+  in this update.
 
 Reconstruction (Tier-2 static) note (added 2026-04-28):
 - An independent backwards-reconstruction lane authored at
@@ -471,15 +473,19 @@ bit-exact `best_uplift` reproduction at both `s30 = 1.644524` and
 evidence base into the Phase G era. Evidence:
 `artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G0_5_determinism_recheck/outcome.json`.
 
-**G.7 in-flight determinism observation (2026-04-29 13:05 UTC):**
-The 13:01 UTC partial pull shows that fixed-config determinism extends
-into the post-cliff overfitting regime, without promoting a G.7
-outcome. `ca_s50_r1` and `ca_s50_r2` reproduce identical per-condition
-uplifts at `lesson=3`: `-0.201691` for `noise=0.100` and `-0.219131`
-for `noise=0.200`, with `scar_max = 0.589225`, `avg_recall_err =
-118.984787`, and `baseline_recall_err = 118.783096` matched exactly.
-Evidence:
-`artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r{1,2}.log`.
+**G.7 in-flight determinism observation (updated 2026-04-30 08:30 UTC):**
+The latest partial pull shows that fixed-config determinism extends
+into the post-cliff overfitting regime for cfg-A, without promoting a
+G.7 outcome. `ca_s50_r1`, `ca_s50_r2`, and `ca_s50_r3` reproduce
+identical per-condition uplifts at `lesson=3`: `-0.201691` for
+`noise=0.100` and `-0.219131` for `noise=0.200`, with `scar_max =
+0.589225`, `avg_recall_err = 118.984787`, and
+`baseline_recall_err = 118.783096` matched exactly. The same pull also
+contains the first completed cfg-B `s50` vector
+(`cb_s50_r1`: `-1.803669`, `-1.860878`), but `cb_s50_r2` was still in
+flight at pull time; cfg-B replicate determinism is therefore not
+promoted from this snapshot. Evidence:
+`artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/`.
 
 **Kill criterion:** A same-config future replicate returning a different
 promoted KPI value for the same config.

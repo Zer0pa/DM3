@@ -1,0 +1,1 @@
+Pulled 2026-04-30 ~08:30 UTC; cb_s50_r2 still in flight; cfg-A scan complete; cfg-B partial (through s50_r1).

@@ -273,3 +273,29 @@ negative and bit-identical across `ca_s50_r1` and `ca_s50_r2`
 public surface records this as a scope note on σ″ and as supporting
 evidence for ξ fixed-config determinism, not as an independent G.7
 claim. `MANIFEST.tsv` remains deferred to chain close.
+
+## F15 — Third Phase G partial pull is G.7 progress, not G.7 closure
+
+Paths:
+
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/`
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/PULLED_AT.txt`
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/`
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_ca_s50_r{1,2,3}.log`
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_cb_s50_r1.log`
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/G7_cliff_class_characterization_cb_s50_r2.log`
+
+Finding:
+
+The 2026-04-30 08:30 UTC pull is a G.7-only progress snapshot: 22
+completed receipts, cfg-A complete at 15/15, cfg-B partial at 7/15,
+cfg-C pending at 0/15, and no G.7 `outcome.json`. It is not a Phase G
+chain close. The new science observation is limited to cliff fine
+structure: cfg-A `s50` negative uplift is now exact across 3/3
+receipts, and the first completed cfg-B `s50` receipt shows the same
+negative direction with larger magnitude (`-1.803669`, `-1.860878`).
+The `cb_s50_r2.log` file was pulled while in flight and does not carry
+a complete receipt set, so cfg-B replicate determinism is not promoted
+from this snapshot. Battery-health and process-health details from the
+repo-agent note remain operational context, not public claim language.
+`MANIFEST.tsv` remains deferred to chain close.
