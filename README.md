@@ -32,7 +32,7 @@ diagnostic surface.
 | DEFAULT_GATE_PASS | 3/6 | `exp_r1_r4_campaign`, steps=5 |
 | ARM64_CROSS_PLATFORM_MATCH | 5/5 step values | RM10 native Android vs Apple M1 Android ARM64 AVD |
 | SIGMA_SHAPE_PORTABILITY | 3/3 configs | Phase G `G.2`, shape only |
-| SIGMA_S50_CLIFF | `best_uplift = 0.000000` in 3/3 configs | Phase G `G.2`; G.7 partial logs show clipped-zero / negative-uplift fine structure, not promoted |
+| SIGMA_S50_CLIFF | `best_uplift = 0.000000` in 3/3 configs | Phase G `G.2`; G.7 partial logs show cfg-A complete + cfg-B partial negative-uplift fine structure, not promoted |
 | PATH_INDEPENDENCE | 4/4 SHA matches | Phase G `G.6` |
 | RECONSTRUCTION_STATIC_TIER2 | 7/8 hypotheses | R8 remains `OPEN_TIER3_BLOCKED` |
 
@@ -135,7 +135,7 @@ framing.
 | artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G6_path_dependence/outcome.json | VERIFIED |
 | artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G1_cycle_probe/outcome.json | VERIFIED |
 | artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G0_5_determinism_recheck/outcome.json | VERIFIED |
-| artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G7_cliff_class_characterization/ | PARTIAL_IN_FLIGHT_NOT_PROMOTED |
+| artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/ | PARTIAL_IN_FLIGHT_NOT_PROMOTED |
 | `dm3-runner-reconstruction-2026-04-27/` static lane | HANDLE_ONLY |
 
 ## Repo Shape
@@ -168,10 +168,11 @@ pytest -q
   repo-shape checks for review.
 - Phase G partial pulls are mirrored under
   `artifacts/phase_S8_PG_followup_20260429T023308Z/` and
-  `artifacts/phase_S8_PG_followup_20260429T130215Z/`; `MANIFEST.tsv`
-  remains deferred until the live chain closes. The later pull
-  supersedes G.2/G.6 evidence paths and adds eight G.7 in-flight
-  receipts without a G.7 outcome.
+  `artifacts/phase_S8_PG_followup_20260429T130215Z/`; the latest G.7
+  snapshot is mirrored under
+  `artifacts/phase_S8_PG_followup_20260430T082723Z/`. `MANIFEST.tsv`
+  remains deferred until the live chain closes. The latest pull adds
+  22 G.7 in-flight receipts without a G.7 outcome.
 
 ### Canonical References
 
@@ -194,7 +195,9 @@ ARM64 cross-platform determinism, and the trimodal sawtooth curve
 lineage. Phase G v2 is integrated only through closed cells `G.0` to
 `G.2`; the 2026-04-29 partial data pulls are mirrored under
 `artifacts/phase_S8_PG_followup_20260429T023308Z/` and
-`artifacts/phase_S8_PG_followup_20260429T130215Z/`. `G.7` and later
+`artifacts/phase_S8_PG_followup_20260429T130215Z/`, with the latest
+G.7 partial snapshot under
+`artifacts/phase_S8_PG_followup_20260430T082723Z/`. `G.7` and later
 cells stay out of promotion until chain close.
 
 The reconstruction lane is static Tier-2 only. R1-R7 are public because
