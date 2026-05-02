@@ -65,7 +65,7 @@ configuration-dependent and explicitly not portable.
 
 ### Honest Blocker
 
-R8 remains `OPEN_TIER3_BLOCKED`; tau raw receipts are HF-backed rather than GitHub-resident in this checkout; Phase G `G.7` and later cells remain unpromoted.
+R8 remains `OPEN_TIER3_BLOCKED`; tau raw receipts are HF-backed rather than GitHub-resident in this checkout; Phase G `G.7` and later cells remain unpromoted pending chain-close handover and host-side receipt pull.
 
 ## What We Prove
 
@@ -159,8 +159,10 @@ raw receipts named by `CLAIM_TAU_CONFIRMED_20260424.md` are HF-backed
 and are not present as GitHub-resident raw receipt files in this checkout.
 Treat tau as a scoped claim-ledger result, not as a fully refreshed
 GitHub authority packet, until README, authority packet, receipt custody,
-and proof manifest all name the same boundary. Phase G `G.7` and later
-cells remain unpromoted.
+and proof manifest all name the same boundary. The 2026-05-02 engineer
+audit note records `G.7` closed on-device and `G.3` in flight, but no
+host-side closeout pull, manifest update, or claim promotion has landed
+on this public surface.
 
 ## Sibling Research Artifact - Genesis
 
@@ -193,6 +195,10 @@ pytest -q
   `artifacts/phase_S8_PG_followup_20260430T082723Z/`. `MANIFEST.tsv`
   remains deferred until the live chain closes. The latest pull adds
   22 G.7 in-flight receipts without a G.7 outcome.
+- The 2026-05-02 repo-agent audit note is mirrored at
+  `docs/restart/REPO_AGENT_NOTE_PHASE_G_G7_CLOSE_AND_G3_IN_FLIGHT_20260502T1838.md`.
+  It records on-device G.7 closure and G.3 in-flight status as an
+  audit boundary only; promotion waits for the chain-close handover.
 
 ### Canonical References
 
@@ -217,8 +223,10 @@ lineage. Phase G v2 is integrated only through closed cells `G.0` to
 `artifacts/phase_S8_PG_followup_20260429T023308Z/` and
 `artifacts/phase_S8_PG_followup_20260429T130215Z/`, with the latest
 G.7 partial snapshot under
-`artifacts/phase_S8_PG_followup_20260430T082723Z/`. `G.7` and later
-cells stay out of promotion until chain close.
+`artifacts/phase_S8_PG_followup_20260430T082723Z/`. The May 2
+repo-agent note records later on-device G.7 closure and G.3 in-flight
+state, but `G.7` and later cells stay out of promotion until chain
+close and host-side receipt mirroring.
 
 The reconstruction lane is static Tier-2 only. R1-R7 are public because
 their evidence is host-recomputable from parsed fixtures, static

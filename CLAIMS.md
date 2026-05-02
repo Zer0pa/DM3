@@ -28,7 +28,7 @@ Session 8 Phase A / A5-B3-A6 close note:
 - Claims `ξ`, `ο`, `σ″` (shape only), and `τ` are CONFIRMED; Claims
   `π`, `ρ`, and `φ` are CANDIDATE
 
-Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-30 08:30 UTC):
+Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-05-02 18:38 UTC):
 - Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
   `phase_g_chain_v2.sh`; PRD at
   `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -42,11 +42,13 @@ Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-30 08:30 UT
   **`G.2` PASS** (trimodal portability across 3/3 cross-controls;
   σ″ shape is geometry-independent; promotes `σ″` to CONFIRMED for
   shape, with magnitudes recorded as config-dependent).
-- `G.7 cliff-class characterization` is IN FLIGHT at the time of
-  this update. Promoted findings from G.7 land at chain close.
-- Cells pending after G.7: `G.3` LEARNS cartography, `G.4`
-  basin-coupling, `G.5`/`G.5+` forensic. Their findings are not
-  promoted here.
+- The 2026-05-02 engineer audit note reports that `G.7
+  cliff-class characterization` closed on-device and that `G.3
+  LEARNS cartography` is in flight. Those later on-device statuses are
+  not promoted here because no chain-close handover or host-side
+  receipt pull has landed on this public surface.
+- Cells `G.3`, `G.4`, `G.5`, and `G.5+` remain outside the promoted
+  ledger in this update.
 - Partial host pulls now live at
   `artifacts/phase_S8_PG_followup_20260429T023308Z/` and
   `artifacts/phase_S8_PG_followup_20260429T130215Z/`, with the latest
@@ -56,6 +58,9 @@ Session 8 Phase G live-chain note (added 2026-04-28, updated 2026-04-30 08:30 UT
   supersedes the G.2/G.6 evidence paths; the 08:30 UTC pull contains
   22 immutable `G.7` in-flight receipts. G.7 has no promoted outcome
   in this update.
+- Latest audit note:
+  `docs/restart/REPO_AGENT_NOTE_PHASE_G_G7_CLOSE_AND_G3_IN_FLIGHT_20260502T1838.md`.
+  It is an evidence handle and boundary record, not a promotion driver.
 
 Reconstruction (Tier-2 static) note (added 2026-04-28):
 - An independent backwards-reconstruction lane authored at
@@ -487,6 +492,12 @@ flight at pull time; cfg-B replicate determinism is therefore not
 promoted from this snapshot. Evidence:
 `artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/`.
 
+**May 2 on-device status boundary:** The 2026-05-02 audit note reports
+an on-device G.7 harness determinism summary (`45/45` canonical output
+match after `run_sec` zeroing), but that result is not promoted into
+claim `ξ` in this cycle. It is not host-mirrored in this public checkout
+and waits for the chain-close handover and receipt pull.
+
 **Kill criterion:** A same-config future replicate returning a different
 promoted KPI value for the same config.
 
@@ -608,9 +619,10 @@ config-dependent and not portable** — see new IS_NOT line in
 
 Cliff-at-`s50 = 0.000000` matches EXACTLY across all three configs.
 The `49→50` cliff is the strongest universal feature on the tested
-surface. The fine cliff-class structure is `G.7`'s next deeper test,
-in flight as of this update. The post-cliff cycle (claim `ψ`) is
-still CANDIDATE pending fine-resolution sweep.
+surface. The 2026-05-02 audit note reports a later on-device G.7
+cliff-class verdict, but that verdict and its scope refinement are not
+promoted in this cycle. The post-cliff cycle (claim `ψ`) is still
+CANDIDATE pending promoted fine-resolution sweep.
 
 Per-config G.2 metrics (from `cells/G2_trimodal_portability/outcome.json`):
 

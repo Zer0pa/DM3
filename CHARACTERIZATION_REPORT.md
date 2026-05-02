@@ -1,6 +1,6 @@
 # DM3 Characterization Report (Sessions 1–8 Phase A/A5/B3/A6, Phase G v2 partial)
 
-Last updated: `2026-04-30` — Session 7 closeout + Session 8 Phase A/A5/B3/A6 + live Phase G v2 partial chain + reconstruction Tier-2
+Last updated: `2026-05-02` — Session 7 closeout + Session 8 Phase A/A5/B3/A6 + live Phase G v2 partial chain + reconstruction Tier-2
 
 ## What the object is
 
@@ -281,7 +281,7 @@ thermal rule after PMIC lag caused an A.2 halt. The mirrored
 `device_snapshot/bin/` contains both the patched `run_cell.sh` and the
 pre-patch backup.
 
-## Phase G v2 chain (G.2 closed; G.7 in flight; updated 2026-04-30 08:30 UTC)
+## Phase G v2 chain (G.2 closed; later cells unpromoted; updated 2026-05-02 18:38 UTC)
 
 The Phase G v2 chain launched 2026-04-25 18:25:54 UTC under
 `docs/restart/DM3_PHASE_G_AUGMENTED_PRD_v2_REORDERED_20260425.md`.
@@ -327,16 +327,14 @@ is preserved across cfg-A and the first completed cfg-B `s50` receipt;
 magnitude is not portable. This remains a σ″ cliff scope-note, not a
 G.7 outcome promotion.
 
-Cell `G.7 cliff-class characterization` is in flight at this update,
-running the cliff fine structure across `STEPS = {48, 49, 50, 51, 52}`
-× 3 cfgs × 3 reps = 45 receipts. The 2026-04-30 partial pull contains
-22 immutable G.7 receipts: cfg-A complete at 15/15, cfg-B partial at
-7/15, and cfg-C pending at 0/15. There is no G.7 outcome. G.7
-promotion happens at chain close.
-
-Cells pending after G.7: `G.3` LEARNS cartography across 8 tasks,
-`G.4` basin-coupling, `G.5` pre-cliff robustness, `G.5+`
-discontinuity drill. Their findings are not in this report.
+The latest GitHub-resident `G.7 cliff-class characterization` pull is
+still the 2026-04-30 partial snapshot: 22 immutable receipts, cfg-A
+complete at 15/15, cfg-B partial at 7/15, cfg-C pending at 0/15, and no
+G.7 `outcome.json`. The 2026-05-02 audit note reports that G.7 later
+closed on-device and G.3 entered flight, but those statuses remain
+non-promotional in this report. G.7 verdicts, G.3 classes, G.4, G.5,
+and G.5+ outcomes wait for the chain-close handover and host-side
+receipt pull.
 
 The Phase G v2 chain is autonomous on the RM10 device. Watcher
 infrastructure (`master_death_watcher.sh`, `post_chain_g4_launcher.sh`)
@@ -345,8 +343,11 @@ and `G.1.5` are mirrored under
 `artifacts/phase_S8_PG_followup_20260429T023308Z/`; the later partial
 pull under `artifacts/phase_S8_PG_followup_20260429T130215Z/`
 supersedes G.2/G.6 evidence paths. The latest G.7 snapshot is mirrored
-under `artifacts/phase_S8_PG_followup_20260430T082723Z/`. Remaining
-Phase G promotion still happens at chain close, not mid-flight.
+under `artifacts/phase_S8_PG_followup_20260430T082723Z/`; the May 2
+audit note is mirrored at
+`docs/restart/REPO_AGENT_NOTE_PHASE_G_G7_CLOSE_AND_G3_IN_FLIGHT_20260502T1838.md`.
+Remaining Phase G promotion still happens at chain close, not
+mid-flight.
 
 ## Reconstruction (static, Tier-2)
 
