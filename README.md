@@ -40,6 +40,17 @@ diagnostic surface.
 > `CHARACTERIZATION_REPORT.md`, `CLAIM_TAU_CONFIRMED_20260424.md`,
 > and `RECONSTRUCTION_TIER2_NOTE.md`.
 
+## Current GitHub Custody Boundary
+
+The README carries later claim-ledger language for tau and Phase G, but
+the GitHub-resident authority packet still dates to 2026-04-22. The tau
+raw receipts named by `CLAIM_TAU_CONFIRMED_20260424.md` are HF-backed
+and are not present as GitHub-resident raw receipt files in this checkout.
+Treat tau as a scoped claim-ledger result, not as a fully refreshed
+GitHub authority packet, until README, authority packet, receipt custody,
+and proof manifest all name the same boundary. Phase G `G.7` and later
+cells remain unpromoted.
+
 ## What We Prove
 - DM3 is a compiled structural diagnostic on a fixed 380-vertex
   C3-symmetric graph with a 72,960-dimensional relaxation state.
@@ -93,8 +104,8 @@ Genesis (`genesis_comparative`, internal repository) is a source-available deter
 ## Publication Readiness
 | Field | Value |
 |---|---|
-| Verdict | RESEARCH_PUBLICATION_STAGED |
-| Commit SHA | see current public `main` HEAD |
+| Evidence posture | staged research surface; not a portfolio verdict |
+| Custody boundary | latest tau raw receipts are HF-backed/not GitHub-resident in this checkout |
 | Confidence | scoped by claim kill criteria |
 | Source | `CLAIMS.md`; `IS_AND_IS_NOT.md`; `CHARACTERIZATION_REPORT.md` |
 

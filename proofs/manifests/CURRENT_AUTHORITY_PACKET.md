@@ -2,7 +2,10 @@
 
 ## Scope
 
-This manifest defines the root review surface for DM3 as of 2026-04-22.
+This manifest defines the root review surface for DM3 as of 2026-04-22. Later
+README/claim-ledger language for tau and Phase G is not fully refreshed into
+this authority packet until README, receipt custody, proof manifest, and raw
+GitHub-resident artifacts share the same boundary.
 
 ## Promoted Sources
 
@@ -32,6 +35,16 @@ the root README.
 
 These paths remain live engineering territory. Session 7 ARM receipts stay in
 that lane until a deliberate sync pass promotes them.
+
+## Post-2026-04-22 Custody Boundary
+
+- `CLAIM_TAU_CONFIRMED_20260424.md` is present as a claim-ledger document.
+- The raw tau receipt paths named by that document are not GitHub-resident in
+  this checkout; the document points to HF preservation.
+- Phase G `G.2` and `G.6` closed-cell outcome files are present, but the later
+  `G.7` chain remains partial/in-flight and unpromoted.
+- This packet must be refreshed before latest tau / Phase G receipt claims are
+  treated as a single GitHub-complete authority bundle.
 
 ## Readiness
 
