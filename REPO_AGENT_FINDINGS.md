@@ -1,6 +1,6 @@
 # Repo Agent Findings
 
-Last updated: `2026-04-29`
+Last updated: `2026-05-02`
 
 This file records seams that matter to a hostile reviewer and should
 stay visible until cleared.
@@ -299,3 +299,22 @@ a complete receipt set, so cfg-B replicate determinism is not promoted
 from this snapshot. Battery-health and process-health details from the
 repo-agent note remain operational context, not public claim language.
 `MANIFEST.tsv` remains deferred to chain close.
+
+## F16 — May 2 G.7 close note is an audit boundary, not a promotion
+
+Paths:
+
+- `docs/restart/REPO_AGENT_NOTE_PHASE_G_G7_CLOSE_AND_G3_IN_FLIGHT_20260502T1838.md`
+- `artifacts/phase_S8_PG_followup_20260430T082723Z/`
+
+Finding:
+
+The May 2 engineer note records later on-device state beyond the latest
+GitHub-resident receipt pull: G.7 closed on-device with a dual verdict
+shape (harness summary PASS, cell outcome KILL), and G.3 is in flight.
+Those details are not promoted on this public surface because the
+chain-close handover and host-side receipt pull have not landed here.
+The repo therefore keeps the note as audit trail, keeps the README on
+the System Mechanics front-door shape, and keeps G.7/G.3/G.4/G.5/G.5+
+out of claims, manifests, and public proof anchors until the real chain
+close boundary is available.

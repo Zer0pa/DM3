@@ -1,6 +1,6 @@
 # DM3 — IS / IS NOT Ledger
 
-Last updated: `2026-04-30` (Session 7 closeout + Session 8 Phase A/A5/B3/A6 + Phase G v2 partial chain + reconstruction Tier-2)
+Last updated: `2026-05-02` (Session 7 closeout + Session 8 Phase A/A5/B3/A6 + Phase G v2 partial chain + reconstruction Tier-2)
 
 This ledger captures scoped positive and negative statements about what
 DM3 is and is not, as evidenced by receipted experiments across
@@ -361,7 +361,7 @@ block. The relevant IS statements for this surface are:
   now contains the CPU/GPU-only patched `run_cell.sh` and the pre-patch
   backup.
 
-## Phase G v2 chain note (G.2 closed; G.7 in flight; updated 2026-04-30 08:30 UTC)
+## Phase G v2 chain note (G.2 closed; later cells unpromoted; updated 2026-05-02 18:38 UTC)
 
 - Phase G v2 launched 2026-04-25 18:25:54 UTC. Master log on device
   at `/data/local/tmp/dm3_harness/phase_g_chain.log`. PRD at
@@ -377,22 +377,24 @@ block. The relevant IS statements for this surface are:
   - `G.2` PASS (σ″ trimodal sawtooth shape geometry-independent
     across cfg-A / cfg-B / cfg-C cross-controls; promotes σ″ to
     CONFIRMED for shape; magnitudes config-dependent, not portable)
-- `G.7 cliff-class characterization` is in flight at this update.
-  STEPS = `48, 49, 50, 51, 52` × 3 cfgs × 3 reps = 45 receipts. The
-  latest partial host pull contains 22 immutable in-flight G.7
-  receipts: cfg-A complete at 15/15, cfg-B partial at 7/15, cfg-C
-  pending at 0/15. There is no G.7 outcome. Findings promote at chain
-  close.
-- Cells pending after G.7: `G.3` (LEARNS cartography), `G.4`
-  (basin-coupling), `G.5`/`G.5+` (forensic).
+- The latest GitHub-resident G.7 pull remains the 2026-04-30 partial
+  snapshot: 22 immutable in-flight G.7 receipts, cfg-A complete at
+  15/15, cfg-B partial at 7/15, cfg-C pending at 0/15, and no
+  `outcome.json`.
+- The 2026-05-02 audit note reports that G.7 later closed on-device and
+  G.3 is in flight. Those statuses are evidence handles only here: no
+  G.7 verdict, G.3 class assignment, G.4, G.5, or G.5+ outcome is
+  promoted without the chain-close handover and host-side receipt pull.
 - Closed-cell evidence for `G.0.5`, `G.1`, and `G.1.5` remains mirrored
   under `artifacts/phase_S8_PG_followup_20260429T023308Z/`. The
   13:01 UTC partial pull under
   `artifacts/phase_S8_PG_followup_20260429T130215Z/` supersedes G.2 and
   G.6 evidence paths. The 08:30 UTC partial pull under
   `artifacts/phase_S8_PG_followup_20260430T082723Z/` is the latest G.7
-  snapshot. The next ledger update for Phase G lands when the chain
-  closes and the remaining cell receipts are pulled to host.
+  GitHub-resident snapshot. The May 2 audit note is mirrored at
+  `docs/restart/REPO_AGENT_NOTE_PHASE_G_G7_CLOSE_AND_G3_IN_FLIGHT_20260502T1838.md`.
+  The next ledger update for Phase G lands when the chain closes and
+  the remaining cell receipts are pulled to host.
 
 ## Reconstruction (static, Tier-2) note (2026-04-28)
 
