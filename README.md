@@ -1,8 +1,11 @@
 # DM3
 
-DM3 is a structural diagnostic on a closed Android `aarch64` Rust binary, not a codec, not a cognition claim, and not a productized service. The job is to characterize a fixed 380-vertex graph object and its 72,960-dimensional relaxation state under twelve callable task modes — to identify what the binary is doing geometrically, name the gates that hold, and name the gates that don't. **Claim τ** confirms ARM64 cross-platform determinism for `exp_k2_scars`: bit-exact KPIs at `--steps {20,30,40,45,50}` between RM10 native Android and Apple M1 Android ARM64 AVD; the σ″ trimodal sawtooth is now CONFIRMED for shape across three Phase G `G.2` cross-controls with a sharp `49 → 50` cliff at exactly `0.000000`. **R8 — the Tier-3 live runtime trace — remains `OPEN_TIER3_BLOCKED`**; static reconstruction has closed `R1`–`R7` at Tier-2 (loaded fixture exactly `P_95 ☐ K_4`, internal default skeleton exactly `P_95 ☐ K_3`), but reconstruction is not the same as runtime identity. The companion artifact is **Genesis**, a source-available deterministic Rust pipeline on the `K_3` substrate (`P_95 ☐ K_3`) — see §"Sibling Research Artifact — Genesis" below for the relationship.
+> Live window into the Zer0pa lab. This is a computation diagnostic surface, not a codec or cognition claim.
 
 ## What This Is
+
+DM3 is a deterministic graph-structure diagnostic for a fixed Android ARM64 binary; tau passes, sigma shape is scoped, R8 remains blocked.
+
 DM3 is a graph-structure diagnostic built around a precompiled Android
 aarch64 Rust binary (`dm3_runner`, SHA-256
 `daaaa84a052b60523bf9d63152f1154225abf119c279aa4b3aabf14487279672`)
@@ -16,42 +19,56 @@ closed cells through `G.2`. The headline update is narrow: the
 three tested cross-controls, while its magnitudes remain
 configuration-dependent and explicitly not portable.
 
-DM3 is instrument-shaped rather than codec-shaped, so the
-parser-required identity rows below are used as product tags for this
-diagnostic surface.
+## System Mechanics
 
 | Field | Value |
-|-------|-------|
+| --- | --- |
 | Architecture | GRAPH_DIAGNOSTIC_STREAM |
-| Encoding | DM3_STRUCTURAL_DIAGNOSTIC_V1 |
+| Substrate | Fixed 380-vertex C3-symmetric graph; 72,960-dimensional relaxation state |
+| Execution | Closed Android `aarch64` Rust binary `dm3_runner` |
+| Task Surface | Twelve callable task modes |
+| Mechanics | Phase G controls, ARM64 determinism checks, static Tier-2 reconstruction |
+| Open Gate | R8 live runtime trace remains `OPEN_TIER3_BLOCKED` |
 
 ## Key Metrics
+
 | Metric | Value | Baseline |
-|---|---|---|
+| --- | --- | --- |
 | CALLABLE_TASKS | 12 | binary |
-| DEFAULT_GATE_PASS | 3/6 | `exp_r1_r4_campaign`, steps=5 |
 | ARM64_CROSS_PLATFORM_MATCH | 5/5 step values | RM10 native Android vs Apple M1 Android ARM64 AVD |
 | SIGMA_SHAPE_PORTABILITY | 3/3 configs | Phase G `G.2`, shape only |
-| SIGMA_S50_CLIFF | `best_uplift = 0.000000` in 3/3 configs | Phase G `G.2`; G.7 partial logs show cfg-A complete + cfg-B partial negative-uplift fine structure, not promoted |
-| PATH_INDEPENDENCE | 4/4 SHA matches | Phase G `G.6` |
-| RECONSTRUCTION_STATIC_TIER2 | 7/8 hypotheses | R8 remains `OPEN_TIER3_BLOCKED` |
+| RECONSTRUCTION_STATIC_TIER2 | R1-R7 closed; R8 blocked | static backwards-reconstruction lane |
 
-> Source: `CLAIMS.md`, `IS_AND_IS_NOT.md`,
-> `CHARACTERIZATION_REPORT.md`, `CLAIM_TAU_CONFIRMED_20260424.md`,
-> and `RECONSTRUCTION_TIER2_NOTE.md`.
+> Source: `CLAIMS.md`, `IS_AND_IS_NOT.md`, `CHARACTERIZATION_REPORT.md`, `CLAIM_TAU_CONFIRMED_20260424.md`, and `RECONSTRUCTION_TIER2_NOTE.md`.
 
-## Current GitHub Custody Boundary
+## Repo Identity
 
-The README carries later claim-ledger language for tau and Phase G, but
-the GitHub-resident authority packet still dates to 2026-04-22. The tau
-raw receipts named by `CLAIM_TAU_CONFIRMED_20260424.md` are HF-backed
-and are not present as GitHub-resident raw receipt files in this checkout.
-Treat tau as a scoped claim-ledger result, not as a fully refreshed
-GitHub authority packet, until README, authority packet, receipt custody,
-and proof manifest all name the same boundary. Phase G `G.7` and later
-cells remain unpromoted.
+| Field | Value |
+| --- | --- |
+| Identifier | DM3 |
+| Repository | https://github.com/Zer0pa/DM3 |
+| Portfolio | Computation |
+| Visibility | PUBLIC |
+| Default Branch | main |
+| Authority Source | `proofs/manifests/CURRENT_AUTHORITY_PACKET.md` |
+| License | Genesis-DM3 RRL v1.0 / repository license files |
+
+## Readiness
+
+| Field | Value |
+| --- | --- |
+| Evidence posture | staged research surface; not a portfolio verdict |
+| Checks | 9 README verification rows |
+| Custody boundary | latest tau raw receipts are HF-backed/not GitHub-resident in this checkout |
+| Confidence | scoped by claim kill criteria |
+| Authority | `CLAIMS.md`; `IS_AND_IS_NOT.md`; `CHARACTERIZATION_REPORT.md` |
+
+### Honest Blocker
+
+R8 remains `OPEN_TIER3_BLOCKED`; tau raw receipts are HF-backed rather than GitHub-resident in this checkout; Phase G `G.7` and later cells remain unpromoted.
 
 ## What We Prove
+
 - DM3 is a compiled structural diagnostic on a fixed 380-vertex
   C3-symmetric graph with a 72,960-dimensional relaxation state.
 - The Session 7 closeout remains the promoted authority floor:
@@ -79,6 +96,7 @@ cells remain unpromoted.
   stay visible in `RETRACTIONS.md` and `CLAIMS.md`.
 
 ## What We Don't Claim
+
 - DM3 is not an AI system, not a cognition claim, and not a mystical or
   spiritual architecture.
 - The `exp_k2_scars` result is not a broad "DM3 learns" claim. It is a
@@ -97,22 +115,8 @@ cells remain unpromoted.
   GPU parity, or NPU parity.
 - Source provenance remains unavailable on this public surface.
 
-## Sibling Research Artifact — Genesis
+## Verification Status
 
-Genesis (`genesis_comparative`, internal repository) is a source-available deterministic Rust pipeline on the same 95-station path base as DM3 — specifically on `P_95 ☐ K_3` (285 vertices, 567 edges, 96 triangular faces, `Aut = D_6` of order 12), which is **bit-identical to DM3's internal default skeleton** (the graph that `Dm3State::initialize → build_helix_meru → build_dual_meru` constructs when no fixture is loaded). The DM3 loaded fixture `P_95 ☐ K_4` (`Aut = C_2 × S_4`, order 48) is one discrete `K_3 → K_4` complete-graph fiber promotion away from the Genesis substrate; the relationship is lateral, not subordinate — Genesis is a source-available falsifiable instance of DM3's `K_3` surface, exercised on the same RM10 Android device. The source-built mesh authority is byte-identical between the two geometry bundles at `dual_meru_mesh.ply` SHA `7ee17457b7daeec565bb1e06982b8a1facd8169f` and `dual_meru_yantra_2d.svg` SHA `a1dbf572167960b9bd348d392d3405b1114db1ef` (same upstream Rust pipeline: `yantra_2d → lift_3d → yantra_3d_dual`). On the DM3 side, **R8 OPEN remains the open Tier-3 runtime gate** and is independent of any Genesis result — Genesis confirms or falsifies DM3's signature observables on the `K_3` surface, not DM3's runtime identity on the `K_4` surface. Cross-repository pointer: `Zer0pa/Genesis` (internal — not publicly reachable).
-
-## Publication Readiness
-| Field | Value |
-|---|---|
-| Evidence posture | staged research surface; not a portfolio verdict |
-| Custody boundary | latest tau raw receipts are HF-backed/not GitHub-resident in this checkout |
-| Confidence | scoped by claim kill criteria |
-| Source | `CLAIMS.md`; `IS_AND_IS_NOT.md`; `CHARACTERIZATION_REPORT.md` |
-
-This table is repo-shape metadata, not valuation or product-launch
-framing.
-
-## Tests and Verification
 | Code | Check | Verdict |
 |---|---|---|
 | V_01 | Canonical README spine present with parser-safe headings and field shapes | PASS |
@@ -126,40 +130,44 @@ framing.
 | V_09 | Phase G partial receipt trees mirrored; `MANIFEST.tsv` update deferred to chain close | PASS |
 
 ## Proof Anchors
+
 | Path | State |
-|---|---|
-| validation/results/repo_surface_preflight.json | VERIFIED |
-| proofs/manifests/CURRENT_AUTHORITY_PACKET.md | VERIFIED |
-| LICENSE | VERIFIED |
-| CONTACT.md | VERIFIED |
-| TRADEMARK.md | VERIFIED |
-| RETRACTIONS.md | VERIFIED |
-| ARTEFACT_BUNDLE.md | VERIFIED |
-| ARTEFACT_BUNDLE_REGISTER.tsv | VERIFIED |
-| CLAIMS.md | VERIFIED |
-| IS_AND_IS_NOT.md | VERIFIED |
-| CHARACTERIZATION_REPORT.md | VERIFIED |
-| CLAIM_TAU_CONFIRMED_20260424.md | VERIFIED |
-| RECONSTRUCTION_TIER2_NOTE.md | VERIFIED |
-| REPO_AGENT_FINDINGS.md | VERIFIED |
-| artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G2_trimodal_portability/outcome.json | VERIFIED |
-| artifacts/phase_S8_PG_followup_20260429T130215Z/cells/G6_path_dependence/outcome.json | VERIFIED |
-| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G1_cycle_probe/outcome.json | VERIFIED |
-| artifacts/phase_S8_PG_followup_20260429T023308Z/cells/G0_5_determinism_recheck/outcome.json | VERIFIED |
-| artifacts/phase_S8_PG_followup_20260430T082723Z/cells/G7_cliff_class_characterization/ | PARTIAL_IN_FLIGHT_NOT_PROMOTED |
-| `dm3-runner-reconstruction-2026-04-27/` static lane | HANDLE_ONLY |
+| --- | --- |
+| `proofs/manifests/CURRENT_AUTHORITY_PACKET.md` | VERIFIED |
+| `CLAIMS.md` | VERIFIED |
+| `IS_AND_IS_NOT.md` | VERIFIED |
+| `CHARACTERIZATION_REPORT.md` | VERIFIED |
+| `CLAIM_TAU_CONFIRMED_20260424.md` | VERIFIED |
+| `RECONSTRUCTION_TIER2_NOTE.md` | VERIFIED |
 
 ## Repo Shape
+
 | Field | Value |
-|---|---|
-| Proof Anchors | 20 |
-| Modality Lanes | 1 |
-| Authority Source | proofs/manifests/CURRENT_AUTHORITY_PACKET.md |
-| Canonical References | 8 |
+| --- | --- |
+| Proof Anchors | 6 display anchors |
+| Portfolio | Computation |
+| Authority Source | `proofs/manifests/CURRENT_AUTHORITY_PACKET.md` |
 | Python Package | zpe-dm3 |
-| Engineering Lane | docs/restart/ + artifacts/ |
+| Engineering Lane | `docs/restart/` + `artifacts/` |
+| Support Sections | GitHub custody boundary; sibling artifact; Quick Start; Ecosystem |
+
+## Current GitHub Custody Boundary
+
+The README carries later claim-ledger language for tau and Phase G, but
+the GitHub-resident authority packet still dates to 2026-04-22. The tau
+raw receipts named by `CLAIM_TAU_CONFIRMED_20260424.md` are HF-backed
+and are not present as GitHub-resident raw receipt files in this checkout.
+Treat tau as a scoped claim-ledger result, not as a fully refreshed
+GitHub authority packet, until README, authority packet, receipt custody,
+and proof manifest all name the same boundary. Phase G `G.7` and later
+cells remain unpromoted.
+
+## Sibling Research Artifact - Genesis
+
+Genesis (`genesis_comparative`, internal repository) is a source-available deterministic Rust pipeline on the same 95-station path base as DM3 — specifically on `P_95 ☐ K_3` (285 vertices, 567 edges, 96 triangular faces, `Aut = D_6` of order 12), which is **bit-identical to DM3's internal default skeleton** (the graph that `Dm3State::initialize → build_helix_meru → build_dual_meru` constructs when no fixture is loaded). The DM3 loaded fixture `P_95 ☐ K_4` (`Aut = C_2 × S_4`, order 48) is one discrete `K_3 → K_4` complete-graph fiber promotion away from the Genesis substrate; the relationship is lateral, not subordinate — Genesis is a source-available falsifiable instance of DM3's `K_3` surface, exercised on the same RM10 Android device. The source-built mesh authority is byte-identical between the two geometry bundles at `dual_meru_mesh.ply` SHA `7ee17457b7daeec565bb1e06982b8a1facd8169f` and `dual_meru_yantra_2d.svg` SHA `a1dbf572167960b9bd348d392d3405b1114db1ef` (same upstream Rust pipeline: `yantra_2d → lift_3d → yantra_3d_dual`). On the DM3 side, **R8 OPEN remains the open Tier-3 runtime gate** and is independent of any Genesis result — Genesis confirms or falsifies DM3's signature observables on the `K_3` surface, not DM3's runtime identity on the `K_4` surface. Cross-repository pointer: `Zer0pa/Genesis` (internal — not publicly reachable).
 
 ## Quick Start
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -171,6 +179,7 @@ pytest -q
 ```
 
 ## Ecosystem
+
 - The engineering checkout's `repo_stage/` holds the current staged DM3
   public packet that feeds this root surface.
 - `docs/restart/` and `artifacts/` remain the engineering lane for
