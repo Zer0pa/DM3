@@ -1,0 +1,31 @@
+{
+  "title": "DM3",
+  "description": "Structural diagnostic on a closed Android aarch64 Rust binary and a fixed 380-vertex C3-symmetric graph (P_95 □ K_4). Characterises the binary's geometric behaviour under twelve callable task modes. Confirmed claims: ARM64 cross-platform determinism (claim τ), trimodal sawtooth shape portability across Phase G G.2 cross-controls (claim σ″), same-config path-independence (claim χ). R8 live runtime trace remains open (OPEN_TIER3_BLOCKED). License: Zer0pa Genesis-DM3 Research and Receipt License v1.0 (SPDX: LicenseRef-Zer0pa-GDM3-RRL-1.0).",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Zer0pa",
+      "affiliation": "Zer0pa"
+    }
+  ],
+  "keywords": [
+    "dm3",
+    "zer0pa",
+    "graph diagnostic",
+    "structural diagnostic",
+    "deterministic computation",
+    "Android ARM64",
+    "falsification",
+    "reproducibility",
+    "graph theory"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Zer0pa/DM3",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "License is Zer0pa Genesis-DM3 Research and Receipt License v1.0 (LicenseRef-Zer0pa-GDM3-RRL-1.0); master resolver at https://github.com/Zer0pa/ZPE-License-Commercial. This is a research artifact surface — see CLAIMS.md and CHARACTERIZATION_REPORT.md for the proof surface. Zenodo license field requires manual confirmation on zenodo.org as GDM3-RRL-1.0 is not in the standard Zenodo vocabulary."
+}

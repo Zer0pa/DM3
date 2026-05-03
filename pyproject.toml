@@ -8,15 +8,28 @@ version = "0.1.0"
 description = "Repo-surface utilities and review scaffolding for the DM3 structural diagnostic."
 readme = "README.md"
 requires-python = ">=3.11"
-license = "LicenseRef-Zer0pa-DM3-RRL-1.0"
+license = "LicenseRef-Zer0pa-GDM3-RRL-1.0"
 authors = [
   { name = "Zer0pa-Architect-Prime" },
 ]
 keywords = ["dm3", "zer0pa", "graph diagnostic", "structural diagnostic"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
 dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/Zer0pa/DM3"
+Source = "https://github.com/Zer0pa/DM3"
+"Bug Tracker" = "https://github.com/Zer0pa/DM3/issues"
 
 [project.scripts]
 zpe-dm3 = "zpe_dm3.cli:main"

@@ -11,3 +11,5 @@ dist/
 target/
 *.pyc
 *.pyo
+*.egg-info/
+*.egg/

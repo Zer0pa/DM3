@@ -3,7 +3,7 @@ title: DM3
 message: Please cite the DM3 repository surface using this metadata.
 type: software
 authors:
-  - alias: Zer0pa-Architect-Prime
+  - name: "Zer0pa"
 repository-code: https://github.com/Zer0pa/DM3
 url: https://github.com/Zer0pa/DM3
 version: 0.1.0
