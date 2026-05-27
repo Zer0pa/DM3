@@ -66,7 +66,7 @@ pytest -q
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<div><b>03 · VALUE</b></div>
+<div><b>03 · VALUE OF MARKET</b></div>
       <div><span>$173.5</span> <span>B</span></div>
       <div>The 2031 on-device AI market — built on a chip-level sameness <b>nobody has been checking</b>.</div>
 </td>
