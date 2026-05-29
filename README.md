@@ -1,9 +1,6 @@
 # DM3
 
-## Install / Developer Commands
-
-<!-- INSTALL-DX:START -->
-#### Package Install
+## Package Install
 
 Installable package: `python3.11 -m pip install zpe-dm3`.
 Current release: `0.1.0` on [PyPI](https://pypi.org/project/zpe-dm3/).
@@ -13,37 +10,9 @@ Source: [Zer0pa/DM3](https://github.com/Zer0pa/DM3/).
 python3.11 -m pip install zpe-dm3
 ```
 
-Import smoke:
+For full install, smoke, source, and developer commands, [click here](#install-developer-commands-detailed).
 
-```bash
-python3.11 - <<'PY'
-import importlib.metadata as md
-import zpe_dm3
-
-print("zpe-dm3", md.version("zpe-dm3"))
-PY
-```
-
-
-CLI smoke:
-
-```bash
-zpe-dm3 --help
-```
-
-Install success only proves package acquisition/import. Product scope, stale PyPI state, platform limits, and blockers remain in the front-door sections below.<!-- INSTALL-DX:END -->
-
-#### Quick Start
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -e .[dev]
-python -m zpe_dm3 surface
-python -m zpe_dm3 check
-pytest -q
-```
+---
 
 <table width="100%">
 <tr>
@@ -316,3 +285,52 @@ pytest -q
 </td>
 </tr>
 </table>
+
+---
+
+<a id="install-developer-commands-detailed"></a>
+
+## Install / Developer Commands Detailed
+
+<!-- INSTALL-DX:START -->
+#### Package Install
+
+Installable package: `python3.11 -m pip install zpe-dm3`.
+Current release: `0.1.0` on [PyPI](https://pypi.org/project/zpe-dm3/).
+Source: [Zer0pa/DM3](https://github.com/Zer0pa/DM3/).
+
+```bash
+python3.11 -m pip install zpe-dm3
+```
+
+Import smoke:
+
+```bash
+python3.11 - <<'PY'
+import importlib.metadata as md
+import zpe_dm3
+
+print("zpe-dm3", md.version("zpe-dm3"))
+PY
+```
+
+
+CLI smoke:
+
+```bash
+zpe-dm3 --help
+```
+
+Install success only proves package acquisition/import. Product scope, stale PyPI state, platform limits, and blockers remain in the front-door sections below.<!-- INSTALL-DX:END -->
+
+#### Quick Start
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -e .[dev]
+python -m zpe_dm3 surface
+python -m zpe_dm3 check
+pytest -q
+```
