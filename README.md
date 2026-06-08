@@ -18,7 +18,7 @@ For full install, smoke, source, and developer commands, [click here](#install-d
 <tr>
 <td width="100%" valign="top">
 <div><span><b>00 · DM3</b> · COMPUTATION</span> <span>RESEARCH-READY · R8 OPEN</span></div>
-      <h1>Deterministic <span>Geometric Computation</span></h1>
+      <h1>Mobile Deterministic <span>Geometric Computation</span></h1>
       <p>When two phones run the same code, the numbers should match — DM3 · github.com/Zer0pa/DM3</p>
       <p>Every AI app on a phone depends on the chip doing the same thing each time, but almost no one checks. Two phones can run the same model and quietly return different numbers, and the gap stays invisible. DM3 fixes a small computation in place — one binary, one 380-vertex graph — and runs it on two physically distinct Android ARM64 phones. At five measured steps, both phones return identical bytes. Seven of eight reconstruction checks close. The eighth is still open, and other chips are out of scope.</p>
 </td>
